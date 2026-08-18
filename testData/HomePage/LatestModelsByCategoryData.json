@@ -1,0 +1,106 @@
+{
+  "LatestModelsByCategory": {
+    "en": {
+      "heading": "Latest Models by Category",
+      "checkOffersCta": "Check Offers",
+      "priceBudget": "50000",
+      "tabs": {
+        "threeWheelers": "3 Wheelers",
+        "autoRickshaw": "Auto Rickshaw",
+        "eRickshaw": "E Rickshaw",
+        "miniTrucks": "Mini Trucks",
+        "scv": "SCV"
+      },
+      "viewAll": {
+        "threeWheelers": {
+          "label": "View All",
+          "href": "/en/3-wheeler"
+        },
+        "autoRickshaw": {
+          "label": "View All",
+          "href": "/en/auto-rickshaw"
+        },
+        "eRickshaw": {
+          "label": "View All",
+          "href": "/en/electric/e-rickshaw"
+        },
+        "miniTrucks": {
+          "label": "View All",
+          "href": "/en/mini-truck"
+        },
+        "scv": {
+          "label": "View All",
+          "href": "/en/scv"
+        }
+      }
+    },
+    "hi": {
+      "heading": "श्रेणी के द्वारा नवीनतम मॉडल",
+      "checkOffersCta": "उपलब्ध ऑफ़र देखें",
+      "priceBudget": "50000",
+      "tabs": {
+        "threeWheelers": "3 व्हीलर",
+        "autoRickshaw": "ऑटो रिक्शा",
+        "eRickshaw": "ई रिक्शा",
+        "miniTrucks": "मिनी ट्रक",
+        "scv": "एससीवी"
+      },
+      "viewAll": {
+        "threeWheelers": {
+          "label": "सभी देखें",
+          "href": "/hi/3-wheeler"
+        },
+        "autoRickshaw": {
+          "label": "सभी देखें",
+          "href": "/hi/auto-rickshaw"
+        },
+        "eRickshaw": {
+          "label": "सभी देखें",
+          "href": "/hi/electric/e-rickshaw"
+        },
+        "miniTrucks": {
+          "label": "सभी देखें",
+          "href": "/hi/mini-truck"
+        },
+        "scv": {
+          "label": "सभी देखें",
+          "href": "/hi/scv"
+        }
+      }
+    },
+    "ta": {
+      "heading": "வகைபடுத்தப்பட்ட புதிய மாடல்கள்",
+      "checkOffersCta": "வாங்குதல் உதவியைப் பெறவும்",
+      "priceBudget": "50000",
+      "tabs": {
+        "threeWheelers": "3 சக்கர வாகனங்கள்",
+        "autoRickshaw": "ஆட்டோ ரிக்ஷா",
+        "eRickshaw": "மின்சார ரிக்ஷா",
+        "miniTrucks": "மினி டிரக்குகள்",
+        "scv": "சிறிய வணிக வாகனங்கள்"
+      },
+      "viewAll": {
+        "threeWheelers": {
+          "label": "அனைத்தையும் காண்க",
+          "href": "/ta/3-wheeler"
+        },
+        "autoRickshaw": {
+          "label": "அனைத்தையும் காண்க",
+          "href": "/ta/auto-rickshaw"
+        },
+        "eRickshaw": {
+          "label": "அனைத்தையும் காண்க",
+          "href": "/ta/electric/e-rickshaw"
+        },
+        "miniTrucks": {
+          "label": "அனைத்தையும் காண்க",
+          "href": "/ta/mini-truck"
+        },
+        "scv": {
+          "label": "அனைத்தையும் காண்க",
+          "href": "/ta/scv"
+        }
+      }
+    }
+  }
+}

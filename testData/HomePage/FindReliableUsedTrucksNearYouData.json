@@ -1,0 +1,43 @@
+{
+  "FindReliableUsedTrucksNearYou": {
+    "en": {
+      "heading": "Find Reliable Used Trucks Near You",
+      "cities": [
+        { "name": "Patna", "slug": "patna" },
+        { "name": "Pune", "slug": "pune" },
+        { "name": "Hyderabad", "slug": "hyderabad" },
+        { "name": "Indore", "slug": "indore" },
+        { "name": "Lucknow", "slug": "lucknow" },
+        { "name": "Jaipur", "slug": "jaipur" },
+        { "name": "New Delhi", "slug": "delhi" },
+        { "name": "Bangalore", "slug": "bangalore" }
+      ]
+    },
+    "hi": {
+      "heading": "अपने आस-पास विश्वसनीय प्रयुक्त ट्रक खोजें",
+      "cities": [
+        { "name": "पटना", "slug": "patna" },
+        { "name": "पुणे", "slug": "pune" },
+        { "name": "हैदराबाद", "slug": "hyderabad" },
+        { "name": "इंदौर", "slug": "indore" },
+        { "name": "लखनऊ", "slug": "lucknow" },
+        { "name": "जयपुर", "slug": "jaipur" },
+        { "name": "नई दिल्ली", "slug": "delhi" },
+        { "name": "बैंगलोर", "slug": "bangalore" }
+      ]
+    },
+    "ta": {
+      "heading": "உங்களுக்கு அருகிலுள்ள நம்பகமான பயன்படுத்திய டிரக்குகளைக் கண்டறியவும்",
+      "cities": [
+        { "name": "பாட்னா", "slug": "patna" },
+        { "name": "புனே", "slug": "pune" },
+        { "name": "ஹைதராபாத்", "slug": "hyderabad" },
+        { "name": "இந்தூர்", "slug": "indore" },
+        { "name": "லக்னோ", "slug": "lucknow" },
+        { "name": "ஜெய்ப்பூர்", "slug": "jaipur" },
+        { "name": "புது தில்லி", "slug": "delhi" },
+        { "name": "பெங்களூர்", "slug": "bangalore" }
+      ]
+    }
+  }
+}

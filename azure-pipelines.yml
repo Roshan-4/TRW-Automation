@@ -1,0 +1,78 @@
+trigger:
+  branches:
+    include:
+      - main
+      - develop
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  nodeVersion: '18.x'
+
+stages:
+  - stage: Install
+    displayName: 'Install Dependencies'
+    jobs:
+      - job: InstallJob
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSpec: '$(nodeVersion)'
+            displayName: 'Install Node.js'
+
+          - script: npm ci
+            displayName: 'Install npm dependencies'
+
+          - script: npm run lint
+            displayName: 'Run ESLint'
+
+  - stage: Test
+    displayName: 'Run Cypress Tests'
+    dependsOn: Install
+    jobs:
+      - job: UITests
+        displayName: 'UI Tests'
+        steps:
+          - script: npm run cypress:run:ui
+            displayName: 'Run UI Tests'
+
+      - job: APITests
+        displayName: 'API Tests'
+        steps:
+          - script: npm run cypress:run:api
+            displayName: 'Run API Tests'
+
+  - stage: Report
+    displayName: 'Generate Reports'
+    dependsOn: Test
+    condition: always()
+    jobs:
+      - job: GenerateReport
+        steps:
+          - script: npm run report:merge
+            displayName: 'Merge Reports'
+
+          - script: npm run report:generate:html
+            displayName: 'Generate HTML Report'
+
+          - task: PublishHtmlReport@1
+            inputs:
+              reportDirectory: '$(Build.SourcesDirectory)/reports/html'
+              reportFiles: 'test-report.html'
+              reportName: 'Cypress Test Report'
+
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: '$(Build.SourcesDirectory)/reports'
+              ArtifactName: 'reports'
+
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: '$(Build.SourcesDirectory)/cypress/screenshots'
+              ArtifactName: 'screenshots'
+
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: '$(Build.SourcesDirectory)/cypress/videos'
+              ArtifactName: 'videos'

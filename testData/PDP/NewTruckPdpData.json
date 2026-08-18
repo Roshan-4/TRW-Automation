@@ -1,0 +1,120 @@
+{
+  "products": {
+    "mostPopular": {
+      "key": "yodha20",
+      "label": "Tata Yodha 2.0",
+      "path": {
+        "en": "/en/tata-truck/yodha-2-0"
+      },
+      "compareCategory": "Pickup Truck",
+      "blocks": [
+        "secondaryNavbar",
+        "hero",
+        "keySpecs",
+        "emi",
+        "about",
+        "expertReview",
+        "prosCons",
+        "compareAlternatives",
+        "images",
+        "features",
+        "exploreBrandSeries",
+        "dealersServiceSpare",
+        "priceInIndia",
+        "findPerfectTruck",
+        "userReviews",
+        "news",
+        "videos",
+        "usage",
+        "faq"
+      ],
+      "keySpecLabels": [
+        "Power",
+        "GVW",
+        "Wheelbase",
+        "Fuel Tank",
+        "Payload Capacity",
+        "No. of Tyres",
+        "Mileage"
+      ]
+    },
+    "leastPopular": {
+      "key": "eka3wCargo",
+      "label": "Eka 3W Cargo",
+      "path": {
+        "en": "/en/eka-mobility-truck/3w-cargo"
+      },
+      "compareCategory": "3 Wheeler",
+      "blocks": [
+        "secondaryNavbar",
+        "hero",
+        "keySpecs",
+        "features",
+        "compareAlternatives",
+        "about",
+        "userReviews",
+        "electricVehicleVideos",
+        "faq",
+        "priceInIndia"
+      ],
+      "keySpecLabels": [
+        "Charging Time",
+        "GVW",
+        "Wheelbase",
+        "Battery Capacity",
+        "Payload Capacity",
+        "No. of Tyres",
+        "Range"
+      ]
+    }
+  },
+  "SecondaryNavbar": {
+    "mostPopular": {
+      "en": {
+        "items": [
+          "Price",
+          "Specification",
+          "Mileage",
+          "Calculate EMI",
+          "Summary",
+          "Images",
+          "Features",
+          "Brochure",
+          "More"
+        ]
+      }
+    },
+    "leastPopular": {
+      "en": {
+        "items": [
+          "Price",
+          "Specification",
+          "Summary",
+          "Images",
+          "More"
+        ]
+      }
+    }
+  },
+  "Hero": {
+    "en": {
+      "getOnRoadPriceCta": "Get On Road Price",
+      "checkOffersCta": "Check Offers",
+      "bookFreeTestDriveCta": "Book Free Test Drive",
+      "writeReviewCta": "Write Review"
+    }
+  },
+  "GetOffersLead": {
+    "en": {
+      "submitCta": "Get Offers",
+      "titlePrefix": "Check Latest Offers on",
+      "namePlaceholder": "Enter Your Name",
+      "closeAriaLabel": "Close"
+    }
+  },
+  "CheckOffersLead": {
+    "en": {
+      "submitCta": "Check Offers"
+    }
+  }
+}

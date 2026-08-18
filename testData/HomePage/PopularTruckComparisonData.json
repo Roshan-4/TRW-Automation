@@ -1,0 +1,25 @@
+{
+  "PopularTruckComparison": {
+    "en": {
+      "heading": "Popular Truck Comparison",
+      "viewAll": {
+        "label": "View All Comparison",
+        "href": "/en/compare"
+      }
+    },
+    "hi": {
+      "heading": "लोकप्रिय ट्रक तुलना",
+      "viewAll": {
+        "label": "सभी तुलना देखें",
+        "href": "/hi/compare"
+      }
+    },
+    "ta": {
+      "heading": "பிரபலமான டிரக் ஒப்பீடு",
+      "viewAll": {
+        "label": "அனைத்து ஒப்பீடுகளையும் காண்க",
+        "href": "/ta/compare"
+      }
+    }
+  }
+}

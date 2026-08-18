@@ -1,0 +1,66 @@
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Cypress
+cypress/downloads
+cypress/screenshots
+cypress/videos
+cypress/results
+
+# Reports
+reports
+coverage
+
+# Allure
+allure-results
+allure-report
+
+# Local DOM capture / scratch output
+artifacts
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+cypress/.env
+
+# IDE
+.vscode
+.idea
+.cursor
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build
+dist
+build
+.next
+
+# Cache
+.cache
+.cypress-cache
+
+# Husky
+.husky
+
+# Downloaded packages
+*.deb
+
+# Generated report output (branded)
+scripts/allure-custom-report/

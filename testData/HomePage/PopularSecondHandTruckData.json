@@ -1,0 +1,25 @@
+{
+  "PopularSecondHandTruck": {
+    "en": {
+      "heading": "Popular Second Hand Truck",
+      "viewAll": {
+        "label": "View All Used Trucks",
+        "href": "/en/buy-used-trucks"
+      }
+    },
+    "hi": {
+      "heading": "पॉपुलर सेकंड हैंड ट्रक",
+      "viewAll": {
+        "label": "सभी सेकंड हैंड ट्रक देखें",
+        "href": "/hi/buy-used-trucks"
+      }
+    },
+    "ta": {
+      "heading": "பிரபலமான இரண்டாம் கை டிரக்குகள்",
+      "viewAll": {
+        "label": "அனைத்து பயன்படுத்திய டிரக்குகளையும் காண்க",
+        "href": "/ta/buy-used-trucks"
+      }
+    }
+  }
+}

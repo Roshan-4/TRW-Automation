@@ -1,0 +1,298 @@
+{
+  "SearchRightTruck": {
+    "en": {
+      "heroFormTitle": "Search The Right Truck",
+      "heroFormBrand": "Brand",
+      "heroFormBodyType": "Body Type",
+      "heroFormBudget": "Budget",
+      "heroSelectBrand": "Select Brand",
+      "heroSelectModel": "Select Model",
+      "heroSelectBodyType": "Select Body Type",
+      "heroSelectBudget": "Select Budget",
+      "heroSearchButton": "Search",
+      "herofindAllTrucks": "Find All Trucks",
+      "searchPlaceholder": "Search for Trucks.. e.g TATA",
+      "errorMessages": {
+        "selectBrandOrModel": "Please choose any brand or model",
+        "selectBodyTypeOrBrand": "Please choose any Body Type or Brand",
+        "selectBudgetOrBrand": "Please choose any budget or brand"
+      }
+    },
+    "hi": {
+      "heroFormTitle": "सही ट्रक खोजें",
+      "heroFormBrand": "ब्रांड",
+      "heroFormBodyType": "बॉडी टाइप",
+      "heroFormBudget": "बजट",
+      "heroSelectBrand": "ब्रांड चुनें",
+      "heroSelectModel": "मॉडल चुनें",
+      "heroSelectBodyType": "बॉडी टाइप चुनें",
+      "heroSelectBudget": "बजट चुनें",
+      "heroSearchButton": "खोजें",
+      "herofindAllTrucks": "सभी ट्रक खोजें",
+      "searchPlaceholder": "ट्रक ढूँढें.. जैसे टाटा",
+      "errorMessages": {
+        "selectBrandOrModel": "कृपया कोई भी ब्रांड या मॉडल चुनें",
+        "selectBodyTypeOrBrand": "कृपया कोई भी बॉडी टाइप या ब्रांड चुनें",
+        "selectBudgetOrBrand": "कृपया कोई भी बजट या ब्रांड चुनें"
+      }
+    },
+    "ta": {
+      "heroFormTitle": "சரியான டிரக்கை தேடு",
+      "heroFormBrand": "பிராண்ட்",
+      "heroFormBodyType": "உடல் வகை",
+      "heroFormBudget": "பட்ஜெட்",
+      "heroSelectBrand": "பிராண்டை தேர்ந்தெடு",
+      "heroSelectModel": "மாடலை தேர்வு செய்யவும்",
+      "heroSelectBodyType": "உடல் வகையைத் தேர்ந்தெடுக்கவும்",
+      "heroSelectBudget": "பட்ஜெட்டைத் தேர்ந்தெடுக்கவும்",
+      "heroSearchButton": "தேடு",
+      "herofindAllTrucks": "அனைத்து டிரக்குகளையும் கண்டறியவும்",
+      "searchPlaceholder": "டிரக்குகளைத் தேடுங்கள்...",
+      "errorMessages": {
+        "selectBrandOrModel": "தயவுசெய்து எந்த பிராண்ட் அல்லது மாடலையும் தேர்வு செய்யவும்.",
+        "selectBodyTypeOrBrand": "தயவுசெய்து எந்த உடல் வகை அல்லது பிராண்டைத் தேர்வுசெய்யவும்.",
+        "selectBudgetOrBrand": "தயவுசெய்து எந்த பட்ஜெட் அல்லது பிராண்டையும் தேர்வு செய்யவும்."
+      }
+    }
+  },
+  "Brands": {
+    "tata": {
+      "en": "Tata",
+      "hi": "टाटा",
+      "ta": "டாடா",
+      "slug": "tata",
+      "top5Models": {
+        "en": [
+          { "name": "Tata Azura 1212", "slug": "azura-1212" },
+          { "name": "Tata Azura 1918", "slug": "azura-1918" },
+          { "name": "Tata Azura 710", "slug": "azura-710" },
+          { "name": "Tata Ace EV", "slug": "ace-ev" },
+          { "name": "Tata Ace Gold", "slug": "ace-gold" }
+        ],
+        "hi": [
+          { "name": "टाटा अजुरा 1212", "slug": "azura-1212" },
+          { "name": "टाटा अजुरा 1918", "slug": "azura-1918" },
+          { "name": "टाटा अजुरा 710", "slug": "azura-710" },
+          { "name": "टाटा ऐस ईवी", "slug": "ace-ev" },
+          { "name": "टाटा ऐस गोल्ड", "slug": "ace-gold" }
+        ],
+        "ta": [
+          { "name": "டாடா அசூரா 1212", "slug": "azura-1212" },
+          { "name": "டாடா அசூரா 1918", "slug": "azura-1918" },
+          { "name": "டாடா அசூரா 710", "slug": "azura-710" },
+          { "name": "டாடா ஏஸ் ஈவி", "slug": "ace-ev" },
+          { "name": "டாடா ஏஸ் கோல்ட் மினி டிரக்குகள்", "slug": "ace-gold" }
+        ]
+      }
+    },
+    "ashok-leyland": {
+      "en": "Ashok Leyland",
+      "hi": "अशोक लेलैंड",
+      "ta": "அசோக் லேலேண்ட்",
+      "slug": "ashok-leyland",
+      "top5Models": {
+        "en": [
+          { "name": "Ashok Leyland 4825 10x2 DTLA MAV", "slug": "4825" },
+          { "name": "Ashok Leyland Partner 6 Tyre", "slug": "partner-6-tyre" },
+          { "name": "Ashok Leyland Ecomet 1615 HE", "slug": "ecomet-1615-he" },
+          { "name": "Ashok Leyland 4220 HG", "slug": "4220-hg" },
+          { "name": "Ashok Leyland Ecomet Star 1915 HE", "slug": "1915-he" }
+        ],
+        "hi": [
+          { "name": "अशोक लेलैंड 4825 10x2 डीटीएलए एमएवी", "slug": "4825" },
+          { "name": "अशोक लेलैंड पार्टनर 6 टायर", "slug": "partner-6-tyre" },
+          { "name": "अशोक लेलैंड इकोमेट 1615 एचई", "slug": "ecomet-1615-he" },
+          { "name": "अशोक लेलैंड 4220 एचजी", "slug": "4220-hg" },
+          { "name": "अशोक लेलैंड इकोमेट स्टार 1915 एचई", "slug": "1915-he" }
+        ],
+        "ta": [
+          { "name": "அசோக் லேலேண்ட் 4825 10எக்ஸ்2 டிடிஎல்ஏ எம்ஏவீ", "slug": "4825" },
+          { "name": "அசோக் லேலேண்ட் பார்ட்னர் 6 டயர்", "slug": "partner-6-tyre" },
+          { "name": "அசோக் லேலேண்ட் ஈசிஓஎம்ஈடி 1615 எச்ஈ", "slug": "ecomet-1615-he" },
+          { "name": "அசோக் லேலேண்ட் 4220 எச்ஜீ", "slug": "4220-hg" },
+          { "name": "அசோக் லேலேண்ட் ஈசிஓஎம்ஈடி எஸ்டிஏஆர் 1915 எச்ஈ", "slug": "1915-he" }
+        ]
+      }
+    },
+    "mahindra": {
+      "en": "Mahindra",
+      "hi": "महिंद्रा",
+      "ta": "மஹிந்திரா",
+      "slug": "mahindra",
+      "top5Models": {
+        "en": [
+          { "name": "Mahindra Udo", "slug": "udo" },
+          { "name": "Mahindra Treo Plus", "slug": "treo-plus" },
+          { "name": "Mahindra Zor Grand Range+", "slug": "zor-grand" },
+          { "name": "Mahindra Treo Zor", "slug": "treo-zor" },
+          { "name": "Mahindra E Alfa Plus", "slug": "e-alfa-plus" }
+        ],
+        "hi": [
+          { "name": "महिंद्रा उड़ो", "slug": "udo" },
+          { "name": "महिंद्रा ट्रेओ प्लस", "slug": "treo-plus" },
+          { "name": "महिंद्रा ज़ोर ग्रैंड रेंज+", "slug": "zor-grand" },
+          { "name": "महिंद्रा ट्रेओ जोर", "slug": "treo-zor" },
+          { "name": "महिंद्रा ई अल्फ़ा प्लस", "slug": "e-alfa-plus" }
+        ],
+        "ta": [
+          { "name": "மஹிந்திரா உடோ", "slug": "udo" },
+          { "name": "மகிந்திரா ட்ரியோ பிளஸ்", "slug": "treo-plus" },
+          { "name": "மஹிந்திரா ஸோர் கிராண்ட் ரேஞ்ச்+", "slug": "zor-grand" },
+          { "name": "மஹிந்திரா டிஆர்ஈஓ ஜெட்ஓஆர்", "slug": "treo-zor" },
+          { "name": "மஹிந்திரா ஈ ஏஎல்எஃப்ஏ ப்ளஸ்", "slug": "e-alfa-plus" }
+        ]
+      }
+    },
+    "bharat-benz": {
+      "en": "BharatBenz",
+      "hi": "भारतबेंज",
+      "ta": "பாரத்பென்ஸ்",
+      "slug": "bharat-benz",
+      "top5Models": {
+        "en": [
+          { "name": "BharatBenz 1617R", "slug": "1617r" },
+          { "name": "BharatBenz 1917R", "slug": "1917r" },
+          { "name": "BharatBenz 4832R", "slug": "4832r" },
+          { "name": "BharatBenz 4828R", "slug": "4828r" },
+          { "name": "BharatBenz 1015R", "slug": "1015r" }
+        ],
+        "hi": [
+          { "name": "भारतबेंज 1617आर", "slug": "1617r" },
+          { "name": "भारतबेंज 1917 आर", "slug": "1917r" },
+          { "name": "भारतबेंज 4832आर", "slug": "4832r" },
+          { "name": "भारतबेंज 4828 आर", "slug": "4828r" },
+          { "name": "भारतबेंज 1015आर", "slug": "1015r" }
+        ],
+        "ta": [
+          { "name": "பாரத்பென்ஸ் 1617ஆர்", "slug": "1617r" },
+          { "name": "பாரத்பென்ஸ் 1917ஆர்", "slug": "1917r" },
+          { "name": "பாரத்பென்ஸ் 4832ஆர்", "slug": "4832r" },
+          { "name": "பாரத்பென்ஸ் 4828ஆர்", "slug": "4828r" },
+          { "name": "பாரத்பென்ஸ் 1015ஆர்", "slug": "1015r" }
+        ]
+      }
+    },
+    "eicher": {
+      "en": "Eicher",
+      "hi": "आयशर",
+      "ta": "ஐச்சர்",
+      "slug": "eicher",
+      "top5Models": {
+        "en": [
+          { "name": "Eicher Pro 3019", "slug": "pro-3019" },
+          { "name": "Eicher Pro 2049", "slug": "pro-2049" },
+          { "name": "Eicher Pro 3015", "slug": "pro-3015" },
+          { "name": "Eicher Pro 2050", "slug": "pro-2050" },
+          { "name": "Eicher Pro 2049 CNG", "slug": "pro-2049-cng" }
+        ],
+        "hi": [
+          { "name": "आयशर प्रो 3019", "slug": "pro-3019" },
+          { "name": "आयशर प्रो 2049", "slug": "pro-2049" },
+          { "name": "आयशर प्रो 3015", "slug": "pro-3015" },
+          { "name": "आयशर प्रो 2050", "slug": "pro-2050" },
+          { "name": "आयशर प्रो 2049 सीएनजी ट्रक", "slug": "pro-2049-cng" }
+        ],
+        "ta": [
+          { "name": "ஐச்சர் ப்ரோ 3019", "slug": "pro-3019" },
+          { "name": "ஐச்சர் ப்ரோ 2049", "slug": "pro-2049" },
+          { "name": "ஐச்சர் ப்ரோ 3015", "slug": "pro-3015" },
+          { "name": "ஐச்சர் ப்ரோ 2050", "slug": "pro-2050" },
+          { "name": "ஐச்சர் ப்ரோ 2049 சிஎன்ஜீ", "slug": "pro-2049-cng" }
+        ]
+      }
+    },
+    "volvo": {
+      "en": "Volvo",
+      "hi": "वोल्वो",
+      "ta": "வோல்வோ",
+      "slug": "volvo",
+      "top5Models": {
+        "en": [
+          { "name": "Volvo FM 500 6X4 Puller", "slug": "fm-500-6x4-puller" },
+          { "name": "Volvo FM 420 4x2", "slug": "fm-420-4x2" },
+          { "name": "Volvo FMX 460 8x4", "slug": "fmx" },
+          { "name": "Volvo FM 420 4x2 LNG", "slug": "fm-420-4x2-lng" },
+          { "name": "Volvo FM 420 8x4 23 CU.M", "slug": "fm-420-8x4-23-cu-m" }
+        ],
+        "hi": [
+          { "name": "वोल्वो एफएम 500 6x4 पुलर", "slug": "fm-500-6x4-puller" },
+          { "name": "वोल्वो एफएम 420 4x2", "slug": "fm-420-4x2" },
+          { "name": "वोल्वो एफएमएक्स 460 8x4", "slug": "fmx" },
+          { "name": "वोल्वो एफएम 420 4x2 एलएनजी", "slug": "fm-420-4x2-lng" },
+          { "name": "वोल्वो एफएम 420 8x4 23 सीयू.एम", "slug": "fm-420-8x4-23-cu-m" }
+        ],
+        "ta": [
+          { "name": "வோல்வோ எஃப்எம் 500 6எக்ஸ்4 பீயூஎல்எல்ஈஆர்", "slug": "fm-500-6x4-puller" },
+          { "name": "வோல்வோ எஃப்எம் 420 4எக்ஸ்2", "slug": "fm-420-4x2" },
+          { "name": "வோல்வோ எஃப்எம்எக்ஸ் 460 8எக்ஸ்4", "slug": "fmx" },
+          { "name": "வோல்வோ எஃப்எம் 420 4எக்ஸ்2 எல்என்ஜீ", "slug": "fm-420-4x2-lng" },
+          { "name": "வோல்வோ எஃப்எம் 420 8எக்ஸ்4 23 சியூ.எம்", "slug": "fm-420-8x4-23-cu-m" }
+        ]
+      }
+    }
+  },
+  "BodyTypes": {
+    "en": [
+      { "name": "Mini Trucks", "slug": "mini-truck", "id": 2 },
+      { "name": "Pickup Truck", "slug": "pickup", "id": 4 },
+      { "name": "Tipper", "slug": "tippers", "id": 5 },
+      { "name": "Trailer", "slug": "tractor", "id": 7 },
+      { "name": "Transit Mixer", "slug": "transit-mixer", "id": 8 },
+      { "name": "Auto Rickshaw", "slug": "auto-rickshaw", "id": 17 },
+      { "name": "Tempo Traveller", "slug": "tempo-traveller", "id": 18 },
+      { "name": "E Rickshaw", "slug": "e-rickshaw", "id": 21 },
+      { "name": "Golf Cart", "slug": "golf-cart", "id": 22 }
+    ],
+    "hi": [
+      { "name": "मिनी ट्रक", "slug": "mini-truck", "id": 2 },
+      { "name": "पिकअप", "slug": "pickup", "id": 4 },
+      { "name": "टिपर", "slug": "tippers", "id": 5 },
+      { "name": "ट्रेलर", "slug": "tractor", "id": 7 },
+      { "name": "ट्रांजिट मिक्सर", "slug": "transit-mixer", "id": 8 },
+      { "name": "ऑटो रिक्शा", "slug": "auto-rickshaw", "id": 17 },
+      { "name": "टेंपो ट्रैवलर", "slug": "tempo-traveller", "id": 18 },
+      { "name": "ई रिक्शा", "slug": "e-rickshaw", "id": 21 },
+      { "name": "गोल्फ कार्ट", "slug": "golf-cart", "id": 22 }
+    ],
+    "ta": [
+      { "name": "மினி டிரக்குகள்", "slug": "mini-truck", "id": 2 },
+      { "name": "பிக்அப்", "slug": "pickup", "id": 4 },
+      { "name": "டிப்பர்கள்", "slug": "tippers", "id": 5 },
+      { "name": "டிரெய்லர்கள்", "slug": "tractor", "id": 7 },
+      { "name": "டிரான்சிட் மிக்சர்", "slug": "transit-mixer", "id": 8 },
+      { "name": "ஆட்டோ ரிக்ஷா", "slug": "auto-rickshaw", "id": 17 },
+      { "name": "டெம்போ டிராவலர்", "slug": "tempo-traveller", "id": 18 },
+      { "name": "மின்இரிக்ஷா", "slug": "e-rickshaw", "id": 21 },
+      { "name": "கோல்ஃப் வண்டி", "slug": "golf-cart", "id": 22 }
+    ]
+  },
+  "Budget": {
+    "en": [
+      { "name": "Up To 5 Lakh", "minLakh": 0, "maxLakh": 5 },
+      { "name": "5 Lakh - 10 Lakh", "minLakh": 5, "maxLakh": 10 },
+      { "name": "10 Lakh - 15 Lakh", "minLakh": 10, "maxLakh": 15 },
+      { "name": "15 Lakh - 20 Lakh", "minLakh": 15, "maxLakh": 20 },
+      { "name": "20 Lakh - 30 Lakh", "minLakh": 20, "maxLakh": 30 },
+      { "name": "30 Lakh - 40 Lakh", "minLakh": 30, "maxLakh": 40 },
+      { "name": "Above 40 Lakh", "minLakh": 40, "maxLakh": 300 }
+    ],
+    "hi": [
+      { "name": "5 लाख रुपए तक", "minLakh": 0, "maxLakh": 5 },
+      { "name": "5 लाख से 10 लाख", "minLakh": 5, "maxLakh": 10 },
+      { "name": "10 लाख से 15 लाख", "minLakh": 10, "maxLakh": 15 },
+      { "name": "15 लाख से 20 लाख", "minLakh": 15, "maxLakh": 20 },
+      { "name": "20 लाख से 30 लाख", "minLakh": 20, "maxLakh": 30 },
+      { "name": "30 लाख से 40 लाख", "minLakh": 30, "maxLakh": 40 },
+      { "name": "40 लाख से अधिक", "minLakh": 40, "maxLakh": 300 }
+    ],
+    "ta": [
+      { "name": "5 லட்சம் வரை", "minLakh": 0, "maxLakh": 5 },
+      { "name": "5 லட்சம் - 10 லட்சம்", "minLakh": 5, "maxLakh": 10 },
+      { "name": "10 லட்சம் - 15 லட்சம்", "minLakh": 10, "maxLakh": 15 },
+      { "name": "15 லட்சம் - 20 லட்சம்", "minLakh": 15, "maxLakh": 20 },
+      { "name": "20 லட்சம் - 30 லட்சம்", "minLakh": 20, "maxLakh": 30 },
+      { "name": "30 லட்சம் - 40 லட்சம்", "minLakh": 30, "maxLakh": 40 },
+      { "name": "40 லட்சத்திற்கு மேல்", "minLakh": 40, "maxLakh": 300 }
+    ]
+  }
+}

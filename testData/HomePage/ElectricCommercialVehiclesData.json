@@ -1,0 +1,28 @@
+{
+  "ElectricCommercialVehicles": {
+    "en": {
+      "heading": "Electric Commercial Vehicles",
+      "checkOffersCta": "Check Offers",
+      "viewAll": {
+        "label": "View All",
+        "href": "/en/electric"
+      }
+    },
+    "hi": {
+      "heading": "इलेक्ट्रिक कमर्शियल व्हीकल्स",
+      "checkOffersCta": "उपलब्ध ऑफ़र देखें",
+      "viewAll": {
+        "label": "सभी देखें",
+        "href": "/hi/electric"
+      }
+    },
+    "ta": {
+      "heading": "மின்சார வணிக வாகனங்கள்",
+      "checkOffersCta": "வாங்குதல் உதவியைப் பெறவும்",
+      "viewAll": {
+        "label": "அனைத்தையும் காண்க",
+        "href": "/ta/electric"
+      }
+    }
+  }
+}

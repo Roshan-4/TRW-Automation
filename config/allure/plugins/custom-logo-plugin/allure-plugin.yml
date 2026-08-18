@@ -1,0 +1,5 @@
+id: custom-logo
+name: Custom logo aggregator
+description: Replaces the default Allure logo with the Truck Junction logo
+cssFiles:
+  - styles.css

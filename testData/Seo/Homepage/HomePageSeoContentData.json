@@ -1,0 +1,35 @@
+{
+  "HomePageSeoContent": {
+    "en": {
+      "aboutHeading": "About Truck Junction - India’s fastest growing online platform for Trucks",
+      "readMore": "Read More",
+      "readLess": "Read Less",
+      "seoHeadings": [
+        "Get the Best Trucks in India 2026",
+        "Buy and Sell New & Used Trucks in India",
+        "Find Top Brands of Trucks in India",
+        "Are You Looking for Commercial Vehicles?",
+        "Find Certified Truck Spare Parts Dealers & Service Centres",
+        "Other Services: Compare Trucks, News, Articles, Loan & Reviews",
+        "Why Choose Truck Junction?"
+      ],
+      "topBrandsHeading": "Find Top Brands of Trucks in India",
+      "sampleBrandLink": {
+        "text": "Ashok Leyland Truck",
+        "href": "/en/ashok-leyland"
+      }
+    },
+    "hi": {
+      "aboutHeading": "ट्रक जंक्शन के बारे में - ट्रकों के लिए भारत का सबसे तेजी से बढ़ता ऑनलाइन प्लेटफॉर्म",
+      "readMore": "अधिक पढ़ें",
+      "readLess": "कम पढ़ें",
+      "seoHeadings": []
+    },
+    "ta": {
+      "aboutHeading": "டிரக் ஜங்க்ஷன் பற்றி - இந்தியாவின் மிக வேகமாக வளர்ந்து வரும் ஆன்லைன் தளம் டிரக்குகளுக்காக",
+      "readMore": "மேலும் படிக்க",
+      "readLess": "குறைவாக படிக்க",
+      "seoHeadings": []
+    }
+  }
+}

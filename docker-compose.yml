@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  cypress:
+    build: .
+    environment:
+      - NODE_ENV=test
+    volumes:
+      - ./reports:/app/reports
+      - ./cypress/screenshots:/app/cypress/screenshots
+      - ./cypress/videos:/app/cypress/videos
+      - ./logs:/app/logs
+    command: npm run cypress:run
+
+  cypress-open:
+    build: .
+    environment:
+      - NODE_ENV=test
+    volumes:
+      - ./reports:/app/reports
+      - ./cypress/screenshots:/app/cypress/screenshots
+      - ./cypress/videos:/app/cypress/videos
+      - ./logs:/app/logs
+    ports:
+      - "9222:9222"
+    command: npm run cypress:open

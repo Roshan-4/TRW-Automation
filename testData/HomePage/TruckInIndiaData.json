@@ -1,0 +1,68 @@
+{
+  "TruckInIndia": {
+    "en": {
+      "headingPrefix": "Truck in India",
+      "tabs": {
+        "popular": "Popular",
+        "latest": "Latest",
+        "upcoming": "Upcoming"
+      },
+      "checkOffersCta": "Check Offers",
+      "viewAll": {
+        "popular": {
+          "label": "View All Popular Trucks",
+          "href": "/en/popular-trucks"
+        },
+        "latest": {
+          "label": "View All Latest Trucks",
+          "href": "/en/latest-trucks"
+        },
+        "upcoming": {
+          "label": "View All Upcoming Trucks",
+          "href": "/en/upcoming-trucks"
+        }
+      }
+    }
+  },
+  "CheckOffersForm": {
+    "en": {
+      "name": "testqa",
+      "city": "noida",
+      "invalidMobile": "12345",
+      "namePlaceholder": "Name",
+      "mobilePlaceholder": "Enter your mobile number",
+      "cityPlaceholder": "Enter your City or District or Pincode",
+      "submitCta": "Check Offers",
+      "thankYouHeading": "Thank You!!!",
+      "interestedIn": "You may also be Interested in",
+      "validation": {
+        "nameRequired": "Please enter your name",
+        "mobileRequired": "Please enter mobile no.",
+        "mobileInvalid": "Mobile number must be 10 digits",
+        "locationRequired": "Please select your location"
+      }
+    },
+    "hi": {
+      "name": "testqa",
+      "city": "noida",
+      "invalidMobile": "12345",
+      "namePlaceholder": "नाम",
+      "mobilePlaceholder": "अपना मोबाइल नंबर दर्ज करें",
+      "cityPlaceholder": "अपना शहर, जिला या पिनकोड दर्ज करें",
+      "submitCta": "ऑफर प्राप्त करें",
+      "thankYouHeading": "Thank You!!!",
+      "interestedIn": "You may also be Interested in"
+    },
+    "ta": {
+      "name": "testqa",
+      "city": "noida",
+      "invalidMobile": "12345",
+      "namePlaceholder": "பெயர்",
+      "mobilePlaceholder": "உங்கள் மொபைல் எண்ணை உள்ளிடவும்",
+      "cityPlaceholder": "உங்கள் நகரம் அல்லது மாவட்டம் அல்லது பின்கோடை உள்ளிடவும்",
+      "submitCta": "சலுகைகளை சரிபார்க்கவும்",
+      "thankYouHeading": "Thank You!!!",
+      "interestedIn": "You may also be Interested in"
+    }
+  }
+}

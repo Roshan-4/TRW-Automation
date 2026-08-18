@@ -1,0 +1,67 @@
+{
+  "PopularTruckBrands": {
+    "en": {
+      "heading": "Popular Truck Brands",
+      "viewAll": {
+        "label": "View All Brands",
+        "href": "/en/brands"
+      },
+      "brands": [
+        { "name": "Tata", "title": "Tata Trucks", "slug": "tata" },
+        { "name": "Mahindra", "title": "Mahindra Trucks", "slug": "mahindra" },
+        { "name": "Euler", "title": "Euler Trucks", "slug": "euler" },
+        { "name": "Bajaj", "title": "Bajaj Trucks", "slug": "bajaj" },
+        { "name": "Ashok Leyland", "title": "Ashok Leyland Trucks", "slug": "ashok-leyland" },
+        { "name": "Eicher", "title": "Eicher Trucks", "slug": "eicher" },
+        { "name": "Force", "title": "Force Trucks", "slug": "force" },
+        { "name": "BharatBenz", "title": "BharatBenz Trucks", "slug": "bharat-benz" },
+        { "name": "Piaggio", "title": "Piaggio Trucks", "slug": "piaggio" },
+        { "name": "TVS", "title": "TVS Trucks", "slug": "tvs" },
+        { "name": "Atul", "title": "Atul Trucks", "slug": "atul" },
+        { "name": "Saarthi", "title": "Saarthi Trucks", "slug": "saarthi" }
+      ]
+    },
+    "hi": {
+      "heading": "लोकप्रिय ट्रक ब्रांड",
+      "viewAll": {
+        "label": "सभी ब्रांड देखें",
+        "href": "/hi/brands"
+      },
+      "brands": [
+        { "name": "टाटा", "title": "टाटा ट्रक", "slug": "tata" },
+        { "name": "महिंद्रा", "title": "महिंद्रा ट्रक", "slug": "mahindra" },
+        { "name": "यूलर", "title": "यूलर ट्रक", "slug": "euler" },
+        { "name": "बजाज", "title": "बजाज ट्रक", "slug": "bajaj" },
+        { "name": "अशोक लेलैंड", "title": "अशोक लेलैंड ट्रक", "slug": "ashok-leyland" },
+        { "name": "आयशर", "title": "आयशर ट्रक", "slug": "eicher" },
+        { "name": "फ़ोर्स", "title": "फ़ोर्स ट्रक", "slug": "force" },
+        { "name": "भारतबेंज", "title": "भारतबेंज ट्रक", "slug": "bharat-benz" },
+        { "name": "पियाजियो", "title": "पियाजियो ट्रक", "slug": "piaggio" },
+        { "name": "टीवीएस", "title": "टीवीएस ट्रक", "slug": "tvs" },
+        { "name": "अतुल", "title": "अतुल ट्रक", "slug": "atul" },
+        { "name": "सारथी", "title": "सारथी ट्रक", "slug": "saarthi" }
+      ]
+    },
+    "ta": {
+      "heading": "பிரபலமான டிரக் பிராண்டுகள்",
+      "viewAll": {
+        "label": "அனைத்து பிராண்டுகளையும் காண்க",
+        "href": "/ta/brands"
+      },
+      "brands": [
+        { "name": "டாடா", "title": "டாடா டிரக்குகள்", "slug": "tata" },
+        { "name": "மஹிந்திரா", "title": "மஹிந்திரா டிரக்குகள்", "slug": "mahindra" },
+        { "name": "யூலர்", "title": "யூலர் டிரக்குகள்", "slug": "euler" },
+        { "name": "பஜாஜ்", "title": "பஜாஜ் டிரக்குகள்", "slug": "bajaj" },
+        { "name": "அசோக் லேலேண்ட்", "title": "அசோக் லேலேண்ட் டிரக்குகள்", "slug": "ashok-leyland" },
+        { "name": "ஐச்சர்", "title": "ஐச்சர் டிரக்குகள்", "slug": "eicher" },
+        { "name": "ஃபோர்ஸ்", "title": "ஃபோர்ஸ் டிரக்குகள்", "slug": "force" },
+        { "name": "பாரத்பென்ஸ்", "title": "பாரத்பென்ஸ் டிரக்குகள்", "slug": "bharat-benz" },
+        { "name": "பியாஜியோ", "title": "பியாஜியோ டிரக்குகள்", "slug": "piaggio" },
+        { "name": "டி.வி.எஸ்", "title": "டி.வி.எஸ் டிரக்குகள்", "slug": "tvs" },
+        { "name": "அதுல்", "title": "அதுல் டிரக்குகள்", "slug": "atul" },
+        { "name": "சாரதி", "title": "சாரதி டிரக்குகள்", "slug": "saarthi" }
+      ]
+    }
+  }
+}
