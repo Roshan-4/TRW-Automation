@@ -57,6 +57,8 @@ jobs:
   cypress-chrome:
     runs-on: ubuntu-latest
     needs: cypress-run
+    env:
+      REPORTS_DEPLOY_TOKEN: ${{ secrets.REPORTS_DEPLOY_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -83,7 +85,5 @@ jobs:
           path: allure-report
 
       - name: Publish report to GitHub Pages history
-        if: ${{ secrets.REPORTS_DEPLOY_TOKEN != '' }}
-        env:
-          REPORTS_DEPLOY_TOKEN: ${{ secrets.REPORTS_DEPLOY_TOKEN }}
+        if: ${{ env.REPORTS_DEPLOY_TOKEN != '' }}
         run: npm run report:publish
