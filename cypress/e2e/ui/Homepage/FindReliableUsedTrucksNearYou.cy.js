@@ -1,6 +1,8 @@
 const FindReliableUsedTrucksNearYou = require('../../../../pages/Homepage/FindReliableUsedTrucksNearYou');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = FindReliableUsedTrucksNearYou.supportedLanguages;
 
@@ -10,6 +12,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.FIND_RELIABLE_USED_TRUCKS,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -19,6 +22,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'FRU',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'Homepage - Find Reliable Used Trucks Near You',
     });
 
     it(
@@ -92,6 +102,53 @@ LANGUAGES.forEach((lang) => {
 
         allureStep('Click first city and verify used-trucks-in-city navigation', () => {
           page.clickFirstCityAndVerifyNavigation();
+        });
+      }
+    );
+
+    it(
+      'TC-FRU-04: no city link shares another city\'s listing URL',
+      { tags: langTags(lang, TEST_TAGS.NEGATIVE) },
+      () => {
+        documentTestCase({
+          id: 'TC-FRU-04',
+          title: 'No city link shares another city\'s listing URL',
+          language: lang,
+          description: 'Confirm the first two city links do not point at each other\'s used-truck-in URL.',
+          expectedResult: 'Each city card links only to its own city listing URL.',
+          steps: [
+            'Open Find Reliable Used Trucks Near You',
+            'Verify the first city\'s link does not use the second city\'s URL, and vice versa',
+          ],
+        });
+
+        allureStep('Verify no city link shares another city\'s URL', () => {
+          page.verifyNoCityLinkSharesAnotherCitysUrl();
+        });
+      }
+    );
+
+    it(
+      'TC-FRU-05: last city link navigates to used trucks in that city',
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-FRU-05',
+          title: 'Last city link navigates to used trucks in that city',
+          language: lang,
+          description:
+            'Click the last (not first) city in Find Reliable Used Trucks Near You and confirm the used-trucks-in-city listing opens.',
+          expectedResult:
+            'The browser URL matches that city’s used-truck-in listing for the selected language.',
+          steps: [
+            'Open Find Reliable Used Trucks Near You',
+            'Click the last city link',
+            'Verify the city used-trucks listing URL',
+          ],
+        });
+
+        allureStep('Click last city and verify used-trucks-in-city navigation', () => {
+          page.clickCityAndVerifyNavigation(page.copy.cities.length - 1);
         });
       }
     );

@@ -1,0 +1,19 @@
+{
+  "EChallan": {
+    "en": {
+      "identifierKey": "EChallan",
+      "name": "E Challan",
+      "path": "/en/e-challan-check-pay-online",
+      "pageType": "E Challan",
+      "sampleRegistrationNumber": "RJ02SS1234",
+      "checkOffers": {
+        "leadTriggerCta": "Check Offers",
+        "identifierSuffix": "CheckOffers"
+      },
+      "getInformation": {
+        "leadTriggerCta": "Check Challan",
+        "identifierSuffix": "CheckChallan"
+      }
+    }
+  }
+}

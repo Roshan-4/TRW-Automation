@@ -1,6 +1,8 @@
 const TruckInIndia = require('../../../../pages/Homepage/TruckInIndia');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { randomNumberGenerator } = require('../../../../helpers/randomNumberGenerator');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = TruckInIndia.supportedLanguages;
 
@@ -15,6 +17,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.TRUCK_IN_INDIA,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -26,6 +29,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'TIY',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'Homepage - Truck in India',
     });
 
     // ── Positive ───────────────────────────────────────────────────────────

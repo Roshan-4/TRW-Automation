@@ -99,6 +99,23 @@ class PopularSecondHandTruck {
     this.getViewAllLink().click();
     cy.location('pathname').should('eq', this.copy.viewAll.href);
   }
+
+  /** Negative: View All must not accidentally reuse a product card's URL. */
+  verifyViewAllLinkDoesNotMatchAProductLink() {
+    this.scrollToSection();
+    this.getVisibleProductNameLinks().first().invoke('attr', 'href').then((productHref) => {
+      this.getViewAllLink().should('not.have.attr', 'href', productHref);
+    });
+  }
+
+  /** Edge: every visible product card should link to a distinct truck, not repeat one. */
+  verifyNoDuplicateProductLinks() {
+    this.scrollToSection();
+    this.getVisibleProductNameLinks().then(($links) => {
+      const hrefs = [...$links].map((el) => el.getAttribute('href'));
+      expect(new Set(hrefs).size, 'Each visible product link should be unique').to.eq(hrefs.length);
+    });
+  }
 }
 
 module.exports = PopularSecondHandTruck;

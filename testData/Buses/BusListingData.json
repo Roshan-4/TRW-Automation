@@ -1,0 +1,17 @@
+{
+  "BusListing": {
+    "en": {
+      "pages": [
+        { "key": "newBuses", "name": "New Buses", "path": "/en/buses", "leadTriggerCta": "Check Bus Price" },
+        { "key": "popularBuses", "name": "Popular Buses", "path": "/en/buses/popular", "leadTriggerCta": "Check Bus Price" },
+        { "key": "upcomingBuses", "name": "Upcoming Buses", "path": "/en/buses/upcoming", "leadTriggerCta": "Notify Me" },
+        { "key": "latestBuses", "name": "Latest Buses", "path": "/en/buses/latest", "leadTriggerCta": "Check Bus Price" },
+        { "key": "ashokLeylandBuses", "name": "Ashok Leyland Buses", "path": "/en/buses/ashok-leyland", "leadTriggerCta": "Check Bus Price" },
+        { "key": "tataBuses", "name": "Tata Buses", "path": "/en/buses/tata", "leadTriggerCta": "Check Bus Price" },
+        { "key": "eicherBuses", "name": "Eicher Buses", "path": "/en/buses/eicher", "leadTriggerCta": "Check Bus Price" },
+        { "key": "smlIsuzuBuses", "name": "SML ISUZU Buses", "path": "/en/buses/sml-isuzu", "leadTriggerCta": "Check Bus Price" },
+        { "key": "mahindraBuses", "name": "Mahindra Buses", "path": "/en/buses/mahindra", "leadTriggerCta": "Check Bus Price" }
+      ]
+    }
+  }
+}

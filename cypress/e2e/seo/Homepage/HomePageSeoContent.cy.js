@@ -1,6 +1,8 @@
 const HomePageSeoContent = require('../../../../pages/Seo/Homepage/HomePageSeoContent');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = HomePageSeoContent.supportedLanguages;
 
@@ -10,6 +12,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.HOME_PAGE_SEO_CONTENT,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -19,6 +22,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'SEO',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'SEO - Homepage SEO Content',
     });
 
     it(
@@ -67,6 +77,49 @@ LANGUAGES.forEach((lang) => {
 
         allureStep('Click Read More and verify content expands', () => {
           page.expandReadMore();
+        });
+      }
+    );
+
+    it(
+      'TC-SEO-05: Read Less is not shown before the About Truck Junction content is expanded',
+      { tags: langTags(lang, TEST_TAGS.NEGATIVE) },
+      () => {
+        documentTestCase({
+          id: 'TC-SEO-05',
+          title: 'Read Less is not shown before the About Truck Junction content is expanded',
+          language: lang,
+          description: 'Confirm the Read Less control is not present while the block is still collapsed.',
+          expectedResult: 'Read Less does not exist until Read More has been clicked.',
+          steps: ['Open the About Truck Junction block', 'Verify Read Less is not shown yet'],
+        });
+
+        allureStep('Verify Read Less is not shown before expanding', () => {
+          page.verifyReadLessNotShownBeforeExpanding();
+        });
+      }
+    );
+
+    it(
+      'TC-SEO-06: Read Less collapses the About Truck Junction content back',
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-SEO-06',
+          title: 'Read Less collapses the About Truck Junction content back',
+          language: lang,
+          description: 'Expand via Read More, then click Read Less and confirm the block collapses back (Read More reappears).',
+          expectedResult: 'After Read Less, the block is collapsed and Read More is visible again.',
+          steps: [
+            'Open the About Truck Junction block',
+            'Click Read More, then Read Less',
+            'Verify Read More is shown again',
+          ],
+        });
+
+        allureStep('Expand then collapse and verify Read More reappears', () => {
+          page.expandReadMore();
+          page.collapseReadLess();
         });
       }
     );

@@ -1,6 +1,8 @@
 const PopularTruckComparison = require('../../../../pages/Homepage/PopularTruckComparison');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = PopularTruckComparison.supportedLanguages;
 
@@ -10,6 +12,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.POPULAR_TRUCK_COMPARISON,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -19,6 +22,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'PTC',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'Homepage - Popular Truck Comparison',
     });
 
     it(
@@ -92,6 +102,44 @@ LANGUAGES.forEach((lang) => {
 
         allureStep('Click View All Comparison and verify listing URL', () => {
           page.clickViewAllAndVerifyNavigation();
+        });
+      }
+    );
+
+    it(
+      'TC-PTC-04: View All Comparison link does not reuse a product card\'s URL',
+      { tags: langTags(lang, TEST_TAGS.NEGATIVE) },
+      () => {
+        documentTestCase({
+          id: 'TC-PTC-04',
+          title: 'View All Comparison link does not reuse a product card\'s URL',
+          language: lang,
+          description: 'Confirm the View All Comparison link does not accidentally point at the first product card\'s PDP URL.',
+          expectedResult: 'View All Comparison and the first product card link to different URLs.',
+          steps: ['Open Popular Truck Comparison', 'Verify View All\'s href differs from the first product\'s href'],
+        });
+
+        allureStep('Verify View All link does not match a product link', () => {
+          page.verifyViewAllLinkDoesNotMatchAProductLink();
+        });
+      }
+    );
+
+    it(
+      'TC-PTC-05: no visible product card links to a duplicate truck',
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-PTC-05',
+          title: 'No visible product card links to a duplicate truck',
+          language: lang,
+          description: 'Confirm every visible product name in Popular Truck Comparison links to a distinct truck.',
+          expectedResult: 'No two visible product cards share the same href.',
+          steps: ['Open Popular Truck Comparison', 'Verify all visible product links are unique'],
+        });
+
+        allureStep('Verify no duplicate product links', () => {
+          page.verifyNoDuplicateProductLinks();
         });
       }
     );

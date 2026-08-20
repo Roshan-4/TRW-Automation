@@ -1,0 +1,23 @@
+{
+  "VehicleReport": {
+    "en": {
+      "identifierKey": "VehicleReport",
+      "name": "Vehicle Report",
+      "path": "/en/vehicle-history-report",
+      "pageType": "Vehicle Report",
+      "sampleRegistrationNumber": "RJ02SS1234",
+      "checkOffers": {
+        "leadTriggerCta": "Check Offers",
+        "identifierSuffix": "CheckOffers"
+      },
+      "contactSeller": {
+        "leadTriggerCta": "Contact Seller",
+        "identifierSuffix": "ContactSeller"
+      },
+      "getInformation": {
+        "leadTriggerCta": "Check Vehicle Report",
+        "identifierSuffix": "CheckVehicleReport"
+      }
+    }
+  }
+}

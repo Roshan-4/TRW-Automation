@@ -1,6 +1,8 @@
 const PopularTruckBrands = require('../../../../pages/Homepage/PopularTruckBrands');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = PopularTruckBrands.supportedLanguages;
 
@@ -15,6 +17,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.POPULAR_TRUCK_BRANDS,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -24,6 +27,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'PTB',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'Homepage - Popular Truck Brands',
     });
 
     it(
@@ -174,6 +184,30 @@ LANGUAGES.forEach((lang) => {
 
         allureStep('Click View All Brands and verify brands listing page opens', () => {
           page.verifyViewAllBrandsNavigates();
+        });
+      }
+    );
+
+    it(
+      'TC-PTB-07: Popular Truck Brands shows no card for a nonexistent brand',
+      { tags: langTags(lang, TEST_TAGS.NEGATIVE) },
+      () => {
+        documentTestCase({
+          id: 'TC-PTB-07',
+          title: 'Popular Truck Brands shows no card for a nonexistent brand',
+          language: lang,
+          description: 'Confirm no brand card links to a made-up, nonexistent brand slug.',
+          expectedResult: 'Zero brand cards match a nonexistent brand slug.',
+          steps: [
+            'Open the Popular Truck Brands section',
+            'Look for a card linking to a nonexistent brand slug',
+            'Verify none exists',
+          ],
+        });
+
+        allureStep('Verify no card exists for a nonexistent brand', () => {
+          page.scrollToSection();
+          page.getBrandCardBySlug('this-brand-does-not-exist').should('not.exist');
         });
       }
     );

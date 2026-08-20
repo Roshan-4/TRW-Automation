@@ -1,5 +1,7 @@
 const SearchRightTruck = require('../../../../pages/Homepage/SearchRightTruck');
 const { TEST_TAGS } = require('../../../../constants/constants');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = SearchRightTruck.supportedLanguages;
 const SAMPLE_BRAND_KEYS = ['tata', 'ashok-leyland', 'mahindra'];
@@ -16,6 +18,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.SEARCH_RIGHT_TRUCK,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -27,6 +30,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'SRT',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'Homepage - Search The Right Truck',
     });
 
     // ── Positive ───────────────────────────────────────────────────────────

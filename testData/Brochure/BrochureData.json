@@ -1,0 +1,14 @@
+{
+  "Brochure": {
+    "en": {
+      "identifierKey": "Brochure",
+      "name": "Brochure",
+      "path": "/en/brochure",
+      "pageType": "Brochure",
+      "leadTriggerCta": "Download Brochure",
+      "identifierSuffix": "DownloadBrochure",
+      "bestSellingHeading": "Best Selling Trucks",
+      "bestSellingTabs": ["Popular", "Upcoming", "Latest"]
+    }
+  }
+}

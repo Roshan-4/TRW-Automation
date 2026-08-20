@@ -6,7 +6,8 @@ on:
   pull_request:
     branches: [main, develop]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 21 * * *'
+  workflow_dispatch: {}
 
 jobs:
   cypress-run:
@@ -14,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        browser: [chrome, firefox]
+        device: [desktop, mobile]
 
     steps:
       - name: Checkout
@@ -29,28 +30,28 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run Cypress tests
-        run: npm run cypress:run -- --browser ${{ matrix.browser }}
+      - name: Run Cypress tests (Chrome - ${{ matrix.device }})
+        run: npm run cypress:run:${{ matrix.device }}
 
       - name: Upload screenshots
         uses: actions/upload-artifact@v4
         if: failure()
         with:
-          name: screenshots-${{ matrix.browser }}
+          name: screenshots-${{ matrix.device }}
           path: cypress/screenshots
 
       - name: Upload videos
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: videos-${{ matrix.browser }}
+          name: videos-${{ matrix.device }}
           path: cypress/videos
 
       - name: Upload reports
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: reports-${{ matrix.browser }}
+          name: reports-${{ matrix.device }}
           path: reports
 
   cypress-chrome:
@@ -72,14 +73,17 @@ jobs:
       - name: Run Cypress tests (Chrome)
         run: npm run cypress:run:chrome
 
-      - name: Merge reports
-        run: npm run report:merge
-
-      - name: Generate HTML report
-        run: npm run report:generate:html
+      - name: Generate Allure HTML report
+        run: npm run generate:report
 
       - name: Upload HTML report
         uses: actions/upload-artifact@v4
         with:
           name: html-report
-          path: reports/html
+          path: allure-report
+
+      - name: Publish report to GitHub Pages history
+        if: ${{ secrets.REPORTS_DEPLOY_TOKEN != '' }}
+        env:
+          REPORTS_DEPLOY_TOKEN: ${{ secrets.REPORTS_DEPLOY_TOKEN }}
+        run: npm run report:publish

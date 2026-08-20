@@ -96,8 +96,44 @@ class PopularTruckComparison {
     this.getViewAllLink()
       .should('be.visible')
       .and('have.attr', 'href', this.copy.viewAll.href);
-    this.getViewAllLink().click();
+    // { force: true }: Cypress's actionability check flags this link as
+    // "hidden" because of its own nested text-wrapping `<span>` (confirmed
+    // live — the element actually at the click point is that span, not an
+    // unrelated overlay); the link is real, visible, and correctly
+    // positioned.
+    this.getViewAllLink().click({ force: true });
     cy.location('pathname').should('eq', this.copy.viewAll.href);
+  }
+
+  /** Negative: View All must not accidentally reuse a product card's URL. */
+  verifyViewAllLinkDoesNotMatchAProductLink() {
+    this.scrollToSection();
+    this.getVisibleProductNameLinks().first().invoke('attr', 'href').then((productHref) => {
+      this.getViewAllLink().should('not.have.attr', 'href', productHref);
+    });
+  }
+
+  /**
+   * Edge: no two comparison cards should compare the exact same pair of
+   * trucks. Each card links two trucks (A vs B), and a popular truck
+   * legitimately appears as one side of several different comparisons —
+   * confirmed live (e.g. "Intra V20 Gold" paired against three different
+   * competitors) — so individual truck links repeating across cards is
+   * expected, real behavior, not a bug. What must stay unique is the pair
+   * itself.
+   */
+  verifyNoDuplicateProductLinks() {
+    this.scrollToSection();
+    this.getVisibleProductNameLinks().then(($links) => {
+      const hrefs = [...$links].map((el) => el.getAttribute('href'));
+      const pairs = [];
+      for (let i = 0; i < hrefs.length - 1; i += 2) {
+        pairs.push([hrefs[i], hrefs[i + 1]].sort().join(' vs '));
+      }
+      expect(new Set(pairs).size, 'Each visible comparison card should compare a distinct pair of trucks').to.eq(
+        pairs.length
+      );
+    });
   }
 }
 

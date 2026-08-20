@@ -1,6 +1,8 @@
 const PopularSecondHandTruck = require('../../../../pages/Homepage/PopularSecondHandTruck');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = PopularSecondHandTruck.supportedLanguages;
 
@@ -10,6 +12,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.POPULAR_SECOND_HAND_TRUCK,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -19,6 +22,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'PSH',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'Homepage - Popular Second Hand Truck',
     });
 
     it(
@@ -92,6 +102,44 @@ LANGUAGES.forEach((lang) => {
 
         allureStep('Click View All Used Trucks and verify listing URL', () => {
           page.clickViewAllAndVerifyNavigation();
+        });
+      }
+    );
+
+    it(
+      'TC-PSH-04: View All Used Trucks link does not reuse a product card\'s URL',
+      { tags: langTags(lang, TEST_TAGS.NEGATIVE) },
+      () => {
+        documentTestCase({
+          id: 'TC-PSH-04',
+          title: 'View All Used Trucks link does not reuse a product card\'s URL',
+          language: lang,
+          description: 'Confirm the View All Used Trucks link does not accidentally point at the first product card\'s PDP URL.',
+          expectedResult: 'View All Used Trucks and the first product card link to different URLs.',
+          steps: ['Open Popular Second Hand Truck', 'Verify View All\'s href differs from the first product\'s href'],
+        });
+
+        allureStep('Verify View All link does not match a product link', () => {
+          page.verifyViewAllLinkDoesNotMatchAProductLink();
+        });
+      }
+    );
+
+    it(
+      'TC-PSH-05: no visible product card links to a duplicate used truck',
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-PSH-05',
+          title: 'No visible product card links to a duplicate used truck',
+          language: lang,
+          description: 'Confirm every visible product name in Popular Second Hand Truck links to a distinct used truck.',
+          expectedResult: 'No two visible product cards share the same href.',
+          steps: ['Open Popular Second Hand Truck', 'Verify all visible product links are unique'],
+        });
+
+        allureStep('Verify no duplicate product links', () => {
+          page.verifyNoDuplicateProductLinks();
         });
       }
     );

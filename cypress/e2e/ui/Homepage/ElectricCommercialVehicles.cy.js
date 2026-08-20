@@ -1,6 +1,8 @@
 const ElectricCommercialVehicles = require('../../../../pages/Homepage/ElectricCommercialVehicles');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = ElectricCommercialVehicles.supportedLanguages;
 
@@ -15,6 +17,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.ELECTRIC_COMMERCIAL_VEHICLES,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -24,6 +27,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'ECV',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'Homepage - Electric Commercial Vehicles',
     });
 
     it(
@@ -126,5 +136,76 @@ LANGUAGES.forEach((lang) => {
         });
       }
     );
+
+    // `en` only: CheckOffersForm's `validation` copy (testData/HomePage/
+    // TruckInIndiaData.json) has only ever been captured for English —
+    // hi/ta validation message text is not yet confirmed live, and golden
+    // rule 4 says not to invent/guess localized copy. Extend to hi/ta once
+    // that copy is captured and confirmed.
+    if (lang === 'en') {
+    it(
+      'TC-ECV-05: Check Offers lead form shows required validation when submitted empty',
+      { tags: langTags(lang, TEST_TAGS.NEGATIVE, TEST_TAGS.SMOKE) },
+      () => {
+        documentTestCase({
+          id: 'TC-ECV-05',
+          title: 'Check Offers lead form shows required validation when submitted empty',
+          language: lang,
+          description:
+            'Open Check Offers in Electric Commercial Vehicles and submit with name, mobile and city all left empty.',
+          expectedResult:
+            'The real, page-shown validation messages for name, mobile and location are displayed, and no lead is submitted.',
+          steps: [
+            'Open Check Offers on one visible card',
+            'Leave name, mobile and city empty and submit',
+            'Verify all three required-field validation messages are shown',
+          ],
+        });
+
+        allureStep('Submit Check Offers empty and verify validation messages', () => {
+          const validation = page.leadFormCopy.validation;
+          page.openCheckOffersLeadForm();
+          page.leadForm.fillFields({ name: '', mobile: '', city: '', selectCity: false });
+          page.leadForm.submit();
+          page.leadForm.verifyValidationMessages([
+            validation.nameRequired,
+            validation.mobileRequired,
+            validation.locationRequired,
+          ]);
+        });
+      }
+    );
+
+    it(
+      'TC-ECV-06: Check Offers lead form rejects mobile that is not 10 digits',
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-ECV-06',
+          title: 'Check Offers lead form rejects mobile that is not 10 digits',
+          language: lang,
+          description:
+            'Open Check Offers in Electric Commercial Vehicles, fill a valid name, an invalid (5-digit) mobile number, and leave city empty, then submit.',
+          expectedResult:
+            'The real, page-shown mobile-format and location-required validation messages are displayed, and no lead is submitted.',
+          steps: [
+            'Open Check Offers on one visible card',
+            'Fill a valid name and an invalid mobile number',
+            'Submit with city left empty',
+            'Verify the mobile-format and location validation messages are shown',
+          ],
+        });
+
+        allureStep('Submit Check Offers with invalid mobile and verify validation', () => {
+          const lead = page.leadFormCopy;
+          const validation = lead.validation;
+          page.openCheckOffersLeadForm();
+          page.leadForm.fillFields({ name: lead.name, mobile: lead.invalidMobile, city: '', selectCity: false });
+          page.leadForm.submit();
+          page.leadForm.verifyValidationMessages([validation.mobileInvalid, validation.locationRequired]);
+        });
+      }
+    );
+    }
   });
 });

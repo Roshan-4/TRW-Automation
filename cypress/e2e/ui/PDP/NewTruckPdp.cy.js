@@ -1,6 +1,8 @@
 const NewTruckPdp = require('../../../../pages/PDP/NewTruckPdp');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = NewTruckPdp.supportedLanguages;
 const PRODUCT_KEYS = NewTruckPdp.productKeys;
@@ -19,6 +21,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.NEW_TRUCK_PDP,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -35,6 +38,13 @@ LANGUAGES.forEach((lang) => {
       function () {
         before(function () {
           page.navigate({ dismissLaunchLead: false });
+        });
+
+        registerRedirectionCheck({
+          prefix: 'NTPDP',
+          lang,
+          tags: langTags(lang, TEST_TAGS.REDIRECTION, ...productTags(productKey)),
+          label: `PDP - New Truck PDP (${productLabel})`,
         });
 
         it(

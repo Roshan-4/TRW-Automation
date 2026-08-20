@@ -1,0 +1,12 @@
+{
+  "BuyUsedTrucks": {
+    "en": {
+      "identifierKey": "BuyUsedTrucks",
+      "name": "Buy Used Trucks",
+      "path": "/en/buy-used-trucks",
+      "pageType": "Used Trucks Listing",
+      "leadTriggerCta": "Contact Seller",
+      "identifierSuffix": "ContactSeller"
+    }
+  }
+}

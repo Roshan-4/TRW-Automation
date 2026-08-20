@@ -1,0 +1,103 @@
+{
+  "NewListingPages": {
+    "en": {
+      "pages": [
+        {
+          "key": "bestTrucks",
+          "identifierKey": "BestTrucks",
+          "name": "Best Trucks",
+          "path": "/en/trucks",
+          "pageType": "Listing",
+          "leadForms": {
+            "checkOffers": true,
+            "checkTruckPrice": true,
+            "contactSeller": true,
+            "notifyMe": false,
+            "getOffers": false
+          }
+        },
+        {
+          "key": "popularTrucks",
+          "identifierKey": "PopularTruck",
+          "name": "Popular Truck",
+          "path": "/en/popular-trucks",
+          "pageType": "Listing",
+          "leadForms": {
+            "checkOffers": false,
+            "checkTruckPrice": true,
+            "contactSeller": true,
+            "notifyMe": false,
+            "getOffers": true
+          }
+        },
+        {
+          "key": "newTrucks",
+          "identifierKey": "FindNewTrucks",
+          "name": "Find New Trucks",
+          "path": "/en/new-trucks",
+          "pageType": "Listing",
+          "leadForms": {
+            "checkOffers": true,
+            "checkTruckPrice": true,
+            "contactSeller": false,
+            "notifyMe": false,
+            "getOffers": true
+          }
+        },
+        {
+          "key": "upcomingTrucks",
+          "identifierKey": "UpcomingTrucks",
+          "name": "Upcoming Trucks",
+          "path": "/en/upcoming-trucks",
+          "pageType": "Listing",
+          "leadForms": {
+            "checkOffers": true,
+            "checkTruckPrice": false,
+            "contactSeller": false,
+            "notifyMe": true,
+            "getOffers": true
+          }
+        },
+        {
+          "key": "latestTrucks",
+          "identifierKey": "LatestTrucks",
+          "name": "Latest Trucks",
+          "path": "/en/latest-trucks",
+          "pageType": "Listing",
+          "leadForms": {
+            "checkOffers": true,
+            "checkTruckPrice": true,
+            "contactSeller": false,
+            "notifyMe": true,
+            "getOffers": true
+          }
+        },
+        {
+          "key": "bs6Trucks",
+          "identifierKey": "BS6Trucks",
+          "name": "BS6 Trucks",
+          "path": "/en/bs-vi",
+          "pageType": "Listing",
+          "leadForms": {
+            "checkOffers": true,
+            "checkTruckPrice": true,
+            "contactSeller": false,
+            "notifyMe": false,
+            "getOffers": true
+          }
+        }
+      ]
+    }
+  },
+  "GetOffersAssistanceForm": {
+    "en": {
+      "triggerCta": "Call Now",
+      "heading": "SHARE YOUR DETAILS TO GET ASSISTANCE",
+      "modelPlaceholder": "Enter model name",
+      "namePlaceholder": "Name",
+      "mobilePlaceholder": "Enter your mobile number",
+      "cityPlaceholder": "Enter your City or District or Pincode",
+      "submitCta": "Get Offers"
+    }
+  }
+}

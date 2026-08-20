@@ -1,0 +1,49 @@
+{
+  "TabbedModelOffers": {
+    "en": {
+      "pages": [
+        {
+          "key": "selectYourTruck",
+          "name": "Select Your Truck",
+          "path": "/en/select-your-truck",
+          "sectionHeading": "Popular Models by Application",
+          "ctaLabel": "Check Offers",
+          "tabs": [
+            "Milk Transportation",
+            "Industrial Goods Transportation",
+            "Cement Transportation",
+            "Construction",
+            "Parcel",
+            "Mining",
+            "Agriculture Transportation",
+            "Textile Transportation",
+            "Fish Transportation",
+            "Auto Carrier Transportation",
+            "Cold Storage Transportation",
+            "Poultry",
+            "Port Transportation"
+          ]
+        },
+        {
+          "key": "offers",
+          "name": "Offers",
+          "path": "/en/offers",
+          "sectionHeading": "Popular Models by Category",
+          "ctaLabel": "Check Offers",
+          "tabs": [
+            "Trucks",
+            "Trailer",
+            "Mini Trucks",
+            "Pickup Truck",
+            "Tipper",
+            "3 Wheelers",
+            "Transit Mixer",
+            "Auto Rickshaw",
+            "Tempo Traveller",
+            "E Rickshaw"
+          ]
+        }
+      ]
+    }
+  }
+}

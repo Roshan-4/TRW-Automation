@@ -1,0 +1,19 @@
+{
+  "CvPermit": {
+    "en": {
+      "identifierKey": "CvPermit",
+      "name": "CV Permit",
+      "path": "/en/vehicle-permit-check",
+      "pageType": "CV Permit",
+      "sampleRegistrationNumber": "RJ02SS1234",
+      "checkOffers": {
+        "leadTriggerCta": "Check Offers",
+        "identifierSuffix": "CheckOffers"
+      },
+      "getInformation": {
+        "leadTriggerCta": "Check Permit Info",
+        "identifierSuffix": "CheckPermitInfo"
+      }
+    }
+  }
+}

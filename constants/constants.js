@@ -10,12 +10,33 @@ const VIEWPORT_SIZES = {
   MOBILE: { width: 375, height: 667 },
 };
 
+// Real device emulation (not viewport-only): a viewport resize alone does not
+// trigger server-side or navigator.userAgent-based device branching on this
+// site. `DEVICE=mobile` (see cypress.config.js) sets both a real Android
+// Chrome user agent AND a matching mobile viewport together.
+const DEVICES = {
+  desktop: {
+    key: 'desktop',
+    userAgent: null, // real browser UA, unchanged
+    viewport: VIEWPORT_SIZES.DESKTOP,
+  },
+  mobile: {
+    key: 'mobile',
+    // Real Android Chrome UA (Pixel-class phone, Chrome 125) — not a
+    // synthetic/desktop-with-"Mobile"-appended string.
+    userAgent:
+      'Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36',
+    viewport: { width: 412, height: 915 }, // Pixel 8 Pro CSS viewport
+  },
+};
+
 // Tags consumed by @cypress/grep. Language tags (@en/@hi/@ta) let a single
 // language, or all languages (@language), be run in isolation.
 const TEST_TAGS = {
   SMOKE: '@smoke',
   REGRESSION: '@regression',
   UI: '@ui',
+  REDIRECTION: '@redirection',
   POSITIVE: '@positive',
   NEGATIVE: '@negative',
   EDGE: '@edge',
@@ -32,16 +53,34 @@ const TEST_TAGS = {
   FIND_RELIABLE_USED_TRUCKS: '@findReliableUsedTrucks',
   PDP: '@pdp',
   NEW_TRUCK_PDP: '@newTruckPdp',
+  LISTING_PAGES: '@listingPages',
+  NEW_LISTING_PAGES: '@newListingPages',
   SEO: '@seo',
   HOME_PAGE_SEO_CONTENT: '@homePageSeoContent',
   LANGUAGE: '@language',
   EN: '@en',
   HI: '@hi',
   TA: '@ta',
+  COMPARE_TRUCKS: '@compareTrucks',
+  BROCHURE: '@brochure',
+  USED_TRUCK: '@usedTruck',
+  BUY_USED_TRUCKS: '@buyUsedTrucks',
+  CV_PERMIT: '@cvPermit',
+  VEHICLE_REPORT: '@vehicleReport',
+  E_CHALLAN: '@eChallan',
+  SELL_USED_TRUCKS: '@sellUsedTrucks',
+  CATEGORY_PAGES: '@categoryPages',
+  BUSES: '@buses',
+  UTILITY_PAGES: '@utilityPages',
+  ELECTRIC_VEHICLE: '@electricVehicle',
+  DEVICE: '@device',
+  DESKTOP: '@desktop',
+  MOBILE: '@mobile',
 };
 
 module.exports = {
   TIMEOUTS,
   VIEWPORT_SIZES,
+  DEVICES,
   TEST_TAGS,
 };

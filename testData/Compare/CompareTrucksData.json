@@ -1,0 +1,12 @@
+{
+  "CompareTrucks": {
+    "en": {
+      "identifierKey": "CompareTrucks",
+      "name": "Compare Trucks",
+      "path": "/en/compare",
+      "pageType": "Compare",
+      "leadTriggerCta": "Check Offers",
+      "identifierSuffix": "CheckOffers"
+    }
+  }
+}

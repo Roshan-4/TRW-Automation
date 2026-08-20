@@ -1,0 +1,22 @@
+{
+  "SellUsedTrucks": {
+    "en": {
+      "identifierKey": "SellUsedTrucks",
+      "name": "Sell Used Trucks",
+      "path": "/en/sell-used-truck",
+      "pageType": "Sell Used Trucks",
+      "sampleTruck": {
+        "brand": "Tata",
+        "model": "Ace",
+        "modelMatch": "Ace Gold",
+        "year": "2020",
+        "kmOptionText": "Less than 50,000 km",
+        "expectedPrice": "500000"
+      },
+      "sampleLocation": {
+        "state": "Uttar Pradesh",
+        "district": "Agra"
+      }
+    }
+  }
+}

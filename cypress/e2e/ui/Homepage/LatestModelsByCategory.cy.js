@@ -1,6 +1,8 @@
 const LatestModelsByCategory = require('../../../../pages/Homepage/LatestModelsByCategory');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = LatestModelsByCategory.supportedLanguages;
 
@@ -14,6 +16,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.LATEST_MODELS_BY_CATEGORY,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -23,6 +26,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'LMC',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'Homepage - Latest Models by Category',
     });
 
     it(
@@ -164,5 +174,77 @@ LANGUAGES.forEach((lang) => {
         });
       }
     );
+
+    // `en` only: CheckOffersForm's `validation` copy has only ever been
+    // captured for English — see the same note in ElectricCommercialVehicles.cy.js.
+    if (lang === 'en') {
+    it(
+      'TC-LMC-10: Check Offers lead form shows required validation when submitted empty',
+      { tags: langTags(lang, TEST_TAGS.NEGATIVE, TEST_TAGS.SMOKE) },
+      () => {
+        documentTestCase({
+          id: 'TC-LMC-10',
+          title: 'Check Offers lead form shows required validation when submitted empty',
+          language: lang,
+          description:
+            'On the default 3 Wheelers tab, open Check Offers and submit with name, mobile and city all left empty.',
+          expectedResult:
+            'The real, page-shown validation messages for name, mobile and location are displayed, and no lead is submitted.',
+          steps: [
+            'Open the default 3 Wheelers tab',
+            'Open Check Offers on one visible card',
+            'Leave name, mobile and city empty and submit',
+            'Verify all three required-field validation messages are shown',
+          ],
+        });
+
+        allureStep('Submit Check Offers empty and verify validation messages', () => {
+          const validation = page.leadFormCopy.validation;
+          page.openTab('threeWheelers');
+          page.openCheckOffersLeadForm();
+          page.leadForm.fillFields({ name: '', mobile: '', city: '', selectCity: false });
+          page.leadForm.submit();
+          page.leadForm.verifyValidationMessages([
+            validation.nameRequired,
+            validation.mobileRequired,
+            validation.locationRequired,
+          ]);
+        });
+      }
+    );
+
+    it(
+      'TC-LMC-11: Check Offers lead form rejects mobile that is not 10 digits',
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-LMC-11',
+          title: 'Check Offers lead form rejects mobile that is not 10 digits',
+          language: lang,
+          description:
+            'On the default 3 Wheelers tab, open Check Offers, fill a valid name, an invalid (5-digit) mobile number, and leave city empty, then submit.',
+          expectedResult:
+            'The real, page-shown mobile-format and location-required validation messages are displayed, and no lead is submitted.',
+          steps: [
+            'Open the default 3 Wheelers tab',
+            'Open Check Offers on one visible card',
+            'Fill a valid name and an invalid mobile number',
+            'Submit with city left empty',
+            'Verify the mobile-format and location validation messages are shown',
+          ],
+        });
+
+        allureStep('Submit Check Offers with invalid mobile and verify validation', () => {
+          const lead = page.leadFormCopy;
+          const validation = lead.validation;
+          page.openTab('threeWheelers');
+          page.openCheckOffersLeadForm();
+          page.leadForm.fillFields({ name: lead.name, mobile: lead.invalidMobile, city: '', selectCity: false });
+          page.leadForm.submit();
+          page.leadForm.verifyValidationMessages([validation.mobileInvalid, validation.locationRequired]);
+        });
+      }
+    );
+    }
   });
 });

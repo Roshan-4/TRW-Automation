@@ -19,14 +19,31 @@ class LeadFormFiller {
     nameSelector = 'input#name[name="name"]',
     mobileSelector = 'input#phone[name="phone"]',
     cityPlaceholder = 'Enter your City or District or Pincode',
+    citySuggestionSelector = 'ul li',
     submitText = 'Check Offers',
     formRootFinder = null,
+    // Some fields only register keystrokes after a genuine (non-forced)
+    // click — e.g. the per-model bus enquiry popup's phone/name inputs
+    // never receive typed text via `{ force: true }` alone. Off by default
+    // since every other page's fields work fine with the forced clear/type.
+    focusFieldsBeforeType = false,
+    // The bus enquiry popup's phone field validates in real time and
+    // silently reverts to empty whenever the typed value isn't a complete
+    // 10-digit number — confirmed live: typing "12345" always ends up as
+    // "" in the DOM, while a full 10-digit number sticks. Asserting the
+    // literal typed value would therefore always fail there when a test
+    // deliberately types an invalid short number. On by default since
+    // every other page's phone field keeps whatever was typed verbatim.
+    assertMobileValueAfterType = true,
   } = {}) {
     this.nameSelector = nameSelector;
     this.mobileSelector = mobileSelector;
     this.cityPlaceholder = cityPlaceholder;
+    this.citySuggestionSelector = citySuggestionSelector;
     this.submitText = submitText;
     this.formRootFinder = formRootFinder;
+    this.focusFieldsBeforeType = focusFieldsBeforeType;
+    this.assertMobileValueAfterType = assertMobileValueAfterType;
   }
 
   getNameInput() {
@@ -65,6 +82,9 @@ class LeadFormFiller {
   clearAndTypeName(name) {
     this.getNameInput().should('be.visible').clear({ force: true });
     if (name !== undefined && name !== '') {
+      if (this.focusFieldsBeforeType) {
+        this.getNameInput().click();
+      }
       this.getNameInput().type(String(name), { force: true });
       this.getNameInput().should('have.value', String(name));
     } else {
@@ -75,8 +95,13 @@ class LeadFormFiller {
   clearAndTypeMobile(mobile) {
     this.getMobileInput().should('be.visible').clear({ force: true });
     if (mobile !== undefined && mobile !== '') {
+      if (this.focusFieldsBeforeType) {
+        this.getMobileInput().click();
+      }
       this.getMobileInput().type(String(mobile), { force: true });
-      this.getMobileInput().should('have.value', String(mobile));
+      if (this.assertMobileValueAfterType) {
+        this.getMobileInput().should('have.value', String(mobile));
+      }
     } else {
       this.getMobileInput().should('have.value', '');
     }
@@ -88,8 +113,14 @@ class LeadFormFiller {
   }
 
   typeCityAndPickSuggestion(city) {
-    this.getCityInput().should('be.visible').clear({ force: true }).type(city, { force: true });
-    cy.contains('ul li', new RegExp(city, 'i')).should('be.visible').click({ force: true });
+    this.getCityInput().should('be.visible').clear({ force: true });
+    if (this.focusFieldsBeforeType) {
+      this.getCityInput().click();
+    }
+    this.getCityInput().type(city, { force: true });
+    cy.contains(this.citySuggestionSelector, new RegExp(city, 'i'))
+      .should('be.visible')
+      .click({ force: true });
     this.getCityInput().invoke('val').should('match', new RegExp(city, 'i'));
   }
 

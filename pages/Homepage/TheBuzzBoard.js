@@ -81,7 +81,40 @@ class TheBuzzBoard {
         expect(href, `News article “${title}” should open a news page`).to.match(
           new RegExp(`^/${this.lang}/news/`)
         );
-        cy.wrap($link).click();
+        // { force: true }: same click-landing issue as
+        // PopularTruckComparison/LatestTruckUpdates's title links on this
+        // site — Cypress's default click can land on a non-interactive
+        // descendant of the link instead of triggering navigation.
+        cy.wrap($link).click({ force: true });
+        cy.location('pathname').should('eq', href);
+      });
+  }
+
+  /** Negative: every visible article card should link to a distinct article, not repeat one. */
+  verifyNoDuplicateArticleLinks() {
+    this.scrollToSection();
+    this.getVisibleArticleTitleLinks().then(($links) => {
+      const hrefs = [...$links].map((el) => el.getAttribute('href'));
+      expect(new Set(hrefs).size, 'Each visible article link should be unique').to.eq(hrefs.length);
+    });
+  }
+
+  /** Edge: the last visible article, not just the first, should navigate correctly. */
+  clickLastArticleTitleAndVerifyNavigation() {
+    this.scrollToSection();
+    this.getVisibleArticleTitleLinks()
+      .last()
+      .then(($link) => {
+        const href = $link.attr('href');
+        const title = ($link.attr('title') || $link.text() || '').trim();
+        expect(href, `News article “${title}” should open a news page`).to.match(
+          new RegExp(`^/${this.lang}/news/`)
+        );
+        // { force: true }: same click-landing issue as
+        // PopularTruckComparison/LatestTruckUpdates's title links on this
+        // site — Cypress's default click can land on a non-interactive
+        // descendant of the link instead of triggering navigation.
+        cy.wrap($link).click({ force: true });
         cy.location('pathname').should('eq', href);
       });
   }

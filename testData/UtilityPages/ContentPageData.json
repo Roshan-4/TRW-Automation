@@ -1,0 +1,16 @@
+{
+  "ContentPage": {
+    "en": {
+      "pages": [
+        { "key": "dealers", "name": "Dealers", "path": "/en/dealers" },
+        { "key": "serviceCenter", "name": "Service Center", "path": "/en/service-center" },
+        { "key": "spareParts", "name": "Spare Parts", "path": "/en/spare-parts" },
+        { "key": "emiCalculator", "name": "EMI Calculator", "path": "/en/emi-calculator" },
+        { "key": "brandAndTonnage", "name": "Brand And Tonnage", "path": "/en/commercial-vehicle-by-brand-and-ton" },
+        { "key": "news", "name": "News", "path": "/en/news" },
+        { "key": "videos", "name": "Videos", "path": "/en/videos" },
+        { "key": "webStory", "name": "Web Story", "path": "/web-stories" }
+      ]
+    }
+  }
+}

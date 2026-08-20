@@ -1,0 +1,46 @@
+{
+  "CategoryListing": {
+    "en": {
+      "pages": [
+        { "key": "tippers", "name": "Tippers", "path": "/en/tippers", "hasCallNow": false },
+        { "key": "trailers", "name": "Trailers", "path": "/en/tractor", "hasCallNow": false },
+        { "key": "miniTrucks", "name": "Mini Trucks", "path": "/en/mini-truck", "hasCallNow": false },
+        { "key": "pickups", "name": "Pickups", "path": "/en/pickup", "hasCallNow": false },
+        { "key": "transitMixer", "name": "Transit Mixer", "path": "/en/transit-mixer", "hasCallNow": false },
+        { "key": "autoRickshaw", "name": "Auto Rickshaw", "path": "/en/auto-rickshaw", "hasCallNow": false },
+        { "key": "tempoTraveller", "name": "Tempo Traveller", "path": "/en/tempo-traveller", "hasCallNow": false },
+        { "key": "threeWheeler", "name": "3 Wheeler", "path": "/en/3-wheeler", "hasCallNow": false },
+        { "key": "fourWheeler", "name": "4 Wheeler", "path": "/en/4-wheeler", "hasCallNow": false },
+        { "key": "sixWheeler", "name": "6 Wheeler", "path": "/en/6-wheeler", "hasCallNow": false },
+        { "key": "eightWheeler", "name": "8 Wheeler", "path": "/en/8-wheeler", "hasCallNow": false },
+        { "key": "tenWheeler", "name": "10 Wheeler", "path": "/en/10-wheeler", "hasCallNow": false },
+        { "key": "twelveWheeler", "name": "12 Wheeler", "path": "/en/12-wheeler", "hasCallNow": false },
+        { "key": "fourteenWheeler", "name": "14 Wheeler", "path": "/en/14-wheeler", "hasCallNow": false },
+        { "key": "sixteenWheeler", "name": "16 Wheeler", "path": "/en/16-wheeler", "hasCallNow": false },
+        { "key": "eighteenWheeler", "name": "18 Wheeler", "path": "/en/18-wheeler", "hasCallNow": false },
+        { "key": "twentyTwoWheeler", "name": "22 Wheeler", "path": "/en/22-wheeler", "hasCallNow": false },
+        { "key": "diesel", "name": "Diesel Trucks", "path": "/en/diesel", "hasCallNow": true },
+        { "key": "petrol", "name": "Petrol Trucks", "path": "/en/petrol", "hasCallNow": true },
+        { "key": "cng", "name": "CNG Trucks", "path": "/en/cng", "hasCallNow": true },
+        { "key": "lpg", "name": "LPG Trucks", "path": "/en/lpg", "hasCallNow": true },
+        { "key": "lng", "name": "LNG Trucks", "path": "/en/lng", "hasCallNow": true },
+        { "key": "hydrogen", "name": "Hydrogen Trucks", "path": "/en/hydrogen", "hasCallNow": true },
+        { "key": "biFuel", "name": "Bi Fuel Trucks", "path": "/en/bi-fuel", "hasCallNow": true },
+        { "key": "lcv", "name": "LCV", "path": "/en/lcv", "hasCallNow": true },
+        { "key": "hcv", "name": "HCV", "path": "/en/hcv", "hasCallNow": true },
+        { "key": "scv", "name": "SCV", "path": "/en/scv", "hasCallNow": true },
+        { "key": "icv", "name": "ICV", "path": "/en/icv", "hasCallNow": true },
+        { "key": "tataBrand", "name": "Tata Trucks", "path": "/en/tata", "hasCallNow": false },
+        { "key": "ashokLeylandBrand", "name": "Ashok Leyland Trucks", "path": "/en/ashok-leyland", "hasCallNow": false },
+        { "key": "eicherBrand", "name": "Eicher Trucks", "path": "/en/eicher", "hasCallNow": false },
+        { "key": "mahindraBrand", "name": "Mahindra Trucks", "path": "/en/mahindra", "hasCallNow": false },
+        { "key": "tataAce", "name": "Tata Ace", "path": "/en/tata/ace", "hasCallNow": false },
+        { "key": "mahindraBlazo", "name": "Mahindra Blazo", "path": "/en/mahindra/blazo", "hasCallNow": false },
+        { "key": "mahindraBolero", "name": "Mahindra Bolero", "path": "/en/mahindra/bolero", "hasCallNow": false },
+        { "key": "ashokLeylandBoss", "name": "Ashok Leyland Boss", "path": "/en/ashok-leyland/boss", "hasCallNow": false },
+        { "key": "ashokLeylandDost", "name": "Ashok Leyland Dost", "path": "/en/ashok-leyland/dost", "hasCallNow": false }
+      ],
+      "checkTruckPriceCta": "Check Truck Price"
+    }
+  }
+}

@@ -110,6 +110,39 @@ class HomePageSeoContent {
     });
   }
 
+  /** Negative: the Read Less toggle must not already be showing before the section is expanded. */
+  verifyReadLessNotShownBeforeExpanding() {
+    this.scrollToAbout();
+    this.getReadLessButton().should('not.exist');
+  }
+
+  /** Edge: after expanding, Read Less should collapse the section back to Read More. */
+  collapseReadLess() {
+    this.getAboutBox().then(($box) => {
+      const clickUntilCollapsed = () => {
+        const root = () => Cypress.$('#description-box-1');
+        if (root().find(`button[title="${this.copy.readMore}"]`).length) {
+          return;
+        }
+        const button = root().find(`button[title="${this.copy.readLess}"]`).get(0);
+        if (button) {
+          button.click();
+        }
+      };
+
+      clickUntilCollapsed();
+      cy.get('#description-box-1', { log: false }).should(($el) => {
+        if (!$el.find(`button[title="${this.copy.readMore}"]`).length) {
+          clickUntilCollapsed();
+        }
+        expect(
+          $el.find(`button[title="${this.copy.readMore}"]`).length,
+          'About content should collapse back after Read Less'
+        ).to.be.gte(1);
+      });
+    });
+  }
+
   clickSampleBrandLinkAndVerifyNavigation() {
     const link = this.copy.sampleBrandLink;
     expect(link, 'sampleBrandLink should be defined for this language').to.exist;

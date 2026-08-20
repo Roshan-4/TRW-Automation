@@ -72,18 +72,35 @@ class LatestTruckUpdates {
   }
 
   clickFirstVideoTitleAndVerifyNavigation() {
+    this.clickVideoTitleAndVerifyNavigation(0);
+  }
+
+  clickVideoTitleAndVerifyNavigation(index) {
     this.scrollToSection();
     this.getVisibleVideoTitleLinks()
-      .first()
+      .eq(index)
       .then(($link) => {
         const href = $link.attr('href');
         const title = ($link.attr('title') || $link.text() || '').trim();
         expect(href, `Video “${title}” should open a videos page`).to.match(
           new RegExp(`^/${this.lang}/videos/`)
         );
-        cy.wrap($link).click();
+        // { force: true }: same Cypress actionability false-positive as
+        // PopularTruckComparison's View All link — flagged "hidden" by the
+        // link's own text styling, not a real overlay; the link is
+        // visible and correctly positioned.
+        cy.wrap($link).click({ force: true });
         cy.location('pathname').should('eq', href);
       });
+  }
+
+  /** Negative: every visible video card should link to a distinct video, not repeat one. */
+  verifyNoDuplicateVideoLinks() {
+    this.scrollToSection();
+    this.getVisibleVideoTitleLinks().then(($links) => {
+      const hrefs = [...$links].map((el) => el.getAttribute('href'));
+      expect(new Set(hrefs).size, 'Each visible video link should be unique').to.eq(hrefs.length);
+    });
   }
 }
 

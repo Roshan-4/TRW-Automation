@@ -99,12 +99,25 @@ class FindReliableUsedTrucksNearYou {
   }
 
   clickFirstCityAndVerifyNavigation() {
+    this.clickCityAndVerifyNavigation(0);
+  }
+
+  clickCityAndVerifyNavigation(cityIndex) {
     this.scrollToSection();
-    const first = this.copy.cities[0];
-    this.getCityLink(first.slug)
+    const city = this.copy.cities[cityIndex];
+    this.getCityLink(city.slug)
       .scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } })
       .click({ force: true });
-    cy.location('pathname').should('eq', this.expectedCityPath(first.slug));
+    cy.location('pathname').should('eq', this.expectedCityPath(city.slug));
+  }
+
+  /** Negative: no two city cards should point at the same listing URL. */
+  verifyNoCityLinkSharesAnotherCitysUrl() {
+    this.scrollToSection();
+    const first = this.copy.cities[0];
+    const second = this.copy.cities[1];
+    this.getCityLink(first.slug).should('not.have.attr', 'href', this.expectedCityPath(second.slug));
+    this.getCityLink(second.slug).should('not.have.attr', 'href', this.expectedCityPath(first.slug));
   }
 }
 

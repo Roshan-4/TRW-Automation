@@ -1,0 +1,10 @@
+{
+  "ElectricVehicle": {
+    "en": {
+      "name": "Electric Commercial Vehicles",
+      "path": "/en/electric",
+      "pageType": "CategoryPages",
+      "checkTruckPriceCta": "Check Truck Price"
+    }
+  }
+}

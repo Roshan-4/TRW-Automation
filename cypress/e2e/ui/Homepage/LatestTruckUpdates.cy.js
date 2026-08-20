@@ -1,6 +1,8 @@
 const LatestTruckUpdates = require('../../../../pages/Homepage/LatestTruckUpdates');
 const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
+const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
+const { deviceTag } = require('../../../../helpers/deviceTags');
 
 const LANGUAGES = LatestTruckUpdates.supportedLanguages;
 
@@ -10,6 +12,7 @@ const langTags = (lang, ...extra) => [
   TEST_TAGS.LATEST_TRUCK_UPDATES,
   TEST_TAGS.LANGUAGE,
   `@${lang}`,
+  deviceTag(),
   ...extra,
 ];
 
@@ -19,6 +22,13 @@ LANGUAGES.forEach((lang) => {
 
     beforeEach(() => {
       page.navigate();
+    });
+
+    registerRedirectionCheck({
+      prefix: 'LTU',
+      lang,
+      tags: langTags(lang, TEST_TAGS.REDIRECTION),
+      label: 'Homepage - Latest Truck Updates',
     });
 
     it(
@@ -67,6 +77,51 @@ LANGUAGES.forEach((lang) => {
 
         allureStep('Click first video title and verify videos navigation', () => {
           page.clickFirstVideoTitleAndVerifyNavigation();
+        });
+      }
+    );
+
+    it(
+      'TC-LTU-03: no visible video card links to a duplicate video',
+      { tags: langTags(lang, TEST_TAGS.NEGATIVE) },
+      () => {
+        documentTestCase({
+          id: 'TC-LTU-03',
+          title: 'No visible video card links to a duplicate video',
+          language: lang,
+          description: 'Confirm every visible video title in Latest Truck Updates links to a distinct video.',
+          expectedResult: 'No two visible video cards share the same href.',
+          steps: ['Open Latest Truck Updates', 'Verify all visible video links are unique'],
+        });
+
+        allureStep('Verify no duplicate video links', () => {
+          page.verifyNoDuplicateVideoLinks();
+        });
+      }
+    );
+
+    it(
+      'TC-LTU-04: last video title navigates to videos page',
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-LTU-04',
+          title: 'Last video title navigates to videos page',
+          language: lang,
+          description:
+            'Click the last (not first) visible video title in Latest Truck Updates and confirm the videos page opens.',
+          expectedResult: 'The browser URL matches that video’s path for the selected language.',
+          steps: [
+            'Open Latest Truck Updates',
+            'Click the last visible video title',
+            'Verify the URL is the matching videos page',
+          ],
+        });
+
+        allureStep('Click last video title and verify videos navigation', () => {
+          page.getVisibleVideoTitleLinks().its('length').then((count) => {
+            page.clickVideoTitleAndVerifyNavigation(count - 1);
+          });
         });
       }
     );

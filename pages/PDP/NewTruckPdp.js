@@ -119,26 +119,32 @@ class NewTruckPdp {
     this.dismissGetOffersLeadIfVisible();
   }
 
+  /**
+   * A successful submission can swap the form into a "you may also be
+   * interested in" upsell screen (same shared component as
+   * pages/UtilityPages/TabbedModelOffers.js) with several interactive
+   * elements (alternative-truck cards, a "Receive similar offers" button).
+   * Live testing found no reliably distinguishable close control there —
+   * every click attempt (by aria-label, by glyph text, by glyph text
+   * scoped to the modal and corner-positioned) ended up landing on one of
+   * the alternative-truck cards instead and navigating to a *different*
+   * truck's PDP entirely, derailing the rest of this truck's shared
+   * session. A fresh re-navigation to this same truck's URL sidesteps the
+   * screen completely rather than risking another wrong click, matching
+   * the fix already proven for TabbedModelOffers.
+   */
   dismissThankYouIfVisible() {
     cy.get('body', { log: false }).then(($body) => {
-      const $thankYou = $body
+      const isThankYouVisible = $body
         .find('h3')
         .filter((_, el) =>
           exactText(this.getOffersLeadCopy.thankYouHeading).test((el.textContent || '').trim())
         )
-        .filter(':visible');
-      if (!$thankYou.length) {
+        .filter(':visible').length > 0;
+      if (!isThankYouVisible) {
         return;
       }
-      const $close = $body
-        .find(`button[aria-label="${this.getOffersLeadCopy.closeAriaLabel}"]`)
-        .filter(':visible');
-      if ($close.length) {
-        cy.wrap($close.first(), { log: false }).click({ force: true, log: false });
-        cy.contains('h3', exactText(this.getOffersLeadCopy.thankYouHeading), {
-          log: false,
-        }).should('not.exist');
-      }
+      this.navigate({ dismissLaunchLead: true });
     });
   }
 
@@ -399,8 +405,11 @@ class NewTruckPdp {
     this.verifyHeadingVisible(`${this.productLabel} Pros & Cons`);
   }
 
+  // The live heading dropped its trailing category suffix (e.g. "Pickup
+  // Truck") at some point — confirmed live, now reads just "Compare
+  // {truck} with Alternative".
   verifyCompareAlternatives() {
-    const heading = `Compare ${this.productLabel} with Alternative ${this.product.compareCategory}`;
+    const heading = `Compare ${this.productLabel} with Alternative`;
     this.verifyHeadingVisible(heading);
   }
 
