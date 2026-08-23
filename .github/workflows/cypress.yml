@@ -84,19 +84,20 @@ jobs:
           name: videos-${{ matrix.device }}
           path: cypress/videos
 
-      - name: Upload reports
+      - name: Upload Allure results
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: reports-${{ matrix.device }}
-          path: reports
+          name: allure-results-${{ matrix.device }}
+          path: allure-results
 
-  cypress-chrome:
+  publish-report:
     runs-on: ubuntu-latest
     needs: [setup, cypress-run]
     if: always()
     env:
       REPORTS_DEPLOY_TOKEN: ${{ secrets.REPORTS_DEPLOY_TOKEN }}
+      REPORT_EMAIL_API_KEY: ${{ secrets.REPORT_EMAIL_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -119,8 +120,31 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Run Cypress tests (Chrome)
-        run: npm run cypress:run:chrome
+      - name: Download desktop Allure results
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results-desktop
+          path: allure-results
+
+      - name: Download mobile Allure results
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results-mobile
+          path: allure-results
+
+      - name: Download desktop failure screenshots
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: screenshots-desktop
+          path: cypress/screenshots-desktop
+
+      - name: Download mobile failure screenshots
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: screenshots-mobile
+          path: cypress/screenshots-mobile
 
       - name: Generate Allure HTML report
         if: always()
@@ -136,3 +160,7 @@ jobs:
       - name: Publish report to GitHub Pages history
         if: ${{ always() && env.REPORTS_DEPLOY_TOKEN != '' }}
         run: npm run report:publish
+
+      - name: Send report email
+        if: ${{ always() && env.REPORT_EMAIL_API_KEY != '' }}
+        run: npm run report:email
