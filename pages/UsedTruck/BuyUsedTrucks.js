@@ -66,21 +66,30 @@ class BuyUsedTrucks {
     });
   }
 
+  // Raw DOM click, not `cy.contains(...).filter(':visible').click()` —
+  // confirmed live elsewhere in this project
+  // (pages/ListingPages/NewListingPages.js, pages/Compare/CompareTrucks.js)
+  // that the Cypress-command version of this click is unreliable and can
+  // silently skip the click.
   openGetSellerDetailsLead() {
     const ctaLabel = this.page.leadTriggerCta;
-    const clickCta = () => {
-      cy.contains('button', exactText(ctaLabel), { log: false })
-        .filter(':visible')
-        .first()
-        .then(($btn) => $btn[0].click());
-    };
+    cy.document().then((doc) => {
+      const clickCta = () => {
+        const button = [...doc.querySelectorAll('button')].find(
+          (el) => el.textContent.trim() === ctaLabel && el.offsetParent !== null
+        );
+        if (button) {
+          button.click();
+        }
+      };
 
-    clickCta();
-    cy.get('input#name[name="name"]').should(($input) => {
-      if (!$input.is(':visible')) {
-        clickCta();
-      }
-      expect($input.is(':visible'), `${ctaLabel} lead form is visible`).to.eq(true);
+      clickCta();
+      cy.get('input#name[name="name"]').should(($input) => {
+        if (!$input.is(':visible')) {
+          clickCta();
+        }
+        expect($input.is(':visible'), `${ctaLabel} lead form is visible`).to.eq(true);
+      });
     });
   }
 

@@ -257,10 +257,21 @@ class SellUsedTrucks {
     this.getFieldInputByLabel('Enter OTP').should('be.visible');
   }
 
-  /** Negative: clicking Next on Step 1 without picking a brand must not advance the wizard. */
+  /**
+   * Negative: clicking Next on Step 1 without picking a brand must not
+   * advance the wizard. Checks the "Model*" *label* directly rather than
+   * via `getFieldInputByLabel('Model*').should('not.exist')` — that helper
+   * chains `.parent().find('input')` onto `cy.contains('label', ...)`, and
+   * when the label genuinely isn't in the DOM (the correct outcome here),
+   * `cy.contains()` itself fails with "expected to find content" before the
+   * chain ever reaches the trailing `.should('not.exist')`, which only
+   * suppresses a not-found failure on the command it's directly attached
+   * to. Confirmed live: this was throwing that exact error even though the
+   * wizard was correctly staying on Step 1.
+   */
   attemptNextWithoutBrand() {
     this.clickNext();
-    this.getFieldInputByLabel('Model*').should('not.exist');
+    cy.contains('label', 'Model*', { log: false }).should('not.exist');
     this.getFieldInputByLabel('Brands*').should('be.visible');
   }
 
@@ -275,7 +286,9 @@ class SellUsedTrucks {
     cy.get('img[src^="blob:"]', { log: false }).should('have.length.at.least', 1);
     this.clickNext();
     cy.contains('Please upload atleast 2 images for your listing', { log: false }).should('be.visible');
-    this.getFieldInputByLabel('Full Name*').should('not.exist');
+    // See attemptNextWithoutBrand() above for why this checks the label
+    // directly instead of going through getFieldInputByLabel().
+    cy.contains('label', 'Full Name*', { log: false }).should('not.exist');
   }
 
   /** Runs the entire wizard end to end, stopping at the OTP gate. */

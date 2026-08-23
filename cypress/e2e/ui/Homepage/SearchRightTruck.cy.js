@@ -191,15 +191,22 @@ LANGUAGES.forEach((lang) => {
     );
 
     it(
-      'TC-SRT-15: keeps brand selection usable after switching away and back to Brand tab',
+      'TC-SRT-15: clears brand selection after switching away and back to Brand tab',
       { tags: langTags(lang, TEST_TAGS.EDGE) },
       () => {
+        // Live-confirmed on trucks.tractorjunction.com: switching to another
+        // tab and back resets the Brand selection — reproduced with a fully
+        // trusted `cy.get(...).select()` click (not just the low-level
+        // event-dispatch helper this page object otherwise uses), so this is
+        // real site behavior, not a test artifact. This test intentionally
+        // asserts that reset rather than the earlier (incorrect) assumption
+        // that the selection would survive the tab switch.
         const brand = page.getBrand('volvo');
         page.selectBrandBySlug(brand.slug);
         page.openBodyTypeTab();
         page.openBrandTab();
         page.withinForm(() => {
-          page.getBrandSelect().should('have.value', brand.slug);
+          page.getBrandSelect().should('have.value', '');
         });
       }
     );

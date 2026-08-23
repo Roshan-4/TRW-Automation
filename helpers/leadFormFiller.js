@@ -46,16 +46,28 @@ class LeadFormFiller {
     this.assertMobileValueAfterType = assertMobileValueAfterType;
   }
 
+  // Some of this project's shared "click CTA, then click again if the modal
+  // isn't visible yet" retry helpers (see the page objects under pages/)
+  // can, on pages with several visually-identical CTAs, end up clicking a
+  // second trigger before the first modal has hydrated — this component
+  // isn't portal-isolated, so that mounts a second, independent modal
+  // instance alongside the first. Confirmed live: this leaves two
+  // `#name`/`#phone` elements in the DOM, which crashes `cy.type()`/
+  // `cy.clear()` (they require a single-element subject). Scoping every
+  // field getter to the first currently-visible match makes filling the
+  // form resilient to that duplicate-mount race without masking a real
+  // "field truly missing" failure — `.should('be.visible')` still fails
+  // loudly when nothing visible matches at all.
   getNameInput() {
-    return cy.get(this.nameSelector);
+    return cy.get(this.nameSelector).filter(':visible').first();
   }
 
   getMobileInput() {
-    return cy.get(this.mobileSelector);
+    return cy.get(this.mobileSelector).filter(':visible').first();
   }
 
   getCityInput() {
-    return cy.get(`input[placeholder="${this.cityPlaceholder}"]`);
+    return cy.get(`input[placeholder="${this.cityPlaceholder}"]`).filter(':visible').first();
   }
 
   getFormRoot() {

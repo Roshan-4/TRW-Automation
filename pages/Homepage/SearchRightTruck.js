@@ -717,10 +717,20 @@ class SearchRightTruck {
     });
   }
 
+  /**
+   * Confirmed live: after selecting a brand, the Model dropdown's options
+   * are populated asynchronously, and for brands with a large model catalog
+   * (e.g. Eicher, 92 models) this can take well over the default 15s
+   * command timeout — anywhere from under a second to 20+ seconds observed
+   * across repeated runs, not a fixed/predictable delay. A longer
+   * `.should()` timeout (still a real, dynamically-retried assertion, not a
+   * fixed wait) rides out that variance instead of failing on a slow but
+   * genuine population.
+   */
   verifyModelOptionsInclude(modelSlugs) {
     this.withinForm(() => {
       modelSlugs.forEach((slug) => {
-        this.getModelSelect().find(`option[value="${slug}"]`).should('exist');
+        this.getModelSelect().find(`option[value="${slug}"]`, { timeout: 30000 }).should('exist');
       });
     });
   }

@@ -10,7 +10,7 @@ on:
   workflow_dispatch: {}
 
 env:
-  NODE_VERSION: '22'
+  NODE_VERSION: '24'
 
 jobs:
   setup:
@@ -94,6 +94,7 @@ jobs:
   cypress-chrome:
     runs-on: ubuntu-latest
     needs: [setup, cypress-run]
+    if: always()
     env:
       REPORTS_DEPLOY_TOKEN: ${{ secrets.REPORTS_DEPLOY_TOKEN }}
     steps:
@@ -122,14 +123,16 @@ jobs:
         run: npm run cypress:run:chrome
 
       - name: Generate Allure HTML report
+        if: always()
         run: npm run generate:report
 
       - name: Upload HTML report
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: html-report
           path: allure-report
 
       - name: Publish report to GitHub Pages history
-        if: ${{ env.REPORTS_DEPLOY_TOKEN != '' }}
+        if: ${{ always() && env.REPORTS_DEPLOY_TOKEN != '' }}
         run: npm run report:publish

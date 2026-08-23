@@ -62,22 +62,36 @@ class CompareTrucks {
     });
   }
 
-  /** Open the shared Check Offers lead form; re-click until it hydrates. */
+  /**
+   * Open the shared Check Offers lead form; re-click until it hydrates.
+   * Uses a raw DOM click (not `cy.contains(...).filter(':visible').click()`)
+   * — confirmed live that the Cypress-command version of this click is
+   * unreliable on pages with several visually-identical CTAs (e.g. one
+   * "Check Offers" per truck card here): `cy.contains()` can resolve to a
+   * button `filter(':visible')` then narrows to zero elements on, leaving
+   * the click silently skipped. Same raw-DOM-click pattern used by
+   * pages/UtilityPages/Tyres.js and TabbedModelOffers.js, which don't hit
+   * this failure mode.
+   */
   openCheckOffersLead() {
     const ctaLabel = this.page.leadTriggerCta;
-    const clickCta = () => {
-      cy.contains('button', exactText(ctaLabel), { log: false })
-        .filter(':visible')
-        .first()
-        .then(($btn) => $btn[0].click());
-    };
+    cy.document().then((doc) => {
+      const clickCta = () => {
+        const button = [...doc.querySelectorAll('button')].find(
+          (el) => el.textContent.trim() === ctaLabel && el.offsetParent !== null
+        );
+        if (button) {
+          button.click();
+        }
+      };
 
-    clickCta();
-    cy.get('input#name[name="name"]').should(($input) => {
-      if (!$input.is(':visible')) {
-        clickCta();
-      }
-      expect($input.is(':visible'), `${ctaLabel} lead form is visible`).to.eq(true);
+      clickCta();
+      cy.get('input#name[name="name"]').should(($input) => {
+        if (!$input.is(':visible')) {
+          clickCta();
+        }
+        expect($input.is(':visible'), `${ctaLabel} lead form is visible`).to.eq(true);
+      });
     });
   }
 
