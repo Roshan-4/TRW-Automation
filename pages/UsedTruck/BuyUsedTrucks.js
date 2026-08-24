@@ -1,6 +1,6 @@
 const buyUsedTrucksData = require('../../testData/UsedTruck/BuyUsedTrucksData.json');
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
-const { LeadFormFiller, exactText } = require('../../helpers/leadFormFiller');
+const { LeadFormFiller, exactText, makeThrottledCtaClicker } = require('../../helpers/leadFormFiller');
 
 /**
  * Buy Used Trucks (/en/buy-used-trucks).
@@ -74,14 +74,7 @@ class BuyUsedTrucks {
   openGetSellerDetailsLead() {
     const ctaLabel = this.page.leadTriggerCta;
     cy.document().then((doc) => {
-      const clickCta = () => {
-        const button = [...doc.querySelectorAll('button')].find(
-          (el) => el.textContent.trim() === ctaLabel && el.offsetParent !== null
-        );
-        if (button) {
-          button.click();
-        }
-      };
+      const clickCta = makeThrottledCtaClicker(doc, ctaLabel);
 
       clickCta();
       cy.get('input#name[name="name"]').should(($input) => {

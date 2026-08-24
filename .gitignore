@@ -63,3 +63,6 @@ build
 
 # Generated report output (branded)
 scripts/allure-custom-report/
+
+# Developer locator request (local reference only)
+stable-locators-request.txt

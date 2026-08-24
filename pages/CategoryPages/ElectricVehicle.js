@@ -1,7 +1,7 @@
 const electricVehicleData = require('../../testData/CategoryPages/ElectricVehicleData.json');
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
 const newListingPagesData = require('../../testData/ListingPages/NewListingPagesData.json');
-const { LeadFormFiller, exactText } = require('../../helpers/leadFormFiller');
+const { LeadFormFiller, exactText, makeThrottledCtaClicker } = require('../../helpers/leadFormFiller');
 const { randomNumberGenerator } = require('../../helpers/randomNumberGenerator');
 
 /**
@@ -103,14 +103,7 @@ class ElectricVehicle {
    */
   openCheckOffersLeadViaCta(ctaLabel) {
     cy.document().then((doc) => {
-      const clickCta = () => {
-        const button = [...doc.querySelectorAll('button')].find(
-          (el) => el.textContent.trim() === ctaLabel && el.offsetParent !== null
-        );
-        if (button) {
-          button.click();
-        }
-      };
+      const clickCta = makeThrottledCtaClicker(doc, ctaLabel);
 
       clickCta();
       cy.get('input#name[name="name"]').should(($input) => {
@@ -158,14 +151,7 @@ class ElectricVehicle {
 
     const ctaLabel = this.getOffersLeadCopy.triggerCta;
     cy.document().then((doc) => {
-      const clickCta = () => {
-        const button = [...doc.querySelectorAll('button')].find(
-          (el) => el.textContent.trim() === ctaLabel && el.offsetParent !== null
-        );
-        if (button) {
-          button.click();
-        }
-      };
+      const clickCta = makeThrottledCtaClicker(doc, ctaLabel);
 
       clickCta();
       cy.contains(this.getOffersLeadCopy.heading, { log: false }).should(($heading) => {

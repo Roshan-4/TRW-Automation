@@ -4,6 +4,43 @@ const exactText = (text) =>
   new RegExp(`^\\s*${String(text).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*$`);
 
 /**
+ * Returns a `clickCta()` closure that finds and raw-DOM-clicks the first
+ * currently-visible button whose exact text is `ctaLabel`, for use inside a
+ * `cy.get(...).should(...)` re-click-until-open retry loop.
+ *
+ * Throttled to at most one real click per `throttleMs` — calling this on
+ * every `.should()` retry tick (which fires every few ms while waiting for
+ * the modal to hydrate) was re-running the raw query *before* the first
+ * click's React re-render had landed. On listing/card pages several
+ * identical CTAs exist at once (one "Check Offers"/"Contact Seller" per
+ * card); if the first click's modal hasn't mounted yet, the query still
+ * matches a *different* card's identical, still-visible CTA and clicks that
+ * one too. Since this modal isn't portal-isolated, that mounts a second,
+ * independent modal instance on top of the first — confirmed live via a CI
+ * failure screenshot showing an empty, freshly-opened second modal sitting
+ * on top of the real (filled, submitted) one, so the screenshot never
+ * showed the actual point of failure and downstream field-fill/suggestion
+ * clicks landed on whichever instance a `:visible` query happened to
+ * resolve to first.
+ */
+function makeThrottledCtaClicker(doc, ctaLabel, throttleMs = 800) {
+  let lastClickAt = 0;
+  return () => {
+    const now = Date.now();
+    if (now - lastClickAt < throttleMs) {
+      return;
+    }
+    const button = [...doc.querySelectorAll('button')].find(
+      (el) => el.textContent.trim() === ctaLabel && el.offsetParent !== null
+    );
+    if (button) {
+      button.click();
+      lastClickAt = now;
+    }
+  };
+}
+
+/**
  * Reusable filler for lead forms that share name / mobile / city fields.
  * Call sites pass selectors or placeholders when a page uses different markup.
  *
@@ -130,10 +167,22 @@ class LeadFormFiller {
       this.getCityInput().click();
     }
     this.getCityInput().type(city, { force: true });
-    cy.contains(this.citySuggestionSelector, new RegExp(city, 'i'))
-      .should('be.visible')
-      .click({ force: true });
+    // Real (non-forced) click on purpose: a forced click fires at whatever
+    // coordinates the suggestion had when Cypress last resolved it, with no
+    // check that the row is still there — if the autocomplete re-renders
+    // (debounced fetch swapping in a fresh result set) between resolving
+    // this query and the click executing, a forced click still "succeeds"
+    // while silently missing, leaving the dropdown open over the submit
+    // button and the city never actually selected. Confirmed live via a CI
+    // screenshot showing exactly that: the suggestion still open, covering
+    // the form's submit button, several seconds after this line ran. A real
+    // click gets Cypress's own actionability + re-query-on-detach retry
+    // instead, and the assertion below fails fast, right here, with an
+    // accurate screenshot, instead of only surfacing as an unrelated-looking
+    // submit timeout much later.
+    cy.contains(this.citySuggestionSelector, new RegExp(city, 'i')).should('be.visible').click();
     this.getCityInput().invoke('val').should('match', new RegExp(city, 'i'));
+    cy.contains(this.citySuggestionSelector, new RegExp(city, 'i')).should('not.exist');
   }
 
   /**
@@ -169,16 +218,30 @@ class LeadFormFiller {
    * No-op when those fields are absent.
    */
   fillPriceOrBudgetIfPresent(amount = '50000') {
+    const isPriceOrBudget = (el) => {
+      const hay = `${el.placeholder || ''} ${el.name || ''} ${el.id || ''} ${el.getAttribute('aria-label') || ''}`.toLowerCase();
+      return /price|budget|amount/.test(hay);
+    };
+
     this.getFormRoot().then(($root) => {
-      const $inputs = $root.find('input').filter((_, el) => {
-        const hay = `${el.placeholder || ''} ${el.name || ''} ${el.id || ''} ${el.getAttribute('aria-label') || ''}`.toLowerCase();
-        return /price|budget|amount/.test(hay);
-      });
-      if ($inputs.length) {
-        cy.wrap($inputs.first(), { log: false })
-          .clear({ force: true })
-          .type(String(amount), { force: true });
+      const $inputs = $root.find('input').filter((_, el) => isPriceOrBudget(el));
+      if (!$inputs.length) {
+        return;
       }
+      // `.should('be.visible')` here (not a raw jQuery grab) so a field that
+      // renders a beat after this snapshot, or is mid-transition, gets a
+      // real Cypress retry window instead of a one-shot force-type landing
+      // on an element the app hasn't finished settling into place — which
+      // this shared filler cannot tell apart from a genuinely-typed value
+      // the app silently drops.
+      cy.wrap($root, { log: false })
+        .find('input')
+        .filter((_, el) => isPriceOrBudget(el))
+        .first()
+        .should('be.visible')
+        .clear({ force: true })
+        .type(String(amount), { force: true })
+        .should('have.value', String(amount));
     });
   }
 
@@ -206,4 +269,5 @@ class LeadFormFiller {
 module.exports = {
   LeadFormFiller,
   exactText,
+  makeThrottledCtaClicker,
 };

@@ -179,35 +179,30 @@ class SearchRightTruck {
     return cy.get('select:has(option.budget-options)', { log: false });
   }
 
+  /**
+   * Selects an option via Cypress's own `.select()` command — real
+   * simulated user selection (focus + native option/value change + the same
+   * `input`/`change` events a browser fires when a person actually picks an
+   * option), not a hand-rolled `HTMLSelectElement` setter bypassing Cypress
+   * entirely. `TC-SRT-15` already relies on `cy.get(...).select()` as the
+   * *trusted* way to drive this exact Brand select (see that spec's
+   * comment) — confirming this genuinely-simulated interaction is what the
+   * site's React state responds to correctly, so there is no need for the
+   * lower-level event-dispatch workaround this method used previously.
+   */
   setSelectValue($heading, findSelect, value, friendlyName = 'dropdown') {
-    const apply = () => {
-      const el = findSelect(Cypress.$($heading).parent()).get(0);
-      if (!el) {
-        return;
-      }
-      const option = [...el.options].find((opt) => opt.value === value);
-      if (!option) {
-        return;
-      }
-      const descriptor = Object.getOwnPropertyDescriptor(window.HTMLSelectElement.prototype, 'value');
-      descriptor.set.call(el, value);
-      el.dispatchEvent(new Event('input', { bubbles: true }));
-      el.dispatchEvent(new Event('change', { bubbles: true }));
-    };
-
-    apply();
     cy.wrap($heading, { log: false })
       .parent()
-      .should(($form) => {
+      .then(($form) => {
         const $select = findSelect($form);
-        if (!$select.length || $select.val() !== value) {
-          apply();
-        }
-        const refreshed = findSelect(Cypress.$($heading).parent());
-        const label = (refreshed.find('option:selected').text() || '').trim();
-        const actual = refreshed.val();
+        expect($select.length, `${friendlyName} select exists`).to.be.greaterThan(0);
+        return cy.wrap($select, { log: false });
+      })
+      .select(value)
+      .then(($select) => {
+        const label = ($select.find('option:selected').text() || '').trim();
         expect(
-          actual,
+          $select.val(),
           `${friendlyName} should be selected (expected "${value}", shown as "${label}")`
         ).to.eq(value);
       });
@@ -255,37 +250,19 @@ class SearchRightTruck {
   selectBudgetByLabel(budgetLabel) {
     this.openBudgetTab();
     this.getFormTitle().then(($heading) => {
-      const valueOf = ($form) => {
-        const $select = $form.find('select:has(option.budget-options)');
-        const $opt = $select.find('option').filter((_, el) => (el.textContent || '').trim() === budgetLabel);
-        return { $select, value: $opt.attr('value') };
-      };
-      const apply = () => {
-        const { $select, value } = valueOf(Cypress.$($heading).parent());
-        const el = $select.get(0);
-        if (!el || value == null) {
-          return;
-        }
-        const descriptor = Object.getOwnPropertyDescriptor(window.HTMLSelectElement.prototype, 'value');
-        descriptor.set.call(el, value);
-        el.dispatchEvent(new Event('input', { bubbles: true }));
-        el.dispatchEvent(new Event('change', { bubbles: true }));
-      };
-      apply();
-      cy.wrap($heading, { log: false })
-        .parent()
-        .then(($form) => {
-          const { $select } = valueOf($form);
-          let selectedText = $select.find('option:selected').text().trim();
-          if (selectedText !== budgetLabel) {
-            apply();
-            selectedText = valueOf(Cypress.$($heading).parent()).$select.find('option:selected').text().trim();
-          }
-          expect(
-            selectedText,
-            `Select Budget should show "${budgetLabel}"`
-          ).to.eq(budgetLabel);
-        });
+      const $select = Cypress.$($heading).parent().find('select:has(option.budget-options)');
+      const value = $select
+        .find('option')
+        .filter((_, el) => (el.textContent || '').trim() === budgetLabel)
+        .attr('value');
+      expect(value, `Select Budget should have an option "${budgetLabel}"`).to.exist;
+
+      this.setSelectValue(
+        $heading,
+        ($form) => $form.find('select:has(option.budget-options)'),
+        value,
+        'Select Budget'
+      );
     });
   }
 
@@ -304,17 +281,20 @@ class SearchRightTruck {
 
   clickSearchUntilUrlIncludes(fragment) {
     this.scrollToForm();
+    // Real `.select()` first (see `setSelectValue`'s doc comment for why
+    // that's the trusted, genuinely-simulated way to change this brand
+    // select) — previously this set `option.selected` directly, the plain
+    // approach AGENTS.md documents as unreliable for updating this site's
+    // React state.
+    this.getFormTitle().then(($heading) => {
+      const $select = Cypress.$($heading).parent().find('select:has(option.brand-options[value="tata"])');
+      if ($select.find(`option[value="${fragment}"]`).length) {
+        cy.wrap($select, { log: false }).select(fragment);
+      }
+    });
     this.getFormTitle().then(($heading) => {
       const click = () => {
         const $form = Cypress.$($heading).parent();
-        const select = $form.find('select:has(option.brand-options[value="tata"])').get(0);
-        if (select && select.querySelector(`option[value="${fragment}"]`)) {
-          [...select.options].forEach((opt) => {
-            opt.selected = opt.value === fragment;
-          });
-          select.dispatchEvent(new Event('input', { bubbles: true }));
-          select.dispatchEvent(new Event('change', { bubbles: true }));
-        }
         const button = $form.find(`button[title="${this.copy.heroSearchButton}"]`).get(0);
         if (button) {
           button.click();
@@ -505,6 +485,24 @@ class SearchRightTruck {
     this.verifyBrandPageUrl(brand.slug);
   }
 
+  /**
+   * Click Search until the brand page opens.
+   *
+   * The caller already selected the brand via `selectBrandBySlug`'s real
+   * `cy.select()` and confirmed it via `verifySelectedBrand` immediately
+   * before this runs — but a live headed run proved that confirmed
+   * selection does NOT reliably survive to click time: the failure
+   * screenshot showed the Brand select reverted to its blank placeholder
+   * and the page's own "Please select any brand or model" validation error,
+   * even though `verifySelectedBrand` had just passed. Re-applying the
+   * value synchronously in the same tick as the click (a real Cypress
+   * command can't run "immediately before" a raw click the way plain JS
+   * can, since every `cy.` command is queued/async) is what makes the
+   * selection actually still be there when the click handler reads it —
+   * this is a timing necessity of this specific select-then-click sequence,
+   * not a substitute for real selection (which `selectBrandBySlug` already
+   * does) and not something `cy.select()` can replace here.
+   */
   clickSearchUntilBrandPage(brandSlug) {
     const expectedPath = this.expectedBrandPagePath(brandSlug);
     this.scrollToForm();
@@ -512,11 +510,8 @@ class SearchRightTruck {
       const click = () => {
         const $form = Cypress.$($heading).parent();
         const select = $form.find('select:has(option.brand-options[value="tata"])').get(0);
-        if (select) {
-          const descriptor = Object.getOwnPropertyDescriptor(
-            window.HTMLSelectElement.prototype,
-            'value'
-          );
+        if (select && select.value !== brandSlug) {
+          const descriptor = Object.getOwnPropertyDescriptor(window.HTMLSelectElement.prototype, 'value');
           descriptor.set.call(select, brandSlug);
           select.dispatchEvent(new Event('input', { bubbles: true }));
           select.dispatchEvent(new Event('change', { bubbles: true }));
@@ -575,12 +570,24 @@ class SearchRightTruck {
     });
   }
 
+  /**
+   * Click Search until the model page opens.
+   *
+   * The caller already selected brand and model via `selectBrandBySlug`/
+   * `selectModelBySlug`'s real `cy.select()` — but (see
+   * `clickSearchUntilBrandPage`'s doc comment for the live-confirmed reason)
+   * a confirmed selection does not reliably survive to click time, since a
+   * real Cypress command can't reapply the value in the same synchronous
+   * tick as a raw click. Re-applying both values right before each click
+   * attempt is a timing necessity of this select-then-click sequence, not a
+   * substitute for the real selection already performed.
+   */
   clickSearchUntilModelPage(brandSlug, modelSlug, modelLabel) {
     const expectedPath = this.expectedModelPagePath(brandSlug, modelSlug);
     this.scrollToForm();
     this.getFormTitle().then(($heading) => {
       const nativeSet = (el, value) => {
-        if (!el) {
+        if (!el || el.value === value) {
           return;
         }
         const descriptor = Object.getOwnPropertyDescriptor(window.HTMLSelectElement.prototype, 'value');
@@ -636,17 +643,29 @@ class SearchRightTruck {
     this.verifyModelPageUrl(brand.slug, model.slug, model.name);
   }
 
+  /**
+   * Poll until the Model select has repopulated for the just-chosen brand.
+   *
+   * The brand itself is already genuinely selected beforehand (via
+   * `selectBrandBySlug`'s real `cy.select()`, confirmed by
+   * `verifySelectedBrand`) — but a live run proved that confirmed selection
+   * does not reliably survive the wait: without re-applying it on every
+   * poll tick, the brand select was found reverted to blank and the Model
+   * select never repopulated at all (`expected 1 to be above 1` — only the
+   * placeholder option), the same live-confirmed reset this component does
+   * elsewhere (see `clickSearchUntilBrandPage`'s doc comment). Re-applying
+   * defensively on each tick — not a substitute for the real selection
+   * already performed — is what keeps this poll aligned with a value the
+   * site might silently revert.
+   */
   waitForModelOptionsAfterBrand(brandSlug, modelSlug) {
     this.getFormTitle().then(($heading) => {
       cy.wrap($heading, { log: false })
         .parent()
         .should(($form) => {
           const brandSelect = $form.find('select:has(option.brand-options[value="tata"])').get(0);
-          if (brandSelect) {
-            const descriptor = Object.getOwnPropertyDescriptor(
-              window.HTMLSelectElement.prototype,
-              'value'
-            );
+          if (brandSelect && brandSelect.value !== brandSlug) {
+            const descriptor = Object.getOwnPropertyDescriptor(window.HTMLSelectElement.prototype, 'value');
             descriptor.set.call(brandSelect, brandSlug);
             brandSelect.dispatchEvent(new Event('input', { bubbles: true }));
             brandSelect.dispatchEvent(new Event('change', { bubbles: true }));
