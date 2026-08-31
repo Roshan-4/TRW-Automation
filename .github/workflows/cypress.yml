@@ -43,6 +43,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        suite: [ui, seo]
         device: [desktop, mobile]
 
     steps:
@@ -67,28 +68,28 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Run Cypress tests (Chrome - ${{ matrix.device }})
-        run: npm run cypress:run:${{ matrix.device }}
+      - name: Run Cypress tests (Chrome - ${{ matrix.suite }} - ${{ matrix.device }})
+        run: npm run cypress:run:${{ matrix.suite }}:${{ matrix.device }}
 
       - name: Upload screenshots
         uses: actions/upload-artifact@v4
         if: failure()
         with:
-          name: screenshots-${{ matrix.device }}
+          name: screenshots-${{ matrix.suite }}-${{ matrix.device }}
           path: cypress/screenshots
 
       - name: Upload videos
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: videos-${{ matrix.device }}
+          name: videos-${{ matrix.suite }}-${{ matrix.device }}
           path: cypress/videos
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: allure-results-${{ matrix.device }}
+          name: allure-results-${{ matrix.suite }}-${{ matrix.device }}
           path: allure-results
 
   publish-report:
@@ -120,31 +121,57 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Download desktop Allure results
+      - name: Download UI desktop Allure results
         uses: actions/download-artifact@v4
         with:
-          name: allure-results-desktop
+          name: allure-results-ui-desktop
           path: allure-results
 
-      - name: Download mobile Allure results
+      - name: Download UI mobile Allure results
         uses: actions/download-artifact@v4
         with:
-          name: allure-results-mobile
+          name: allure-results-ui-mobile
           path: allure-results
 
-      - name: Download desktop failure screenshots
+      - name: Download SEO desktop Allure results
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results-seo-desktop
+          path: allure-results
+
+      - name: Download SEO mobile Allure results
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results-seo-mobile
+          path: allure-results
+
+      - name: Download UI desktop failure screenshots
         uses: actions/download-artifact@v4
         continue-on-error: true
         with:
-          name: screenshots-desktop
-          path: cypress/screenshots-desktop
+          name: screenshots-ui-desktop
+          path: cypress/screenshots-ui-desktop
 
-      - name: Download mobile failure screenshots
+      - name: Download UI mobile failure screenshots
         uses: actions/download-artifact@v4
         continue-on-error: true
         with:
-          name: screenshots-mobile
-          path: cypress/screenshots-mobile
+          name: screenshots-ui-mobile
+          path: cypress/screenshots-ui-mobile
+
+      - name: Download SEO desktop failure screenshots
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: screenshots-seo-desktop
+          path: cypress/screenshots-seo-desktop
+
+      - name: Download SEO mobile failure screenshots
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: screenshots-seo-mobile
+          path: cypress/screenshots-seo-mobile
 
       - name: Generate Allure HTML report
         if: always()

@@ -1,82 +1,243 @@
 {
-  "scrapedAt": "2026-08-26",
+  "scrapedAt": "2026-08-31",
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
   "pages": {
     "brochure": {
       "key": "brochure",
       "name": "Brochure",
-      "path": "/en/brochure",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Download Truck Brochures"
+      "byLanguage": {
+        "en": {
+          "path": "/en/brochure",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Download Truck Brochures"
+            },
+            {
+              "tag": "h2",
+              "text": "Select Truck to download Brochure"
+            },
+            {
+              "tag": "h2",
+              "text": "Best Selling Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Trucks by Budget"
+            },
+            {
+              "tag": "h2",
+              "text": "List of Truck Brands in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck Updates"
+            },
+            {
+              "tag": "h2",
+              "text": "Find All Truck Brochures in One Place"
+            },
+            {
+              "tag": "h3",
+              "text": "Why Truck Brochures Are Important"
+            },
+            {
+              "tag": "h3",
+              "text": "What You’ll Get in a Truck Brochure"
+            },
+            {
+              "tag": "h3",
+              "text": "Available Brands for Brochure Download"
+            },
+            {
+              "tag": "h3",
+              "text": "Truck Types Covered on This Page"
+            },
+            {
+              "tag": "h3",
+              "text": "Why Choose Truck Junction?"
+            },
+            {
+              "tag": "h3",
+              "text": "Start Exploring Now"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on Download Truck Brochure"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on Download Truck Brochure",
+            "questions": [
+              "What is a truck brochure, and why is it important?",
+              "How can I download truck brochures from Truck Junction?",
+              "Are the truck brochure PDFs available for all brands?",
+              "Can I get old model truck brochures for download?",
+              "Where can I find Tata truck brochures for download?",
+              "How useful is a truck brochure before buying a truck?",
+              "Are the truck brochures updated regularly?",
+              "Can I compare different models using truck brochure PDFs?",
+              "Are the truck brochure downloads free on Truck Junction?",
+              "How do I get Mahindra truck brochures in PDF format?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Select Truck to download Brochure"
+        "hi": {
+          "path": "/hi/brochure",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ट्रक ब्रोशर डाउनलोड करें"
+            },
+            {
+              "tag": "h2",
+              "text": "ब्रोचर डाउनलोड के लिए ट्रक चुनें"
+            },
+            {
+              "tag": "h2",
+              "text": "सर्वाधिक बिकने वाले ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "बजट के अनुसार ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में ट्रक ब्रांडों की सूची"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रक अपडेट"
+            },
+            {
+              "tag": "h2",
+              "text": "सभी ट्रक ब्रोशर एक ही जगह पाएं"
+            },
+            {
+              "tag": "h3",
+              "text": "ट्रक ब्रोशर क्यों जरूरी हैं?"
+            },
+            {
+              "tag": "h3",
+              "text": "ट्रक ब्रोशर में आपको क्या मिलेगा?"
+            },
+            {
+              "tag": "h3",
+              "text": "किन ब्रांड्स के ब्रोशर यहां मिलेंगे?"
+            },
+            {
+              "tag": "h3",
+              "text": "किन-किन ट्रक कैटेगरी के ब्रोशर उपलब्ध हैं?"
+            },
+            {
+              "tag": "h3",
+              "text": "ट्रक जंक्शन क्यों चुनें?"
+            },
+            {
+              "tag": "h3",
+              "text": "अभी एक्सप्लोर करें"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रक ब्रोशर डाउनलोड पर अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "ट्रक ब्रोशर डाउनलोड पर अक्सर पूछे जाने वाले प्रश्न",
+            "questions": [
+              "ट्रक ब्रोशर क्या होता है और यह क्यों महत्वपूर्ण है?",
+              "ट्रक जंक्शन से ट्रक ब्रोशर कैसे डाउनलोड करें?",
+              "क्या सभी ब्रांड के ट्रक ब्रोशर पीडीएफ में उपलब्ध हैं?",
+              "क्या पुराने ट्रक मॉडल के ब्रोशर भी मिल सकते हैं?",
+              "टाटा ट्रक के ब्रोशर कहां से डाउनलोड होंगे?",
+              "ट्रक खरीदने से पहले ब्रोशर कितना उपयोगी होता है?",
+              "क्या ट्रक ब्रोशर को नियमित रूप से अपडेट किया जाता है?",
+              "क्या मैं ट्रक ब्रोशर पीडीएफ की मदद से अलग-अलग मॉडल की तुलना कर सकता हूं?",
+              "क्या ट्रक जंक्शन पर ट्रक ब्रोशर डाउनलोड करना फ्री है?",
+              "मुझे महिंद्रा ट्रक के ब्रोशर पीडीएफ फॉर्मेट में कैसे मिलेंगे?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Best Selling Trucks"
-        },
-        {
-          "tag": "h2",
-          "text": "Trucks by Budget"
-        },
-        {
-          "tag": "h2",
-          "text": "List of Truck Brands in India"
-        },
-        {
-          "tag": "h2",
-          "text": "Truck Updates"
-        },
-        {
-          "tag": "h2",
-          "text": "Find All Truck Brochures in One Place"
-        },
-        {
-          "tag": "h3",
-          "text": "Why Truck Brochures Are Important"
-        },
-        {
-          "tag": "h3",
-          "text": "What You’ll Get in a Truck Brochure"
-        },
-        {
-          "tag": "h3",
-          "text": "Available Brands for Brochure Download"
-        },
-        {
-          "tag": "h3",
-          "text": "Truck Types Covered on This Page"
-        },
-        {
-          "tag": "h3",
-          "text": "Why Choose Truck Junction?"
-        },
-        {
-          "tag": "h3",
-          "text": "Start Exploring Now"
-        },
-        {
-          "tag": "h2",
-          "text": "Frequently Asked Questions on Download Truck Brochure"
+        "ta": {
+          "path": "/ta/brochure",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டிரக் பிரச்சூர்களை பதிவிறக்கவும்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரச்சூரை பதிவிறக்க டிரக்கை தேர்ந்தெடுக்கவும்"
+            },
+            {
+              "tag": "h2",
+              "text": "சிறந்த விற்பனையாகும் டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பட்ஜெட் வாரியாக டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் டிரக் பிராண்ட்களின் பட்டியல்"
+            },
+            {
+              "tag": "h2",
+              "text": "டிரக் அப்டேட்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "ஒரே இடத்தில் அனைத்து டிரக் பிரச்சூர்களையும் கண்டறியவும்"
+            },
+            {
+              "tag": "h3",
+              "text": "டிரக் பிரச்சூர்கள் ஏன் முக்கியம்"
+            },
+            {
+              "tag": "h3",
+              "text": "ஒரு டிரக் பிரச்சூரில் நீங்கள் என்ன பெறுவீர்கள்"
+            },
+            {
+              "tag": "h3",
+              "text": "பிரச்சூர் பதிவிறக்கத்திற்கு கிடைக்கும் பிராண்ட்கள்"
+            },
+            {
+              "tag": "h3",
+              "text": "இந்த பக்கத்தில் உள்ளடங்கிய டிரக் வகைகள்"
+            },
+            {
+              "tag": "h3",
+              "text": "டிரக் ஜங்ஷனை ஏன் தேர்வு செய்ய வேண்டும்?"
+            },
+            {
+              "tag": "h3",
+              "text": "இப்போது ஆராயத் தொடங்குங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டிரக் பிரச்சூரை பதிவிறக்குவதில் அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            }
+          ],
+          "faq": {
+            "heading": "டிரக் பிரச்சூரை பதிவிறக்குவதில் அடிக்கடி கேட்கப்படும் கேள்விகள்",
+            "questions": [
+              "டிரக் பிரச்சூர் என்றால் என்ன, அது ஏன் முக்கியம்?",
+              "டிரக் ஜங்ஷனில் இருந்து டிரக் பிரச்சூர்களை எப்படி பதிவிறக்கலாம்?",
+              "அனைத்து பிராண்ட்களுக்கும் டிரக் பிரச்சூர் PDFகள் கிடைக்குமா?",
+              "பழைய மாடல் டிரக் பிரச்சூர்களை பதிவிறக்கலாமா?",
+              "டாடா டிரக் பிரச்சூர்களை பதிவிறக்க எங்கே காணலாம்?",
+              "டிரக் வாங்குவதற்கு முன் டிரக் பிரச்சூர் எவ்வளவு பயனுள்ளது?",
+              "டிரக் பிரச்சூர்கள் தொடர்ந்து புதுப்பிக்கப்படுமா?",
+              "டிரக் பிரச்சூர் PDFகளைப் பயன்படுத்தி வெவ்வேறு மாடல்களை ஒப்பிடலாமா?",
+              "டிரக் ஜங்ஷனில் டிரக் பிரச்சூர் பதிவிறக்கங்கள் இலவசமா?",
+              "மஹிந்திரா டிரக் பிரச்சூர்களை PDF வடிவத்தில் எப்படி பெறலாம்?"
+            ]
+          }
         }
-      ],
-      "faq": {
-        "heading": "Frequently Asked Questions on Download Truck Brochure",
-        "questions": [
-          "What is a truck brochure, and why is it important?",
-          "How can I download truck brochures from Truck Junction?",
-          "Are the truck brochure PDFs available for all brands?",
-          "Can I get old model truck brochures for download?",
-          "Where can I find Tata truck brochures for download?",
-          "How useful is a truck brochure before buying a truck?",
-          "Are the truck brochures updated regularly?",
-          "Can I compare different models using truck brochure PDFs?",
-          "Are the truck brochure downloads free on Truck Junction?",
-          "How do I get Mahindra truck brochures in PDF format?"
-        ]
       }
     }
   }

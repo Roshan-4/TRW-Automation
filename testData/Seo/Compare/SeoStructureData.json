@@ -1,78 +1,211 @@
 {
-  "scrapedAt": "2026-08-26",
+  "scrapedAt": "2026-08-31",
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
   "pages": {
     "compareTrucks": {
       "key": "compareTrucks",
       "name": "Compare Trucks",
-      "path": "/en/compare",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Compare Trucks"
+      "byLanguage": {
+        "en": {
+          "path": "/en/compare",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Compare Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Truck Comparison"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Models by Category"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Commercial Vehicles Comparison"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Electric Vehicles Comparisons"
+            },
+            {
+              "tag": "h2",
+              "text": "Compare Trucks & Other Commercial Vehicles"
+            },
+            {
+              "tag": "h2",
+              "text": "Why Choose the Truck Comparison Tool?"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck Junction Comparison Tool"
+            },
+            {
+              "tag": "h2",
+              "text": "Compare Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Compare Trucks Online at Truck Junction"
+            },
+            {
+              "tag": "h2",
+              "text": "Benefits of Truck Comparison at Truck Junction"
+            },
+            {
+              "tag": "h2",
+              "text": "Compare Trucks from Home Comfortably"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions",
+            "questions": [
+              "What is Truck Junction’s comparison tool?",
+              "Which trucks can I compare online?",
+              "How do I compare trucks on Truck Junction?",
+              "Can I compare trucks from different brands?",
+              "Does the tool show truck performance details?",
+              "Can I compare used trucks too?",
+              "Is Truck Junction’s information reliable?",
+              "Can I compare electric trucks here?",
+              "Do I need to visit a showroom to compare trucks?",
+              "How many trucks can I compare at once?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Popular Truck Comparison"
+        "hi": {
+          "path": "/hi/compare",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ट्रकों की तुलना करें"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ट्रक तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "कैटेगरी के अनुसार लोकप्रिय मॉडल"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय कमर्शियल वाहनों की तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय इलेक्ट्रिक वाहनों की तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रक और अन्य वाणिज्यिक वाहनों की तुलना करें"
+            },
+            {
+              "tag": "h2",
+              "text": "अक्सर पूछे जाने वाले सवाल"
+            }
+          ],
+          "faq": {
+            "heading": "अक्सर पूछे जाने वाले सवाल",
+            "questions": [
+              "ट्रक जंक्शन का तुलना टूल क्या है?",
+              "मैं किन-किन ट्रकों की ऑनलाइन तुलना कर सकता हूं?",
+              "ट्रक जंक्शन पर ट्रक की तुलना कैसे करें?",
+              "क्या मैं अलग-अलग ब्रांड के ट्रकों की तुलना कर सकता हूं?",
+              "क्या यह टूल ट्रकों के परफॉरमेंस की जानकारी भी देता है?",
+              "क्या मैं पुराने (Used) ट्रकों की भी तुलना कर सकता हूं?",
+              "क्या ट्रक जंक्शन की जानकारी भरोसेमंद है?",
+              "क्या मैं इलेक्ट्रिक ट्रक की भी तुलना कर सकता हूं?",
+              "क्या ट्रकों की तुलना के लिए शोरूम जाना जरूरी है?",
+              "एक बार में कितने ट्रकों की तुलना कर सकता हूं?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Popular Models by Category"
-        },
-        {
-          "tag": "h2",
-          "text": "Popular Commercial Vehicles Comparison"
-        },
-        {
-          "tag": "h2",
-          "text": "Popular Electric Vehicles Comparisons"
-        },
-        {
-          "tag": "h2",
-          "text": "Compare Trucks & Other Commercial Vehicles"
-        },
-        {
-          "tag": "h2",
-          "text": "Why Choose the Truck Comparison Tool?"
-        },
-        {
-          "tag": "h2",
-          "text": "Truck Junction Comparison Tool"
-        },
-        {
-          "tag": "h2",
-          "text": "Compare Trucks in India"
-        },
-        {
-          "tag": "h2",
-          "text": "Compare Trucks Online at Truck Junction"
-        },
-        {
-          "tag": "h2",
-          "text": "Benefits of Truck Comparison at Truck Junction"
-        },
-        {
-          "tag": "h2",
-          "text": "Compare Trucks from Home Comfortably"
-        },
-        {
-          "tag": "h2",
-          "text": "Frequently Asked Questions"
+        "ta": {
+          "path": "/ta/compare",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டிரக்குகளை ஒப்பிடுக"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான ட்ரக் ஒப்பீடு"
+            },
+            {
+              "tag": "h2",
+              "text": "வகையின்படி பிரபலமான மாதிரிகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான வணிக வாகனங்களை ஒப்பிடுக"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான மின்சார வாகனங்களை ஒப்பிடுக"
+            },
+            {
+              "tag": "h2",
+              "text": "லாரிகள் மற்றும் பிற வணிக வாகனங்களை ஒப்பிடுக"
+            },
+            {
+              "tag": "h3",
+              "text": "டிரக் ஒப்பீட்டுக் கருவியை ஏன் தேர்வு செய்ய வேண்டும்?"
+            },
+            {
+              "tag": "h3",
+              "text": "டிரக் ஜங்ஷன் ஒப்பீட்டுக் கருவி"
+            },
+            {
+              "tag": "h3",
+              "text": "இந்தியாவில் டிரக்குகளை ஒப்பிடுங்கள்"
+            },
+            {
+              "tag": "h3",
+              "text": "சில பிரபலமான ஒப்பீடுகள் பின்வருமாறு:"
+            },
+            {
+              "tag": "h3",
+              "text": "டிரக் ஜங்ஷனில் ஆன்லைனில் டிரக்குகளை ஒப்பிடுங்கள்"
+            },
+            {
+              "tag": "h3",
+              "text": "டிரக் ஜங்ஷனில் டிரக்குகளை ஒப்பிடுவதன் நன்மைகள்"
+            },
+            {
+              "tag": "h3",
+              "text": "வீட்டிலிருந்தபடியே வசதியாக டிரக்குகளை ஒப்பிடுங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            }
+          ],
+          "faq": {
+            "heading": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+            "questions": [
+              "டிரக் ஜங்ஷனின் ஒப்பீட்டு கருவி என்றால் என்ன?",
+              "எந்த டிரக்களை ஆன்லைனில் ஒப்பிடலாம்?",
+              "டிரக் சந்திப்பில் டிரக்களை எப்படி ஒப்பிடுவது?",
+              "வெவ்வேறு பிராண்டுகளின் டிரக்களை ஒப்பிட முடியுமா?",
+              "கருவி டிரக் செயல்திறன் விவரங்களைக் காட்டுகிறதா?",
+              "பயன்படுத்திய டிரக்களையும் ஒப்பிடலாமா?",
+              "டிரக் சந்திப்பின் தகவல்கள் நம்பகமானதா?",
+              "மின்சார டிரக்களை இங்கே ஒப்பிடலாமா?",
+              "டிரக்களை ஒப்பிடுவதற்கு நான் ஒரு ஷோரூமுக்கு செல்ல வேண்டுமா?",
+              "ஒரே நேரத்தில் எத்தனை டிரக்களை ஒப்பிட முடியும்?"
+            ]
+          }
         }
-      ],
-      "faq": {
-        "heading": "Frequently Asked Questions",
-        "questions": [
-          "What is Truck Junction’s comparison tool?",
-          "Which trucks can I compare online?",
-          "How do I compare trucks on Truck Junction?",
-          "Can I compare trucks from different brands?",
-          "Does the tool show truck performance details?",
-          "Can I compare used trucks too?",
-          "Is Truck Junction’s information reliable?",
-          "Can I compare electric trucks here?",
-          "Do I need to visit a showroom to compare trucks?",
-          "How many trucks can I compare at once?"
-        ]
       }
     }
   }

@@ -1,278 +1,789 @@
 {
-  "scrapedAt": "2026-08-26",
+  "scrapedAt": "2026-08-31",
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
   "pages": {
     "dealers": {
       "key": "dealers",
       "name": "Dealers",
-      "path": "/en/dealers",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Truck Dealers in India"
+      "byLanguage": {
+        "en": {
+          "path": "/en/dealers",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Dealers in India"
+            },
+            {
+              "tag": "h2",
+              "text": "About Truck Dealers"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck Dealers By Brand"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck Dealers"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Truck Dealers In India"
+            },
+            {
+              "tag": "h2",
+              "text": "How can I get Best Truck Dealership Near Me?"
+            },
+            {
+              "tag": "h3",
+              "text": "Step By Step Guide to Get Top Truck Dealer Showroom"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on Truck Dealers in India"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on Truck Dealers in India",
+            "questions": [
+              "How many Truck/3-Wheeler dealer brands are available at Truck Junction?",
+              "How many commercial vehicle dealers are available at Truck Junction?",
+              "Where do I get the Truck/3 Wheeler dealer’s contact number and other details?",
+              "How can I get a Truck dealers or showrooms near me?",
+              "Where can I get the information of used or old truck dealers?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "About Truck Dealers"
+        "hi": {
+          "path": "/hi/dealers",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "भारत में ट्रक डीलर्स"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रक डीलर्स"
+            },
+            {
+              "tag": "h2",
+              "text": "ब्रांड के अनुसार ट्रक डीलर्स"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में ट्रक डीलर्स खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "मैं अपने निकटतम सर्वश्रेष्ठ ट्रक डीलरशिप कैसे प्राप्त कर सकता हूं?"
+            },
+            {
+              "tag": "h3",
+              "text": "टॉप ट्रक डीलर शोरूम प्राप्त करने के लिए चरणबद्ध प्रक्रिया"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में ट्रक डीलर्स से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "भारत में ट्रक डीलर्स से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+            "questions": [
+              "ट्रक जंक्शन पर कितने ट्रक/3-व्हीलर डीलर ब्रांड उपलब्ध हैं?",
+              "ट्रक जंक्शन पर कितने वाणिज्यिक वाहन डीलर उपलब्ध हैं?",
+              "मुझे ट्रक/3 व्हीलर डीलर का संपर्क नंबर और अन्य विवरण कहां से मिलेगा?",
+              "मुझे अपने आसपास ट्रक डीलर या शोरूम कैसे मिल सकते हैं?",
+              "मुझे यूज्ड या पुराने ट्रक डीलरों की जानकारी कहां मिल सकती है?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Truck Dealers By Brand"
-        },
-        {
-          "tag": "h3",
-          "text": "Truck Dealers In Popular Cities"
-        },
-        {
-          "tag": "h2",
-          "text": "Truck Dealers"
-        },
-        {
-          "tag": "h2",
-          "text": "Find Truck Dealers In India"
-        },
-        {
-          "tag": "h2",
-          "text": "How can I get Best Truck Dealership Near Me?"
-        },
-        {
-          "tag": "h3",
-          "text": "Step By Step Guide to Get Top Truck Dealer Showroom"
-        },
-        {
-          "tag": "h2",
-          "text": "Frequently Asked Questions on Truck Dealers in India"
+        "ta": {
+          "path": "/ta/dealers",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "இந்தியாவில் டிரக் டீலர்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "About Truck Dealers"
+            },
+            {
+              "tag": "h2",
+              "text": "பிராண்ட் வாரியாக டிரக் டீலர்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டிரக் டீலர்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் டிரக் டீலர்களைக் கண்டறியுங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "எனக்கு அருகிலுள்ள சிறந்த டிரக் டீலர்ஷிப்பை நான் எப்படிப் பெறுவது?"
+            },
+            {
+              "tag": "h2",
+              "text": "சிறந்த டிரக் டீலர் ஷோரூமைப் பெறுவதற்கான படிப்படியான வழிகாட்டி"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         }
-      ],
-      "faq": {
-        "heading": "Frequently Asked Questions on Truck Dealers in India",
-        "questions": [
-          "How many Truck/3-Wheeler dealer brands are available at Truck Junction?",
-          "How many commercial vehicle dealers are available at Truck Junction?",
-          "Where do I get the Truck/3 Wheeler dealer’s contact number and other details?",
-          "How can I get a Truck dealers or showrooms near me?",
-          "Where can I get the information of used or old truck dealers?"
-        ]
       }
     },
     "serviceCenter": {
       "key": "serviceCenter",
       "name": "Service Center",
-      "path": "/en/service-center",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Truck Service Centers In India"
+      "byLanguage": {
+        "en": {
+          "path": "/en/service-center",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Service Centers In India"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck Service Centers"
+            },
+            {
+              "tag": "h2",
+              "text": "Search Truck Service Centers By Brand"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Truck Service Centers"
+        "hi": {
+          "path": "/hi/service-center",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "भारत में ट्रक सर्विस सेंटर"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रक सर्विस सेंटर"
+            },
+            {
+              "tag": "h2",
+              "text": "ब्रांड के अनुसार ट्रक सर्विस सेंटर खोजें"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Search Truck Service Centers By Brand"
+        "ta": {
+          "path": "/ta/service-center",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Service Centers In India"
+            },
+            {
+              "tag": "h2",
+              "text": "டிரக் சர்வீஸ் மையங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிராண்ட் அடிப்படையில் டிரக் சர்வீஸ் மையங்களை தேடு"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         }
-      ],
-      "faq": {
-        "heading": "",
-        "questions": []
       }
     },
     "spareParts": {
       "key": "spareParts",
       "name": "Spare Parts",
-      "path": "/en/spare-parts",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Truck Spare Parts Dealers in India"
+      "byLanguage": {
+        "en": {
+          "path": "/en/spare-parts",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Spare Parts Dealers in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck Spare Parts In India"
+            },
+            {
+              "tag": "h2",
+              "text": "Search Truck Spare Parts By Brand"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Truck Spare Parts In India"
+        "hi": {
+          "path": "/hi/spare-parts",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "भारत में ट्रक स्पेयर पार्ट्स डीलर"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में ट्रक स्पेयर पार्ट्स"
+            },
+            {
+              "tag": "h2",
+              "text": "ब्रांड के अनुसार ट्रक स्पेयर पार्ट्स खोजें"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Search Truck Spare Parts By Brand"
+        "ta": {
+          "path": "/ta/spare-parts",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "இந்தியாவில் ட்ரக் உதிரி பாகங்கள் விற்பனையாளர்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் டிரக் ஸ்பேர் பாகங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிராண்ட் அடிப்படையில் டிரக் ஸ்பேர் பாகங்களை தேடுங்கள்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         }
-      ],
-      "faq": {
-        "heading": "",
-        "questions": []
       }
     },
     "emiCalculator": {
       "key": "emiCalculator",
       "name": "EMI Calculator",
-      "path": "/en/emi-calculator",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Truck EMI Calculator"
+      "byLanguage": {
+        "en": {
+          "path": "/en/emi-calculator",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck EMI Calculator"
+            },
+            {
+              "tag": "h2",
+              "text": "Calculate Your EMI"
+            },
+            {
+              "tag": "h3",
+              "text": "About Commercial Vehicle EMI Calculator"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on Commercial Vehicle EMI Calculator"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on Commercial Vehicle EMI Calculator",
+            "questions": [
+              "What is the meaning of Commercial Vehicle EMI?",
+              "What is the Down Payment of a Loan?",
+              "What if Someone Misses the truck EMI?",
+              "What is the procedure for closing the loan?",
+              "How is the EMI of a loan calculated?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Calculate Your EMI"
+        "hi": {
+          "path": "/hi/emi-calculator",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ट्रक ईएमआई कैलकुलेटर"
+            },
+            {
+              "tag": "h2",
+              "text": "ईएमआई की गणना करें"
+            },
+            {
+              "tag": "h3",
+              "text": "वाणिज्यिक वाहन ईएमआई कैलक्यूलेटर के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "कमर्शियल व्हीकल ईएमआई कैलकुलेटर से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "कमर्शियल व्हीकल ईएमआई कैलकुलेटर से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+            "questions": [
+              "कमर्शियल व्हीकल ईएमआई का क्या अर्थ है?",
+              "लोन का डाउन पेमेंट क्या है?",
+              "क्या होगा अगर किसी ने ट्रक की ईएमआई मिस कर दी?",
+              "लोन बंद करने की प्रक्रिया क्या है?",
+              "लोन ईएमआई की गणना कैसे की जाती है?"
+            ]
+          }
         },
-        {
-          "tag": "h3",
-          "text": "About Commercial Vehicle EMI Calculator"
-        },
-        {
-          "tag": "h2",
-          "text": "Frequently Asked Questions on Commercial Vehicle EMI Calculator"
+        "ta": {
+          "path": "/ta/emi-calculator",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டிரக் EMI கணிப்பான்"
+            },
+            {
+              "tag": "h2",
+              "text": "உங்கள் லாரி EMI-ஐ கணக்கிடுங்கள்"
+            },
+            {
+              "tag": "h3",
+              "text": "வணிக வாகன EMI கணிப்பான் பற்றியது"
+            },
+            {
+              "tag": "h2",
+              "text": "வணிக வாகன EMI கணிப்பான் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            }
+          ],
+          "faq": {
+            "heading": "வணிக வாகன EMI கணிப்பான் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+            "questions": [
+              "வணிக வாகன EMI என்றால் என்ன?",
+              "கடனுக்கான முன்பணம் செலுத்துதல் என்றால் என்ன?",
+              "யாராவது டிரக் EMI-ஐத் தவறவிட்டால் என்ன செய்வது?",
+              "கடனை அடைப்பதற்கான நடைமுறை என்ன?",
+              "கடனுக்கான EMI எவ்வாறு கணக்கிடப்படுகிறது?"
+            ]
+          }
         }
-      ],
-      "faq": {
-        "heading": "Frequently Asked Questions on Commercial Vehicle EMI Calculator",
-        "questions": [
-          "What is the meaning of Commercial Vehicle EMI?",
-          "What is the Down Payment of a Loan?",
-          "What if Someone Misses the truck EMI?",
-          "What is the procedure for closing the loan?",
-          "How is the EMI of a loan calculated?"
-        ]
       }
     },
     "brandAndTonnage": {
       "key": "brandAndTonnage",
       "name": "Brand And Tonnage",
-      "path": "/en/commercial-vehicle-by-brand-and-ton",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Commercial Vehicles by Brand & Ton"
+      "byLanguage": {
+        "en": {
+          "path": "/en/commercial-vehicle-by-brand-and-ton",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Commercial Vehicles by Brand & Ton"
+            },
+            {
+              "tag": "h2",
+              "text": "Commercial Vehicles by Brand & Ton Range in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Select Commercial Vehicle By Brands"
+            },
+            {
+              "tag": "h2",
+              "text": "Choose Commercial Vehicle By Ton"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Top Brand-wise Commercial Vehicle Under Specific Ton"
+            },
+            {
+              "tag": "h2",
+              "text": "About Commercial Vehicle by Brand & Ton"
+            },
+            {
+              "tag": "h3",
+              "text": "Why Browse Commercial Vehicles by Brand & Payload?"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on Commercial Vehicles by Brand & Ton"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on Commercial Vehicles by Brand & Ton",
+            "questions": [
+              "How can I find commercial vehicles by brand and ton?",
+              "Which commercial vehicle brands are available on Truck Junction?",
+              "What ton ranges are available for commercial vehicles?",
+              "Can I explore brand-wise commercial vehicles under a specific ton?",
+              "Can I get price and specification details of any specific brand and ton?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Commercial Vehicles by Brand & Ton Range in India"
+        "hi": {
+          "path": "/hi/commercial-vehicle-by-brand-and-ton",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ब्रांड और टन के अनुसार कमर्शियल वाहन"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में ब्रांड और टन क्षमता के अनुसार कमर्शियल वाहन खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "ब्रांड के अनुसार कमर्शियल वाहन चुनें"
+            },
+            {
+              "tag": "h2",
+              "text": "टन क्षमता के अनुसार कमर्शियल वाहन चुनें"
+            },
+            {
+              "tag": "h2",
+              "text": "टॉप ब्रांड के टन के अनुसार कमर्शियल वाहन"
+            },
+            {
+              "tag": "h2",
+              "text": "ब्रांड और टन के अनुसार कमर्शियल वाहन के बारे में"
+            },
+            {
+              "tag": "h3",
+              "text": "ब्रांड और पेलोड के अनुसार कमर्शियल वाहन क्यों देखें?"
+            },
+            {
+              "tag": "h2",
+              "text": "ब्रांड और टन क्षमता अनुसार कमर्शियल वाहनों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "ब्रांड और टन क्षमता अनुसार कमर्शियल वाहनों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+            "questions": [
+              "ब्रांड और टन के अनुसार कमर्शियल वाहन कैसे खोज सकते हैं?",
+              "ट्रक जंक्शन पर कौन-कौन से ब्रांड के कमर्शियल वाहन उपलब्ध हैं?",
+              "कमर्शियल वाहनों के लिए कौन-कौन सी टन रेंज उपलब्ध हैं?",
+              "क्या मैं किसी विशेष टन क्षमता और ब्रांड के अनुसार कमर्शियल वाहन खोज सकता हूँ?",
+              "क्या मुझे कमर्शियल वाहन की कीमत और फीचर्स की जानकारी भी मिलेगी?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Select Commercial Vehicle By Brands"
-        },
-        {
-          "tag": "h2",
-          "text": "Choose Commercial Vehicle By Ton"
-        },
-        {
-          "tag": "h2",
-          "text": "Find Top Brand-wise Commercial Vehicle Under Specific Ton"
-        },
-        {
-          "tag": "h2",
-          "text": "About Commercial Vehicle by Brand & Ton"
-        },
-        {
-          "tag": "h3",
-          "text": "Why Browse Commercial Vehicles by Brand & Payload?"
-        },
-        {
-          "tag": "h2",
-          "text": "Frequently Asked Questions on Commercial Vehicles by Brand & Ton"
+        "ta": {
+          "path": "/ta/commercial-vehicle-by-brand-and-ton",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "பிராண்ட் & டன் வாரியாக வணிக வாகனங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் பிராண்ட் & டன் வாரியாக வணிக வாகனங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிராண்ட்கள் வாரியாக வணிக வாகனத்தைத் தேர்ந்தெடுக்கவும்"
+            },
+            {
+              "tag": "h2",
+              "text": "டன் வாரியாக வணிக வாகனத்தைத் தேர்வு செய்யவும்"
+            },
+            {
+              "tag": "h2",
+              "text": "குறிப்பிட்ட டன் வாரியாக சிறந்த பிராண்ட் வாரியான வணிக வாகனத்தைக் கண்டறியவும்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிராண்ட் & டன் வாரியாக வணிக வாகனம் பற்றி"
+            },
+            {
+              "tag": "h3",
+              "text": "பிராண்ட் & பேலோட் மூலம் வணிக வாகனங்களை ஏன் உலவ வேண்டும்?"
+            },
+            {
+              "tag": "h2",
+              "text": "பிராண்ட் & டன் மூலம் வணிக வாகனங்களில் அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            }
+          ],
+          "faq": {
+            "heading": "பிராண்ட் & டன் மூலம் வணிக வாகனங்களில் அடிக்கடி கேட்கப்படும் கேள்விகள்",
+            "questions": [
+              "பிராண்ட் மற்றும் டன் மூலம் வணிக வாகனங்களை நான் எவ்வாறு கண்டுபிடிப்பது?",
+              "டிரக் சந்திப்பில் எந்த வணிக வாகன பிராண்டுகள் கிடைக்கின்றன?",
+              "வணிக வாகனங்களுக்கு என்ன டன் வரம்புகள் கிடைக்கின்றன?",
+              "ஒரு குறிப்பிட்ட டன்னுக்கு கீழ் பிராண்ட் வாரியான வணிக வாகனங்களை நான் ஆராயலாமா?",
+              "எந்த குறிப்பிட்ட பிராண்ட் மற்றும் டன்னின் விலை மற்றும் விவரக்குறிப்பு விவரங்களைப் பெற முடியுமா?"
+            ]
+          }
         }
-      ],
-      "faq": {
-        "heading": "Frequently Asked Questions on Commercial Vehicles by Brand & Ton",
-        "questions": [
-          "How can I find commercial vehicles by brand and ton?",
-          "Which commercial vehicle brands are available on Truck Junction?",
-          "What ton ranges are available for commercial vehicles?",
-          "Can I explore brand-wise commercial vehicles under a specific ton?",
-          "Can I get price and specification details of any specific brand and ton?"
-        ]
       }
     },
     "news": {
       "key": "news",
       "name": "News",
-      "path": "/en/news",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Latest Truck News"
+      "byLanguage": {
+        "en": {
+          "path": "/en/news",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Latest Truck News"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Hindi News"
+            },
+            {
+              "tag": "h2",
+              "text": "Trending Truck News"
+            },
+            {
+              "tag": "h2",
+              "text": "Auto News"
+            },
+            {
+              "tag": "h2",
+              "text": "Logistic News"
+            },
+            {
+              "tag": "h2",
+              "text": "Social News"
+            },
+            {
+              "tag": "h2",
+              "text": "Success Stories News"
+            },
+            {
+              "tag": "h2",
+              "text": "Bus News"
+            },
+            {
+              "tag": "h2",
+              "text": "About Truck News"
+            },
+            {
+              "tag": "h2",
+              "text": "Where can you find updated trucks news?"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Popular Hindi News"
+        "hi": {
+          "path": "/hi/news",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "लेटेस्ट ट्रक समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय अंग्रेजी समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रेंडिंग ट्रक समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "ऑटो समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "लॉजिस्टिक समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "सोशल समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "सक्सेस स्टोरी समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "बस समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रक समाचार के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "आपको अपडेटेड ट्रक समाचार कहां मिल सकते हैं?"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Trending Truck News"
-        },
-        {
-          "tag": "h2",
-          "text": "Auto News"
-        },
-        {
-          "tag": "h2",
-          "text": "Logistic News"
-        },
-        {
-          "tag": "h2",
-          "text": "Social News"
-        },
-        {
-          "tag": "h2",
-          "text": "Success Stories News"
-        },
-        {
-          "tag": "h2",
-          "text": "Bus News"
-        },
-        {
-          "tag": "h2",
-          "text": "About Truck News"
-        },
-        {
-          "tag": "h2",
-          "text": "Where can you find updated trucks news?"
+        "ta": {
+          "path": "/ta/news",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "சமீபத்திய டிரக் செய்திகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான இந்தி செய்திகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "Auto செய்திகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டிரக் செய்திகள் பற்றி"
+            },
+            {
+              "tag": "h3",
+              "text": "சமீபத்திய லாரி செய்திகளை நீங்கள் எங்கே காணலாம்?"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         }
-      ],
-      "faq": {
-        "heading": "",
-        "questions": []
       }
     },
     "videos": {
       "key": "videos",
       "name": "Videos",
-      "path": "/en/videos",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Trucks Videos"
+      "byLanguage": {
+        "en": {
+          "path": "/en/videos",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Trucks Videos"
+            },
+            {
+              "tag": "h2",
+              "text": "Latest Truck Videos"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular brands Videos"
+            },
+            {
+              "tag": "h3",
+              "text": "About Truck Videos"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Latest Truck Videos"
+        "hi": {
+          "path": "/hi/videos",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ट्रक वीडियो"
+            },
+            {
+              "tag": "h2",
+              "text": "नवीनतम ट्रक वीडियो"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ब्रांड वीडियो"
+            },
+            {
+              "tag": "h3",
+              "text": "ट्रक वीडियो के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रक वीडियो खोज रहे हैं?"
+            },
+            {
+              "tag": "h3",
+              "text": "क्या आप ट्रकों के बारे में विस्तृत जानकारी प्राप्त करना चाहते हैं?"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Popular brands Videos"
-        },
-        {
-          "tag": "h3",
-          "text": "About Truck Videos"
+        "ta": {
+          "path": "/ta/videos",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டிரக் வீடியோக்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "சமீபத்திய டிரக் வீடியோக்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான பிராண்டுகளின் வீடியோக்கள்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         }
-      ],
-      "faq": {
-        "heading": "",
-        "questions": []
       }
     },
     "webStory": {
       "key": "webStory",
       "name": "Web Story",
-      "path": "/web-stories",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Truck Junction Web Stories"
+      "byLanguage": {
+        "en": {
+          "path": "/web-stories",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Junction Web Stories"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/web-stories",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Junction Web Stories"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/web-stories",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Junction Web Stories"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         }
-      ],
-      "faq": {
-        "heading": "",
-        "questions": []
       }
     }
   }

@@ -1,97 +1,280 @@
 {
-  "scrapedAt": "2026-08-26",
+  "scrapedAt": "2026-08-31",
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
   "pages": {
     "selectYourTruck": {
       "key": "selectYourTruck",
       "name": "Select Your Truck",
-      "path": "/en/select-your-truck",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Choose Best Truck For You"
+      "byLanguage": {
+        "en": {
+          "path": "/en/select-your-truck",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Choose Best Truck For You"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Models by Application"
+            },
+            {
+              "tag": "h2",
+              "text": "News"
+            },
+            {
+              "tag": "h2",
+              "text": "About Best Truck For You"
+            },
+            {
+              "tag": "h4",
+              "text": "How Can I Get Best Suited Trucks"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Popular Models by Application"
+        "hi": {
+          "path": "/hi/select-your-truck",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "अपने लिए सर्वश्रेष्ठ ट्रक चुनें"
+            },
+            {
+              "tag": "h2",
+              "text": "एप्लिकेशन द्वारा लोकप्रिय मॉडल"
+            },
+            {
+              "tag": "h2",
+              "text": "समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "आपके लिए बेस्ट ट्रक के बारे में"
+            },
+            {
+              "tag": "h4",
+              "text": "मैं सर्वश्रेष्ठ उपयुक्त ट्रक कैसे प्राप्त कर सकता हूं ?"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "News"
-        },
-        {
-          "tag": "h2",
-          "text": "About Best Truck For You"
-        },
-        {
-          "tag": "h4",
-          "text": "How Can I Get Best Suited Trucks"
+        "ta": {
+          "path": "/ta/select-your-truck",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "உங்களுக்கு சிறந்த டிரக் தேர்வு செய்யவும்"
+            },
+            {
+              "tag": "h2",
+              "text": "பயன்பாட்டின்படி பிரபல மாடல்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "செய்திகள்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         }
-      ],
-      "faq": {
-        "heading": "",
-        "questions": []
       }
     },
     "offers": {
       "key": "offers",
       "name": "Offers",
-      "path": "/en/offers",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "It’s Trucks Offers!"
+      "byLanguage": {
+        "en": {
+          "path": "/en/offers",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "It’s Trucks Offers!"
+            },
+            {
+              "tag": "h2",
+              "text": "Don’t Miss Out!"
+            },
+            {
+              "tag": "h2",
+              "text": "New truck offers and discounts"
+            },
+            {
+              "tag": "h2",
+              "text": "Discounts"
+            },
+            {
+              "tag": "h2",
+              "text": "Flexible Payment Plans"
+            },
+            {
+              "tag": "h2",
+              "text": "On Road Price Offers"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Models by Category"
+            },
+            {
+              "tag": "h2",
+              "text": "Other Links"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Don’t Miss Out!"
+        "hi": {
+          "path": "/hi/offers",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "यह ट्रक ऑफर है!"
+            },
+            {
+              "tag": "h2",
+              "text": "मिस मत करो!"
+            },
+            {
+              "tag": "h2",
+              "text": "नए ट्रक पर ऑफर और डिस्काउंट"
+            },
+            {
+              "tag": "h2",
+              "text": "डिस्काउंट"
+            },
+            {
+              "tag": "h2",
+              "text": "फ्लेक्सिबल पेमेंट प्लान"
+            },
+            {
+              "tag": "h2",
+              "text": "ऑन रोड प्राइस ऑफर"
+            },
+            {
+              "tag": "h2",
+              "text": "श्रेणी के अनुसार लोकप्रिय मॉडल"
+            },
+            {
+              "tag": "h2",
+              "text": "अन्य लिंक"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "New truck offers and discounts"
-        },
-        {
-          "tag": "h2",
-          "text": "Discounts"
-        },
-        {
-          "tag": "h2",
-          "text": "Flexible Payment Plans"
-        },
-        {
-          "tag": "h2",
-          "text": "On Road Price Offers"
-        },
-        {
-          "tag": "h2",
-          "text": "Popular Models by Category"
-        },
-        {
-          "tag": "h2",
-          "text": "Other Links"
+        "ta": {
+          "path": "/ta/offers",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "இது லாரிகள் சலுகைகள்!"
+            },
+            {
+              "tag": "h2",
+              "text": "தவறவிடாதீர்கள்!"
+            },
+            {
+              "tag": "h2",
+              "text": "புதிய டிரக் சலுகைகள் மற்றும் தள்ளுபடிகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "தள்ளுபடிகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "நெகிழ்வான கட்டணத் திட்டங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "சாலை விலை சலுகைகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "வகையின்படி பிரபலமான மாதிரிகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிற இணைப்புகள்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         }
-      ],
-      "faq": {
-        "heading": "",
-        "questions": []
       }
     },
     "bodyMakers": {
       "key": "bodyMakers",
       "name": "Body Makers",
-      "path": "/en/body-makers",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Truck Body Makers in India"
+      "byLanguage": {
+        "en": {
+          "path": "/en/body-makers",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Body Makers in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck Body Makers"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Truck Body Makers"
+        "hi": {
+          "path": "/hi/body-makers",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "भारत में ट्रक बॉडी मेकर्स"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रक बॉडी मेकर्स"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/ta/body-makers",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "இந்தியாவில் ட்ரக் உடல் உருவாக்குபவர்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck Body Makers"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
         }
-      ],
-      "faq": {
-        "heading": "",
-        "questions": []
       }
     }
   }

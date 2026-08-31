@@ -9,8 +9,8 @@
  * `latest/` is always replaced with a copy of the newest report. The root
  * index.html is regenerated to link every run, grouped by date.
  *
- * Any failed-test screenshots found under cypress/screenshots(-desktop|
- * -mobile)/ are published alongside the report, under
+ * Any failed-test screenshots found under cypress/screenshots(-ui-desktop|
+ * -ui-mobile|-seo-desktop|-seo-mobile)/ are published alongside the report, under
  * failed-screenshots/<timestamp>/, renamed to <device>_<TC-id or
  * slug>.png. reports/last-report-publish.json (gitignored) is written with
  * the report/screenshot URLs, for scripts/send-report-email.js to read.
@@ -36,8 +36,10 @@ const TARGET_REPO = process.env.REPORTS_REPO || 'Roshan-4/truckjunction-automati
 const TOKEN = process.env.REPORTS_DEPLOY_TOKEN || '';
 const RUN_DIR_PATTERN = /^(\d{4}-\d{2}-\d{2})_(\d{2}-\d{2}-\d{2})$/;
 const SCREENSHOT_DIRS = [
-  { dir: path.join(ROOT, 'cypress', 'screenshots-desktop'), device: 'desktop' },
-  { dir: path.join(ROOT, 'cypress', 'screenshots-mobile'), device: 'mobile' },
+  { dir: path.join(ROOT, 'cypress', 'screenshots-ui-desktop'), device: 'ui-desktop' },
+  { dir: path.join(ROOT, 'cypress', 'screenshots-ui-mobile'), device: 'ui-mobile' },
+  { dir: path.join(ROOT, 'cypress', 'screenshots-seo-desktop'), device: 'seo-desktop' },
+  { dir: path.join(ROOT, 'cypress', 'screenshots-seo-mobile'), device: 'seo-mobile' },
   { dir: path.join(ROOT, 'cypress', 'screenshots'), device: 'run' },
 ];
 

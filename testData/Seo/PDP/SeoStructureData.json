@@ -1,195 +1,580 @@
 {
-  "scrapedAt": "2026-08-26",
+  "scrapedAt": "2026-08-31",
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
   "pages": {
     "yodha20": {
       "key": "yodha20",
       "name": "Tata Yodha 2.0",
-      "path": "/en/tata-truck/yodha-2-0",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Tata Yodha 2.0"
+      "byLanguage": {
+        "en": {
+          "path": "/en/tata-truck/yodha-2-0",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Tata Yodha 2.0"
+            },
+            {
+              "tag": "h2",
+              "text": "Key Specs of Tata Yodha 2.0"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 EMI"
+            },
+            {
+              "tag": "h2",
+              "text": "About Tata Yodha 2.0"
+            },
+            {
+              "tag": "h3",
+              "text": "Tata Yodha 2.0 Pickup Truck Price in India"
+            },
+            {
+              "tag": "h3",
+              "text": "Tata Yodha 2.0 Pickup Truck specifications"
+            },
+            {
+              "tag": "h4",
+              "text": "Tata Yodha 2.0 Pickup Variants"
+            },
+            {
+              "tag": "h4",
+              "text": "Yodha 2.0 Pickup Features"
+            },
+            {
+              "tag": "h3",
+              "text": "Application of Tata Yodha 2.0 - Commercial Pickup Truck"
+            },
+            {
+              "tag": "h3",
+              "text": "Why Truck Junction for Tata Yodha 2.0 Pickup Truck?"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 Expert Review"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 Pros & Cons"
+            },
+            {
+              "tag": "h2",
+              "text": "Compare Tata Yodha 2.0 with Alternative"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 Image"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 Features"
+            },
+            {
+              "tag": "h2",
+              "text": "Explore Tata Series"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 Dealers, Service Centers & Spare Parts"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Perfect Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 User Reviews"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 News"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 Videos"
+            },
+            {
+              "tag": "h2",
+              "text": "Tata Yodha 2.0 Usage"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on Tata Yodha 2.0"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on Tata Yodha 2.0",
+            "questions": [
+              "What is the engine and power output of the Tata Yodha 2.0?",
+              "What is the Tata Yodha 2.0 payload capacity?",
+              "What is the fuel tank capacity of the Tata Yodha 2.0?",
+              "What is the mileage of the Tata Yodha 2.0 pickup truck?",
+              "What is the Yodha 2.0 price in India?",
+              "What is the Tata Yodha 2.0 on-road price?",
+              "What is the ground clearance of the Tata Yodha 2.0?",
+              "What safety features does the Tata Yodha 2.0 have?",
+              "What interior features does the Tata Yodha 2.0 offer?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Key Specs of Tata Yodha 2.0"
+        "hi": {
+          "path": "/hi/tata-truck/yodha-2-0",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "टाटा योद्धा 2.0"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 की प्रमुख विशेषताएं"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 ईएमआई"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में टाटा योद्धा 2.0 की कीमत देखें"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 इंजन क्षमता और परफॉर्मेंस"
+            },
+            {
+              "tag": "h3",
+              "text": "टाटा योद्धा 2.0 के डायमेंशन की जांच करें"
+            },
+            {
+              "tag": "h3",
+              "text": "टाटा योद्धा 2.0 पिकअप टायर"
+            },
+            {
+              "tag": "h3",
+              "text": "टाटा योद्धा 2.0 के फीचर्स"
+            },
+            {
+              "tag": "h3",
+              "text": "टाटा योद्धा 2.0 के स्पेसिफिकेशन देखें"
+            },
+            {
+              "tag": "h3",
+              "text": "टाटा योद्धा 2.0 को आपके लिए सबसे अच्छा विकल्प क्या बनाता है?"
+            },
+            {
+              "tag": "h3",
+              "text": "टाटा योद्धा 2.0 पिकअप के लिए ट्रक जंक्शन पर विजिट करें"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 एक्सपर्ट रिव्यू"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 खूबियां और खामियां"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 की तुलना अन्य विकल्पों से"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 फोटो"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 फीचर्स"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा सीरीज़ देखें"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 डीलर, सर्विस सेंटर और स्पेयर पार्ट्स मुंबई, महाराष्ट्र में"
+            },
+            {
+              "tag": "h2",
+              "text": "परफेक्ट ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 यूजर रिव्यूज"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 समाचार"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 वीडियो"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 की यूटिलिटी"
+            },
+            {
+              "tag": "h2",
+              "text": "टाटा योद्धा 2.0 पर अक्सर पूछे जाने वाले प्रश्न"
+            },
+            {
+              "tag": "h2",
+              "text": "मुंबई में टाटा योद्धा 2.0 की कीमत"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "भारत में टाटा योद्धा 2.0 पिकअप की कीमत क्या है?",
+              "टाटा योद्धा 2.0 पिकअप का जीवीडब्ल्यू क्या है?",
+              "टाटा योद्धा 2.0 का माइलेज क्या है?",
+              "टाटा योद्धा 2.0 पिकअप पेलोड क्षमता क्या है?",
+              "योद्धा 2.0 पिकअप इंजन की क्षमता क्या है?",
+              "टाटा योद्धा 2.0 पिकअप ट्रांसमिशन प्रकार क्या है?",
+              "टाटा योद्धा 2.0 पिकअप व्हीलबेस और ग्राउंड क्लीयरेंस क्या है?",
+              "टाटा योद्धा 2.0 की ग्रेडेबिलिटी क्या है?",
+              "टाटा योद्धा 2.0 का पावर और टॉर्क आउटपुट क्या है?",
+              "टाटा योद्धा 2.0 पिकअप ईंधन टैंक की क्षमता क्या है?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 EMI"
-        },
-        {
-          "tag": "h2",
-          "text": "About Tata Yodha 2.0"
-        },
-        {
-          "tag": "h3",
-          "text": "Tata Yodha 2.0 Pickup Truck Price in India"
-        },
-        {
-          "tag": "h3",
-          "text": "Tata Yodha 2.0 Pickup Truck specifications"
-        },
-        {
-          "tag": "h4",
-          "text": "Tata Yodha 2.0 Pickup Variants"
-        },
-        {
-          "tag": "h4",
-          "text": "Yodha 2.0 Pickup Features"
-        },
-        {
-          "tag": "h3",
-          "text": "Application of Tata Yodha 2.0 - Commercial Pickup Truck"
-        },
-        {
-          "tag": "h3",
-          "text": "Why Truck Junction for Tata Yodha 2.0 Pickup Truck?"
-        },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 Expert Review"
-        },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 Pros & Cons"
-        },
-        {
-          "tag": "h2",
-          "text": "Compare Tata Yodha 2.0 with Alternative"
-        },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 Image"
-        },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 Features"
-        },
-        {
-          "tag": "h2",
-          "text": "Explore Tata Series"
-        },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 Dealers, Service Centers & Spare Parts"
-        },
-        {
-          "tag": "h2",
-          "text": "Find Perfect Truck"
-        },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 User Reviews"
-        },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 News"
-        },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 Videos"
-        },
-        {
-          "tag": "h2",
-          "text": "Tata Yodha 2.0 Usage"
-        },
-        {
-          "tag": "h2",
-          "text": "Frequently Asked Questions on Tata Yodha 2.0"
+        "ta": {
+          "path": "/ta/tata-truck/yodha-2-0",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 இன் முக்கிய அம்சங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 EMI"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 பற்றி"
+            },
+            {
+              "tag": "h3",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் விலை:-"
+            },
+            {
+              "tag": "h3",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் இன்ஜின் திறன்:-"
+            },
+            {
+              "tag": "h3",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் மைலேஜ்:-"
+            },
+            {
+              "tag": "h3",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் GVW & ஏற்றுதல் திறன்:-"
+            },
+            {
+              "tag": "h3",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் உடல் கேபின்:-"
+            },
+            {
+              "tag": "h3",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் வீல்பேஸ்:-"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 இதே போன்றவற்றுடன் ஒப்பிடுங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 படம்"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 அம்சங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வரிசையை ஆராயுங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 டீலர்கள், சேவை மையங்கள் & மும்பை, மகாராஷ்டிரா இல் உதிரி பாகங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "சரியான டிரக்கை கண்டுபிடிக்கவும்"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 பயனர் மதிப்புரைகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 செய்திகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 வீடியோக்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 பயன்பாடு"
+            },
+            {
+              "tag": "h2",
+              "text": "டாடா வைஓடிஎச்ஏ 2.0 குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "மும்பை இல் டாடா வைஓடிஎச்ஏ 2.0 விலை"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "இந்தியாவில் டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் விலை என்ன?",
+              "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் சக்தி மற்றும் முறுக்கு என்ன?",
+              "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் மைலேஜ் என்ன?",
+              "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் எரிபொருள் தொட்டி திறன் என்ன?",
+              "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் GVW என்ன?",
+              "டாடா வைஓடிஎச்ஏ 2.0 பிக்அப் வாங்குவதற்கு ட்ரக் ஜங்ஷன் எவ்வாறு உதவ முடியும்?"
+            ]
+          }
         }
-      ],
-      "faq": {
-        "heading": "Frequently Asked Questions on Tata Yodha 2.0",
-        "questions": [
-          "What is the engine and power output of the Tata Yodha 2.0?",
-          "What is the Tata Yodha 2.0 payload capacity?",
-          "What is the fuel tank capacity of the Tata Yodha 2.0?",
-          "What is the mileage of the Tata Yodha 2.0 pickup truck?",
-          "What is the Yodha 2.0 price in India?",
-          "What is the Tata Yodha 2.0 on-road price?",
-          "What is the ground clearance of the Tata Yodha 2.0?",
-          "What safety features does the Tata Yodha 2.0 have?",
-          "What interior features does the Tata Yodha 2.0 offer?"
-        ]
       }
     },
     "eka3wCargo": {
       "key": "eka3wCargo",
       "name": "Eka 3W Cargo",
-      "path": "/en/eka-mobility-truck/3w-cargo",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Eka 3W Cargo"
+      "byLanguage": {
+        "en": {
+          "path": "/en/eka-mobility-truck/3w-cargo",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Eka 3W Cargo"
+            },
+            {
+              "tag": "h2",
+              "text": "Key Specs of Eka 3W Cargo"
+            },
+            {
+              "tag": "h2",
+              "text": "Compare Eka 3W Cargo with Alternative"
+            },
+            {
+              "tag": "h2",
+              "text": "Eka 3W Cargo Image"
+            },
+            {
+              "tag": "h2",
+              "text": "About Eka 3W Cargo"
+            },
+            {
+              "tag": "h3",
+              "text": "Eka 3W Cargo 3 Wheeler Price"
+            },
+            {
+              "tag": "h3",
+              "text": "Eka 3W Cargo 3 Wheeler Motor and Battery Capacity"
+            },
+            {
+              "tag": "h3",
+              "text": "Eka 3W Cargo 3 Wheeler Range"
+            },
+            {
+              "tag": "h3",
+              "text": "Eka 3W Cargo 3 Wheeler GVW & Payload"
+            },
+            {
+              "tag": "h3",
+              "text": "Eka 3W Cargo 3 Wheeler Wheelbase"
+            },
+            {
+              "tag": "h3",
+              "text": "Eka 3W Cargo 3 Wheeler at Truck Junction"
+            },
+            {
+              "tag": "h2",
+              "text": "Electric Vehicle Videos"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on Eka 3W Cargo"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on Eka 3W Cargo",
+            "questions": [
+              "What is the Eka 3W Cargo Price in India?",
+              "What is the Eka 3W Cargo GVW?",
+              "What is the Eka 3W Cargo PAYLOAD?",
+              "What is the Eka 3W Cargo Range in Single Charge?",
+              "What is the Eka 3W Cargo Battery Capacity?",
+              "What is the Eka 3W Cargo Seating Capacity?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Key Specs of Eka 3W Cargo"
+        "hi": {
+          "path": "/hi/eka-mobility-truck/3w-cargo",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "इका 3डब्लू कार्गो"
+            },
+            {
+              "tag": "h2",
+              "text": "इका 3डब्लू कार्गो की प्रमुख विशेषताएं"
+            },
+            {
+              "tag": "h2",
+              "text": "इका 3डब्लू कार्गो की तुलना अन्य विकल्पों से"
+            },
+            {
+              "tag": "h2",
+              "text": "इका 3डब्लू कार्गो फोटो"
+            },
+            {
+              "tag": "h2",
+              "text": "इका 3डब्लू कार्गो के बारे में"
+            },
+            {
+              "tag": "h3",
+              "text": "भारत में इका 3डब्लू कार्गो 3 व्हीलर की कीमत"
+            },
+            {
+              "tag": "h3",
+              "text": "इका 3डब्लू कार्गो 3 व्हीलर मोटर और बैटरी कैपेसिटी"
+            },
+            {
+              "tag": "h3",
+              "text": "इका 3डब्लू कार्गो 3 व्हीलर रेंज"
+            },
+            {
+              "tag": "h3",
+              "text": "इका 3डब्लू कार्गो 3 व्हीलर जीवीडब्ल्यू और पेलोड"
+            },
+            {
+              "tag": "h3",
+              "text": "इका 3डब्लू कार्गो 3 व्हीलर व्हीलबेस"
+            },
+            {
+              "tag": "h3",
+              "text": "ट्रक जंक्शन पर इका 3डब्लू कार्गो 3 व्हीलर"
+            },
+            {
+              "tag": "h2",
+              "text": "इलेक्ट्रिक व्हीकल्स वीडियो"
+            },
+            {
+              "tag": "h2",
+              "text": "इका 3डब्लू कार्गो पर अक्सर पूछे जाने वाले प्रश्न"
+            },
+            {
+              "tag": "h4",
+              "text": "डिस्क्लेमर"
+            },
+            {
+              "tag": "h2",
+              "text": "मुंबई में इका 3डब्लू कार्गो की कीमत"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "भारत में इका 3डब्लू कार्गो की कीमत क्या है?",
+              "इका 3डब्लू कार्गो का जीवीडब्ल्यू क्या है?",
+              "इका 3डब्लू कार्गो पेलोड क्या है?",
+              "सिंगल चार्ज में इका 3डब्लू कार्गो रेंज क्या है?",
+              "इका 3डब्लू कार्गो बैटरी कैपेसिटी क्या है?",
+              "इका 3डब्लू कार्गो की सीटिंग कैपेसिटी क्या है?"
+            ]
+          }
         },
-        {
-          "tag": "h2",
-          "text": "Compare Eka 3W Cargo with Alternative"
-        },
-        {
-          "tag": "h2",
-          "text": "Eka 3W Cargo Image"
-        },
-        {
-          "tag": "h2",
-          "text": "About Eka 3W Cargo"
-        },
-        {
-          "tag": "h3",
-          "text": "Eka 3W Cargo 3 Wheeler Price"
-        },
-        {
-          "tag": "h3",
-          "text": "Eka 3W Cargo 3 Wheeler Motor and Battery Capacity"
-        },
-        {
-          "tag": "h3",
-          "text": "Eka 3W Cargo 3 Wheeler Range"
-        },
-        {
-          "tag": "h3",
-          "text": "Eka 3W Cargo 3 Wheeler GVW & Payload"
-        },
-        {
-          "tag": "h3",
-          "text": "Eka 3W Cargo 3 Wheeler Wheelbase"
-        },
-        {
-          "tag": "h3",
-          "text": "Eka 3W Cargo 3 Wheeler at Truck Junction"
-        },
-        {
-          "tag": "h3",
-          "text": "Eka 3W Cargo Reviews"
-        },
-        {
-          "tag": "h2",
-          "text": "Electric Vehicle Videos"
-        },
-        {
-          "tag": "h3",
-          "text": "Electric Vehicle News"
-        },
-        {
-          "tag": "h2",
-          "text": "Frequently Asked Questions on Eka 3W Cargo"
+        "ta": {
+          "path": "/ta/eka-mobility-truck/3w-cargo",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Eka Mobility 3W Cargo"
+            },
+            {
+              "tag": "h2",
+              "text": "Eka Mobility 3W Cargo பிளஸின் முக்கிய விவரக்குறிப்புகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ இதே போன்றவற்றுடன் ஒப்பிடுங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ படம்"
+            },
+            {
+              "tag": "h2",
+              "text": "Eka Mobility 3W Cargo பற்றி"
+            },
+            {
+              "tag": "h3",
+              "text": "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ 3 சக்கர வாகனங்கள் விலை"
+            },
+            {
+              "tag": "h3",
+              "text": "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ 3 சக்கர வாகனங்கள் மோட்டார் மற்றும் பேட்டரி திறன்"
+            },
+            {
+              "tag": "h3",
+              "text": "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ 3 சக்கர வாகனங்கள் வரம்பு"
+            },
+            {
+              "tag": "h3",
+              "text": "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ 3 சக்கர வாகனங்கள் GVW & ஏற்றுதல்"
+            },
+            {
+              "tag": "h3",
+              "text": "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ 3 சக்கர வாகனங்கள் வீல்பேஸ்"
+            },
+            {
+              "tag": "h3",
+              "text": "ட்ரக் ஜங்ஷனில் ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ 3 சக்கர வாகனங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "மின்சார வாகன வீடியோக்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "Eka Mobility 3W Cargo குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            },
+            {
+              "tag": "h4",
+              "text": "பொறுப்புத் துறப்பு"
+            },
+            {
+              "tag": "h2",
+              "text": "மும்பை இல் ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ விலை"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "இந்தியாவில் ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ விலை என்ன?",
+              "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ GVW என்ன?",
+              "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ ஏற்றுதல் திறன் என்ன?",
+              "ஒரு சார்ஜில் ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ வரம்பு என்ன?",
+              "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ பேட்டரி திறன் என்ன?",
+              "ஏகா மொபிலிட்டி 3டபிள்யூ சிஏஆர்ஜீஓ இருக்கை திறன் என்ன?"
+            ]
+          }
         }
-      ],
-      "faq": {
-        "heading": "Frequently Asked Questions on Eka 3W Cargo",
-        "questions": [
-          "What is the Eka 3W Cargo Price in India?",
-          "What is the Eka 3W Cargo GVW?",
-          "What is the Eka 3W Cargo PAYLOAD?",
-          "What is the Eka 3W Cargo Range in Single Charge?",
-          "What is the Eka 3W Cargo Battery Capacity?",
-          "What is the Eka 3W Cargo Seating Capacity?"
-        ]
       }
     }
   }
