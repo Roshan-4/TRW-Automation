@@ -700,6 +700,115 @@ LANGUAGES.forEach((lang) => {
               });
             }
           );
+
+          it(
+            `TC-NTPDP-26: SecondaryNavbar Calculate EMI jumps to the EMI calculator for ${productLabel}`,
+            { tags: langTags(lang, TEST_TAGS.POSITIVE, ...productTags(productKey)) },
+            function () {
+              if (!page.hasBlock('emi') || !page.hasBlock('secondaryNavbar')) {
+                this.skip();
+              }
+
+              documentTestCase({
+                id: 'TC-NTPDP-26',
+                title: `SecondaryNavbar Calculate EMI jumps to the EMI calculator for ${productLabel}`,
+                language: lang,
+                description: `Use the SecondaryNavbar “Calculate EMI” jump link on ${productLabel} and confirm it takes the user to the on-page EMI calculator, not to a different page.`,
+                expectedResult:
+                  'The EMI calculator (Down Payment, tenure buttons and Monthly EMI) is shown after clicking Calculate EMI.',
+                steps: [
+                  'On the product page with launch lead closed',
+                  'Click Calculate EMI on SecondaryNavbar',
+                  'Verify the EMI calculator is shown',
+                ],
+              });
+
+              allureStep('Click Calculate EMI on SecondaryNavbar', () => {
+                page.clickSecondaryNavbarCalculateEmi();
+              });
+            }
+          );
+
+          it(
+            `TC-NTPDP-27: EMI loan period change updates Monthly EMI for ${productLabel}`,
+            { tags: langTags(lang, TEST_TAGS.EDGE, ...productTags(productKey)) },
+            function () {
+              if (!page.hasBlock('emi')) {
+                this.skip();
+              }
+
+              documentTestCase({
+                id: 'TC-NTPDP-27',
+                title: `EMI loan period change updates Monthly EMI for ${productLabel}`,
+                language: lang,
+                description: `Change the EMI loan period on ${productLabel} from the default tenure to another listed option and confirm the Monthly EMI figure updates.`,
+                expectedResult: 'Monthly EMI still shows a rupee amount and the figure is different after the tenure change.',
+                steps: [
+                  'Open the EMI calculator',
+                  `Click loan period ${page.componentsCopy.emi.alternateTenure} months`,
+                  'Verify Monthly EMI updates',
+                ],
+              });
+
+              allureStep('Change EMI loan period and verify Monthly EMI updates', () => {
+                page.selectEmiLoanPeriod(page.componentsCopy.emi.alternateTenure);
+              });
+            }
+          );
+
+          it(
+            `TC-NTPDP-28: Dealers section switches to Service Center tab for ${productLabel}`,
+            { tags: langTags(lang, TEST_TAGS.POSITIVE, ...productTags(productKey)) },
+            function () {
+              if (!page.hasBlock('dealersServiceSpare')) {
+                this.skip();
+              }
+
+              documentTestCase({
+                id: 'TC-NTPDP-28',
+                title: `Dealers section switches to Service Center tab for ${productLabel}`,
+                language: lang,
+                description: `On the Dealers, Service Centers & Spare Parts block for ${productLabel}, switch from Dealers to Service Center.`,
+                expectedResult: 'Service Center becomes the active tab.',
+                steps: [
+                  'Scroll to Dealers, Service Centers & Spare Parts',
+                  'Click the Service Center tab',
+                  'Verify Service Center is active',
+                ],
+              });
+
+              allureStep('Switch Dealers block to Service Center', () => {
+                page.openDealersTab('Service Center');
+              });
+            }
+          );
+
+          it(
+            `TC-NTPDP-29: FAQ question expands to show an answer for ${productLabel}`,
+            { tags: langTags(lang, TEST_TAGS.EDGE, ...productTags(productKey)) },
+            function () {
+              if (!page.hasBlock('faq')) {
+                this.skip();
+              }
+
+              documentTestCase({
+                id: 'TC-NTPDP-29',
+                title: `FAQ question expands to show an answer for ${productLabel}`,
+                language: lang,
+                description: `Open a Frequently Asked Question on ${productLabel} and confirm the answer text is shown.`,
+                expectedResult: 'The selected question’s answer is visible.',
+                steps: [
+                  'Scroll to Frequently Asked Questions',
+                  'Click a question',
+                  'Verify the answer is shown',
+                ],
+              });
+
+              allureStep('Expand an FAQ question and verify the answer', () => {
+                page.expandFaqAccordion(0);
+              });
+            }
+          );
         });
       }
     );

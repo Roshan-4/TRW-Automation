@@ -32,23 +32,50 @@ if [ -z "${REPORT_EMAIL_API_KEY:-}" ]; then
   exit 1
 fi
 
-RECIPIENT_EMAIL="roshanpaswan@tractorjunction.com"
-SENDER_NAME="Roshan Paswan"
+# Recipients: comma-separated in REPORT_EMAIL_RECIPIENTS (cypress/.env).
+# Defaults keep the existing address and add mujjamilsalim@tractorjunction.com.
+REPORT_EMAIL_RECIPIENTS="${REPORT_EMAIL_RECIPIENTS:-roshanpaswan@tractorjunction.com,mujjamilsalim@tractorjunction.com}"
+SENDER_NAME="${REPORT_EMAIL_SENDER_NAME:-Roshan Paswan}"
 
-# Field set and order deliberately mirror the original working curl
-# example exactly (source/identifier/screenshotUrl singular/attachments[]
-# as a real file) — this API has been observed to report "queued
-# successfully" but silently never deliver the email when a field present
-# in that original example is dropped entirely or left empty. Only the
-# values explicitly requested to change (recipient, sender, projectName,
-# environment, counts, urls, subject) differ from the original; nothing
-# is removed, and data[screenshotUrl] always carries a non-empty value
-# (see PRIMARY_SCREENSHOT_URL fallback in scripts/send-report-email.js).
+# Parse comma-separated list into a bash array (trim whitespace around each).
+IFS=',' read -ra RECIPIENT_LIST <<< "${REPORT_EMAIL_RECIPIENTS}"
+
+# Field set mirrors the original working curl example exactly. This API has
+# been observed to fail delivery when any template field is dropped or empty
+# (data[screenshotUrl], data[passedCount], attachments[] as a real file, etc.).
+require_non_empty() {
+  local label="$1"
+  local value="$2"
+  if [ -z "${value}" ]; then
+    echo "Send_mail.sh: required field ${label} is empty." >&2
+    exit 1
+  fi
+}
+
+require_non_empty EXECUTION_DATETIME "${EXECUTION_DATETIME}"
+require_non_empty REPORT_ENVIRONMENT "${REPORT_ENVIRONMENT}"
+require_non_empty REPORT_URL "${REPORT_URL}"
+require_non_empty PRIMARY_SCREENSHOT_URL "${PRIMARY_SCREENSHOT_URL}"
+require_non_empty FAILED_COUNT "${FAILED_COUNT}"
+require_non_empty TOTAL_TEST_CASES "${TOTAL_TEST_CASES}"
+require_non_empty EMAIL_DESCRIPTION "${EMAIL_DESCRIPTION}"
+require_non_empty EMAIL_PRIORITY "${EMAIL_PRIORITY}"
+require_non_empty EMAIL_SUBJECT "${EMAIL_SUBJECT}"
+
 CURL_ARGS=(
   --location 'https://crs.farmjunction.in/api/send/email'
   --header "X-Api-Key: ${REPORT_EMAIL_API_KEY}"
   --header 'Accept: application/json'
-  --form "email[]=${RECIPIENT_EMAIL}"
+)
+
+for addr in "${RECIPIENT_LIST[@]}"; do
+  addr="$(echo "${addr}" | xargs)"
+  if [ -n "${addr}" ]; then
+    CURL_ARGS+=(--form "email[]=${addr}")
+  fi
+done
+
+CURL_ARGS+=(
   --form 'source=Finj'
   --form 'identifier=qa-automation-report'
   --form 'data[projectName]=Truck Junction'
@@ -64,11 +91,20 @@ CURL_ARGS=(
   --form "subject=${EMAIL_SUBJECT}"
 )
 
+if [ "${#SCREENSHOT_LOCAL_PATHS[@]}" -eq 0 ]; then
+  echo "Send_mail.sh: no attachment file available (required by mail API)." >&2
+  exit 1
+fi
+
 for path in "${SCREENSHOT_LOCAL_PATHS[@]}"; do
   CURL_ARGS+=(--form "attachments[]=@${path}")
 done
 
-echo "Sending report email to ${RECIPIENT_EMAIL}..."
-curl "${CURL_ARGS[@]}"
-echo
+echo "Sending report email to: ${REPORT_EMAIL_RECIPIENTS}..."
+RESPONSE="$(curl -sS "${CURL_ARGS[@]}")"
+echo "${RESPONSE}"
+if echo "${RESPONSE}" | grep -Eqi 'failed to queue|"success"[[:space:]]*:[[:space:]]*false|\"errors\"'; then
+  echo "Send_mail.sh: mail API rejected the request (see response above)." >&2
+  exit 1
+fi
 echo "Done."

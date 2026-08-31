@@ -155,5 +155,66 @@ LANGUAGES.forEach((lang) => {
         });
       }
     );
+
+    it(
+      `TC-BR-07: Brochure page heading is visible on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.POSITIVE, TEST_TAGS.SMOKE) },
+      () => {
+        documentTestCase({
+          id: 'TC-BR-07',
+          title: `Brochure page heading is visible on ${pageLabel}`,
+          language: lang,
+          description: `Open ${pageLabel} and confirm the Download Truck Brochures heading.`,
+          expectedResult: 'Download Truck Brochures heading is visible.',
+          steps: [`Open the ${pageLabel} page`, 'Verify the page heading'],
+        });
+
+        allureStep('Verify Download Truck Brochures heading', () => {
+          page.verifyPageHeading();
+        });
+      }
+    );
+
+    it(
+      `TC-BR-08: Select Truck to download Brochure and Search are visible on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.POSITIVE) },
+      () => {
+        documentTestCase({
+          id: 'TC-BR-08',
+          title: `Select Truck to download Brochure and Search are visible on ${pageLabel}`,
+          language: lang,
+          description: `Confirm the Select Truck to download Brochure block and its Search button on ${pageLabel}.`,
+          expectedResult: 'Select Truck to download Brochure heading and Search are visible.',
+          steps: [
+            `Open the ${pageLabel} page`,
+            'Locate Select Truck to download Brochure',
+            'Verify Search is shown',
+          ],
+        });
+
+        allureStep('Verify Select Truck to download Brochure', () => {
+          page.verifySelectTruckToDownload();
+        });
+      }
+    );
+
+    it(
+      `TC-BR-09: FAQ question expands on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-BR-09',
+          title: `FAQ question expands on ${pageLabel}`,
+          language: lang,
+          description: `Open a Frequently Asked Question on ${pageLabel} and confirm the answer is shown.`,
+          expectedResult: 'The selected question’s answer is visible.',
+          steps: [`Open the ${pageLabel} page`, 'Open an FAQ question', 'Verify the answer is shown'],
+        });
+
+        allureStep('Expand a Brochure FAQ question', () => {
+          page.verifyFaqAndExpand();
+        });
+      }
+    );
   });
 });

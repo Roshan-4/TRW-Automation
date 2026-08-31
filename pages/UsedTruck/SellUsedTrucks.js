@@ -124,13 +124,30 @@ class SellUsedTrucks {
       this.getFieldInputByLabel(labelText).clear().type('{selectall}{backspace}').type(typeText);
     };
 
-    typeIntoField();
-    this.getFieldInputByLabel(labelText).should(($input) => {
-      if ($input.val().trim() !== typeText) {
+    // Retries via a recursive `.then()`, not `.should()` — `.should()`'s
+    // retry callback cannot enqueue new `cy.` commands (Cypress throws
+    // "cy.should() failed because you invoked a command inside the
+    // callback"), and `typeIntoField()` above is exactly that: a real
+    // `cy.type()` re-attempt, kept as genuine simulated typing rather than
+    // a raw DOM value-set, per this project's standing preference for real
+    // user-behavior interactions over programmatic shortcuts. Bounded to a
+    // handful of attempts rather than Cypress's own timeout-driven retry.
+    const ensureTyped = (attemptsLeft = 5) => {
+      this.getFieldInputByLabel(labelText).then(($input) => {
+        if ($input.val().trim() === typeText) {
+          return;
+        }
+        if (attemptsLeft <= 0) {
+          expect($input.val().trim(), `${labelText} field holds exactly the typed text`).to.eq(typeText);
+          return;
+        }
         typeIntoField();
-      }
-      expect($input.val().trim(), `${labelText} field holds exactly the typed text`).to.eq(typeText);
-    });
+        ensureTyped(attemptsLeft - 1);
+      });
+    };
+
+    typeIntoField();
+    ensureTyped();
 
     const exactMatch = new RegExp(`^${match}\\s*$`, 'i');
     const closestSuggestionToInput = ($input) => {

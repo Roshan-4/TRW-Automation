@@ -1,0 +1,107 @@
+{
+  "NewTruckInternalPages": {
+    "en": {
+      "pages": [
+        {
+          "key": "yodhaSpecifications",
+          "name": "Tata Yodha 2.0 Specifications",
+          "path": "/en/tata-truck/yodha-2-0/specifications",
+          "heading": "Tata Yodha 2.0 Specifications",
+          "leadTriggerCta": "Check Offers",
+          "submitText": "Check Offers",
+          "secondaryLeadCta": "Get On Road Price",
+          "hasFaq": true,
+          "faqHeading": "Frequently Asked Questions"
+        },
+        {
+          "key": "yodhaMileage",
+          "name": "Tata Yodha 2.0 Mileage",
+          "path": "/en/tata-truck/yodha-2-0/mileage",
+          "heading": "Tata Yodha 2.0 Mileage",
+          "leadTriggerCta": "Check Offers",
+          "submitText": "Check Offers",
+          "secondaryLeadCta": "Get On Road Price",
+          "hasFaq": false,
+          "faqHeading": ""
+        },
+        {
+          "key": "yodhaImages",
+          "name": "Tata Yodha 2.0 Images",
+          "path": "/en/tata-truck/yodha-2-0/images",
+          "heading": "Tata Yodha 2.0 Images",
+          "leadTriggerCta": "Check Offers",
+          "submitText": "Check Offers",
+          "secondaryLeadCta": "",
+          "hasFaq": false,
+          "faqHeading": ""
+        },
+        {
+          "key": "yodhaBrochure",
+          "name": "Tata Yodha 2.0 Brochure",
+          "path": "/en/tata-truck/yodha-2-0/brochure",
+          "heading": "Tata Yodha 2.0 Brochure",
+          "leadTriggerCta": "Download Brochure",
+          "submitText": "Check Offers",
+          "secondaryLeadCta": "Check Offers",
+          "hasFaq": false,
+          "faqHeading": ""
+        },
+        {
+          "key": "yodhaVideos",
+          "name": "Tata Yodha 2.0 Videos",
+          "path": "/en/tata-truck/yodha-2-0/videos",
+          "heading": "Tata Yodha 2.0 Videos",
+          "leadTriggerCta": "Check Offers",
+          "submitText": "Check Offers",
+          "secondaryLeadCta": "Get On Road Price",
+          "hasFaq": false,
+          "faqHeading": ""
+        },
+        {
+          "key": "yodhaReview",
+          "name": "Tata Yodha 2.0 Reviews",
+          "path": "/en/tata-truck/yodha-2-0/review",
+          "heading": "Tata Yodha 2.0 Reviews",
+          "leadTriggerCta": "Check Offers",
+          "submitText": "Check Offers",
+          "secondaryLeadCta": "",
+          "hasFaq": false,
+          "faqHeading": ""
+        },
+        {
+          "key": "yodhaPriceGurgaon",
+          "name": "Tata Yodha 2.0 Price in Gurgaon",
+          "path": "/en/tata-truck/yodha-2-0/price/gurgaon",
+          "heading": "Tata Yodha 2.0 Price in Gurgaon",
+          "leadTriggerCta": "Get On Road Price",
+          "submitText": "Check Offers",
+          "secondaryLeadCta": "Download Brochure",
+          "hasFaq": true,
+          "faqHeading": "Frequently Asked Questions on Tata Yodha 2.0 Price in Gurgaon"
+        },
+        {
+          "key": "ekaReview",
+          "name": "Eka 3W Cargo Reviews",
+          "path": "/en/eka-mobility-truck/3w-cargo/review",
+          "heading": "Eka 3W Cargo Reviews",
+          "leadTriggerCta": "Check Offers",
+          "submitText": "Check Offers",
+          "secondaryLeadCta": "",
+          "hasFaq": false,
+          "faqHeading": ""
+        },
+        {
+          "key": "ekaPriceMumbai",
+          "name": "Eka 3W Cargo Price in Mumbai",
+          "path": "/en/eka-mobility-truck/3w-cargo/price/mumbai",
+          "heading": "Eka 3W Cargo Price in Mumbai",
+          "leadTriggerCta": "Check Offers",
+          "submitText": "Check Offers",
+          "secondaryLeadCta": "Get On Road Price",
+          "hasFaq": true,
+          "faqHeading": "Frequently Asked Questions on Eka 3W Cargo Price in Mumbai"
+        }
+      ]
+    }
+  }
+}

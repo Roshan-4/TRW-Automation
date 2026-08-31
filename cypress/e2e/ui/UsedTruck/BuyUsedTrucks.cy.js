@@ -128,5 +128,91 @@ LANGUAGES.forEach((lang) => {
         });
       }
     );
+
+    it(
+      `TC-BUT-04: page heading and used-truck listing are visible on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.POSITIVE, TEST_TAGS.SMOKE) },
+      () => {
+        documentTestCase({
+          id: 'TC-BUT-04',
+          title: `page heading and used-truck listing are visible on ${pageLabel}`,
+          language: lang,
+          description: `Open ${pageLabel} and confirm the page heading, the used-truck count, and at least one Contact Seller card.`,
+          expectedResult: 'Used Trucks heading, a “N Used Truck Found” count, and at least one Contact Seller button are visible.',
+          steps: [
+            `Open the ${pageLabel} page`,
+            'Verify the page heading',
+            'Verify the listing count and a truck card',
+          ],
+        });
+
+        allureStep('Verify Used Trucks heading and listing cards', () => {
+          page.verifyPageHeading();
+          page.verifyListingCountAndCards();
+        });
+      }
+    );
+
+    it(
+      `TC-BUT-05: listing filters are visible on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.POSITIVE) },
+      () => {
+        documentTestCase({
+          id: 'TC-BUT-05',
+          title: `listing filters are visible on ${pageLabel}`,
+          language: lang,
+          description: `Confirm Reset All and Apply Filters are shown on ${pageLabel}.`,
+          expectedResult: 'Reset All and Apply Filters are visible.',
+          steps: [`Open the ${pageLabel} page`, 'Verify Reset All and Apply Filters'],
+        });
+
+        allureStep('Verify used-truck listing filters', () => {
+          page.verifyFilters();
+        });
+      }
+    );
+
+    it(
+      `TC-BUT-06: FAQ question expands on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-BUT-06',
+          title: `FAQ question expands on ${pageLabel}`,
+          language: lang,
+          description: `Open a Frequently Asked Question on ${pageLabel} and confirm the answer is shown.`,
+          expectedResult: 'The selected question’s answer is visible.',
+          steps: [`Open the ${pageLabel} page`, 'Open an FAQ question', 'Verify the answer is shown'],
+        });
+
+        allureStep('Expand a Used Trucks FAQ question', () => {
+          page.verifyFaqAndExpand();
+        });
+      }
+    );
+
+    it(
+      `TC-BUT-07: Load More shows more used-truck cards on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-BUT-07',
+          title: `Load More shows more used-truck cards on ${pageLabel}`,
+          language: lang,
+          description: `Click Load More on ${pageLabel} and confirm more Contact Seller cards appear.`,
+          expectedResult: 'The number of visible Contact Seller buttons increases after Load More.',
+          steps: [
+            `Open the ${pageLabel} page`,
+            'Note how many cards are shown',
+            'Click Load More',
+            'Verify more cards are shown',
+          ],
+        });
+
+        allureStep('Click Load More on Buy Used Trucks', () => {
+          page.clickLoadMoreAndExpectMoreCards();
+        });
+      }
+    );
   });
 });

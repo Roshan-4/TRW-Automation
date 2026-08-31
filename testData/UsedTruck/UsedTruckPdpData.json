@@ -1,0 +1,15 @@
+{
+  "UsedTruckPdp": {
+    "en": {
+      "listingPath": "/en/buy-used-trucks",
+      "name": "Used Truck Detail",
+      "headingStartsWith": "Used ",
+      "contactSellerCta": "Contact Seller",
+      "checkOffersCta": "Check Offers",
+      "getSellerDetailsSubmit": "Get Seller Details",
+      "thankYouForContact": "Thank You For Contact",
+      "seoSamplePath": "/en/used-truck/ashok-leyland/ecomet-1415-he-cng-5200hsd24-ls-13236",
+      "seoSampleName": "Used Ashok Leyland Ecomet 1415 he cng"
+    }
+  }
+}

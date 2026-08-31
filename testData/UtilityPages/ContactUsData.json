@@ -1,0 +1,24 @@
+{
+  "ContactUs": {
+    "en": {
+      "path": "/en/contact-us",
+      "name": "Contact Us",
+      "heading": "CONTACT TRUCK JUNCTION",
+      "submitRequestCta": "Submit Request",
+      "form": {
+        "name": "testqa",
+        "email": "testqa@example.com",
+        "message": "Automation test message from TRW framework.",
+        "invalidMobile": "12345"
+      },
+      "validation": {
+        "nameRequired": "Please enter your name",
+        "mobileRequired": "Mobile number is required",
+        "emailRequired": "Please enter your email",
+        "messageRequired": "Message is required",
+        "mobileInvalid": "Please enter a valid 10-digit mobile number"
+      },
+      "thankYouText": "Thank you for contacting us, Our executive will call you soon!!"
+    }
+  }
+}

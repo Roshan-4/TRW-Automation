@@ -1,0 +1,23 @@
+{
+  "LoginRegister": {
+    "en": {
+      "signIn": "Sign In",
+      "heading": "Login / Register to Truck Junction",
+      "mandatoryNote": "It is mandatory for us to process your request.",
+      "loginTab": "LOGIN",
+      "registerTab": "REGISTER",
+      "loginEmailMobileLabel": "Email / Mobile no*",
+      "loginEmailMobilePlaceholder": "Enter Email / Mobile no",
+      "loginSubmit": "Login",
+      "loginEmptyValidation": "Please enter email/mobile no.",
+      "getOtp": "GET OTP",
+      "fullNameLabel": "Full Name*",
+      "occupationLabel": "Occupation*",
+      "applicationForCvLabel": "Application for CV*",
+      "mobileNoLabel": "Mobile No.*",
+      "continue": "Continue",
+      "occupationOption": "Truck Owner",
+      "skip": "Skip"
+    }
+  }
+}

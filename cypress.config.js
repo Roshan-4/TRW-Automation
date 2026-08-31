@@ -44,10 +44,14 @@ module.exports = defineConfig({
     scrollBehavior: false,
     setupNodeEvents(on, config) {
       // Fresh Allure results on every Cypress run — avoids mixing prior runs.
+      // Set ALLURE_ACCUMULATE=1 when chaining multiple npm test:* scripts in
+      // one pipeline (e.g. test:batch1-2:report); clear once up front via
+      // npm run clear:result instead of between each chained spec run.
       on('before:run', () => {
         const fs = require('fs');
         const resultsDir = path.resolve(__dirname, 'allure-results');
-        if (fs.existsSync(resultsDir)) {
+        const accumulate = /^(1|true|yes)$/i.test(String(process.env.ALLURE_ACCUMULATE || ''));
+        if (!accumulate && fs.existsSync(resultsDir)) {
           fs.rmSync(resultsDir, { recursive: true, force: true });
         }
         fs.mkdirSync(resultsDir, { recursive: true });
@@ -70,6 +74,7 @@ module.exports = defineConfig({
         userEmail: process.env.TJ_USER_EMAIL,
         userOtp: process.env.TJ_USER_OTP,
         authToken: process.env.TJ_AUTH_TOKEN,
+        stagingUrl: process.env.CYPRESS_STAGING_URL || '',
         device: DEVICE_KEY,
       };
 
@@ -86,10 +91,17 @@ module.exports = defineConfig({
         includeSuccessfulHookLogs: false,
       });
 
+      let seoStructureRows = [];
+
       on('task', {
         log(message) {
           // eslint-disable-next-line no-console
           console.log(message);
+          return null;
+        },
+
+        recordSeoStructureComparison(row) {
+          seoStructureRows.push(row);
           return null;
         },
 
@@ -138,6 +150,51 @@ module.exports = defineConfig({
           launchOptions.args.push(`--user-agent=${device.userAgent}`);
         }
         return launchOptions;
+      });
+
+      on('after:run', async () => {
+        if (!seoStructureRows.length) {
+          return;
+        }
+        const fs = require('fs');
+        const { writeSeoStructureExcel, REPORT_PATH } = require('./helpers/seoStructureExcel');
+        try {
+          if (fs.existsSync(REPORT_PATH)) {
+            // A half-written file from a previous failed after:run cannot be merged.
+            try {
+              const reportPath = await writeSeoStructureExcel(seoStructureRows);
+              // eslint-disable-next-line no-console
+              console.log(`[SEO structure] Expected vs actual Excel: ${reportPath}`);
+            } catch (mergeError) {
+              fs.unlinkSync(REPORT_PATH);
+              const reportPath = await writeSeoStructureExcel(seoStructureRows);
+              // eslint-disable-next-line no-console
+              console.log(`[SEO structure] Expected vs actual Excel (new file): ${reportPath}`);
+            }
+          } else {
+            const reportPath = await writeSeoStructureExcel(seoStructureRows);
+            // eslint-disable-next-line no-console
+            console.log(`[SEO structure] Expected vs actual Excel: ${reportPath}`);
+          }
+        } catch (error) {
+          // eslint-disable-next-line no-console
+          console.error('[SEO structure] Could not write Excel report:', error.message);
+        }
+
+        seoStructureRows.forEach((row) => {
+          if (row.headingsMatched && row.faqMatched) {
+            return;
+          }
+          const dest = path.resolve(
+            __dirname,
+            'artifacts',
+            'seo-structure-live',
+            row.lang,
+            `${row.pageKey}.json`
+          );
+          fs.mkdirSync(path.dirname(dest), { recursive: true });
+          fs.writeFileSync(dest, `${JSON.stringify(row.liveSnapshot, null, 2)}\n`);
+        });
       });
 
       return config;

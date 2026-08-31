@@ -143,6 +143,13 @@ class BusListing {
     });
     this.verifyLeadSubmitted();
   }
+
+  verifyListingChrome() {
+    cy.get('h1', { timeout: 20000 }).should('be.visible');
+    cy.contains('button', exactText(this.page.leadTriggerCta), { timeout: 20000 })
+      .filter(':visible')
+      .should('have.length.at.least', 1);
+  }
 }
 
 module.exports = BusListing;

@@ -1,0 +1,441 @@
+{
+  "scrapedAt": "2026-08-26",
+  "pages": {
+    "bestTrucks": {
+      "key": "bestTrucks",
+      "name": "Best Trucks",
+      "path": "/en/trucks",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Top 10 Truck Price in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Wise Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By GVW"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Trucks Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Truck Price in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Truck By GVW Wise"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Truck Brands in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Truck Models in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Types of Truck in india​"
+        },
+        {
+          "tag": "h3",
+          "text": "Truck By Number of Tyres"
+        },
+        {
+          "tag": "h3",
+          "text": "New Truck Features in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction For Buying A Truck?"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Second Hand Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Trucks Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular EV Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Trucks Latest Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Trucks",
+        "questions": [
+          "What is the starting truck price in India in 2026?",
+          "Which is the cheapest truck in India right now?",
+          "Which is the most expensive truck in India?",
+          "What is the average mileage of trucks in India?",
+          "Which truck brand is best in India?",
+          "Which truck has the highest payload capacity in India?",
+          "Which is the best mileage truck in India?",
+          "What are the types of trucks available in India?",
+          "What is GVW in trucks?",
+          "How many tyres does a truck have in India?",
+          "Which truck is best for small business in India?",
+          "What fuel options are available in trucks in India?",
+          "What are the new features in trucks in 2026?",
+          "Which truck is best for long-distance transport in India?",
+          "Where can I check the latest truck price in India?"
+        ]
+      }
+    },
+    "popularTrucks": {
+      "key": "popularTrucks",
+      "name": "Popular Truck",
+      "path": "/en/popular-trucks",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Popular Trucks In India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Trucks Price List in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Truck Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About Popular Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Want To Add A Popular Truck to Your Fleet?"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Trucks Price in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Choose Popular Trucks FromTruck Junction"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Second Hand Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Popular Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Popular Trucks",
+        "questions": [
+          "Which Is The Popular Truck Brand In India?",
+          "What Is The Popular Truck Price Range In India?",
+          "Which Is The Most Popular Truck Model In India?",
+          "Which Fuel Types Are Available In Popular Trucks In India?",
+          "What Is The GVW Range Of Popular Trucks?",
+          "Which Body Types Are Offered In Popular Trucks?"
+        ]
+      }
+    },
+    "newTrucks": {
+      "key": "newTrucks",
+      "name": "Find New Trucks",
+      "path": "/en/new-trucks",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "New Trucks In India"
+        },
+        {
+          "tag": "h2",
+          "text": "NEW TRUCKS PRICE LIST IN INDIA"
+        },
+        {
+          "tag": "h2",
+          "text": "New Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "About New Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "New Trucks Price In India"
+        },
+        {
+          "tag": "h3",
+          "text": "New Trucks Segments in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Top New Truck Models"
+        },
+        {
+          "tag": "h3",
+          "text": "Trends of New Electric Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "New Trucks Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "New Electric Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on New Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on New Trucks",
+        "questions": [
+          "Which are the New truck brands in India?",
+          "What is the New Trucks price range?",
+          "Currently, Which fuel type New Trucks are coming to market?",
+          "In what range the New truck’s GVW lies?",
+          "Which body types are offered in New Trucks?"
+        ]
+      }
+    },
+    "upcomingTrucks": {
+      "key": "upcomingTrucks",
+      "name": "Upcoming Trucks",
+      "path": "/en/upcoming-trucks",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Upcoming Trucks In India"
+        },
+        {
+          "tag": "h2",
+          "text": "Upcoming Trucks Found"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Body Type"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "About Upcoming Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Upcoming Trucks Price"
+        },
+        {
+          "tag": "h2",
+          "text": "Body Types Of Upcoming Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Upcoming Truck Model In India"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Only Truck Junction For Upcoming Trucks In India?"
+        },
+        {
+          "tag": "h2",
+          "text": "Upcoming Electric Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Trucks",
+        "questions": [
+          "Which new trucks are coming out in 2026?",
+          "Which is the best truck to buy in 2026?",
+          "Will petrol truck fuel types come in upcoming trucks?",
+          "Under which engine emission norms upcoming trucks will come in 2026?",
+          "Which brands are coming with upcoming trucks in 2026?",
+          "Which is the best truck to buy in 2026?"
+        ]
+      }
+    },
+    "latestTrucks": {
+      "key": "latestTrucks",
+      "name": "Latest Trucks",
+      "path": "/en/latest-trucks",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Latest Trucks In India"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Trucks Price List in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Trucks Found"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Commercial Vehicle By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Commercial Vehicles By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Commercial Vehicles By Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "About Latest Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Trucks In India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Trucks Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Select Truck Junction"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Electric Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Tipper Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Latest Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Latest Trucks",
+        "questions": [
+          "Which are the latest truck brands in India?",
+          "What is the Latest Trucks price range?",
+          "Currently, Which fuel type Latest Trucks are coming to market?",
+          "In what range the latest truck’s GVW lies?",
+          "Which body types are offered in Latest Trucks?"
+        ]
+      }
+    },
+    "bs6Trucks": {
+      "key": "bs6Trucks",
+      "name": "BS6 Trucks",
+      "path": "/en/bs-vi",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "BS6 Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "BS6 Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "BS6 Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "BS6 Commercial Vehicle By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "BS6 Commercial Vehicles by Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "BS6 Commercial Vehicles By Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "About BS6 Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular BS6 Phase 2 Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "BS6 Commercial Vehicle Price In India"
+        },
+        {
+          "tag": "h3",
+          "text": "BS6 Commercial Vehicles At Truck Junction"
+        },
+        {
+          "tag": "h2",
+          "text": "Electric Commercial Vehicles"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    }
+  }
+}

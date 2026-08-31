@@ -167,8 +167,14 @@ class SearchRightTruck {
     return cy.get('select:has(option.brand-options[value="tata"])', { log: false });
   }
 
-  getModelSelect() {
-    return this.getSelectByPlaceholder(this.copy.heroSelectModel);
+  getModelSelect(timeout) {
+    return cy
+      .get('select:visible', { log: false, ...(timeout ? { timeout } : {}) })
+      .filter((_, el) => {
+        const blank = el.querySelector('option[value=""]');
+        return Boolean(blank) && (blank.textContent || '').trim() === this.copy.heroSelectModel;
+      })
+      .first();
   }
 
   getBodyTypeSelect() {
@@ -737,19 +743,45 @@ class SearchRightTruck {
   }
 
   /**
-   * Confirmed live: after selecting a brand, the Model dropdown's options
-   * are populated asynchronously, and for brands with a large model catalog
-   * (e.g. Eicher, 92 models) this can take well over the default 15s
-   * command timeout — anywhere from under a second to 20+ seconds observed
-   * across repeated runs, not a fixed/predictable delay. A longer
-   * `.should()` timeout (still a real, dynamically-retried assertion, not a
-   * fixed wait) rides out that variance instead of failing on a slow but
-   * genuine population.
+   * After a brand is selected, Model options load asynchronously.
+   * Live headed runs showed the Brand dropdown can revert to its blank
+   * placeholder before models arrive (same timing as clickSearchUntilBrandPage),
+   * so this re-applies the brand on each retry until the model list is present.
    */
-  verifyModelOptionsInclude(modelSlugs) {
-    this.withinForm(() => {
-      modelSlugs.forEach((slug) => {
-        this.getModelSelect().find(`option[value="${slug}"]`, { timeout: 30000 }).should('exist');
+  verifyModelOptionsInclude(modelSlugs, brandSlug) {
+    const expected = modelSlugs;
+    const modelPlaceholder = this.copy.heroSelectModel;
+    this.getFormTitle().then(($heading) => {
+      cy.wrap($heading, { log: false, timeout: 60000 }).should(($h) => {
+        const $form = Cypress.$($h).parent();
+        const brandSelect = $form.find('select:has(option.brand-options[value="tata"])').get(0);
+        expect(brandSelect, 'Select Brand dropdown is shown').to.exist;
+        if (brandSelect.value !== brandSlug) {
+          const descriptor = Object.getOwnPropertyDescriptor(
+            window.HTMLSelectElement.prototype,
+            'value'
+          );
+          descriptor.set.call(brandSelect, brandSlug);
+          brandSelect.dispatchEvent(new Event('input', { bubbles: true }));
+          brandSelect.dispatchEvent(new Event('change', { bubbles: true }));
+        }
+
+        const modelSelect = [...$form.find('select')].find((el) => {
+          const blank = el.querySelector('option[value=""]');
+          return Boolean(blank) && (blank.textContent || '').trim() === modelPlaceholder;
+        });
+        expect(modelSelect, 'Select Model dropdown is shown').to.exist;
+        const values = [...modelSelect.options].map((opt) => opt.value).filter(Boolean);
+        expect(
+          values.length,
+          'Model dropdown should list models after a brand is selected'
+        ).to.be.greaterThan(0);
+        expected.forEach((slug) => {
+          expect(
+            values,
+            `Model dropdown should include “${slug}” after the brand is selected`
+          ).to.include(slug);
+        });
       });
     });
   }

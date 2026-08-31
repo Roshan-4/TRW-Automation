@@ -3,6 +3,7 @@ const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
 const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
 const { deviceTag } = require('../../../../helpers/deviceTags');
+const { registerListingChromeTests } = require('../../../support/listingChromeTests');
 
 const LANGUAGES = CategoryListing.supportedLanguages;
 
@@ -172,6 +173,13 @@ LANGUAGES.forEach((lang) => {
             });
           }
         );
+
+        registerListingChromeTests({
+          page,
+          pageLabel,
+          id: 'TC-CL-05',
+          langTags: langTags(lang, TEST_TAGS.POSITIVE, ...pageTags(pageKey)),
+        });
       }
     );
   });

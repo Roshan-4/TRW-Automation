@@ -104,6 +104,21 @@
       "writeReviewCta": "Write Review"
     }
   },
+  "Components": {
+    "en": {
+      "emi": {
+        "downPayment": "Down Payment",
+        "interestRate": "Interest Rate",
+        "loanPeriod": "Loan Period (Months)",
+        "monthlyEmi": "Monthly EMI",
+        "tenures": ["12", "24", "36", "48", "60", "72", "84"],
+        "alternateTenure": "12"
+      },
+      "dealersTabs": ["Dealers", "Service Center", "Spare Parts"],
+      "talkToDealerCta": "Talk To Dealer",
+      "navbarEmiItem": "Calculate EMI"
+    }
+  },
   "GetOffersLead": {
     "en": {
       "submitCta": "Get Offers",

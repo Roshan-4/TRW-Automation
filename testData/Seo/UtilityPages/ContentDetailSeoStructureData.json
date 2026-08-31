@@ -1,0 +1,697 @@
+{
+  "scrapedAt": "2026-08-26",
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
+  "pages": {
+    "aboutUs": {
+      "key": "aboutUs",
+      "name": "About Us",
+      "byLanguage": {
+        "en": {
+          "path": "/en/about-us",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "About Truck Junction - India’s fastest growing online platform for Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "CONTACT US"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/hi/about-us",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ट्रक जंक्शन के बारे में - ट्रकों के लिए भारत का सबसे तेजी से बढ़ता ऑनलाइन प्लेटफॉर्म"
+            },
+            {
+              "tag": "h2",
+              "text": "हमसे संपर्क करें"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/ta/about-us",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டிரக் ஜங்ஷன் பற்றி - இந்தியாவின் மிக வேகமாக வளர்ந்து வரும் டிரக்குகளுக்கான ஆன்லைன் தளம்"
+            },
+            {
+              "tag": "h2",
+              "text": "எங்களை தொடர்பு கொள்ளுங்கள்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "privacyPolicy": {
+      "key": "privacyPolicy",
+      "name": "Privacy Policy",
+      "byLanguage": {
+        "en": {
+          "path": "/en/privacy-policy",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Privacy Policy | Truckjunction"
+            },
+            {
+              "tag": "h2",
+              "text": "1. OVERVIEW AND SCOPE OF THIS POLICY"
+            },
+            {
+              "tag": "h2",
+              "text": "2. WHAT INFORMATION IS COLLECTED"
+            },
+            {
+              "tag": "h2",
+              "text": "3. HOW WE USE THIS INFORMATION"
+            },
+            {
+              "tag": "h2",
+              "text": "4. WHO DO WE SHARE YOUR INFORMATION WITH"
+            },
+            {
+              "tag": "h2",
+              "text": "5. SCOPE OF CONSENT AND ACKNOWLEDGMENT"
+            },
+            {
+              "tag": "h2",
+              "text": "6. JOB APPLICANTS"
+            },
+            {
+              "tag": "h2",
+              "text": "7. PERMISSIBLE AGE"
+            },
+            {
+              "tag": "h2",
+              "text": "8. DATA SECURITY"
+            },
+            {
+              "tag": "h2",
+              "text": "9. YOUR RIGHTS"
+            },
+            {
+              "tag": "h2",
+              "text": "10. DATA RETENTION"
+            },
+            {
+              "tag": "h2",
+              "text": "11. HOW WILL WE INFORM YOU ABOUT CHANGES IN OUR PRIVACY POLICY"
+            },
+            {
+              "tag": "h2",
+              "text": "12. DISCLAIMER"
+            },
+            {
+              "tag": "h2",
+              "text": "13. GRIEVANCE REDRESSAL"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/hi/privacy-policy",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "गोपनीयता नीति । ट्रकजंक्शन"
+            },
+            {
+              "tag": "h2",
+              "text": "1. इस नीति का अवलोकन और दायरा"
+            },
+            {
+              "tag": "h2",
+              "text": "2. कौन-सी जानकारी एकत्र की जाती है"
+            },
+            {
+              "tag": "h2",
+              "text": "3. हम इस जानकारी का उपयोग कैसे करते हैं"
+            },
+            {
+              "tag": "h2",
+              "text": "4. हम आपकी जानकारी किसके साथ साझा करते हैं"
+            },
+            {
+              "tag": "h2",
+              "text": "5. सहमति का दायरा और स्वीकृति"
+            },
+            {
+              "tag": "h2",
+              "text": "6. नौकरी के आवेदक"
+            },
+            {
+              "tag": "h2",
+              "text": "7. अनुमेय आयु"
+            },
+            {
+              "tag": "h2",
+              "text": "8. डेटा सुरक्षा"
+            },
+            {
+              "tag": "h2",
+              "text": "9. आपके अधिकार"
+            },
+            {
+              "tag": "h2",
+              "text": "10. डेटा संरक्षण अवधि"
+            },
+            {
+              "tag": "h2",
+              "text": "11. हम गोपनीयता नीति में बदलावों की जानकारी आपको कैसे देंगे"
+            },
+            {
+              "tag": "h2",
+              "text": "12. अस्वीकरण"
+            },
+            {
+              "tag": "h2",
+              "text": "13. शिकायत निवारण"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/ta/privacy-policy",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "தனியுரிமைக் கொள்கை | டிரக் ஜங்ஷன்"
+            },
+            {
+              "tag": "h2",
+              "text": "1. இந்த கொள்கையின் மேற்பார்வை மற்றும் வரம்பு"
+            },
+            {
+              "tag": "h2",
+              "text": "2. எந்த தகவல்கள் சேகரிக்கப்படுகின்றன"
+            },
+            {
+              "tag": "h2",
+              "text": "3. இந்த தகவலை எவ்வாறு பயன்படுத்துகிறோம்"
+            },
+            {
+              "tag": "h2",
+              "text": "4. உங்கள் தகவலை யாருடன் பகிர்கிறோம்"
+            },
+            {
+              "tag": "h2",
+              "text": "5. சம்மதத்தின் வரம்பும் ஒப்புதலும்"
+            },
+            {
+              "tag": "h2",
+              "text": "6. வேலைவாய்ப்பு விண்ணப்பதாரர்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "7. அனுமதிக்கப்பட்ட வயது"
+            },
+            {
+              "tag": "h2",
+              "text": "8. தரவு பாதுகாப்பு"
+            },
+            {
+              "tag": "h2",
+              "text": "9. உங்கள் உரிமைகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "10. தரவு காப்பக காலம்"
+            },
+            {
+              "tag": "h2",
+              "text": "11. தனியுரிமைக் கொள்கை மாற்றங்கள் குறித்து எவ்வாறு தகவலறிவிப்போம்"
+            },
+            {
+              "tag": "h2",
+              "text": "12. மறுப்பு அறிவிப்பு"
+            },
+            {
+              "tag": "h2",
+              "text": "13. குறைதீர் நடைமுறை"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "termsAndCondition": {
+      "key": "termsAndCondition",
+      "name": "Terms and Conditions",
+      "byLanguage": {
+        "en": {
+          "path": "/en/terms-and-condition",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Terms and Conditions - Truck Junction"
+            },
+            {
+              "tag": "h2",
+              "text": "Terms of Use"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/hi/terms-and-condition",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "नियम और शर्तें - ट्रक जंक्शन"
+            },
+            {
+              "tag": "h2",
+              "text": "उपयोग की शर्तें"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/ta/terms-and-condition",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "விதிமுறைகள் மற்றும் நிபந்தனைகள் - டிரக் ஜங்ஷன்"
+            },
+            {
+              "tag": "h2",
+              "text": "Terms of Use"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "sitemap": {
+      "key": "sitemap",
+      "name": "Sitemap",
+      "byLanguage": {
+        "en": {
+          "path": "/en/sitemap",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Junction - Sitemap"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/hi/sitemap",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ट्रंक जंक्शन - साइटमैप"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/ta/sitemap",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டிரக் ஜங்க்ஷன் - தள வரைபடம்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "blogHub": {
+      "key": "blogHub",
+      "name": "Truck Junction Blog",
+      "byLanguage": {
+        "en": {
+          "path": "/blog/",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Junction Blog"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/blog/",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Junction Blog"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/blog/",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Truck Junction Blog"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "authorsHub": {
+      "key": "authorsHub",
+      "name": "All Authors",
+      "byLanguage": {
+        "en": {
+          "path": "/en/authors",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "All Authors"
+            },
+            {
+              "tag": "h2",
+              "text": "Author List"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Posts"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck in India 2026"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/hi/authors",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "हमारे एक्सपर्ट लेखक"
+            },
+            {
+              "tag": "h2",
+              "text": "लेखक सूची"
+            },
+            {
+              "tag": "h2",
+              "text": "पॉपुलर पोस्ट"
+            },
+            {
+              "tag": "h2",
+              "text": "में भारत के ट्रक"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/ta/authors",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "அனைத்து எழுத்தாளர்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "ஆசிரியர் பட்டியல்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான பதிவுகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "ஆண்டில் உள்ள டிரக்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "newsDetail": {
+      "key": "newsDetail",
+      "name": "News Article Detail",
+      "byLanguage": {
+        "en": {
+          "path": "/en/news/eka-2-5t-electric-truck-range-payload-specifications",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "EKA 2.5T: Bharat Ki EVCV with 180 KM Range & 1500 KG Payload"
+            },
+            {
+              "tag": "h2",
+              "text": "EKA 2.5T Key Specifications"
+            },
+            {
+              "tag": "h2",
+              "text": "EKA 2.5T Range and Battery"
+            },
+            {
+              "tag": "h2",
+              "text": "EKA 2.5T Payload and Cargo Space"
+            },
+            {
+              "tag": "h2",
+              "text": "EKA 2.5T Power and Performance"
+            },
+            {
+              "tag": "h2",
+              "text": "EKA 2.5T Features"
+            },
+            {
+              "tag": "h2",
+              "text": "EKA 2.5T Warranty"
+            },
+            {
+              "tag": "h2",
+              "text": "Who Should Buy the EKA 2.5T?"
+            },
+            {
+              "tag": "h2",
+              "text": "EKA 2.5T Price"
+            },
+            {
+              "tag": "h2",
+              "text": "Final Words"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions About EKA 2.5T"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions About EKA 2.5T",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/hi/news/eka-2-5t-electric-truck-range-payload-specifications",
+          "headings": [],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/ta/news/eka-2-5t-electric-truck-range-payload-specifications",
+          "headings": [],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "blogDetail": {
+      "key": "blogDetail",
+      "name": "Blog Article Detail",
+      "byLanguage": {
+        "en": {
+          "path": "/blog/ace-pro-ev-vs-treo-zor-vs-reep-l3/",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/blog/ace-pro-ev-vs-treo-zor-vs-reep-l3/",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/blog/ace-pro-ev-vs-treo-zor-vs-reep-l3/",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "authorDetail": {
+      "key": "authorDetail",
+      "name": "Author Profile",
+      "byLanguage": {
+        "en": {
+          "path": "/authors/neeraj-joshi",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Neeraj Joshi"
+            },
+            {
+              "tag": "h2",
+              "text": "Recent News by Neeraj Joshi"
+            },
+            {
+              "tag": "h2",
+              "text": "Other Author"
+            },
+            {
+              "tag": "h2",
+              "text": "Top News"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/authors/neeraj-joshi",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Neeraj Joshi"
+            },
+            {
+              "tag": "h2",
+              "text": "Recent News by Neeraj Joshi"
+            },
+            {
+              "tag": "h2",
+              "text": "Other Author"
+            },
+            {
+              "tag": "h2",
+              "text": "Top News"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/authors/neeraj-joshi",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Neeraj Joshi"
+            },
+            {
+              "tag": "h2",
+              "text": "Recent News by Neeraj Joshi"
+            },
+            {
+              "tag": "h2",
+              "text": "Other Author"
+            },
+            {
+              "tag": "h2",
+              "text": "Top News"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scrapedAt": "2026-08-26",
+  "pages": {
+    "selectYourTruck": {
+      "key": "selectYourTruck",
+      "name": "Select Your Truck",
+      "path": "/en/select-your-truck",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Choose Best Truck For You"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Models by Application"
+        },
+        {
+          "tag": "h2",
+          "text": "News"
+        },
+        {
+          "tag": "h2",
+          "text": "About Best Truck For You"
+        },
+        {
+          "tag": "h4",
+          "text": "How Can I Get Best Suited Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    },
+    "offers": {
+      "key": "offers",
+      "name": "Offers",
+      "path": "/en/offers",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "It’s Trucks Offers!"
+        },
+        {
+          "tag": "h2",
+          "text": "Don’t Miss Out!"
+        },
+        {
+          "tag": "h2",
+          "text": "New truck offers and discounts"
+        },
+        {
+          "tag": "h2",
+          "text": "Discounts"
+        },
+        {
+          "tag": "h2",
+          "text": "Flexible Payment Plans"
+        },
+        {
+          "tag": "h2",
+          "text": "On Road Price Offers"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Models by Category"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Links"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    },
+    "bodyMakers": {
+      "key": "bodyMakers",
+      "name": "Body Makers",
+      "path": "/en/body-makers",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Truck Body Makers in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Truck Body Makers"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    }
+  }
+}

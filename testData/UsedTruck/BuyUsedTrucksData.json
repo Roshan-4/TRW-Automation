@@ -6,7 +6,13 @@
       "path": "/en/buy-used-trucks",
       "pageType": "Used Trucks Listing",
       "leadTriggerCta": "Contact Seller",
-      "identifierSuffix": "ContactSeller"
+      "identifierSuffix": "ContactSeller",
+      "heading": "Used Trucks",
+      "listingHeadingPattern": "^\\d+ Used Truck Found$",
+      "cardCta": "Contact Seller",
+      "faqHeading": "Frequently Asked Questions on Used Trucks",
+      "filterLabels": ["Reset All", "Apply Filters"],
+      "loadMoreCta": "Load More"
     }
   }
 }

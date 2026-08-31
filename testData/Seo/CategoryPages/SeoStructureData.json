@@ -1,0 +1,4627 @@
+{
+  "scrapedAt": "2026-08-26",
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
+  "pages": {
+    "tippers": {
+      "key": "tippers",
+      "name": "Tippers",
+      "path": "/en/tippers",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Tipper/Dumper Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Price List of Tipper/Dumper Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tipper/Dumper Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tipper By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Wise Tipper"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By GVW"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tipper Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Tipper/Dumper Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Tipper Price In India"
+        },
+        {
+          "tag": "h2",
+          "text": "Tipper Truck Specifications & Features"
+        },
+        {
+          "tag": "h3",
+          "text": "Fuel Types"
+        },
+        {
+          "tag": "h3",
+          "text": "Max Power"
+        },
+        {
+          "tag": "h3",
+          "text": "Gross Vehicle Weight (GVW)"
+        },
+        {
+          "tag": "h3",
+          "text": "Emission Norms"
+        },
+        {
+          "tag": "h3",
+          "text": "Number of Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Brand Wise Category Of Tippers"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Tipper"
+        },
+        {
+          "tag": "h3",
+          "text": "Ashok Leyland Tipper"
+        },
+        {
+          "tag": "h3",
+          "text": "Mahindra Tipper"
+        },
+        {
+          "tag": "h3",
+          "text": "BharatBenz Tipper"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher Tipper"
+        },
+        {
+          "tag": "h2",
+          "text": "The Different Uses of Tippers in Various Businesses"
+        },
+        {
+          "tag": "h3",
+          "text": "Transportation of Loose Materials:"
+        },
+        {
+          "tag": "h3",
+          "text": "Construction and Demolition Waste:"
+        },
+        {
+          "tag": "h3",
+          "text": "Mining Operations:"
+        },
+        {
+          "tag": "h3",
+          "text": "Road Construction:"
+        },
+        {
+          "tag": "h3",
+          "text": "Landscaping:"
+        },
+        {
+          "tag": "h2",
+          "text": "Best Selling Tipper Models In India"
+        },
+        {
+          "tag": "h2",
+          "text": "Tipper Trucks At Truck Junction"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Second Hand Tipper/Dumper Trucks in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Tipper Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular EV Tipper"
+        },
+        {
+          "tag": "h2",
+          "text": "Tipper Latest Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Tipper/Dumper Trucks in India"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Tipper/Dumper Trucks in India",
+        "questions": [
+          "What is the dumper truck price in India?",
+          "What are the types of tippers available in India?",
+          "What are the popular brands of tippers in India?",
+          "What emission norms do tipper trucks in India follow?",
+          "What are the key features to consider when buying a tipper truck?",
+          "What is the typical lifespan of a tipper truck?",
+          "How can I find the latest updates on tipper truck models and prices?",
+          "What are the advantages of using tippers in construction and mining projects?",
+          "Are electric or LNG-powered tippers available in India?"
+        ]
+      }
+    },
+    "trailers": {
+      "key": "trailers",
+      "name": "Trailers",
+      "path": "/en/tractor",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Trailer Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Trailer Price List in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Trailer Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Trailer By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Wise Trailer"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By GVW"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Trailer Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Trailer Trucks in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Tractor Trailer Price In India"
+        },
+        {
+          "tag": "h3",
+          "text": "Tractor Trailer Trucks Specifications & Features"
+        },
+        {
+          "tag": "h3",
+          "text": "Brand Wise Trailer Truck Categories"
+        },
+        {
+          "tag": "h4",
+          "text": "1. Tata Trailer Trucks"
+        },
+        {
+          "tag": "h4",
+          "text": "2. Ashok Leyland Trailer Trucks"
+        },
+        {
+          "tag": "h4",
+          "text": "3. BharatBenz Trailer Trucks"
+        },
+        {
+          "tag": "h4",
+          "text": "4. Eicher Trailer Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "5. Mahindra Trailer Trucks"
+        },
+        {
+          "tag": "h4",
+          "text": "Different Uses of Tractor Trailers in Various Businesses"
+        },
+        {
+          "tag": "h3",
+          "text": "Best Selling Trailer Truck Models in India"
+        },
+        {
+          "tag": "h4",
+          "text": "1. Mahindra Blazo X 55 Trailer"
+        },
+        {
+          "tag": "h4",
+          "text": "2. Eicher Pro 8055 TT Trailer"
+        },
+        {
+          "tag": "h4",
+          "text": "4. Tata Prima 5530.S 4x2 Trailer"
+        },
+        {
+          "tag": "h4",
+          "text": "5. Tata Signa 4625.S ESC Trailer"
+        },
+        {
+          "tag": "h4",
+          "text": "6. Tata Signa 5525.S 4x2 Trailer"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Second Hand Trailer Trucks in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Trailer Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular EV Trailer"
+        },
+        {
+          "tag": "h2",
+          "text": "Trailer Latest Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Trailer Trucks in India"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Trailer Trucks in India",
+        "questions": [
+          "What is the trailer price in India?",
+          "Which is the most expensive trailer model?",
+          "Which brands offer the best trailers in India?",
+          "What is the GVW range available for trailers?",
+          "Where can I find the updated trailer price list?",
+          "What types of fuel do trailers support?",
+          "Can I compare trailer models on Truck Junction?",
+          "Do trailers follow BS-VI norms?"
+        ]
+      }
+    },
+    "miniTrucks": {
+      "key": "miniTrucks",
+      "name": "Mini Trucks",
+      "path": "/en/mini-truck",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mini Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Top 10 Mini Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Mini Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Mini Trucks By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Wise Mini Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By GVW"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Mini Trucks Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Mini Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Mini Truck Price in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Mini Truck Models in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Explore Mini Truck Series in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "1. Mahindra Jeeto Series"
+        },
+        {
+          "tag": "h3",
+          "text": "2. Tata Ace Series"
+        },
+        {
+          "tag": "h3",
+          "text": "3. Mahindra Supro Series"
+        },
+        {
+          "tag": "h3",
+          "text": "4. Eicher Pro Series"
+        },
+        {
+          "tag": "h3",
+          "text": "5. Maruti Suzuki Super Carry"
+        },
+        {
+          "tag": "h2",
+          "text": "Why is the Mini Truck the Best Choice for Transportation?"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction for Mini Truck?"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Second Hand Mini Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Mini Trucks Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular EV Mini Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Mini Trucks Latest Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Mini Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Mini Trucks",
+        "questions": [
+          "What is the starting Mini Truck Price in India 2026?",
+          "Which is the best Mini Truck in India for small businesses?",
+          "What are the popular Mini Truck models in India 2026?",
+          "What is the maximum GVW of Mini Trucks in India?",
+          "What is the payload capacity of popular Mini Trucks in India?",
+          "Which Mini Truck gives the best mileage in India?",
+          "Are there electric Mini Trucks available in India 2026?",
+          "Which brand offers the most reliable Mini Trucks in India?",
+          "What is the price of the most expensive Mini Truck in India 2026?",
+          "Why should I use Truck Junction to check Mini Truck Price in India?"
+        ]
+      }
+    },
+    "pickups": {
+      "key": "pickups",
+      "name": "Pickups",
+      "path": "/en/pickup",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Pickup Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Pickup Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Pickup Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Pickup Truck By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Wise Pickup Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By GVW"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Pickup Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Pickup Truck"
+        },
+        {
+          "tag": "h3",
+          "text": "Pickup Truck Price in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Pickup Truck Specifications & Features"
+        },
+        {
+          "tag": "h3",
+          "text": "Uses of Pickup Trucks in Different Businesses"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Pickup Brands and Models in India"
+        },
+        {
+          "tag": "h3",
+          "text": "What Makes Pickup Trucks Best in the Business?"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Pick Pickup Trucks at Truck Junction?"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Second Hand Pickup Truck"
+        },
+        {
+          "tag": "h3",
+          "text": "Pickup Truck Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular EV Pickup Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Pickup Truck Latest Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Pickup Truck"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Pickup Truck",
+        "questions": [
+          "What is the starting price of pickup trucks in India?",
+          "Which are the most popular pickup truck brands in India?",
+          "What is the power range of pickup trucks available in India?",
+          "What is the Gross Vehicle Weight (GVW) of pickup trucks?",
+          "Are pickup trucks suitable for both city and highway use?",
+          "What are the different fuel options available for pickup trucks?",
+          "What are some of the best-selling pickup trucks in India?",
+          "Do pickup trucks meet the latest emission standards?",
+          "What makes pickup trucks ideal for small businesses?",
+          "Why should I buy a pickup truck from Truck Junction?"
+        ]
+      }
+    },
+    "transitMixer": {
+      "key": "transitMixer",
+      "name": "Transit Mixer",
+      "path": "/en/transit-mixer",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Cement Mixer Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Top 10 Cement Mixer Truck Price in 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Cement Mixer Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Transit Mixer By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Wise Transit Mixer"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Transit Mixer Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Cement Mixer Trucks in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Cement Mixer Trucks Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Models of Concrete Mixer Truck"
+        },
+        {
+          "tag": "h3",
+          "text": "Applications of Cement Mixer Trucks in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Choose Truck Junction for a Transit Mixer?"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Second Hand Cement Mixer Trucks in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Transit Mixer Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Transit Mixer Latest Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Cement Mixer Trucks in India"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Cement Mixer Trucks in India",
+        "questions": [
+          "What is the Transit Mixer Price in India in 2026?",
+          "What is the capacity of a cement mixer truck?",
+          "How many tyres are there in a transit mixer truck?",
+          "What is the engine power of a concrete mixer truck?",
+          "What is the mileage of a transit mixer truck?",
+          "What is the Gross Vehicle Weight (GVW) of transit mixers?",
+          "Which fuel type is used in transit mixer trucks?",
+          "What emission standards do transit mixers follow in 2026?"
+        ]
+      }
+    },
+    "autoRickshaw": {
+      "key": "autoRickshaw",
+      "name": "Auto Rickshaw",
+      "path": "/en/auto-rickshaw",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Auto Rickshaw"
+        },
+        {
+          "tag": "h2",
+          "text": "Auto Rickshaw Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Auto Rickshaw"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Auto Rickshaw By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Wise Auto Rickshaw"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By GVW"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Auto Rickshaw Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Auto Rickshaw"
+        },
+        {
+          "tag": "h3",
+          "text": "Price Range of Auto-Rickshaw"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Choose Auto Rickshaws in India?"
+        },
+        {
+          "tag": "h3",
+          "text": "Main Uses of Auto Rickshaws"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Auto Rickshaw Models in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Electric Auto Rickshaw"
+        },
+        {
+          "tag": "h3",
+          "text": "Top 10 Electric Auto Rickshaws in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Second Hand Auto Rickshaw"
+        },
+        {
+          "tag": "h3",
+          "text": "Auto Rickshaw Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular EV Auto Rickshaw"
+        },
+        {
+          "tag": "h2",
+          "text": "Auto Rickshaw Latest Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Auto Rickshaw"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Auto Rickshaw",
+        "questions": [
+          "What is the auto rickshaw price in India?",
+          "What is the lowest auto rickshaw price?",
+          "What are the top 5 most expensive auto rickshaws?",
+          "Which fuel is used in an auto rickshaw?",
+          "What are the top 5 auto brands?",
+          "What is the horsepower of an auto rickshaw?",
+          "What is GVW in an auto rickshaw?",
+          "What are the emission norms in auto rickshaws?"
+        ]
+      }
+    },
+    "tempoTraveller": {
+      "key": "tempoTraveller",
+      "name": "Tempo Traveller",
+      "path": "/en/tempo-traveller",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Tempo Traveller"
+        },
+        {
+          "tag": "h2",
+          "text": "Tempo Traveller Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tempo Traveller"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tempo Traveller By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Wise Tempo Traveller"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By GVW"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tempo Traveller Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Tempo Traveller"
+        },
+        {
+          "tag": "h2",
+          "text": "Tempo Traveller Price in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Choose Tempo Travellers | Key Features"
+        },
+        {
+          "tag": "h2",
+          "text": "Applications of Tempo Travellers"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tempo Traveller Models"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction for Tempo Traveller?"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Second Hand Tempo Traveller"
+        },
+        {
+          "tag": "h3",
+          "text": "Tempo Traveller Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular EV Tempo Traveller"
+        },
+        {
+          "tag": "h2",
+          "text": "Tempo Traveller Latest Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Tempo Traveller"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Tempo Traveller",
+        "questions": [
+          "How Many Travellers Are Available at the Truck Junction?",
+          "Which Are the Most Popular Brands of Travellers?",
+          "Which Are the Most Popular Travellers in India?",
+          "What is the Gvw Range of Travellers?",
+          "Which Type of Fuels Are Used by Traveller Models?",
+          "What is the Tempo Mileage Range?",
+          "Which is the Most Popular 10 Seater Tempo Traveller in India?",
+          "Which Are the Tempo Traveller 12 Seater Models in India?",
+          "What is the Tempo Traveller 12 Seater Price in India?",
+          "Which is the Most Popular 14 Seater Traveller in India?",
+          "Which is the Most Popular 17 Seater Traveller in India?",
+          "Which is the Best 22 Seater Tempo Traveller in India?",
+          "What is the Maximum Traveller Seating Capacity?",
+          "How Many Number of Tyres Are Fitted With Travellers?",
+          "Where Can You Check the Price of Tempo Traveller Near Me?"
+        ]
+      }
+    },
+    "threeWheeler": {
+      "key": "threeWheeler",
+      "name": "3 Wheeler",
+      "path": "/en/3-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 3 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 3 Wheeler/ 3 Chakka Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Three Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Price in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Types of Three Wheelers"
+        },
+        {
+          "tag": "h3",
+          "text": "1. Passenger Three Wheelers"
+        },
+        {
+          "tag": "h3",
+          "text": "2. Cargo Three Wheelers (EV Loader)"
+        },
+        {
+          "tag": "h3",
+          "text": "3. Fuel Options Available in 3 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Top 5 Popular 3 Wheeler Models in India (2026)"
+        },
+        {
+          "tag": "h3",
+          "text": "1. Bajaj RE E TEC 9.0"
+        },
+        {
+          "tag": "h3",
+          "text": "2. Bajaj RE"
+        },
+        {
+          "tag": "h3",
+          "text": "3. Mahindra E Alfa Plus"
+        },
+        {
+          "tag": "h3",
+          "text": "4. Mahindra Treo Plus"
+        },
+        {
+          "tag": "h3",
+          "text": "5. Mahindra E Alfa Mini"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Choose a Three Wheeler?"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric 3 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 3 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 3 Wheelers",
+        "questions": [
+          "What is the starting 3 wheeler price in India for 2026?",
+          "Which are the best 3 wheeler models available in India?",
+          "What are the fuel options available in 3 wheeler auto rickshaws?",
+          "Why are electric 3 wheelers gaining popularity in India?",
+          "What is the average cargo 3 wheeler price in India?",
+          "How many passengers can a standard 3 wheeler auto rickshaw carry?",
+          "Which brand offers the most popular 3 wheelers in India?",
+          "What is the seating capacity of electric passenger 3 wheelers?",
+          "What factors affect the 3 wheeler tempo price in India?",
+          "Why should buyers use Truck Junction to check 3 wheeler price in India?"
+        ]
+      }
+    },
+    "fourWheeler": {
+      "key": "fourWheeler",
+      "name": "4 Wheeler",
+      "path": "/en/4-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler Truck / 4 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 4 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 4 Wheeler/ 4 Chakka Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About 4 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Features of 4 Wheeler Truck"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Truck Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "How can You Own 4 wheel truck in India?"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric 4 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 4 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 4 Wheelers",
+        "questions": [
+          "Which Body Types are Offered in 4 Wheeler Trucks?",
+          "How Many 4 Wheel Trucks are Available at Truck Junction?",
+          "Which are The Famous Manufactures of 4 Wheel Trucks?",
+          "Which emission norms four wheel trucks are available?",
+          "What is The Starting Price of Four-Wheel Trucks?"
+        ]
+      }
+    },
+    "sixWheeler": {
+      "key": "sixWheeler",
+      "name": "6 Wheeler",
+      "path": "/en/6-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler Truck / 6 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 6 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 6 Wheeler/ 6 Chakka Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About 6 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Truck Price in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Types of 6 Chakka Trucks in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Trailers"
+        },
+        {
+          "tag": "h3",
+          "text": "Tippers"
+        },
+        {
+          "tag": "h3",
+          "text": "Tempo Travellers"
+        },
+        {
+          "tag": "h3",
+          "text": "Pickup Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Models of 6 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Features of 6 Chakka Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Truck Junction for a 6 Wheel Truck for Sale?"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric 6 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 6 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 6 Wheelers",
+        "questions": [
+          "What is the starting price of a 6 wheeler truck in India?",
+          "Which is the best 6 chakka truck for construction work?",
+          "Which fuel types are available in 6 wheeler trucks?",
+          "What is the highest priced 6 wheeler truck in India?",
+          "What is the average mileage of a 6 chakka truck?",
+          "Which brands offer the best 6 wheeler trucks in India?",
+          "What is the gross vehicle weight (GVW) range of 6 wheeler trucks?",
+          "Are electric 6 wheeler trucks available in India?",
+          "Can I compare 6 chakka truck models and prices online?",
+          "Where can I find the best deals on 6 wheeler trucks?"
+        ]
+      }
+    },
+    "eightWheeler": {
+      "key": "eightWheeler",
+      "name": "8 Wheeler",
+      "path": "/en/8-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler Truck / 8 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 8 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About 8 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Features of 8 Wheeler Truck"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Truck Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction is best for 8 Wheeler Trucks?"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric 8 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 8 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 8 Wheelers",
+        "questions": [
+          "How many 8-wheeler trucks are available at Truck Junction?",
+          "What are the benefits of 8 Wheeler Trucks for Our Business?",
+          "Which are the famous manufacturers of 8 wheeler Trucks?",
+          "Which Emission Norms does the 8-Wheeler Truck follow?",
+          "What is the price of Ashok Leyland Avtr 2620 6X2 LA?"
+        ]
+      }
+    },
+    "tenWheeler": {
+      "key": "tenWheeler",
+      "name": "10 Wheeler",
+      "path": "/en/10-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler Truck / 10 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 10 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About 10 Wheeler Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Are you looking for a 10 wheeler truck?"
+        },
+        {
+          "tag": "h2",
+          "text": "How can you own 10 Chakka Trucks in India?"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Truck Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric 10 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 10 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 10 Wheelers",
+        "questions": [
+          "What is the highest GVW of 10 wheeler trucks?",
+          "What is the fuel type of 10 wheeler trucks?",
+          "Which are the popular models of 10 wheeler trucks?",
+          "What is the HP range of 10 wheeler trucks?",
+          "What is the price range of 10 wheeler trucks?"
+        ]
+      }
+    },
+    "twelveWheeler": {
+      "key": "twelveWheeler",
+      "name": "12 Wheeler",
+      "path": "/en/12-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler Truck / 12 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 12 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 12 Wheeler/ 12 Chakka Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About 12 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Price In India 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Types of 12 Wheeler/ 12 Chakka"
+        },
+        {
+          "tag": "h3",
+          "text": "Tipper"
+        },
+        {
+          "tag": "h3",
+          "text": "Truck"
+        },
+        {
+          "tag": "h3",
+          "text": "Transit Mixer"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Models of 12 Wheelers"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Signa 3525.K/.TK"
+        },
+        {
+          "tag": "h3",
+          "text": "Ashok Leyland 3520 8x2"
+        },
+        {
+          "tag": "h3",
+          "text": "BharatBenz 3528C"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher Pro 6035"
+        },
+        {
+          "tag": "h3",
+          "text": "Mahindra Blazo X 35 8x4"
+        },
+        {
+          "tag": "h2",
+          "text": "Features of 12 Wheelers"
+        },
+        {
+          "tag": "h2",
+          "text": "Application of 12 Wheelers"
+        },
+        {
+          "tag": "h2",
+          "text": "Exclusive Offers on 12 Wheeler Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric 12 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 12 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 12 Wheelers",
+        "questions": [
+          "What is the price of 12 Wheeler trucks ?",
+          "What is the maximum engine power of 12 wheeler trucks?",
+          "What is the use of 12 wheeler trucks?",
+          "What is the lowest engine power of 12 wheeler trucks?",
+          "What is the fuel type of 12 wheeler trucks?"
+        ]
+      }
+    },
+    "fourteenWheeler": {
+      "key": "fourteenWheeler",
+      "name": "14 Wheeler",
+      "path": "/en/14-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler Truck / 14 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 14 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 14 Wheeler/ 14 Chakka Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About 14 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Truck Price in India 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 14 Chakka Truck Models in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Features of 14 Wheeler Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Choose 14 Chakka Trucks?"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction for 14 Chakka Trucks?"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 14 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 14 Wheelers",
+        "questions": [
+          "What is the price range of 14 wheeler trucks in India?",
+          "Which are the most valuable 14 wheeler trucks in India?",
+          "Which is the most expensive 14 wheeler trucks model?",
+          "Which is the lowest price 14 wheeler trucks model?",
+          "Where can you find the complete information about 14 wheeler trucks?"
+        ]
+      }
+    },
+    "sixteenWheeler": {
+      "key": "sixteenWheeler",
+      "name": "16 Wheeler",
+      "path": "/en/16-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler Truck / 16 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 16 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 16 Wheeler/ 16 Chakka Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About 16 Wheeler"
+        },
+        {
+          "tag": "h4",
+          "text": "Wheeler Truck Price in India"
+        },
+        {
+          "tag": "h4",
+          "text": "Popular 16 Wheeler Truck Modеls In India"
+        },
+        {
+          "tag": "h4",
+          "text": "Wheeler Truck/ 16 Chakka Applications In India"
+        },
+        {
+          "tag": "h4",
+          "text": "Exclusive Services We Offer"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 16 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 16 Wheelers",
+        "questions": [
+          "How many companies are famous for the production of 16 wheeler trucks?",
+          "Where can you get all the information about trucks?",
+          "Which are the most famous 16 Chakka trucks models?",
+          "What kind of works are done by 16 wheeler trucks?",
+          "How many types of the body in 16 Chakka trucks?"
+        ]
+      }
+    },
+    "eighteenWheeler": {
+      "key": "eighteenWheeler",
+      "name": "18 Wheeler",
+      "path": "/en/18-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler Truck / 18 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 18 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About 18 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "How can I get 18 Chakka Trucks in India?"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Truck Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric 18 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 18 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 18 Wheelers",
+        "questions": [
+          "What is the body type of 18 wheeler trucks?",
+          "What is the work of 18 Chakka trucks?",
+          "What makes 18 wheeler trucks most famous?",
+          "Who is the famous manufacturer of 18 Chakka trucks?",
+          "Which is the most expensive 18 wheeler truck in India?"
+        ]
+      }
+    },
+    "twentyTwoWheeler": {
+      "key": "twentyTwoWheeler",
+      "name": "22 Wheeler",
+      "path": "/en/22-wheeler",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Wheeler Truck / 22 Chakka Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 22 Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler By Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular 22 Wheeler/ 22 Chakka Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About 22 Wheeler"
+        },
+        {
+          "tag": "h3",
+          "text": "Structure and Design"
+        },
+        {
+          "tag": "h3",
+          "text": "Engine and Power"
+        },
+        {
+          "tag": "h3",
+          "text": "Dimensions & Length"
+        },
+        {
+          "tag": "h3",
+          "text": "Load Capacity"
+        },
+        {
+          "tag": "h3",
+          "text": "Emission Norms"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Models"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Truck Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Key Characteristics and Features"
+        },
+        {
+          "tag": "h3",
+          "text": "Manufacturers and Popular Models in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Application of 22 Wheeler Truck"
+        },
+        {
+          "tag": "h3",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction for 22 Wheeler Trucks?"
+        },
+        {
+          "tag": "h3",
+          "text": "Wheeler Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Other Wheeler Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Wheeler Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on 22 Wheelers"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on 22 Wheelers",
+        "questions": [
+          "What is the starting 22 wheeler truck price in India?",
+          "Which is the cheapest 22 chakka truck in India?",
+          "What is the maximum price of a 22 wheeler truck in India?",
+          "What is the 22 wheeler truck load capacity in India?",
+          "What is the average 22 wheeler truck length?",
+          "What are the 22 wheeler truck dimensions?",
+          "What is the fuel tank capacity of a 22 wheeler truck?",
+          "Which is the best Tata 22 wheeler truck in India?",
+          "Which brands offer 22 chakka trucks in India?",
+          "Where can I buy or compare 22 wheeler trucks online?"
+        ]
+      }
+    },
+    "diesel": {
+      "key": "diesel",
+      "name": "Diesel Trucks",
+      "path": "/en/diesel",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Diesel Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Diesel Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Diesel Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Budget"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About Diesel Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Diesel Trucks Price in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Diesel Trucks in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Where can I find advanced diesel trucks?"
+        },
+        {
+          "tag": "h3",
+          "text": "Diesel Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Diesel Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Diesel Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Diesel Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Fuel Type Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Diesel Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Diesel Trucks",
+        "questions": [
+          "Which is the Most Powerful Diesel Truck model?",
+          "Which are the most popular Diesel truck models in India?",
+          "Which is the lowest priced Diesel commercial vehicle?",
+          "Which is the highest priced Diesel truck model?",
+          "What is the GVW range of Diesel trucks?"
+        ]
+      }
+    },
+    "petrol": {
+      "key": "petrol",
+      "name": "Petrol Trucks",
+      "path": "/en/petrol",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Petrol Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Petrol Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Petrol Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About Petrol Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Petrol Trucks Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Explore The Most Popular Petrol Trucks In India"
+        },
+        {
+          "tag": "h3",
+          "text": "How can I get a petrol truck easily?"
+        },
+        {
+          "tag": "h3",
+          "text": "Petrol Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Petrol Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Petrol Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Petrol Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Fuel Type Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Petrol Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Petrol Trucks",
+        "questions": [
+          "Which is the Most Powerful Petrol Truck in India?",
+          "What Kind of Body Types Are Included in the Petrol Trucks Fuel Category?",
+          "What is the Petrol Trucks GVW Range?",
+          "Which is the Lowest Priced Petrol Truck in India?",
+          "Which is the Highest Priced Petrol Truck in India?",
+          "Which Are the Most Popular Petrol Trucks in India?",
+          "What Are the Brands of Petrol Trucks in India?",
+          "Which Are the Newly Launched Petrol Truck Models in India?",
+          "Which Are the Petrol Tempo Travellers in India?"
+        ]
+      }
+    },
+    "cng": {
+      "key": "cng",
+      "name": "CNG Trucks",
+      "path": "/en/cng",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "CNG Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "CNG Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular CNG Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Budget"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About CNG Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "CNG Trucks Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Top CNG truck models in 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Benefits of CNG trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Who should consider a CNG truck?"
+        },
+        {
+          "tag": "h3",
+          "text": "How can I find CNG trucks in India?"
+        },
+        {
+          "tag": "h3",
+          "text": "CNG Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular CNG Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand CNG Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "CNG Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Fuel Type Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on CNG Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on CNG Trucks",
+        "questions": [
+          "What is the price range of CNG trucks in India?",
+          "Which CNG trucks have the best mileage?",
+          "What engine options are available for CNG trucks?",
+          "What is the payload capacity of CNG trucks?",
+          "What is the GVW (Gross Vehicle Weight) of CNG trucks?",
+          "Are CNG trucks fuel-efficient compared to diesel trucks?",
+          "Which CNG mini trucks are budget-friendly?",
+          "Which CNG trucks are suitable for heavy-duty hauling?",
+          "Can CNG trucks handle last-mile and intra-city deliveries efficiently?",
+          "Which brands offer CNG trucks in India?"
+        ]
+      }
+    },
+    "lpg": {
+      "key": "lpg",
+      "name": "LPG Trucks",
+      "path": "/en/lpg",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "LPG Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "LPG Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular LPG Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About LPG Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "LPG Auto Rickshaws Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Benefits of LPG Auto Rickshaws"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Auto Rickshaw Junction"
+        },
+        {
+          "tag": "h3",
+          "text": "LPG Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular LPG Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand LPG Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Fuel Type Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on LPG Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on LPG Trucks",
+        "questions": [
+          "What kind of body type are added in the LPG Auto Rickshaws category?",
+          "Which is better, LPG or diesel?",
+          "Which emission norms followed by the LPG Auto Rickshaws?",
+          "Which is the most popular LPG Auto Rickshaw model in India?",
+          "Which brands made LPG Auto Rickshaws in India?",
+          "What is the mileage of LPG per liter?"
+        ]
+      }
+    },
+    "lng": {
+      "key": "lng",
+      "name": "LNG Trucks",
+      "path": "/en/lng",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "LNG Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "LNG Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular LNG Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About LNG Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "LNG Trucks Price in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular LNG Truck Models in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Features of LNG Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Choose LNG Trucks?"
+        },
+        {
+          "tag": "h2",
+          "text": "How to Find the Best LNG Truck Price in India?"
+        },
+        {
+          "tag": "h2",
+          "text": "LNG Trucks at Truck Junction"
+        },
+        {
+          "tag": "h3",
+          "text": "LNG Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular LNG Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand LNG Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "LNG Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Fuel Type Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on LNG Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on LNG Trucks",
+        "questions": [
+          "What is the price range of LNG trucks in India?",
+          "Which are the top LNG truck brands available in India?",
+          "Are LNG trucks cheaper to operate than diesel trucks?",
+          "What are the environmental benefits of using LNG trucks?",
+          "What body types are available in LNG trucks?",
+          "What is the Gross Vehicle Weight (GVW) range of LNG trucks?",
+          "Why are LNG trucks suitable for long-haul transportation?",
+          "Is LNG fuel safe and theft-proof for commercial use?",
+          "How can I find the best LNG truck for my business?",
+          "Are LNG trucks compliant with BS-6 emission norms in India?"
+        ]
+      }
+    },
+    "hydrogen": {
+      "key": "hydrogen",
+      "name": "Hydrogen Trucks",
+      "path": "/en/hydrogen",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Hydrogen Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Hydrogen Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Hydrogen Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About Hydrogen Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Advantages of Hydrogen Fuel Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Hydrogen Trucks in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Where to find the best Hydrogen Trucks in India?"
+        },
+        {
+          "tag": "h3",
+          "text": "Hydrogen Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Hydrogen Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Hydrogen Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Hydrogen Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Fuel Type Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Hydrogen Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Hydrogen Trucks",
+        "questions": [
+          "What is a Hydrogen Truck?",
+          "What is a Hydrogen Truck Price in India?",
+          "Can the Hydrogen Fuel Variant Be Applied in Trucks?",
+          "How Does a Hydrogen Truck Work?",
+          "How Does Hydrogen Fuel Differ From Conventional Fuels?",
+          "Which Brands Are Manufacturing Hydrogen Trucks in India?",
+          "Which is the Most Popular Hydrogen Truck Model in India?",
+          "Which Emission Norm is Followed by the Hydrogen Trucks?",
+          "How Many Tyres Are Available in Hydrogen Trucks?",
+          "What is the GVW of Hydrogen Trucks?",
+          "Which is India’s First Hydrogen Ice-powered Truck in India?",
+          "Which is India’s First Hydrogen Fuel Cell-powered Trailer?"
+        ]
+      }
+    },
+    "biFuel": {
+      "key": "biFuel",
+      "name": "Bi Fuel Trucks",
+      "path": "/en/bi-fuel",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Bi Fuel Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Bi Fuel Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Bi Fuel Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Budget"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About Bi Fuel Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "How Bi-Fuel Vehicles Work? And Bi-Fuel Vehicles Specifications"
+        },
+        {
+          "tag": "h2",
+          "text": "What are The Benefits of Bi-Fuel Trucks in Transportation?"
+        },
+        {
+          "tag": "h3",
+          "text": "Most Popular Bi Fuel Vehicles In India"
+        },
+        {
+          "tag": "h3",
+          "text": "Where To Get The Best Bi-Fuel Vehicles in India:-"
+        },
+        {
+          "tag": "h3",
+          "text": "Bi Fuel Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Bi Fuel Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Bi Fuel Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Bi Fuel Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Fuel Type Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Bi Fuel Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Bi Fuel Trucks",
+        "questions": [
+          "What is a Bi-Fuel Truck?",
+          "What is Tata Bi-fuel Truck?",
+          "What Trucks run on bi-fuel?",
+          "What are the advantages of bi-fuel?",
+          "Are bi-fuel trucks better than petrol?"
+        ]
+      }
+    },
+    "lcv": {
+      "key": "lcv",
+      "name": "LCV",
+      "path": "/en/lcv",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Light Commercial Vehicle (LCV)"
+        },
+        {
+          "tag": "h2",
+          "text": "Light Commercial Vehicles Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Light Commercial Vehicle (LCV)"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicle By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Light Commercial Vehicles Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Light Commercial Vehicle (LCV) in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Light Commercial Vehicle Price in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Light Commercial Vehicle by Body Types"
+        },
+        {
+          "tag": "h3",
+          "text": "What Makes Light Commercial Vehicle Best in the Business?"
+        },
+        {
+          "tag": "h3",
+          "text": "Light Commercial Vehicle at Truck Junction"
+        },
+        {
+          "tag": "h2",
+          "text": "Light Commercial Vehicles Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular & Upcoming LCV’s"
+        },
+        {
+          "tag": "h2",
+          "text": "Other GVW Category"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Light Commercial Vehicles"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Light Commercial Vehicles",
+        "questions": [
+          "Which are the body types offered in LCV trucks?",
+          "Which type of fuel is used in the LCV truck model?",
+          "What is the price range of LCV?",
+          "Which brands are consists in LCV?",
+          "Which emission norms are available in LCV trucks?"
+        ]
+      }
+    },
+    "hcv": {
+      "key": "hcv",
+      "name": "HCV",
+      "path": "/en/hcv",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Medium & Heavy Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Heavy Commercial Vehicles Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Medium & Heavy Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicle By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Heavy Commercial Vehicles Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Medium & Heavy Commercial Vehicles in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Heavy Commercial Vehicles Prices in India"
+        },
+        {
+          "tag": "h3",
+          "text": "What makes Heavy Commercial Vehicles most potent?"
+        },
+        {
+          "tag": "h3",
+          "text": "Heavy commercial vehicle sector's growth in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Heavy Commercial Vehicles Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular & Upcoming MHCV’s"
+        },
+        {
+          "tag": "h2",
+          "text": "Other GVW Category"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Heavy Commercial Vehicles"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Heavy Commercial Vehicles",
+        "questions": [
+          "Which are the body types offered in HCV trucks?",
+          "Which brands are consists in HCV?",
+          "Which type of fuel is used in the HCV?",
+          "Which emission norms are available in HCV?",
+          "How many wheelers are comes in HCV?"
+        ]
+      }
+    },
+    "scv": {
+      "key": "scv",
+      "name": "SCV",
+      "path": "/en/scv",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Small Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Small Commercial Vehicles Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Small Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicle By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Small Commercial Vehicles Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Small Commercial Vehicles in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Small Commercial Vehicles Prices in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Top 7 Uses of Small Commercial Vehicles in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Commercial Vehicle Models in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction is the best place to buy Small Commercial Vehicle"
+        },
+        {
+          "tag": "h2",
+          "text": "Small Commercial Vehicles Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular & Upcoming SCV’s"
+        },
+        {
+          "tag": "h2",
+          "text": "Other GVW Category"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Small Commercial Vehicles"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Small Commercial Vehicles",
+        "questions": [
+          "What Body Types Are Offered in Small Commercial Vehicles?",
+          "What Brands Are Included in Small Commercial Vehicles?",
+          "What Type of Fuel is Used in the Small Commercial Vehicles?",
+          "How Many Types of Wheelers Are Available in Small Commercial Vehicles?",
+          "What Are the Most Popular SCV Models in India?",
+          "What is the Price Range of Small Commercial Vehicles in India?",
+          "What Are the Applications Used for Small Commercial Vehicles?"
+        ]
+      }
+    },
+    "icv": {
+      "key": "icv",
+      "name": "ICV",
+      "path": "/en/icv",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Intermediate Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Intermediate Commercial Vehicles Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Intermediate Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles By Wheeler"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicle By Body Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Intermediate Commercial Vehicles Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "About Intermediate Commercial Vehicles in India"
+        },
+        {
+          "tag": "h2",
+          "text": "ICV Truck Price in India"
+        },
+        {
+          "tag": "h2",
+          "text": "ICVs Engine Capacity"
+        },
+        {
+          "tag": "h3",
+          "text": "ICV Range Truck Growth in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Intermediate Commercial Vehicles Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular & Upcoming ICV’s"
+        },
+        {
+          "tag": "h2",
+          "text": "Other GVW Category"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Intermediate Commercial Vehicles"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Intermediate Commercial Vehicles",
+        "questions": [
+          "What is the GVW range of ICV?",
+          "Which are the body types of ICV?",
+          "What is the lowest price for ICV?",
+          "In which tyre category do ICV come?"
+        ]
+      }
+    },
+    "tataBrand": {
+      "key": "tataBrand",
+      "name": "Tata Trucks",
+      "path": "/en/tata",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Tata Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Tata Truck Price in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tata Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Discontinued Tata Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Tata Trucks Image"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tata Commercial Vehicle Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Tata Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Tata Trucks Dealers & Service Centers"
+        },
+        {
+          "tag": "h2",
+          "text": "About Tata Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Truck Price in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Tata Truck Models in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Truck Latest Update July 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Explore the Tata Truck Series"
+        },
+        {
+          "tag": "h3",
+          "text": "Which Are The Truck Categories Offered By Tata Trucks?"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata commercial vehicle Dealers in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Service Centers in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Trucks Applications"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata commercial vehicle USPs"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Commercial Vehicles - Availability With Truck Junction"
+        },
+        {
+          "tag": "h2",
+          "text": "Highlights of Tata"
+        },
+        {
+          "tag": "h2",
+          "text": "Tata Trucks Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Tata Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Tata Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Tata Trucks",
+        "questions": [
+          "How many Tata Trucks models are available at truck junction?",
+          "What is the price range of Tata trucks in India?",
+          "Which is the most affordable Tata truck in India?",
+          "Which is the most expensive Tata truck?",
+          "What are the new launches of Tata commercial vehicles available in India?",
+          "What are the popular Tata commercial vehicles?",
+          "What are the popular Tata SCVs?",
+          "How many Tata truck dealers are available on Truck Junction?",
+          "What types of commercial vehicles does Tata offer?",
+          "How many wheel options are available in Tata commercial vehicles?"
+        ]
+      }
+    },
+    "ashokLeylandBrand": {
+      "key": "ashokLeylandBrand",
+      "name": "Ashok Leyland Trucks",
+      "path": "/en/ashok-leyland",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Ashok Leyland Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Ashok Leyland Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Discontinued Ashok Leyland Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Trucks Image"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Ashok Leyland Commercial Vehicle Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Ashok Leyland Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Trucks Dealers & Service Centers"
+        },
+        {
+          "tag": "h2",
+          "text": "About Ashok Leyland Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland prices in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Ashok Leyland Truck Latest Update"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Ashok Leyland Models in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "1. Ashok Leyland Dost+"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Truck Series"
+        },
+        {
+          "tag": "h3",
+          "text": "1. Ashok Leyland BOSS"
+        },
+        {
+          "tag": "h3",
+          "text": "2. Ashok Leyland Ecomet"
+        },
+        {
+          "tag": "h3",
+          "text": "3. Ashok Leyland Partner"
+        },
+        {
+          "tag": "h3",
+          "text": "4. Ashok Leyland Dost"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Trucks Alternatives in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction for Ashok Leyland Trucks?"
+        },
+        {
+          "tag": "h2",
+          "text": "Highlights of Ashok Leyland"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Trucks Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Ashok Leyland Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Ashok Leyland Trucks",
+        "questions": [
+          "How many Ashok Leyland Trucks models are available at truck junction?",
+          "What is the starting Ashok Leyland truck price in India?",
+          "Which are the most popular Ashok Leyland trucks in 2026?",
+          "What are the fuel options available in Ashok Leyland commercial vehicles?",
+          "How can I check the updated Ashok Leyland truck price list?",
+          "What is the price of the Ashok Leyland BOSS series trucks?",
+          "What is the Ashok Leyland Ecomet truck price range?",
+          "What is the GVW range of Ashok Leyland trucks in India?",
+          "Why should I buy Ashok Leyland trucks from Truck Junction?",
+          "What is the price of the Ashok Leyland Partner series trucks?",
+          "What is the highest priced Ashok Leyland truck model?"
+        ]
+      }
+    },
+    "eicherBrand": {
+      "key": "eicherBrand",
+      "name": "Eicher Trucks",
+      "path": "/en/eicher",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Eicher Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Eicher Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Eicher Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Discontinued Eicher Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Eicher Trucks Image"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Eicher Commercial Vehicle Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Eicher Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Eicher Trucks Dealers & Service Centers"
+        },
+        {
+          "tag": "h2",
+          "text": "About Eicher Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher Trucks History"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher Truck Price in India (2026)"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher Truck Latest Update"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher Truck Price by Wheel Type"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Choose Eicher Trucks? (Key USPs)"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Eicher Truck Models in 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Categories of Eicher Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher Truck Dealers & Service Network"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher Truck Loan & EMI Options"
+        },
+        {
+          "tag": "h3",
+          "text": "Used & Second Hand Eicher Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher Trucks Alternatives in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Choose Truck Junction for Eicher Trucks?"
+        },
+        {
+          "tag": "h2",
+          "text": "Highlights of Eicher"
+        },
+        {
+          "tag": "h2",
+          "text": "Eicher Trucks Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Eicher Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Eicher Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Eicher Trucks",
+        "questions": [
+          "How many Eicher Trucks models are available at truck junction?",
+          "What is the Eicher Truck Price range in India?",
+          "Which is the highest-priced Eicher Motors Truck in India?",
+          "Which is the lowest-priced Eicher Motors Truck in India?",
+          "In which fuel types Eicher new Truck models are available?",
+          "What are the vehicle body types offered by Eicher?",
+          "What are the new launches from Eicher Brand?"
+        ]
+      }
+    },
+    "mahindraBrand": {
+      "key": "mahindraBrand",
+      "name": "Mahindra Trucks",
+      "path": "/en/mahindra",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mahindra Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Trucks Price List in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Mahindra Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Discontinued Mahindra Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Trucks Image"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Mahindra Commercial Vehicle Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Mahindra Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Trucks Dealers & Service Centers"
+        },
+        {
+          "tag": "h2",
+          "text": "About Mahindra Trucks"
+        },
+        {
+          "tag": "h3",
+          "text": "Mahindra Truck Latest Update"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Choose Mahindra Trucks? | USPs"
+        },
+        {
+          "tag": "h3",
+          "text": "Mahindra Truck Range"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Mahindra Truck Models in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Mahindra Trucks Alternatives in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction for Mahindra Trucks?"
+        },
+        {
+          "tag": "h2",
+          "text": "Highlights of Mahindra"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Trucks Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Trucks Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Mahindra Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Mahindra Trucks",
+        "questions": [
+          "How many Mahindra Trucks models are available at truck junction?",
+          "What is the lowest priced truck model in Mahindra?",
+          "What are the new launches of Mahindra commercial vehicles?",
+          "What are the popular Mahindra commercial vehicles?",
+          "What are the popular Mahindra SCVs?",
+          "What are the popular Mahindra electric 3-wheelers?",
+          "How many Mahindra dealers are available on Truck Junction?",
+          "What types of commercial vehicles does Mahindra offer?",
+          "How many wheel options are available in Mahindra commercial vehicles?"
+        ]
+      }
+    },
+    "tataAce": {
+      "key": "tataAce",
+      "name": "Tata Ace",
+      "path": "/en/tata/ace",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Tata Ace"
+        },
+        {
+          "tag": "h2",
+          "text": "Tata Ace Price in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Tata Ace Trucks Found"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Brands of Tata"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Tata Ace"
+        },
+        {
+          "tag": "h2",
+          "text": "Find Perfect Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Tata Ace Commercial Vehicle Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "About Tata Ace in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Ace Price in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Ace Variants"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Tata Ace (Chhota Hathi) Is the Best Choice"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Should You Buy Tata ACE?"
+        },
+        {
+          "tag": "h3",
+          "text": "Exclusive Services We Offer"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata Ace Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Tata Truck Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Tata Ace Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Tata Ace Trucks",
+        "questions": [
+          "What is the starting price of Tata Ace in India?",
+          "What is the mileage of Tata Ace mini truck?",
+          "What is the payload capacity of Tata Ace?",
+          "What is the Tata Ace EV?",
+          "What is the price of Tata Ace EV in India?",
+          "Is Tata Ace Gold available in CNG?",
+          "Where can I buy Tata Ace mini truck?",
+          "How many Tata Ace models are available in India?"
+        ]
+      }
+    },
+    "mahindraBlazo": {
+      "key": "mahindraBlazo",
+      "name": "Mahindra Blazo",
+      "path": "/en/mahindra/blazo",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mahindra Blazo"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Blazo PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Blazo Trucks Found"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Brands of Mahindra"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Mahindra Blazo"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Tipper"
+        },
+        {
+          "tag": "h2",
+          "text": "Find Perfect Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Mahindra Blazo Commercial Vehicle Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "About Mahindra Blazo in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Blazo Price in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Explore Popular Mahindra Blazo Models"
+        },
+        {
+          "tag": "h3",
+          "text": "Check the Specification Of Blazo Mahindra Truck"
+        },
+        {
+          "tag": "h3",
+          "text": "Visit Mahindra Blazo Page At Truck Junction For More Information"
+        },
+        {
+          "tag": "h3",
+          "text": "Mahindra Blazo Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Mahindra Truck Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Mahindra Blazo Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Mahindra Blazo Trucks",
+        "questions": [
+          "What is the Cost of Mahindra Blazo Models?",
+          "Which Are the Body Types Offered in Blazo Series?",
+          "Which Emission Norms Are Available in Blazo Trucks?",
+          "How Many Wheelers Are Available in Blazo Truck Models?",
+          "Which Kind of Engine is Fitted in Mahindra Blazo Models?",
+          "How Many Flagship Models of the Blazo Series Are Present?",
+          "What Are the Technical Specifications of Blazo Series Trucks?",
+          "What Are the Applications of Blazo Trucks?"
+        ]
+      }
+    },
+    "mahindraBolero": {
+      "key": "mahindraBolero",
+      "name": "Mahindra Bolero",
+      "path": "/en/mahindra/bolero",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Mahindra Bolero"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Bolero Pickup Price in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Bolero Pickup Found"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Brands of Mahindra"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Mahindra Bolero Pickup"
+        },
+        {
+          "tag": "h2",
+          "text": "Mahindra Pickup Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Find Perfect Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Mahindra Bolero Commercial Vehicle Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "About Mahindra Bolero Pickup in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Mahindra Bolero Pickup Price in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Best For Mahindra Bolero Pickup"
+        },
+        {
+          "tag": "h3",
+          "text": "Bolero Pickup Features and Specifications"
+        },
+        {
+          "tag": "h4",
+          "text": "Strong Build, Powerful Pickup"
+        },
+        {
+          "tag": "h4",
+          "text": "Efficient Performance, Effortless Earnings"
+        },
+        {
+          "tag": "h4",
+          "text": "Big on Comfort, Big on Convenience"
+        },
+        {
+          "tag": "h4",
+          "text": "Impressive Style, Incredible Pickup"
+        },
+        {
+          "tag": "h4",
+          "text": "Unmatched Safety, High Reliability"
+        },
+        {
+          "tag": "h4",
+          "text": "Why Should You Buy Mahindra Bolero Pickup?"
+        },
+        {
+          "tag": "h3",
+          "text": "Key Use Cases:"
+        },
+        {
+          "tag": "h4",
+          "text": "Why Choose Truck Junction for Mahindra Bolero?"
+        },
+        {
+          "tag": "h3",
+          "text": "Mahindra Bolero Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Mahindra Truck Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Mahindra Bolero Pickup"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Mahindra Bolero Pickup",
+        "questions": [
+          "What is the Mahindra Bolero Pickup price in India?",
+          "Which is the best Mahindra Bolero Pickup in India?",
+          "Which is the Highest-priced Mahindra Bolero Pickup?",
+          "Which is the lowest-priced Mahindra Bolero Pickup?",
+          "What fuel types are available in Mahindra Bolero Pickups?",
+          "What is the payload capacity of Mahindra Bolero Pickup?",
+          "Which Mahindra Bolero Pickup is best for agriculture?",
+          "Is Mahindra Bolero Pickup available in CNG?",
+          "Where can I find the latest Mahindra Bolero Pickup information?"
+        ]
+      }
+    },
+    "ashokLeylandBoss": {
+      "key": "ashokLeylandBoss",
+      "name": "Ashok Leyland Boss",
+      "path": "/en/ashok-leyland/boss",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Ashok Leyland Boss"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Boss PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Boss Trucks Found"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Brands of Ashok Leyland"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Ashok Leyland Boss"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Find Perfect Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Ashok Leyland Boss Commercial Vehicle Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "About Ashok Leyland Boss in India"
+        },
+        {
+          "tag": "h3",
+          "text": "Popular Boss Ashok Leyland Models 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Ashok Leyland Boss Applications"
+        },
+        {
+          "tag": "h3",
+          "text": "Ashok Leyland Boss Models Specifications"
+        },
+        {
+          "tag": "h3",
+          "text": "What Makes Boss Ashok Leyland Customer’s First Choice?"
+        },
+        {
+          "tag": "h3",
+          "text": "Exclusive Services We Offer"
+        },
+        {
+          "tag": "h3",
+          "text": "Ashok Leyland Boss Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Ashok Leyland Truck Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Ashok Leyland Boss Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Ashok Leyland Boss Trucks",
+        "questions": [
+          "What is the price of Ashok Leyland boss series?",
+          "What fuels types are available in Boss Series in India?",
+          "How many models does the Ashok Leyland Boss series offer?",
+          "Which is the lowest-priced truck model in Boss Series?",
+          "Which is the best-selling Ashok Leyland Boss series model?",
+          "What GVW range is offered by the Boss series?"
+        ]
+      }
+    },
+    "ashokLeylandDost": {
+      "key": "ashokLeylandDost",
+      "name": "Ashok Leyland Dost",
+      "path": "/en/ashok-leyland/dost",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Ashok Leyland Dost"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Dost Trucks PRICE LIST IN INDIA 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Dost Trucks Found"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Brands of Ashok Leyland"
+        },
+        {
+          "tag": "h2",
+          "text": "Second Hand Ashok Leyland Dost Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Pickup Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Find Perfect Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Ashok Leyland Dost Commercial Vehicle Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "About Ashok Leyland Dost Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Ashok Leyland Dost Series Price in India 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Choose Ashok Leyland Dost | USPs"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Ashok Leyland Dost Models in India 2025"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Truck Junction for Ashok Leyland Dost?"
+        },
+        {
+          "tag": "h3",
+          "text": "Ashok Leyland Dost Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Ashok Leyland Truck Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Ashok Leyland Dost Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Ashok Leyland Dost Trucks",
+        "questions": [
+          "What is the Ashok Leyland Dost price in India?",
+          "Which is the most expensive model in Ashok Leyland Dost series?",
+          "What is the Gross Vehicle Weight (GVW) of Ashok Leyland Dost models?",
+          "Which Ashok Leyland Dost model offers the highest payload capacity?",
+          "Is Ashok Leyland Dost available in CNG fuel type?",
+          "What are the popular models of Ashok Leyland Dost in 2025?",
+          "Does Ashok Leyland Dost meet BS6 emission norms?",
+          "What is the fuel tank capacity of Ashok Leyland Dost trucks?",
+          "How many models are there in the Ashok Leyland Dost series?",
+          "Where can I check the Ashok Leyland Dost on road price?"
+        ]
+      }
+    },
+    "electricVehicle": {
+      "key": "electricVehicle",
+      "name": "Electric Vehicle",
+      "path": "/en/electric",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Electric Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Top 10 Electric Commercial Vehicles 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Electric Commercial Vehicles by Budget"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About Electric Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Electric Commercial Vehicle Price in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular EV Commercial Vehicle Brands in India 2026"
+        },
+        {
+          "tag": "h3",
+          "text": "Mahindra Auto Rickshaw"
+        },
+        {
+          "tag": "h3",
+          "text": "Bajaj Auto Rickshaw"
+        },
+        {
+          "tag": "h3",
+          "text": "Tata EV Mini Truck"
+        },
+        {
+          "tag": "h3",
+          "text": "Eicher EV Commercial Truck"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Electric Models in 2026"
+        },
+        {
+          "tag": "h4",
+          "text": "Tata Magic EV"
+        },
+        {
+          "tag": "h4",
+          "text": "Mahindra Treo Plus Metal Body"
+        },
+        {
+          "tag": "h4",
+          "text": "Piaggio Ape E City FX"
+        },
+        {
+          "tag": "h4",
+          "text": "Eicher Pro X"
+        },
+        {
+          "tag": "h3",
+          "text": "Why are Electric Trucks Important?"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction for Electric Commercial Vehicles?"
+        },
+        {
+          "tag": "h3",
+          "text": "Electric Ratings & Reviews"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric Commercial Vehicles Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Fuel Type Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Electric Commercial Vehicles Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Electric Commercial Vehicles"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Electric Commercial Vehicles",
+        "questions": [
+          "What is the starting price of electric commercial vehicles in India 2026?",
+          "Which are the best electric truck models in India 2026?",
+          "What is the price of Tata electric commercial vehicles in India?",
+          "What is the Mahindra electric commercial vehicle price in India 2026?",
+          "Why are electric trucks important for transport in India?",
+          "What is the price of Piaggio electric auto rickshaw in India?",
+          "Which is the cheapest electric commercial vehicle in India 2026?",
+          "How are electric commercial vehicles better than fuel-based vehicles?",
+          "Can electric commercial vehicles in India be used for business?",
+          "Why choose Truck Junction for electric truck price in India 2026?"
+        ]
+      }
+    },
+    "under1Ton": {
+      "key": "under1Ton",
+      "name": "Under 1 Ton Trucks",
+      "byLanguage": {
+        "en": {
+          "path": "/en/under-1-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Under 1 Ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Under 1 Ton Trucks Price List in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Under 1 Ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Brands"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Under 1 Ton Trucks Comparison"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Perfect Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "About Under 1 Ton Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Under 1 Ton Truck Price in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Truck Models Below 1 Ton"
+            },
+            {
+              "tag": "h2",
+              "text": "Applications for Under 1 Ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Why Truck Junction for Under 1 Ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on Under 1 Ton Trucks"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on Under 1 Ton Trucks",
+            "questions": [
+              "Which is the best electric cargo 3-wheeler under 1 ton in India?",
+              "What is the driving range of the Piaggio Ape E-Xtra FX on a full charge?",
+              "What is the per kilometer running cost of an electric vs diesel cargo 3-wheeler?",
+              "Do you need a commercial driving license to drive an L5N category cargo three-wheeler?",
+              "What is the actual payload capacity of a 995 KG GVW vehicle like the Mahindra Alfa Plus?",
+              "Which 3-wheeler cargo vehicle has the longest wheelbase for stable loading?"
+            ]
+          }
+        },
+        "hi": {
+          "path": "/hi/under-1-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "टन से कम ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 1 टन से कम ट्रक की मूल्य सूची"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 1 टन से कम ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ब्रांड"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 1 टन से कम ट्रक तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "परफेक्ट ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 1 टन से कम ट्रक के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "टन से कम ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "टन से कम तीन पहिया वाहनों की शुरुआती कीमत क्या है?",
+              "टन से कम में सबसे लोकप्रिय ट्रक कौनसे हैं?",
+              "टन से कम के वाणिज्यिक वाहन कौनसे ईंधन टाइप में उपलब्ध हैं?",
+              "मुझे 1 टन रेंज के तहत सभी थ्री व्हीलर कहां मिल सकते हैं?",
+              "एक टन से कम का सबसे महंगा थ्री व्हीलर कौनसा है?"
+            ]
+          }
+        },
+        "ta": {
+          "path": "/ta/under-1-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டன்னுக்குக் கீழ் டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் 1 டன்னுக்குக் கீழ் டிரக்குகள் விலைப்பட்டியல்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 1 டன்னுக்குக் கீழ் ட்ரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான பிராண்டுகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 1 டன்னுக்குக் கீழ் டிரக்குகள் ஒப்பீடு"
+            },
+            {
+              "tag": "h2",
+              "text": "சரியான டிரக்கை கண்டுபிடிக்கவும்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் 1 டன்னுக்குக் கீழ் டிரக்குகள் பற்றி"
+            },
+            {
+              "tag": "h2",
+              "text": "டன்னுக்குக் கீழ் டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "டன் எடைக்கும் குறைவான மூன்று சக்கர வாகனங்களின் ஆரம்ப விலை என்ன?",
+              "டன் எடைக்கும் குறைவான பிரபலமான டிரக்குகள் எவை?",
+              "டன் எடைக்கும் குறைவான வர்த்தக வாகனங்களில் என்னென்ன எரிபொருள் வகைகள் கிடைக்கின்றன?",
+              "டன் எடைக்கும் குறைவான மூன்று சக்கர வாகனங்களின் முழுமையான வகைகளை நான் எங்கே பெறலாம்?",
+              "டன் எடைக்கும் குறைவான மூன்று சக்கர வாகனங்களில் மிகவும் விலை உயர்ந்தது எது?"
+            ]
+          }
+        }
+      }
+    },
+    "ton1to2_5": {
+      "key": "ton1to2_5",
+      "name": "1 ton - 2.5 ton Trucks",
+      "byLanguage": {
+        "en": {
+          "path": "/en/1-ton-2.5-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ton - 2.5 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "ton - 2.5 ton Trucks Price List in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 1 ton - 2.5 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Brands"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 1 ton - 2.5 ton Trucks Comparison"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Perfect Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "About 1 ton - 2.5 ton Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on 1 ton - 2.5 ton Trucks"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on 1 ton - 2.5 ton Trucks",
+            "questions": [
+              "What is the starting price of a 1 ton truck - 2.5 ton truck?",
+              "Which are the most popular models of 1 ton - 2.5 ton trucks?",
+              "Can 1 ton - 2.5 ton truck move the heavy load?",
+              "Which Fuel types are included in one ton trucks - 2.5 ton trucks?",
+              "Which operations can be done with a 1 ton pickup?"
+            ]
+          }
+        },
+        "hi": {
+          "path": "/hi/1-ton-2.5-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "टन - 2.5 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 1 टन - 2.5 टन ट्रक की मूल्य सूची"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 1 टन - 2.5 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ब्रांड"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 1 टन - 2.5 टन ट्रक तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "परफेक्ट ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 1 टन - 2.5 टन ट्रक के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "टन - 2.5 टन ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "से 2.5 टन ट्रक की शुरुआती कीमत क्या है?",
+              "से 2.5 टन ट्रकों के सबसे लोकप्रिय मॉडल कौनसे हैं?",
+              "क्या 1 से 2.5 टन ट्रक में भारी भार ले जा सकते हैं?",
+              "से 2.5 टन ट्रकों में ईंधन के कौनसे प्रकार शामिल हैं?",
+              "टन पिकअप के साथ कौनसे ऑपरेशन किए जा सकते हैं?"
+            ]
+          }
+        },
+        "ta": {
+          "path": "/ta/1-ton-2.5-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டன் - 2.5 டன் டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் 1 டன் - 2.5 டன் டிரக்குகள் விலைப்பட்டியல்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 1 டன் - 2.5 டன் ட்ரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான பிராண்டுகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 1 டன் - 2.5 டன் டிரக்குகள் ஒப்பீடு"
+            },
+            {
+              "tag": "h2",
+              "text": "சரியான டிரக்கை கண்டுபிடிக்கவும்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "ton2_5to5": {
+      "key": "ton2_5to5",
+      "name": "2.5 ton - 5 ton Trucks",
+      "byLanguage": {
+        "en": {
+          "path": "/en/2.5-ton-5-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "2.5 ton - 5 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "2.5 ton - 5 ton Trucks Price List in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 2.5 ton - 5 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Brands"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 2.5 ton - 5 ton Trucks Comparison"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Perfect Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "About 2.5 ton - 5 ton Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on 2.5 ton - 5 ton Trucks"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on 2.5 ton - 5 ton Trucks",
+            "questions": [
+              "Is the 2.5 to 5 ton truck price reasonable in price?",
+              "Which are the most popular models of 2.5 to 5 ton trucks?",
+              "Which are the types of 2.5 to 5 ton trucks in India?",
+              "How many companies are famous for manufacturing 2.5 to 5 ton trucks?",
+              "Which platform is best to get information about 2.5 to 5 ton trucks?"
+            ]
+          }
+        },
+        "hi": {
+          "path": "/hi/2.5-ton-5-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "2.5 टन - 5 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 2.5 टन - 5 टन ट्रक की मूल्य सूची"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 2.5 टन - 5 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ब्रांड"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 2.5 टन - 5 टन ट्रक तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "परफेक्ट ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 2.5 टन - 5 टन ट्रक के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "2.5 टन - 5 टन ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "क्या 2.5 से 5 टन ट्रक की कीमत उचित है?",
+              "2.5 से 5 टन ट्रकों के सबसे लोकप्रिय मॉडल कौनसे हैं?",
+              "भारत में 2.5 से 5 टन ट्रकों में कौनसे बॉडी टाइप उपलब्ध हैं?",
+              "2.5 से 5 टन ट्रकों के निर्माण के लिए कितनी कंपनियां प्रसिद्ध हैं?",
+              "2.5 से 5 टन ट्रकों के बारे में जानकारी प्राप्त करने के लिए कौनसा प्लेटफॉर्म सबसे अच्छा है?"
+            ]
+          }
+        },
+        "ta": {
+          "path": "/ta/2.5-ton-5-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "2.5 டன் - 5 டன் டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் 2.5 டன் - 5 டன் டிரக்குகள் விலைப்பட்டியல்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 2.5 டன் - 5 டன் ட்ரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான பிராண்டுகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 2.5 டன் - 5 டன் டிரக்குகள் ஒப்பீடு"
+            },
+            {
+              "tag": "h2",
+              "text": "சரியான டிரக்கை கண்டுபிடிக்கவும்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "ton5to10": {
+      "key": "ton5to10",
+      "name": "5 ton - 10 ton Trucks",
+      "byLanguage": {
+        "en": {
+          "path": "/en/5-ton-10-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ton - 10 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "ton - 10 ton Trucks Price List in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 5 ton - 10 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Brands"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 5 ton - 10 ton Trucks Comparison"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Perfect Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "About 5 ton - 10 ton Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on 5 ton - 10 ton Trucks"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on 5 ton - 10 ton Trucks",
+            "questions": [
+              "How many 5 ton - 10 ton truck models available at Truck Junction?",
+              "Which type of fuel is used by 5 ton - 10 ton truck models?",
+              "What is the maximum power of 5 ton - 10 ton truck models?",
+              "Which types of emission norm offered in 5 - 10 ton truck models?",
+              "How many manufacturer famous for manufacturing 5 - 10 ton trucks?"
+            ]
+          }
+        },
+        "hi": {
+          "path": "/hi/5-ton-10-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "टन - 10 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 5 टन - 10 टन ट्रक की मूल्य सूची"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 5 टन - 10 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ब्रांड"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 5 टन - 10 टन ट्रक तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "परफेक्ट ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 5 टन - 10 टन ट्रक के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "टन - 10 टन ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "ट्रक जंक्शन पर 5 से 10 टन ट्रक के कितने मॉडल उपलब्ध हैं?",
+              "से 10 टन ट्रकों में ईंधन के कौनसे प्रकार शामिल हैं?",
+              "से 10 टन ट्रक मॉडल की अधिकतम पावर क्या है?",
+              "से 10 टन ट्रक मॉडल में किस प्रकार के उत्सर्जन मानदंड की पेशकश की गई है?",
+              "से 10 टन ट्रकों के निर्माण के लिए कितने निर्माता प्रसिद्ध हैं?"
+            ]
+          }
+        },
+        "ta": {
+          "path": "/ta/5-ton-10-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டன் - 10 டன் டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் 5 டன் - 10 டன் டிரக்குகள் விலைப்பட்டியல்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 5 டன் - 10 டன் ட்ரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான பிராண்டுகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 5 டன் - 10 டன் டிரக்குகள் ஒப்பீடு"
+            },
+            {
+              "tag": "h2",
+              "text": "சரியான டிரக்கை கண்டுபிடிக்கவும்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "ton10to20": {
+      "key": "ton10to20",
+      "name": "10 ton - 20 ton Trucks",
+      "byLanguage": {
+        "en": {
+          "path": "/en/10-ton-20-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ton - 20 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "ton - 20 ton Trucks Price List in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 10 ton - 20 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Brands"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 10 ton - 20 ton Trucks Comparison"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Perfect Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "About 10 ton - 20 ton Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on 10 ton - 20 ton Trucks"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on 10 ton - 20 ton Trucks",
+            "questions": [
+              "How many types of 10 Ton - 20 Ton Trucks are available in India?",
+              "Which are the most popular brands of 10 Ton - 20 Ton Trucks?",
+              "Do 10 Ton - 20 Ton Trucks have capacity to work in rigid condition?",
+              "What does truck junction offer to the visitors?",
+              "How many emission norms are provided in 10 Ton - 20 Ton Trucks?"
+            ]
+          }
+        },
+        "hi": {
+          "path": "/hi/10-ton-20-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "टन - 20 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 10 टन - 20 टन ट्रक की मूल्य सूची"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 10 टन - 20 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ब्रांड"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 10 टन - 20 टन ट्रक तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "परफेक्ट ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 10 टन - 20 टन ट्रक के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "टन - 20 टन ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "भारत में 10- 20 टन ट्रक के कितने प्रकार उपलब्ध हैं?",
+              "10- 20 टन ट्रक के सबसे लोकप्रिय ब्रांड कौनसे हैं?",
+              "क्या 10- 20 टन ट्रकों में कठोर स्थिति में काम करने की क्षमता है?",
+              "ट्रक जंक्शन विज़िटर्स को क्या प्रदान करता है?",
+              "10- 20 टन ट्रकों में कितने उत्सर्जन मानदंड प्रदान किए जाते हैं?"
+            ]
+          }
+        },
+        "ta": {
+          "path": "/ta/10-ton-20-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டன் - 20 டன் டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் 10 டன் - 20 டன் டிரக்குகள் விலைப்பட்டியல்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 10 டன் - 20 டன் ட்ரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான பிராண்டுகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 10 டன் - 20 டன் டிரக்குகள் ஒப்பீடு"
+            },
+            {
+              "tag": "h2",
+              "text": "சரியான டிரக்கை கண்டுபிடிக்கவும்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "ton20to40": {
+      "key": "ton20to40",
+      "name": "20 ton - 40 ton Trucks",
+      "byLanguage": {
+        "en": {
+          "path": "/en/20-ton-40-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ton - 40 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "ton - 40 ton Trucks Price List in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 20 ton - 40 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Brands"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 20 ton - 40 ton Trucks Comparison"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Perfect Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "About 20 ton - 40 ton Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on 20 ton - 40 ton Trucks"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on 20 ton - 40 ton Trucks",
+            "questions": [
+              "Which are the most popular manufacturers of 20 ton - 40 ton trucks?",
+              "Where can we find all the information about 20 ton - 40 ton trucks?",
+              "Which are the body types offered in 20 ton to 40 ton trucks?",
+              "What is the highest HP of 20 ton to 40 ton trucks?",
+              "Do the 20 ton - 40 ton trucks come with 10 tyres?"
+            ]
+          }
+        },
+        "hi": {
+          "path": "/hi/20-ton-40-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "टन - 40 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 20 टन - 40 टन ट्रक की मूल्य सूची"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 20 टन - 40 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ब्रांड"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 20 टन - 40 टन ट्रक तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "परफेक्ट ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 20 टन - 40 टन ट्रक के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "टन - 40 टन ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "20- 40 टन ट्रकों के सबसे लोकप्रिय निर्माता कौनसे हैं?",
+              "हम 20- 40 टन ट्रकों के बारे में सभी जानकारी कहां से पा सकते हैं?",
+              "से 40 टन ट्रक कौनसे बॉडी टाइप में उपलब्ध हैं?",
+              "से 40 टन ट्रक की उच्चतम एचपी क्या है?",
+              "क्या 20 - 40 टन ट्रक 10 टायर के साथ आते हैं?"
+            ]
+          }
+        },
+        "ta": {
+          "path": "/ta/20-ton-40-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டன் - 40 டன் டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் 20 டன் - 40 டன் டிரக்குகள் விலைப்பட்டியல்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 20 டன் - 40 டன் ட்ரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான பிராண்டுகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 20 டன் - 40 டன் டிரக்குகள் ஒப்பீடு"
+            },
+            {
+              "tag": "h2",
+              "text": "சரியான டிரக்கை கண்டுபிடிக்கவும்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    },
+    "ton40to300": {
+      "key": "ton40to300",
+      "name": "40 ton - 300 ton Trucks",
+      "byLanguage": {
+        "en": {
+          "path": "/en/40-ton-300-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "ton - 300 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "ton - 300 ton Trucks Price List in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 40 ton - 300 ton Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Brands"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular 40 ton - 300 ton Trucks Comparison"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Perfect Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "About 40 ton - 300 ton Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Frequently Asked Questions on 40 ton - 300 ton Trucks"
+            }
+          ],
+          "faq": {
+            "heading": "Frequently Asked Questions on 40 ton - 300 ton Trucks",
+            "questions": [
+              "How many 40 Ton - 300 Ton trucks are available at Truck Junction?",
+              "What is the maximum power of 40 Ton - 300 Ton truck models?",
+              "Which are the famous companies for manufacturing 40 Ton - 300 Ton truck models?",
+              "Do 40 Ton - 300 Ton truck models have the capacity to work in rigid places?",
+              "What are the body types of 40 Ton - 300 Ton truck models?"
+            ]
+          }
+        },
+        "hi": {
+          "path": "/hi/40-ton-300-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "टन - 300 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 40 टन - 300 टन ट्रक की मूल्य सूची"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 40 टन - 300 टन ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ब्रांड"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय 40 टन - 300 टन ट्रक तुलना"
+            },
+            {
+              "tag": "h2",
+              "text": "परफेक्ट ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "भारत में 40 टन - 300 टन ट्रक के बारे में"
+            },
+            {
+              "tag": "h2",
+              "text": "टन - 300 टन ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": [
+              "40- 300 टन ट्रक मॉडल में कौनसे बॉडी टाइप उपलब्ध हैं?",
+              "40- 300 टन ट्रक मॉडल की अधिकतम पावर क्या है?",
+              "40- 300 टन ट्रक मॉडल बनाने के लिए प्रसिद्ध कंपनियां कौनसी हैं?",
+              "क्या 40- 300 टन ट्रक मॉडल में कठोर स्थानों पर काम करने की क्षमता है?",
+              "ट्रक जंक्शन पर कितने 40- 300 टन ट्रक उपलब्ध हैं?"
+            ]
+          }
+        },
+        "ta": {
+          "path": "/ta/40-ton-300-ton-trucks",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "டன் - 300 டன் டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "இந்தியாவில் 40 டன் - 300 டன் டிரக்குகள் விலைப்பட்டியல்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 40 டன் - 300 டன் ட்ரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான பிராண்டுகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான 40 டன் - 300 டன் டிரக்குகள் ஒப்பீடு"
+            },
+            {
+              "tag": "h2",
+              "text": "சரியான டிரக்கை கண்டுபிடிக்கவும்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    }
+  }
+}

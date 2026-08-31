@@ -1,4 +1,8 @@
 {
+  "visibleCountByDevice": {
+    "desktop": 12,
+    "mobile": 6
+  },
   "PopularTruckBrands": {
     "en": {
       "heading": "Popular Truck Brands",

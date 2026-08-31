@@ -70,13 +70,13 @@ LANGUAGES.forEach((lang) => {
           title: 'All popular brand cards show name, logo, title and brand URL',
           language: lang,
           description:
-            'In the Popular Truck Brands section, verify every expected brand card displays the brand name, logo image, accessible title, and link to that brand’s page.',
+            'In the Popular Truck Brands section, verify every brand card shown on this device displays the brand name, logo image, accessible title, and link to that brand’s page. Desktop shows 12 brands; mobile shows the first 6 of that same list (the extra cards are not in the page at all on mobile).',
           expectedResult:
-            'Each brand from test data appears once with the correct visible name, logo, title attribute, and href pointing to the brand page for that language.',
+            'Each brand the current device actually displays appears once with the correct visible name, logo, title attribute, and href pointing to the brand page for that language. The number of cards matches this device (12 on desktop, 6 on mobile).',
           steps: [
             'Open the Popular Truck Brands section',
-            'For each expected brand, verify name, logo, title and URL',
-            'Confirm the total number of brand cards matches test data',
+            'For each brand shown on this device, verify name, logo, title and URL',
+            'Confirm the total number of brand cards matches this device, not the other device’s count',
           ],
         });
 
@@ -145,9 +145,9 @@ LANGUAGES.forEach((lang) => {
           title: 'Clicking each popular brand card navigates to that brand page',
           language: lang,
           description:
-            'From the Popular Truck Brands section, click each brand card and confirm the user is taken to the correct brand listing page for that brand and language.',
+            'From the Popular Truck Brands section, click each brand card shown on this device and confirm the user is taken to the correct brand listing page for that brand and language. Mobile only shows the first 6 brands, so only those 6 are clicked.',
           expectedResult:
-            'After each brand card click, the browser URL path is /{language}/{brand-slug} for that brand (real navigation to the brand page).',
+            'After each shown brand card click, the browser URL path is /{language}/{brand-slug} for that brand (real navigation to the brand page).',
           steps: [
             'Open the Popular Truck Brands section',
             'Click each brand card in turn',

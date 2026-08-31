@@ -6,7 +6,13 @@
       "path": "/en/compare",
       "pageType": "Compare",
       "leadTriggerCta": "Check Offers",
-      "identifierSuffix": "CheckOffers"
+      "identifierSuffix": "CheckOffers",
+      "heading": "Compare Trucks",
+      "compareCta": "Compare",
+      "popularComparisonHeading": "Popular Truck Comparison",
+      "modelsByCategoryHeading": "Popular Models by Category",
+      "faqHeading": "Frequently Asked Questions",
+      "categoryTabToSelect": "Mini Trucks"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "DirectoryPage": {
+    "en": {
+      "pages": [
+        { "key": "allTruckBrands", "name": "All Truck Brands", "path": "/en/brands", "heading": "All Truck Brands" },
+        { "key": "allBusBrands", "name": "Top Bus Brands", "path": "/en/buses/brands", "heading": "Top Bus Brands" },
+        {
+          "key": "truckSeries",
+          "name": "Popular Truck Series",
+          "path": "/en/commercial-vehicle-series",
+          "heading": "Popular Truck Series"
+        }
+      ]
+    }
+  }
+}

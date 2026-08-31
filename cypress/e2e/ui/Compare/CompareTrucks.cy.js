@@ -127,5 +127,87 @@ LANGUAGES.forEach((lang) => {
         });
       }
     );
+
+    it(
+      `TC-CT-04: Compare Trucks heading and Compare button are visible on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.POSITIVE, TEST_TAGS.SMOKE) },
+      () => {
+        documentTestCase({
+          id: 'TC-CT-04',
+          title: `Compare Trucks heading and Compare button are visible on ${pageLabel}`,
+          language: lang,
+          description: `Open ${pageLabel} and confirm the comparison tool heading and Compare button.`,
+          expectedResult: 'Compare Trucks heading and a Compare button are visible.',
+          steps: [`Open the ${pageLabel} page`, 'Verify heading', 'Verify Compare button'],
+        });
+
+        allureStep('Verify Compare Trucks heading and Compare button', () => {
+          page.verifyPageHeading();
+          page.verifyCompareToolCta();
+        });
+      }
+    );
+
+    it(
+      `TC-CT-05: Popular Truck Comparison section is visible on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.POSITIVE) },
+      () => {
+        documentTestCase({
+          id: 'TC-CT-05',
+          title: `Popular Truck Comparison section is visible on ${pageLabel}`,
+          language: lang,
+          description: `Confirm the Popular Truck Comparison block is shown on ${pageLabel}.`,
+          expectedResult: 'Popular Truck Comparison heading is visible.',
+          steps: [`Open the ${pageLabel} page`, 'Scroll to Popular Truck Comparison', 'Verify heading'],
+        });
+
+        allureStep('Verify Popular Truck Comparison', () => {
+          page.verifyPopularTruckComparison();
+        });
+      }
+    );
+
+    it(
+      `TC-CT-06: Popular Models by Category tab switch on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-CT-06',
+          title: `Popular Models by Category tab switch on ${pageLabel}`,
+          language: lang,
+          description: `Switch Popular Models by Category to Mini Trucks on ${pageLabel}.`,
+          expectedResult: 'Mini Trucks becomes the active tab.',
+          steps: [
+            `Open the ${pageLabel} page`,
+            'Scroll to Popular Models by Category',
+            'Click Mini Trucks',
+            'Verify Mini Trucks is active',
+          ],
+        });
+
+        allureStep('Switch Popular Models by Category to Mini Trucks', () => {
+          page.selectModelsByCategoryTab(page.page.categoryTabToSelect);
+        });
+      }
+    );
+
+    it(
+      `TC-CT-07: FAQ question expands on ${pageLabel}`,
+      { tags: langTags(lang, TEST_TAGS.EDGE) },
+      () => {
+        documentTestCase({
+          id: 'TC-CT-07',
+          title: `FAQ question expands on ${pageLabel}`,
+          language: lang,
+          description: `Open a Frequently Asked Question on ${pageLabel} and confirm the answer is shown.`,
+          expectedResult: 'The selected question’s answer is visible.',
+          steps: [`Open the ${pageLabel} page`, 'Open an FAQ question', 'Verify the answer is shown'],
+        });
+
+        allureStep('Expand a Compare Trucks FAQ question', () => {
+          page.verifyFaqAndExpand();
+        });
+      }
+    );
   });
 });

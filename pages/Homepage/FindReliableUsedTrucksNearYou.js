@@ -65,7 +65,7 @@ class FindReliableUsedTrucksNearYou {
   }
 
   getCityLinks() {
-    return this.getSection().find('a[title][href*="used-truck-in-"]', { log: false });
+    return this.getSection().find('a[title][href*="used-truck-in-"]', { log: false }).filter(':visible');
   }
 
   getCityLink(slug) {

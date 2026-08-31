@@ -87,7 +87,9 @@ function runNewListingPagesSuite(pageKeys) {
                   expectedResult:
                     slot.formType === 'getOffers'
                       ? 'The assistance lead form closes after a successful submission (verified via the real submit network call). The submitted name is tagged with a page/CTA identifier for CRM traceability.'
-                      : 'A Thank You confirmation is shown after a successful lead submission. The submitted name is tagged with a page/CTA identifier for CRM traceability.',
+                      : slot.formType === 'getSellerDetails'
+                        ? 'A “Thank You For Contact” confirmation is shown after a successful Contact Seller submission.'
+                        : 'A Thank You confirmation is shown after a successful lead submission. The submitted name is tagged with a page/CTA identifier for CRM traceability.',
                   steps: [
                     `Open the ${pageLabel} listing page`,
                     `Click ${slot.cta} to open its lead form`,
@@ -164,13 +166,145 @@ function runNewListingPagesSuite(pageKeys) {
                 ],
               });
 
-              allureStep(`Submit Check Offers with invalid mobile on ${pageLabel} and verify validation`, () => {
+                allureStep(`Submit Check Offers with invalid mobile on ${pageLabel} and verify validation`, () => {
                 const lead = page.checkOffersLeadCopy;
                 const validation = lead.validation;
                 page.openCheckOffersLeadViaCta('Check Offers');
                 page.checkOffersLead.fillFields({ name: lead.name, mobile: lead.invalidMobile, city: '', selectCity: false });
                 page.checkOffersLead.submit();
                 page.checkOffersLead.verifyValidationMessages([validation.mobileInvalid, validation.locationRequired]);
+              });
+            }
+          );
+
+          it(
+            `TC-NLP-08: page heading is visible on ${pageLabel}`,
+            { tags: langTags(lang, TEST_TAGS.POSITIVE, TEST_TAGS.SMOKE, ...pageTags(pageKey)) },
+            () => {
+              documentTestCase({
+                id: 'TC-NLP-08',
+                title: `page heading is visible on ${pageLabel}`,
+                language: lang,
+                description: `Open the ${pageLabel} listing page and confirm the main page heading the user sees.`,
+                expectedResult: `The heading “${page.heading}” is visible.`,
+                steps: [`Open the ${pageLabel} listing page`, 'Verify the page heading'],
+              });
+
+              allureStep(`Verify ${pageLabel} page heading`, () => {
+                page.verifyPageHeading();
+              });
+            }
+          );
+
+          it(
+            `TC-NLP-09: SecondaryNavbar jump links on ${pageLabel}`,
+            { tags: langTags(lang, TEST_TAGS.POSITIVE, ...pageTags(pageKey)) },
+            function () {
+              if (!page.hasSecondaryNav()) {
+                this.skip();
+              }
+
+              documentTestCase({
+                id: 'TC-NLP-09',
+                title: `SecondaryNavbar jump links on ${pageLabel}`,
+                language: lang,
+                description: `Confirm the sticky SecondaryNavbar on ${pageLabel} shows every expected in-page jump link, then use FAQs to jump to Frequently Asked Questions.`,
+                expectedResult: 'SecondaryNavbar items are visible and FAQs jumps to the FAQ heading.',
+                steps: [
+                  `Open the ${pageLabel} listing page`,
+                  'Verify SecondaryNavbar items',
+                  'Click FAQs',
+                  'Verify the FAQ heading is shown',
+                ],
+              });
+
+              allureStep(`Verify SecondaryNavbar on ${pageLabel}`, () => {
+                page.verifyListingSecondaryNavbar();
+                page.clickListingSecondaryNav('FAQs');
+                if (page.hasFaq()) {
+                  page.verifyFaqHeading();
+                }
+              });
+            }
+          );
+
+          it(
+            `TC-NLP-10: truck listing, filters and cards on ${pageLabel}`,
+            { tags: langTags(lang, TEST_TAGS.POSITIVE, TEST_TAGS.SMOKE, ...pageTags(pageKey)) },
+            () => {
+              documentTestCase({
+                id: 'TC-NLP-10',
+                title: `truck listing, filters and cards on ${pageLabel}`,
+                language: lang,
+                description: `Confirm the truck listing block on ${pageLabel} shows a count heading, the Filter By row, and at least one truck card CTA.`,
+                expectedResult:
+                  'Listing heading with a count, Filter By / Reset All / Apply Filter, and at least one card button are visible.',
+                steps: [
+                  `Open the ${pageLabel} listing page`,
+                  'Verify the listing heading',
+                  'Verify Filter By controls',
+                  `Verify at least one “${page.page.cardCta}” card button`,
+                ],
+              });
+
+              allureStep(`Verify truck listing and filters on ${pageLabel}`, () => {
+                page.verifyTruckListingAndFilters();
+              });
+            }
+          );
+
+          it(
+            `TC-NLP-11: FAQ question expands on ${pageLabel}`,
+            { tags: langTags(lang, TEST_TAGS.EDGE, ...pageTags(pageKey)) },
+            function () {
+              if (!page.hasFaq()) {
+                this.skip();
+              }
+
+              documentTestCase({
+                id: 'TC-NLP-11',
+                title: `FAQ question expands on ${pageLabel}`,
+                language: lang,
+                description: `Open a Frequently Asked Question on ${pageLabel} and confirm the answer is shown.`,
+                expectedResult: 'The selected question’s answer is visible.',
+                steps: [
+                  `Open the ${pageLabel} listing page`,
+                  'Scroll to Frequently Asked Questions',
+                  'Open a question',
+                  'Verify the answer is shown',
+                ],
+              });
+
+              allureStep(`Expand an FAQ question on ${pageLabel}`, () => {
+                page.expandFaqQuestion();
+              });
+            }
+          );
+
+          it(
+            `TC-NLP-12: Load More shows more truck cards on ${pageLabel}`,
+            { tags: langTags(lang, TEST_TAGS.EDGE, ...pageTags(pageKey)) },
+            function () {
+              if (!page.hasLoadMore()) {
+                this.skip();
+              }
+
+              documentTestCase({
+                id: 'TC-NLP-12',
+                title: `Load More shows more truck cards on ${pageLabel}`,
+                language: lang,
+                description: `Click Load More on ${pageLabel} and confirm more truck cards appear.`,
+                expectedResult: 'The number of visible card buttons increases after Load More.',
+                steps: [
+                  `Open the ${pageLabel} listing page`,
+                  'Note how many truck cards are shown',
+                  'Click Load More',
+                  'Verify more cards are shown',
+                ],
+              });
+
+              allureStep(`Click Load More on ${pageLabel}`, () => {
+                page.clickLoadMoreAndExpectMoreCards();
               });
             }
           );

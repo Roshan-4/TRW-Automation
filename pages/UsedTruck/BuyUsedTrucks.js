@@ -1,6 +1,7 @@
 const buyUsedTrucksData = require('../../testData/UsedTruck/BuyUsedTrucksData.json');
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
 const { LeadFormFiller, exactText, makeThrottledCtaClicker } = require('../../helpers/leadFormFiller');
+const { currentDevice } = require('../../helpers/deviceLayout');
 
 /**
  * Buy Used Trucks (/en/buy-used-trucks).
@@ -99,6 +100,77 @@ class BuyUsedTrucks {
       ...overrides,
     });
     this.verifyGetSellerDetailsLeadSubmitted();
+  }
+
+  verifyPageHeading() {
+    cy.contains('h1', exactText(this.page.heading), { timeout: 20000 }).should('be.visible');
+  }
+
+  verifyListingCountAndCards() {
+    cy.contains('h2', new RegExp(this.page.listingHeadingPattern), { timeout: 20000 })
+      .scrollIntoView({ offset: { top: -140, left: 0 } })
+      .should('be.visible');
+    cy.contains('button', exactText(this.page.cardCta), { timeout: 20000 })
+      .filter(':visible')
+      .should('have.length.at.least', 1);
+  }
+
+  verifyFilters() {
+    // On mobile the Filter By row stays in the DOM but is not painted
+    // (same pattern as listing pages). Require it visible only on desktop.
+    const painted = currentDevice() === 'desktop';
+    (this.page.filterLabels || []).forEach((label) => {
+      cy.contains('button', exactText(label), { timeout: 15000 }).should(
+        painted ? 'be.visible' : 'exist'
+      );
+    });
+  }
+
+  verifyFaqAndExpand() {
+    cy.contains('h2', exactText(this.page.faqHeading), { timeout: 20000 })
+      .scrollIntoView({ offset: { top: -140, left: 0 } })
+      .should('be.visible')
+      .parent()
+      .parent()
+      .within(() => {
+        cy.get('.accordion').eq(1).should('be.visible').within(() => {
+          cy.get('h3').click();
+          cy.get('div')
+            .filter(':visible')
+            .should(($els) => {
+              const answer = [...$els].find(
+                (el) =>
+                  el.tagName === 'DIV' &&
+                  !el.querySelector('h3') &&
+                  (el.textContent || '').trim().length > 20
+              );
+              expect(answer, 'Used Trucks FAQ answer should be shown after opening a question').to.exist;
+            });
+        });
+      });
+  }
+
+  clickLoadMoreAndExpectMoreCards() {
+    const cta = this.page.cardCta;
+    cy.contains('button', exactText(this.page.loadMoreCta), { timeout: 20000 })
+      .scrollIntoView({ offset: { top: -140, left: 0 } })
+      .should('be.visible');
+    cy.document().then((doc) => {
+      const countCtas = () =>
+        [...doc.querySelectorAll('button')].filter(
+          (el) => el.textContent.trim() === cta && el.offsetParent !== null
+        ).length;
+      const before = countCtas();
+      const loadMore = [...doc.querySelectorAll('button')].find(
+        (el) => el.textContent.trim() === this.page.loadMoreCta && el.offsetParent !== null
+      );
+      if (loadMore) {
+        loadMore.click();
+      }
+      cy.wrap(null, { timeout: 20000 }).should(() => {
+        expect(countCtas(), 'Load More should show more used-truck cards').to.be.greaterThan(before);
+      });
+    });
   }
 }
 

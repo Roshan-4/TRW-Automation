@@ -1,0 +1,26 @@
+{
+  "BusPdp": {
+    "en": {
+      "pages": [
+        {
+          "key": "starbusStaffContract",
+          "name": "Tata Starbus Staff Contract",
+          "path": "/en/buses/tata/starbus-staff-contract",
+          "heading": "Tata Starbus Staff Contract",
+          "leadTriggerCta": "Check Offers",
+          "hasFaq": true,
+          "faqHeading": "Frequently Asked Questions on Tata Starbus Staff Contract"
+        },
+        {
+          "key": "starbusUltraCityElectric",
+          "name": "Tata Starbus Ultra City Electric",
+          "path": "/en/buses/tata/starbus-ultra-city-electric",
+          "heading": "Tata Starbus Ultra City Electric",
+          "leadTriggerCta": "Check Offers",
+          "hasFaq": true,
+          "faqHeading": "Frequently Asked Questions on Tata Starbus Ultra City Electric"
+        }
+      ]
+    }
+  }
+}

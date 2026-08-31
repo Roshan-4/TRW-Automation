@@ -1,0 +1,279 @@
+{
+  "scrapedAt": "2026-08-26",
+  "pages": {
+    "dealers": {
+      "key": "dealers",
+      "name": "Dealers",
+      "path": "/en/dealers",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Truck Dealers in India"
+        },
+        {
+          "tag": "h2",
+          "text": "About Truck Dealers"
+        },
+        {
+          "tag": "h2",
+          "text": "Truck Dealers By Brand"
+        },
+        {
+          "tag": "h3",
+          "text": "Truck Dealers In Popular Cities"
+        },
+        {
+          "tag": "h2",
+          "text": "Truck Dealers"
+        },
+        {
+          "tag": "h2",
+          "text": "Find Truck Dealers In India"
+        },
+        {
+          "tag": "h2",
+          "text": "How can I get Best Truck Dealership Near Me?"
+        },
+        {
+          "tag": "h3",
+          "text": "Step By Step Guide to Get Top Truck Dealer Showroom"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Truck Dealers in India"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Truck Dealers in India",
+        "questions": [
+          "How many Truck/3-Wheeler dealer brands are available at Truck Junction?",
+          "How many commercial vehicle dealers are available at Truck Junction?",
+          "Where do I get the Truck/3 Wheeler dealer’s contact number and other details?",
+          "How can I get a Truck dealers or showrooms near me?",
+          "Where can I get the information of used or old truck dealers?"
+        ]
+      }
+    },
+    "serviceCenter": {
+      "key": "serviceCenter",
+      "name": "Service Center",
+      "path": "/en/service-center",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Truck Service Centers In India"
+        },
+        {
+          "tag": "h2",
+          "text": "Truck Service Centers"
+        },
+        {
+          "tag": "h2",
+          "text": "Search Truck Service Centers By Brand"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    },
+    "spareParts": {
+      "key": "spareParts",
+      "name": "Spare Parts",
+      "path": "/en/spare-parts",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Truck Spare Parts Dealers in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Truck Spare Parts In India"
+        },
+        {
+          "tag": "h2",
+          "text": "Search Truck Spare Parts By Brand"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    },
+    "emiCalculator": {
+      "key": "emiCalculator",
+      "name": "EMI Calculator",
+      "path": "/en/emi-calculator",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Truck EMI Calculator"
+        },
+        {
+          "tag": "h2",
+          "text": "Calculate Your EMI"
+        },
+        {
+          "tag": "h3",
+          "text": "About Commercial Vehicle EMI Calculator"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Commercial Vehicle EMI Calculator"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Commercial Vehicle EMI Calculator",
+        "questions": [
+          "What is the meaning of Commercial Vehicle EMI?",
+          "What is the Down Payment of a Loan?",
+          "What if Someone Misses the truck EMI?",
+          "What is the procedure for closing the loan?",
+          "How is the EMI of a loan calculated?"
+        ]
+      }
+    },
+    "brandAndTonnage": {
+      "key": "brandAndTonnage",
+      "name": "Brand And Tonnage",
+      "path": "/en/commercial-vehicle-by-brand-and-ton",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Commercial Vehicles by Brand & Ton"
+        },
+        {
+          "tag": "h2",
+          "text": "Commercial Vehicles by Brand & Ton Range in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Select Commercial Vehicle By Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Choose Commercial Vehicle By Ton"
+        },
+        {
+          "tag": "h2",
+          "text": "Find Top Brand-wise Commercial Vehicle Under Specific Ton"
+        },
+        {
+          "tag": "h2",
+          "text": "About Commercial Vehicle by Brand & Ton"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Browse Commercial Vehicles by Brand & Payload?"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Commercial Vehicles by Brand & Ton"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Commercial Vehicles by Brand & Ton",
+        "questions": [
+          "How can I find commercial vehicles by brand and ton?",
+          "Which commercial vehicle brands are available on Truck Junction?",
+          "What ton ranges are available for commercial vehicles?",
+          "Can I explore brand-wise commercial vehicles under a specific ton?",
+          "Can I get price and specification details of any specific brand and ton?"
+        ]
+      }
+    },
+    "news": {
+      "key": "news",
+      "name": "News",
+      "path": "/en/news",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Latest Truck News"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Hindi News"
+        },
+        {
+          "tag": "h2",
+          "text": "Trending Truck News"
+        },
+        {
+          "tag": "h2",
+          "text": "Auto News"
+        },
+        {
+          "tag": "h2",
+          "text": "Logistic News"
+        },
+        {
+          "tag": "h2",
+          "text": "Social News"
+        },
+        {
+          "tag": "h2",
+          "text": "Success Stories News"
+        },
+        {
+          "tag": "h2",
+          "text": "Bus News"
+        },
+        {
+          "tag": "h2",
+          "text": "About Truck News"
+        },
+        {
+          "tag": "h2",
+          "text": "Where can you find updated trucks news?"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    },
+    "videos": {
+      "key": "videos",
+      "name": "Videos",
+      "path": "/en/videos",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Trucks Videos"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Truck Videos"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular brands Videos"
+        },
+        {
+          "tag": "h3",
+          "text": "About Truck Videos"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    },
+    "webStory": {
+      "key": "webStory",
+      "name": "Web Story",
+      "path": "/web-stories",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Truck Junction Web Stories"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    }
+  }
+}

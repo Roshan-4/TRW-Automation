@@ -1,0 +1,79 @@
+{
+  "scrapedAt": "2026-08-26",
+  "pages": {
+    "compareTrucks": {
+      "key": "compareTrucks",
+      "name": "Compare Trucks",
+      "path": "/en/compare",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Compare Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Truck Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Models by Category"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Commercial Vehicles Comparison"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Electric Vehicles Comparisons"
+        },
+        {
+          "tag": "h2",
+          "text": "Compare Trucks & Other Commercial Vehicles"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Choose the Truck Comparison Tool?"
+        },
+        {
+          "tag": "h2",
+          "text": "Truck Junction Comparison Tool"
+        },
+        {
+          "tag": "h2",
+          "text": "Compare Trucks in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Compare Trucks Online at Truck Junction"
+        },
+        {
+          "tag": "h2",
+          "text": "Benefits of Truck Comparison at Truck Junction"
+        },
+        {
+          "tag": "h2",
+          "text": "Compare Trucks from Home Comfortably"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "questions": [
+          "What is Truck Junction’s comparison tool?",
+          "Which trucks can I compare online?",
+          "How do I compare trucks on Truck Junction?",
+          "Can I compare trucks from different brands?",
+          "Does the tool show truck performance details?",
+          "Can I compare used trucks too?",
+          "Is Truck Junction’s information reliable?",
+          "Can I compare electric trucks here?",
+          "Do I need to visit a showroom to compare trucks?",
+          "How many trucks can I compare at once?"
+        ]
+      }
+    }
+  }
+}

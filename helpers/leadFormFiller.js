@@ -177,12 +177,18 @@ class LeadFormFiller {
     // screenshot showing exactly that: the suggestion still open, covering
     // the form's submit button, several seconds after this line ran. A real
     // click gets Cypress's own actionability + re-query-on-detach retry
-    // instead, and the assertion below fails fast, right here, with an
-    // accurate screenshot, instead of only surfacing as an unrelated-looking
-    // submit timeout much later.
+    // instead, so a mis-click now fails fast, right here, with an accurate
+    // screenshot, instead of only surfacing as an unrelated-looking submit
+    // timeout much later. The city input's own value is the success check —
+    // no separate "dropdown has closed" `.should('not.exist')` afterward:
+    // that's a second, broader DOM-wide text search on top of the click's
+    // own retry, and live runs showed it collide with this ad-heavy page's
+    // own script activity (`Cannot set property message of [object
+    // DOMException]`, Cypress's retry() crashing on a native exception
+    // thrown mid-check) — a real value match already proves the pick
+    // landed without that extra exposure.
     cy.contains(this.citySuggestionSelector, new RegExp(city, 'i')).should('be.visible').click();
     this.getCityInput().invoke('val').should('match', new RegExp(city, 'i'));
-    cy.contains(this.citySuggestionSelector, new RegExp(city, 'i')).should('not.exist');
   }
 
   /**

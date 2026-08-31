@@ -1,0 +1,363 @@
+{
+  "scrapedAt": "2026-08-26",
+  "pages": {
+    "tyres": {
+      "key": "tyres",
+      "name": "Tyres",
+      "path": "/en/tyres",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Truck Tyres in 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Truck Tyre Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "About Truck Tyres"
+        },
+        {
+          "tag": "h3",
+          "text": "How to Select The Perfect Truck Tyre For You?"
+        },
+        {
+          "tag": "h3",
+          "text": "Most Popular Truck Tyres Brands In India"
+        },
+        {
+          "tag": "h3",
+          "text": "Best Truck Tyres Models"
+        },
+        {
+          "tag": "h3",
+          "text": "What is the Life of A Truck Tyre?"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Ask Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Ask Questions",
+        "questions": [
+          "Where can I get new Truck tyres for sale in India?",
+          "What is the truck tyre price in India?",
+          "Which brand is perfect for the best truck tyres?"
+        ]
+      }
+    },
+    "latestTruckTyres": {
+      "key": "latestTruckTyres",
+      "name": "Latest Truck Tyres",
+      "path": "/en/latest-truck-tyres",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Latest Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Truck Tyres Price List In India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Choose Tyres By Brand"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Ask Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Ask Questions",
+        "questions": [
+          "What Are The Latest Tyres Launched In India?",
+          "How Many Tyres Are Available In The Latest Truck Tyres At Truck Junction?",
+          "In which brands the latest truck tyres are available?"
+        ]
+      }
+    },
+    "apolloTyres": {
+      "key": "apolloTyres",
+      "name": "Apollo Tyres",
+      "path": "/en/apollo-tyres",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Apollo Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Apollo Tyre Price List In India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Apollo Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Tyre Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "questions": [
+          "What are the Apollo truck tyre sizes?",
+          "Which are the most popular Apollo Truck Tyres?",
+          "What is the warranty period of Apollo Truck Tyres?"
+        ]
+      }
+    },
+    "ceatTyres": {
+      "key": "ceatTyres",
+      "name": "CEAT Tyres",
+      "path": "/en/ceat-tyres",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "CEAT Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "CEAT Tyre Price List In India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "CEAT Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Tyre Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "questions": [
+          "What are the CEAT truck tyre sizes?",
+          "Which are the most popular CEAT Truck Tyres?",
+          "What is the warranty period of CEAT Truck Tyres?"
+        ]
+      }
+    },
+    "continentalTyres": {
+      "key": "continentalTyres",
+      "name": "Continental Tyres",
+      "path": "/en/continental-tyres",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Continent Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Continental Tyre Price List In India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Continent Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Tyre Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "questions": [
+          "What are the Continental Truck Tyre Sizes at Truck Junction?",
+          "Which are the Most Popular Continental Truck Tyres?",
+          "What is the warranty period of Continental Truck Tyres in India?"
+        ]
+      }
+    },
+    "dunlopTyres": {
+      "key": "dunlopTyres",
+      "name": "Dunlop Tyres",
+      "path": "/en/dunlop-tyres",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Dunlop Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Dunlop Tyre Price List In India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Dunlop Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Tyre Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "questions": [
+          "What are the Dunlop Truck Tyre Sizes at Truck Junction?",
+          "Which is the most popular Dunlop Truck Tyre in India?",
+          "What is the Warranty Period of Dunlop Truck Tyres?"
+        ]
+      }
+    },
+    "goodyearTyres": {
+      "key": "goodyearTyres",
+      "name": "Goodyear Tyres",
+      "path": "/en/goodyear-tyres",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Goodyear Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Goodyear Tyre Price List In India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Goodyear Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Tyre Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "questions": [
+          "What are the Goodyear Truck Tyre Sizes at Truck Junction?",
+          "Which is the most popular Goodyear Truck Tyre in India?",
+          "What is the Warranty Period of Goodyear Truck Tyres?"
+        ]
+      }
+    },
+    "jkTyres": {
+      "key": "jkTyres",
+      "name": "JK Tyres",
+      "path": "/en/jk-tyres",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "JK Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "JK Tyres Tyre Price List In India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "JK Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Tyre Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "questions": [
+          "What are the JK Truck Tyre Sizes at Truck Junction?",
+          "Which is the most popular JK Truck Tyre in India?",
+          "What is the Warranty Period of JK Truck Tyres?"
+        ]
+      }
+    },
+    "mrfTyres": {
+      "key": "mrfTyres",
+      "name": "MRF Tyres",
+      "path": "/en/mrf-tyres",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "MRF Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "MRF Tyre Price List In India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "MRF Truck Tyres"
+        },
+        {
+          "tag": "h2",
+          "text": "Similar Tyre Brands"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "questions": [
+          "What are the MRF Truck Tyre Sizes at Truck Junction?",
+          "Which is the most popular MRF Truck Tyre in India?",
+          "What is the Warranty Period of MRF Truck Tyres?"
+        ]
+      }
+    },
+    "continentalHdw2": {
+      "key": "continentalHdw2",
+      "name": "Continental Hdw2",
+      "path": "/en/continental-tyres/hdw2",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Continental Hdw2"
+        },
+        {
+          "tag": "h2",
+          "text": "Continental Hdw2 Key Specification"
+        },
+        {
+          "tag": "h2",
+          "text": "Continental Hdw2 Key Features:"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions",
+        "questions": [
+          "What is the Price of Continental Hdw2 22 Inch in India?",
+          "Is Continental Hdw2 22 Inch good for Indian roads?",
+          "Where can I purchase the Continental Hdw2 online?"
+        ]
+      }
+    }
+  }
+}

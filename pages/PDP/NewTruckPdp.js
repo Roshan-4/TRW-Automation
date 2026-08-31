@@ -43,6 +43,7 @@ class NewTruckPdp {
     this.getOffersLeadCopy = { ...sharedLead, ...getOffersLead };
     this.checkOffersLeadCopy = { ...sharedLead, ...checkOffersLead };
     this.heroCopy = newTruckPdpData.Hero[lang] || newTruckPdpData.Hero.en;
+    this.componentsCopy = newTruckPdpData.Components[lang] || newTruckPdpData.Components.en;
     this.secondaryNavbarCopy =
       newTruckPdpData.SecondaryNavbar[productKey]?.[lang] ||
       newTruckPdpData.SecondaryNavbar[productKey]?.en;
@@ -389,8 +390,86 @@ class NewTruckPdp {
     });
   }
 
+  getEmiCalculator() {
+    return cy.get('#calculateEmi', { timeout: 20000 });
+  }
+
   verifyEmi() {
     this.verifyHeadingVisible(`${this.productLabel} EMI`);
+    const copy = this.componentsCopy.emi;
+    this.getEmiCalculator().scrollIntoView({
+      offset: { top: -STICKY_HEADER_OFFSET, left: 0 },
+    });
+    this.getEmiCalculator().contains('p', exactText(copy.downPayment)).should('be.visible');
+    this.getEmiCalculator().contains('p', exactText(copy.interestRate)).should('be.visible');
+    this.getEmiCalculator().contains('p', exactText(copy.loanPeriod)).should('be.visible');
+    this.getEmiCalculator().contains('p', exactText(copy.monthlyEmi)).should('be.visible');
+    copy.tenures.forEach((months) => {
+      this.getEmiCalculator()
+        .contains('button', exactText(months))
+        .should('be.visible');
+    });
+    this.getEmiCalculator()
+      .contains('p', exactText(copy.monthlyEmi))
+      .parent()
+      .should(($el) => {
+        expect(
+          $el.text(),
+          `Monthly EMI amount should be shown for ${this.productLabel}`
+        ).to.match(/₹\s*[\d,]+/);
+      });
+  }
+
+  /**
+   * SecondaryNavbar "Calculate EMI" is an in-page jump (a div, not a link).
+   * Price / Specification / Images / Brochure are real hrefs off this PDP
+   * — do not click those here or the rest of the shared session is lost.
+   */
+  clickSecondaryNavbarCalculateEmi() {
+    const label = this.componentsCopy.navbarEmiItem;
+    // #secondary-header is the stable id. `div.secondaryNav.sticky` can be
+    // missing after the shared PDP session has scrolled through later
+    // blocks (confirmed live: the bar is still on screen, but that class
+    // pair no longer matches).
+    cy.get('#secondary-header', { timeout: 20000 })
+      .should('be.visible')
+      .find(`[title*="${label}"]`)
+      .first()
+      .should('be.visible')
+      .click();
+    this.getEmiCalculator().should('be.visible');
+    this.getEmiCalculator()
+      .contains('h2', exactText(`${this.productLabel} EMI`))
+      .should('be.visible');
+  }
+
+  selectEmiLoanPeriod(months) {
+    const copy = this.componentsCopy.emi;
+    this.getEmiCalculator().scrollIntoView({
+      offset: { top: -STICKY_HEADER_OFFSET, left: 0 },
+    });
+    const amountText = () =>
+      this.getEmiCalculator()
+        .contains('p', exactText(copy.monthlyEmi))
+        .parent()
+        .invoke('text');
+
+    amountText().then((before) => {
+      this.getEmiCalculator().contains('button', exactText(String(months))).click();
+      this.getEmiCalculator()
+        .contains('p', exactText(copy.monthlyEmi))
+        .parent()
+        .should(($el) => {
+          const after = ($el.text() || '').replace(/\s+/g, ' ').trim();
+          expect(after, 'Monthly EMI should still show a rupee amount after changing tenure').to.match(
+            /₹\s*[\d,]+/
+          );
+          expect(
+            after,
+            `Changing loan period to ${months} months should update the Monthly EMI figure`
+          ).to.not.eq((before || '').replace(/\s+/g, ' ').trim());
+        });
+    });
   }
 
   verifyAbout() {
@@ -411,6 +490,12 @@ class NewTruckPdp {
   verifyCompareAlternatives() {
     const heading = `Compare ${this.productLabel} with Alternative`;
     this.verifyHeadingVisible(heading);
+    cy.contains('h2', exactText(heading))
+      .parent()
+      .parent()
+      .find('a[href*="/en/compare/"]')
+      .filter(':visible')
+      .should('have.length.at.least', 1);
   }
 
   verifyImages() {
@@ -433,10 +518,39 @@ class NewTruckPdp {
       .should('be.visible');
   }
 
+  getDealersSection() {
+    // Live heading can carry an extra space after the product name.
+    return cy
+      .contains('h2', /Dealers, Service Centers & Spare Parts/, { timeout: 20000 })
+      .scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } })
+      .should('be.visible')
+      .parent()
+      .parent();
+  }
+
   verifyDealersServiceSpare() {
-    this.verifyHeadingVisible(
-      `${this.productLabel} Dealers, Service Centers & Spare Parts`
-    );
+    this.getDealersSection().within(() => {
+      this.componentsCopy.dealersTabs.forEach((tab) => {
+        cy.get(`button.tab-btn[title="${tab}"]`).should('be.visible');
+      });
+      cy.get(`button.tab-btn[title="${this.componentsCopy.dealersTabs[0]}"]`).should(
+        'have.class',
+        'tabsBorder'
+      );
+      cy.contains('button', exactText(this.componentsCopy.talkToDealerCta))
+        .filter(':visible')
+        .should('have.length.at.least', 1);
+    });
+  }
+
+  openDealersTab(tabTitle) {
+    this.getDealersSection()
+      .find(`button.tab-btn[title="${tabTitle}"]`)
+      .should('be.visible')
+      .click();
+    this.getDealersSection()
+      .find(`button.tab-btn[title="${tabTitle}"]`)
+      .should('have.class', 'tabsBorder');
   }
 
   verifyPriceInIndia() {
@@ -489,8 +603,42 @@ class NewTruckPdp {
     this.verifyHeadingVisible(`${this.productLabel} Usage`);
   }
 
+  getFaqSection() {
+    return cy.get('#faqSection', { timeout: 20000 });
+  }
+
   verifyFaq() {
     this.verifyHeadingVisible(`Frequently Asked Questions on ${this.productLabel}`);
+    this.getFaqSection()
+      .find('.accordion h3')
+      .should('have.length.at.least', 1);
+  }
+
+  expandFaqAccordion(index = 0) {
+    this.getFaqSection().scrollIntoView({
+      offset: { top: -STICKY_HEADER_OFFSET, left: 0 },
+    });
+    this.getFaqSection()
+      .find('.accordion')
+      .eq(index)
+      .should('be.visible')
+      .within(() => {
+        cy.get('h3').should('be.visible').click();
+        cy.get('div')
+          .filter(':visible')
+          .should(($els) => {
+            const answer = [...$els].find(
+              (el) =>
+                el.tagName === 'DIV' &&
+                !el.querySelector('h3') &&
+                (el.textContent || '').trim().length > 20
+            );
+            expect(
+              answer,
+              `FAQ answer for question ${index + 1} should be shown after it is opened`
+            ).to.exist;
+          });
+      });
   }
 }
 

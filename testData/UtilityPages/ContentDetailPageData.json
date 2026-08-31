@@ -1,0 +1,62 @@
+{
+  "ContentDetailPage": {
+    "en": {
+      "pages": [
+        {
+          "key": "aboutUs",
+          "name": "About Us",
+          "path": "/en/about-us",
+          "heading": "About Truck Junction - India’s fastest growing online platform for Trucks"
+        },
+        {
+          "key": "privacyPolicy",
+          "name": "Privacy Policy",
+          "path": "/en/privacy-policy",
+          "heading": "Privacy Policy | Truckjunction"
+        },
+        {
+          "key": "termsAndCondition",
+          "name": "Terms and Conditions",
+          "path": "/en/terms-and-condition",
+          "heading": "Terms and Conditions - Truck Junction"
+        },
+        {
+          "key": "sitemap",
+          "name": "Sitemap",
+          "path": "/en/sitemap",
+          "heading": "Truck Junction - Sitemap"
+        },
+        {
+          "key": "blogHub",
+          "name": "Truck Junction Blog",
+          "path": "/blog/",
+          "heading": "Truck Junction Blog"
+        },
+        {
+          "key": "authorsHub",
+          "name": "All Authors",
+          "path": "/en/authors",
+          "heading": "All Authors"
+        },
+        {
+          "key": "newsDetail",
+          "name": "News Article Detail",
+          "path": "/en/news/eka-2-5t-electric-truck-range-payload-specifications",
+          "heading": "EKA 2.5T: Bharat Ki EVCV with 180 KM Range & 1500 KG Payload"
+        },
+        {
+          "key": "blogDetail",
+          "name": "Blog Article Detail",
+          "path": "/blog/ace-pro-ev-vs-treo-zor-vs-reep-l3/",
+          "heading": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+        },
+        {
+          "key": "authorDetail",
+          "name": "Author Profile",
+          "path": "/authors/neeraj-joshi",
+          "heading": "Neeraj Joshi"
+        }
+      ]
+    }
+  }
+}

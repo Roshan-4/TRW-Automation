@@ -66,3 +66,7 @@ scripts/allure-custom-report/
 
 # Developer locator request (local reference only)
 stable-locators-request.txt
+
+# Debug / scratch artifacts
+.scratch_*
+allure-results-full-backup/

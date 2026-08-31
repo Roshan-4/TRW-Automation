@@ -8,6 +8,22 @@
           "name": "Best Trucks",
           "path": "/en/trucks",
           "pageType": "Listing",
+          "heading": "Trucks",
+          "listingHeadingPattern": "^Popular Trucks - \\d+$",
+          "cardCta": "Check Truck Price",
+          "faqHeading": "Frequently Asked Questions on Trucks",
+          "hasLoadMore": true,
+          "secondaryNav": [
+            "Trucks",
+            "Comparison",
+            "Used Trucks",
+            "Reviews",
+            "Body Type",
+            "EV",
+            "Updates",
+            "FAQs"
+          ],
+          "filterLabels": ["Filter By", "Reset All", "Apply Filter"],
           "leadForms": {
             "checkOffers": true,
             "checkTruckPrice": true,
@@ -22,6 +38,20 @@
           "name": "Popular Truck",
           "path": "/en/popular-trucks",
           "pageType": "Listing",
+          "heading": "Popular Trucks In India",
+          "listingHeadingPattern": "^\\d+ Popular Trucks$",
+          "cardCta": "Check Truck Price",
+          "faqHeading": "Frequently Asked Questions on Popular Trucks",
+          "hasLoadMore": true,
+          "secondaryNav": [
+            "Popular Trucks In India",
+            "Comparison",
+            "Brands",
+            "Used Trucks",
+            "Updates",
+            "FAQs"
+          ],
+          "filterLabels": ["Filter By", "Reset All", "Apply Filter"],
           "leadForms": {
             "checkOffers": false,
             "checkTruckPrice": true,
@@ -36,6 +66,13 @@
           "name": "Find New Trucks",
           "path": "/en/new-trucks",
           "pageType": "Listing",
+          "heading": "New Trucks In India",
+          "listingHeadingPattern": "^New Trucks - \\d+$",
+          "cardCta": "Check Truck Price",
+          "faqHeading": "Frequently Asked Questions on New Trucks",
+          "hasLoadMore": true,
+          "secondaryNav": [],
+          "filterLabels": ["Filter By", "Reset All", "Apply Filter"],
           "leadForms": {
             "checkOffers": true,
             "checkTruckPrice": true,
@@ -50,6 +87,18 @@
           "name": "Upcoming Trucks",
           "path": "/en/upcoming-trucks",
           "pageType": "Listing",
+          "heading": "Upcoming Trucks In India",
+          "listingHeadingPattern": "^Upcoming Trucks Found - \\d+$",
+          "cardCta": "Notify Me",
+          "faqHeading": "Frequently Asked Questions on Trucks",
+          "hasLoadMore": false,
+          "secondaryNav": [
+            "Upcoming Trucks In India",
+            "EV Trucks",
+            "Find Perfect Truck",
+            "FAQs"
+          ],
+          "filterLabels": ["Filter By", "Reset All", "Apply Filter"],
           "leadForms": {
             "checkOffers": true,
             "checkTruckPrice": false,
@@ -64,6 +113,19 @@
           "name": "Latest Trucks",
           "path": "/en/latest-trucks",
           "pageType": "Listing",
+          "heading": "Latest Trucks In India",
+          "listingHeadingPattern": "^\\d+ Latest Trucks Found$",
+          "cardCta": "Check Truck Price",
+          "faqHeading": "Frequently Asked Questions on Latest Trucks",
+          "hasLoadMore": true,
+          "secondaryNav": [
+            "Latest Trucks In India",
+            "Comparison",
+            "EV Trucks",
+            "Updates",
+            "FAQs"
+          ],
+          "filterLabels": ["Filter By", "Reset All", "Apply Filter"],
           "leadForms": {
             "checkOffers": true,
             "checkTruckPrice": true,
@@ -78,6 +140,13 @@
           "name": "BS6 Trucks",
           "path": "/en/bs-vi",
           "pageType": "Listing",
+          "heading": "BS6 Trucks",
+          "listingHeadingPattern": "^\\d+ BS6 Commercial Vehicles$",
+          "cardCta": "Check Truck Price",
+          "faqHeading": "",
+          "hasLoadMore": true,
+          "secondaryNav": [],
+          "filterLabels": ["Filter By", "Reset All", "Apply Filter"],
           "leadForms": {
             "checkOffers": true,
             "checkTruckPrice": true,
@@ -97,7 +166,8 @@
       "namePlaceholder": "Name",
       "mobilePlaceholder": "Enter your mobile number",
       "cityPlaceholder": "Enter your City or District or Pincode",
-      "submitCta": "Get Offers"
+      "submitCta": "Get Offers",
+      "thankYouHeading": "THANK YOU!!!"
     }
   }
 }

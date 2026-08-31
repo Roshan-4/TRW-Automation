@@ -1,4 +1,5 @@
 const popularTruckBrandsData = require('../../testData/HomePage/PopularTruckBrandsData.json');
+const { currentDevice, itemsShownOnDevice } = require('../../helpers/deviceLayout');
 
 const LANG_HOME_PATH = {
   en: '/',
@@ -66,8 +67,15 @@ class PopularTruckBrands {
       .should('exist');
   }
 
+  /**
+   * Brands this device actually renders (mobile omits the last 6 from the DOM).
+   */
+  get brandsShownOnThisDevice() {
+    return itemsShownOnDevice(this.copy.brands, popularTruckBrandsData.visibleCountByDevice);
+  }
+
   getBrandCards() {
-    return this.getSection().find('a[title][href]', { log: false });
+    return this.getSection().find('a[title][href]', { log: false }).filter(':visible');
   }
 
   getBrandCardBySlug(slug) {
@@ -91,7 +99,8 @@ class PopularTruckBrands {
 
   verifyAllBrandCardsPresent() {
     this.scrollToSection();
-    this.copy.brands.forEach((brand) => {
+    const shown = this.brandsShownOnThisDevice;
+    shown.forEach((brand) => {
       this.getBrandCardBySlug(brand.slug)
         .should('be.visible')
         .and('have.attr', 'title', brand.title)
@@ -104,7 +113,12 @@ class PopularTruckBrands {
           cy.contains('p', exactText(brand.name)).should('be.visible');
         });
     });
-    this.getBrandCards().should('have.length', this.copy.brands.length);
+    this.getBrandCards().should(($cards) => {
+      expect(
+        $cards.length,
+        `Popular Truck Brands should show ${shown.length} brand cards on ${currentDevice()} (not the other device's count)`
+      ).to.eq(shown.length);
+    });
   }
 
   verifyNoDuplicateBrands() {
@@ -142,7 +156,7 @@ class PopularTruckBrands {
    * Click each popular brand card and confirm real navigation to that brand page.
    */
   verifyEachBrandCardNavigatesToBrandPage() {
-    this.copy.brands.forEach((brand, index) => {
+    this.brandsShownOnThisDevice.forEach((brand, index) => {
       if (index > 0) {
         this.navigate();
       } else {

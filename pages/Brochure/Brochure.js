@@ -192,6 +192,48 @@ class Brochure {
     });
     this.verifyCheckOffersLeadSubmitted();
   }
+
+  verifyPageHeading() {
+    cy.contains('h1', exactText(this.page.heading), { timeout: 20000 }).should('be.visible');
+  }
+
+  verifySelectTruckToDownload() {
+    cy.contains('h2', exactText(this.page.selectTruckHeading), { timeout: 20000 })
+      .scrollIntoView({ offset: { top: -140, left: 0 } })
+      .should('be.visible')
+      .parent()
+      .parent()
+      .within(() => {
+        cy.contains('button', exactText(this.page.searchCta)).should('be.visible');
+      });
+  }
+
+  verifyFaqAndExpand() {
+    cy.contains('h2', exactText(this.page.faqHeading), { timeout: 20000 })
+      .scrollIntoView({ offset: { top: -140, left: 0 } })
+      .should('be.visible')
+      .parent()
+      .parent()
+      .within(() => {
+        cy.get('.accordion').eq(1).should('be.visible').within(() => {
+          cy.get('h3').click();
+          cy.get('div')
+            .filter(':visible')
+            .should(($els) => {
+              const answer = [...$els].find(
+                (el) =>
+                  el.tagName === 'DIV' &&
+                  !el.querySelector('h3') &&
+                  (el.textContent || '').trim().length > 20
+              );
+              expect(
+                answer,
+                'Brochure FAQ answer should be shown after opening a question'
+              ).to.exist;
+            });
+        });
+      });
+  }
 }
 
 module.exports = Brochure;

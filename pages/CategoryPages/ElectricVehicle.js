@@ -338,6 +338,22 @@ class ElectricVehicle {
       });
     });
   }
+
+  verifyListingChrome() {
+    cy.get('h1', { timeout: 20000 }).should('be.visible');
+    cy.get('body').then(($body) => {
+      if ($body.find('.filterWrapper').length) {
+        // Present on both devices; on mobile the row is not painted until
+        // the filter drawer is opened, so assert on copy rather than visibility.
+        cy.get('.filterWrapper').should(($wrap) => {
+          expect($wrap.text(), `Filter By should be shown on ${this.pageLabel}`).to.include('Filter By');
+        });
+      }
+    });
+    cy.contains('button', exactText(this.page.checkTruckPriceCta), { timeout: 20000 })
+      .filter(':visible')
+      .should('have.length.at.least', 1);
+  }
 }
 
 module.exports = ElectricVehicle;

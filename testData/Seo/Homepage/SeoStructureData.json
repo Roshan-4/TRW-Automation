@@ -1,0 +1,223 @@
+{
+  "scrapedAt": "2026-08-26",
+  "languages": [
+    "en",
+    "hi",
+    "ta"
+  ],
+  "pages": {
+    "home": {
+      "key": "home",
+      "name": "Homepage",
+      "byLanguage": {
+        "en": {
+          "path": "/",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "Search The Right Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "The Buzz Board"
+            },
+            {
+              "tag": "h2",
+              "text": "Truck in India 2026"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Truck Brands"
+            },
+            {
+              "tag": "h2",
+              "text": "Electric Commercial Vehicles"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Second Hand Truck"
+            },
+            {
+              "tag": "h2",
+              "text": "Latest Models by Category"
+            },
+            {
+              "tag": "h2",
+              "text": "Latest Truck Updates"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Reliable Used Trucks Near You"
+            },
+            {
+              "tag": "h2",
+              "text": "Popular Truck Comparison"
+            },
+            {
+              "tag": "h3",
+              "text": "About Truck Junction - India’s fastest growing online platform for Trucks"
+            },
+            {
+              "tag": "h2",
+              "text": "Get the Best Trucks in India 2026"
+            },
+            {
+              "tag": "h2",
+              "text": "Buy and Sell New & Used Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Top Brands of Trucks in India"
+            },
+            {
+              "tag": "h2",
+              "text": "Are You Looking for Commercial Vehicles?"
+            },
+            {
+              "tag": "h2",
+              "text": "Find Certified Truck Spare Parts Dealers & Service Centres"
+            },
+            {
+              "tag": "h2",
+              "text": "Other Services: Compare Trucks, News, Articles, Loan & Reviews"
+            },
+            {
+              "tag": "h2",
+              "text": "Why Choose Truck Junction?"
+            },
+            {
+              "tag": "h3",
+              "text": "So, what are you waiting for?"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "hi": {
+          "path": "/hi",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "सही ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "ट्रेंडिंग न्यूज़ बोर्ड"
+            },
+            {
+              "tag": "h2",
+              "text": "में भारत के ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ट्रक ब्रांड"
+            },
+            {
+              "tag": "h2",
+              "text": "इलेक्ट्रिक कमर्शियल व्हीकल्स"
+            },
+            {
+              "tag": "h2",
+              "text": "पॉपुलर सेकंड हैंड ट्रक"
+            },
+            {
+              "tag": "h2",
+              "text": "श्रेणी के द्वारा नवीनतम मॉडल"
+            },
+            {
+              "tag": "h2",
+              "text": "नवीनतम ट्रक अपडेट"
+            },
+            {
+              "tag": "h2",
+              "text": "अपने आस-पास विश्वसनीय प्रयुक्त ट्रक खोजें"
+            },
+            {
+              "tag": "h2",
+              "text": "लोकप्रिय ट्रक तुलना"
+            },
+            {
+              "tag": "h3",
+              "text": "ट्रक जंक्शन के बारे में - ट्रकों के लिए भारत का सबसे तेजी से बढ़ता ऑनलाइन प्लेटफॉर्म"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        },
+        "ta": {
+          "path": "/ta",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "சரியான டிரக்கை தேடு"
+            },
+            {
+              "tag": "h2",
+              "text": "ஆண்டில் உள்ள டிரக்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான டிரக் பிராண்டுகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "மின்சார வணிக வாகனங்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான இரண்டாம் கை டிரக்குகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "வகைபடுத்தப்பட்ட புதிய மாடல்கள்"
+            },
+            {
+              "tag": "h2",
+              "text": "சமீபத்திய டிரக் புதுப்பிப்புகள்"
+            },
+            {
+              "tag": "h2",
+              "text": "உங்களுக்கு அருகிலுள்ள நம்பகமான பயன்படுத்திய டிரக்குகளைக் கண்டறியவும்"
+            },
+            {
+              "tag": "h2",
+              "text": "பிரபலமான டிரக் ஒப்பீடு"
+            },
+            {
+              "tag": "h3",
+              "text": "டிரக் ஜங்க்ஷன் பற்றி - இந்தியாவின் மிக வேகமாக வளர்ந்து வரும் ஆன்லைன் தளம் டிரக்குகளுக்காக"
+            },
+            {
+              "tag": "h3",
+              "text": "ஆம் ஆண்டில் இந்தியாவில் சிறந்த டிரக்குகளைப் பெறுங்கள்"
+            },
+            {
+              "tag": "h3",
+              "text": "இந்தியாவில் சிறந்த டிரக்குகளின் பிராண்டுகளைக் கண்டறியவும்"
+            },
+            {
+              "tag": "h3",
+              "text": "நீங்கள் வணிக வாகனங்களைத் தேடுகிறீர்களா?"
+            },
+            {
+              "tag": "h3",
+              "text": "சான்றளிக்கப்பட்ட டிரக் உதிரி பாகங்கள் டீலர்களைக் கண்டறியவும்"
+            },
+            {
+              "tag": "h3",
+              "text": "பிற சேவைகள்: டிரக்குகளை ஒப்பிடுக, செய்திகள், கட்டுரைகள், மதிப்புரைகள்"
+            }
+          ],
+          "faq": {
+            "heading": "",
+            "questions": []
+          }
+        }
+      }
+    }
+  }
+}

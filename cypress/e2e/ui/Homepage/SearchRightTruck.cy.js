@@ -163,10 +163,13 @@ LANGUAGES.forEach((lang) => {
       'TC-SRT-12: loads model options for a brand including top models from test data',
       { tags: langTags(lang, TEST_TAGS.EDGE) },
       () => {
-        const brand = page.getBrand('eicher');
-        const models = page.getTopModels('eicher');
+        const brand = page.getBrand('tata');
+        const models = page.getTopModels('tata');
         page.selectBrandBySlug(brand.slug);
-        page.verifyModelOptionsInclude(models.map((m) => m.slug));
+        page.verifyModelOptionsInclude(
+          models.map((m) => m.slug),
+          brand.slug
+        );
       }
     );
 

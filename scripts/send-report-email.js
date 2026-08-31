@@ -67,34 +67,46 @@ function main() {
 
   const environment = process.env.REPORT_ENVIRONMENT || 'PROD';
   const executionDateTime = toExecutionDateTime(manifest.timestamp);
-  const subject = `Automation Execution Report - Truck Junction - ${toSubjectDate(manifest.timestamp)}`;
+  const suiteLabel = process.env.REPORT_EMAIL_SUITE_NAME || 'Truck Junction';
+  const subject =
+    process.env.REPORT_EMAIL_SUBJECT ||
+    `Automation Execution Report - ${suiteLabel} - ${toSubjectDate(manifest.timestamp)}`;
+
+  const passedCount = Math.max(0, totalTestCases - failedCount);
 
   const priorityOnFail = process.env.REPORT_PRIORITY_ON_FAIL || 'High';
   const priorityOnPass = process.env.REPORT_PRIORITY_ON_PASS || 'Normal';
   const priority = failedCount > 0 ? priorityOnFail : priorityOnPass;
 
   const description =
-    `Automated Cypress regression suite (English - Desktop + Mobile) executed against ` +
-    `trucks.tractorjunction.com. ${totalTestCases - failedCount} passed, ${failedCount} failed ` +
-    `out of ${totalTestCases} total test cases.`;
+    process.env.REPORT_EMAIL_DESCRIPTION ||
+    `Automated Cypress regression suite executed against trucks.tractorjunction.com. ` +
+      `${passedCount} passed, ${failedCount} failed out of ${totalTestCases} total test cases.`;
 
   const screenshots = manifest.screenshots || [];
-  // data[screenshotUrl] is a singular field in the API's template (like
-  // data[reportUrl]) — never leave it empty: fall back to the report URL
-  // itself when there are no failures to link a screenshot for.
+  // Never leave data[screenshotUrl] empty — fall back to the report URL.
   const primaryScreenshotUrl = screenshots.length ? screenshots[0].url : manifest.reportUrl;
-  // Real file attachments (attachments[]=@localfile), restoring the
-  // original template's usage — a curl --form field that's dropped
-  // entirely (as opposed to sent empty) has been seen to silently break
-  // delivery on this API even though it still reports "queued".
-  const maxAttachments = Number(process.env.REPORT_MAX_ATTACHMENTS || 5);
-  const screenshotLocalPaths = screenshots
+  // This API drops delivery when attachments[] is omitted entirely; attach at
+  // least one local file (failed screenshot, or branded logo fallback).
+  const maxAttachments = Number(process.env.REPORT_MAX_ATTACHMENTS ?? 1);
+  let screenshotLocalPaths = screenshots
     .map((s) => s.localPath)
-    .filter(Boolean)
+    .filter((p) => p && fs.existsSync(p))
     .slice(0, maxAttachments);
+
+  if (screenshotLocalPaths.length === 0) {
+    const logoFallback = path.join(ROOT, 'assets', 'allure', 'truck-logo.png');
+    const faviconFallback = path.join(ROOT, 'assets', 'allure', 'favicon-32.png');
+    if (fs.existsSync(logoFallback)) {
+      screenshotLocalPaths = [logoFallback];
+    } else if (fs.existsSync(faviconFallback)) {
+      screenshotLocalPaths = [faviconFallback];
+    }
+  }
 
   const lines = [
     `TOTAL_TEST_CASES=${shellQuote(totalTestCases)}`,
+    `PASSED_COUNT=${shellQuote(passedCount)}`,
     `FAILED_COUNT=${shellQuote(failedCount)}`,
     `EXECUTION_DATETIME=${shellQuote(executionDateTime)}`,
     `REPORT_ENVIRONMENT=${shellQuote(environment)}`,

@@ -8,7 +8,11 @@
       "leadTriggerCta": "Download Brochure",
       "identifierSuffix": "DownloadBrochure",
       "bestSellingHeading": "Best Selling Trucks",
-      "bestSellingTabs": ["Popular", "Upcoming", "Latest"]
+      "bestSellingTabs": ["Popular", "Upcoming", "Latest"],
+      "heading": "Download Truck Brochures",
+      "selectTruckHeading": "Select Truck to download Brochure",
+      "searchCta": "Search",
+      "faqHeading": "Frequently Asked Questions on Download Truck Brochure"
     }
   }
 }

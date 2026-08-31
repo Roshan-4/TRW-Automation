@@ -327,6 +327,27 @@ class CategoryListing {
       });
     });
   }
+
+  /**
+   * Listing chrome unique to this category page: heading, Filter By row
+   * when present, and at least one Check Truck Price card. Reused
+   * homepage carousels are covered elsewhere.
+   */
+  verifyListingChrome() {
+    cy.get('h1', { timeout: 20000 }).should('be.visible');
+    cy.get('body').then(($body) => {
+      if ($body.find('.filterWrapper').length) {
+        // Present on both devices; on mobile the row is not painted until
+        // the filter drawer is opened, so assert on copy rather than visibility.
+        cy.get('.filterWrapper').should(($wrap) => {
+          expect($wrap.text(), `Filter By should be shown on ${this.pageLabel}`).to.include('Filter By');
+        });
+      }
+    });
+    cy.contains('button', exactText(this.checkTruckPriceCta), { timeout: 20000 })
+      .filter(':visible')
+      .should('have.length.at.least', 1);
+  }
 }
 
 module.exports = CategoryListing;

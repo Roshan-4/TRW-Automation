@@ -3,6 +3,7 @@ const { TEST_TAGS } = require('../../../../constants/constants');
 const { documentTestCase, allureStep } = require('../../../../helpers/documentTestCase');
 const { registerRedirectionCheck } = require('../../../../helpers/verifyPageRedirections');
 const { deviceTag } = require('../../../../helpers/deviceTags');
+const { registerListingChromeTests } = require('../../../support/listingChromeTests');
 
 const LANGUAGES = BusListing.supportedLanguages;
 const PAGE_KEYS = BusListing.pageKeys;
@@ -134,6 +135,13 @@ LANGUAGES.forEach((lang) => {
             });
           }
         );
+
+        registerListingChromeTests({
+          page,
+          pageLabel,
+          id: 'TC-BUS-04',
+          langTags: langTags(lang, TEST_TAGS.POSITIVE, ...pageTags(pageKey)),
+        });
       }
     );
   });

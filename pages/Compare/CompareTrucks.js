@@ -109,6 +109,62 @@ class CompareTrucks {
     });
     this.verifyCheckOffersLeadSubmitted();
   }
+
+  verifyPageHeading() {
+    cy.contains('h1', exactText(this.page.heading), { timeout: 20000 }).should('be.visible');
+  }
+
+  verifyCompareToolCta() {
+    cy.contains('button', exactText(this.page.compareCta), { timeout: 20000 })
+      .filter(':visible')
+      .first()
+      .should('be.visible');
+  }
+
+  verifyPopularTruckComparison() {
+    cy.contains('h2', exactText(this.page.popularComparisonHeading), { timeout: 20000 })
+      .scrollIntoView({ offset: { top: -140, left: 0 } })
+      .should('be.visible');
+  }
+
+  selectModelsByCategoryTab(tabLabel) {
+    cy.contains('h2', exactText(this.page.modelsByCategoryHeading), { timeout: 20000 })
+      .scrollIntoView({ offset: { top: -140, left: 0 } })
+      .should('be.visible')
+      .parent()
+      .parent()
+      .within(() => {
+        cy.get(`button.tab-btn[title="${tabLabel}"]`).should('be.visible').click();
+        cy.get(`button.tab-btn[title="${tabLabel}"]`).should('have.class', 'tabsBorder');
+      });
+  }
+
+  verifyFaqAndExpand() {
+    cy.contains('h2', exactText(this.page.faqHeading), { timeout: 20000 }).should('exist');
+    // Native click: Cypress treats this h3 as covered by the FAQ section
+    // wrapper (#truckFaq heading overlay) even though a user can click it.
+    // Same raw-DOM click used for Check Offers on this page.
+    cy.get('#truckFaq .accordion', { timeout: 20000 })
+      .eq(1)
+      .should('be.visible')
+      .then(($acc) => {
+        const heading = $acc.find('h3').get(0);
+        expect(heading, 'Compare Trucks FAQ question is present').to.exist;
+        heading.click();
+      });
+    cy.get('#truckFaq .accordion')
+      .eq(1)
+      .should(($acc) => {
+        const answer = [...$acc.find('div')].find(
+          (el) => !el.querySelector('h3') && (el.textContent || '').trim().length > 20
+        );
+        expect(answer, 'Compare Trucks FAQ answer should be shown after opening a question').to.exist;
+        expect(
+          Cypress.$(answer).is(':visible'),
+          'Compare Trucks FAQ answer should be visible'
+        ).to.eq(true);
+      });
+  }
 }
 
 module.exports = CompareTrucks;

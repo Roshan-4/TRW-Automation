@@ -1,0 +1,235 @@
+{
+  "scrapedAt": "2026-08-26",
+  "pages": {
+    "buyUsedTrucks": {
+      "key": "buyUsedTrucks",
+      "name": "Buy Used Trucks",
+      "path": "/en/buy-used-trucks",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Used Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Used Truck Found"
+        },
+        {
+          "tag": "h3",
+          "text": "Buy Used Truck and Second Hand Truck for Sale in India"
+        },
+        {
+          "tag": "h2",
+          "text": "Are you searching for used trucks for sale?"
+        },
+        {
+          "tag": "h2",
+          "text": "How can I get a second hand truck for sale?"
+        },
+        {
+          "tag": "h3",
+          "text": "Why Truck Junction for used trucks for sale in India?"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on Used Trucks"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on Used Trucks",
+        "questions": [
+          "How many used trucks for sale are listed on Truck Junction?",
+          "How can I find used trucks for sale in my area?",
+          "Can I buy used commercial trucks at a fair price with proper documents?",
+          "Is a second hand small truck also available at Truck Junction?",
+          "How can I sell my used truck?"
+        ]
+      }
+    },
+    "sellUsedTrucks": {
+      "key": "sellUsedTrucks",
+      "name": "Sell Used Trucks",
+      "path": "/en/sell-used-truck",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Sell Your Used Truck at best Price"
+        },
+        {
+          "tag": "h2",
+          "text": "step away from selling your truck"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    },
+    "cvPermit": {
+      "key": "cvPermit",
+      "name": "CV Permit",
+      "path": "/en/vehicle-permit-check",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "All India permit for Your Vehicle – Quick & Easy!"
+        },
+        {
+          "tag": "h3",
+          "text": "All India (National) Permit"
+        },
+        {
+          "tag": "h2",
+          "text": "Key Points"
+        },
+        {
+          "tag": "h2",
+          "text": "How to Get Your Permit in 3 Easy Steps"
+        },
+        {
+          "tag": "h2",
+          "text": "Why You Need a Vehicle Permit"
+        },
+        {
+          "tag": "h2",
+          "text": "Truck in India 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Vehicle Permit Types"
+        },
+        {
+          "tag": "h2",
+          "text": "Need Help Getting Your All India Permit?"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Choose Us"
+        },
+        {
+          "tag": "h2",
+          "text": "What People Say About Us"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Updates"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": []
+      }
+    },
+    "vehicleReport": {
+      "key": "vehicleReport",
+      "name": "Vehicle Report",
+      "path": "/en/vehicle-history-report",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Know Your Complete Vehicle History in Seconds"
+        },
+        {
+          "tag": "h2",
+          "text": "How it works"
+        },
+        {
+          "tag": "h2",
+          "text": "Popular Used Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "Benefits of Vehicle History"
+        },
+        {
+          "tag": "h2",
+          "text": "Looking for New Trucks"
+        },
+        {
+          "tag": "h2",
+          "text": "What Can I Do with a Vehicle History Report?"
+        },
+        {
+          "tag": "h2",
+          "text": "News and Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "FAQ"
+        },
+        {
+          "tag": "h2",
+          "text": "Ready to Check your Vehicle's History?"
+        }
+      ],
+      "faq": {
+        "heading": "",
+        "questions": [
+          "What details are included in the vehicle history report?",
+          "How can I check a vehicle’s history?",
+          "Is the vehicle history data accurate and trustworthy?",
+          "Can I check the history of any commercial vehicle?",
+          "Do I need to sign up to access the report?"
+        ]
+      }
+    },
+    "eChallan": {
+      "key": "eChallan",
+      "name": "E Challan",
+      "path": "/en/e-challan-check-pay-online",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Check & Pay E Challan Online by Vehicle Number"
+        },
+        {
+          "tag": "h2",
+          "text": "Common Reasons for Traffic Challan"
+        },
+        {
+          "tag": "h2",
+          "text": "Pay E Challan in 3 Easy Steps"
+        },
+        {
+          "tag": "h2",
+          "text": "Why Use Our E-Challan Service?"
+        },
+        {
+          "tag": "h2",
+          "text": "What People say about us"
+        },
+        {
+          "tag": "h2",
+          "text": "Truck in 2026"
+        },
+        {
+          "tag": "h2",
+          "text": "Check Vehicle History Instantly"
+        },
+        {
+          "tag": "h2",
+          "text": "All India Permit for Your Vehicle"
+        },
+        {
+          "tag": "h2",
+          "text": "Latest Truck Updates"
+        },
+        {
+          "tag": "h2",
+          "text": "Frequently Asked Questions on E Challan"
+        }
+      ],
+      "faq": {
+        "heading": "Frequently Asked Questions on E Challan",
+        "questions": [
+          "Is this an official platform to check and pay e-challans?",
+          "What if I can’t find my challan online?",
+          "What are the accepted payment methods?",
+          "Will I receive a receipt after payment?",
+          "Can I pay an e challan issued to someone else’s vehicle?",
+          "How do I know if I have a pending e challan?"
+        ]
+      }
+    }
+  }
+}

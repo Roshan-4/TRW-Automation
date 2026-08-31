@@ -38,7 +38,14 @@
         { "key": "mahindraBlazo", "name": "Mahindra Blazo", "path": "/en/mahindra/blazo", "hasCallNow": false },
         { "key": "mahindraBolero", "name": "Mahindra Bolero", "path": "/en/mahindra/bolero", "hasCallNow": false },
         { "key": "ashokLeylandBoss", "name": "Ashok Leyland Boss", "path": "/en/ashok-leyland/boss", "hasCallNow": false },
-        { "key": "ashokLeylandDost", "name": "Ashok Leyland Dost", "path": "/en/ashok-leyland/dost", "hasCallNow": false }
+        { "key": "ashokLeylandDost", "name": "Ashok Leyland Dost", "path": "/en/ashok-leyland/dost", "hasCallNow": false },
+        { "key": "under1Ton", "name": "Under 1 Ton Trucks", "path": "/en/under-1-ton-trucks", "hasCallNow": true },
+        { "key": "ton1to2_5", "name": "1 ton - 2.5 ton Trucks", "path": "/en/1-ton-2.5-ton-trucks", "hasCallNow": true },
+        { "key": "ton2_5to5", "name": "2.5 ton - 5 ton Trucks", "path": "/en/2.5-ton-5-ton-trucks", "hasCallNow": true },
+        { "key": "ton5to10", "name": "5 ton - 10 ton Trucks", "path": "/en/5-ton-10-ton-trucks", "hasCallNow": true },
+        { "key": "ton10to20", "name": "10 ton - 20 ton Trucks", "path": "/en/10-ton-20-ton-trucks", "hasCallNow": true },
+        { "key": "ton20to40", "name": "20 ton - 40 ton Trucks", "path": "/en/20-ton-40-ton-trucks", "hasCallNow": true },
+        { "key": "ton40to300", "name": "40 ton - 300 ton Trucks", "path": "/en/40-ton-300-ton-trucks", "hasCallNow": true }
       ],
       "checkTruckPriceCta": "Check Truck Price"
     }
