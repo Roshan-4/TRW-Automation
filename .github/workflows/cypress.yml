@@ -1,12 +1,10 @@
-name: Cypress Tests
+name: Truck Junction Automation Test Workflow
 
 on:
-  push:
-    branches: [main, master, develop]
   pull_request:
     branches: [main, master, develop]
   schedule:
-    - cron: '30 21 * * *'
+    - cron: '30 21 * * *' # 21:30 UTC = 03:00 AM IST
   workflow_dispatch: {}
 
 env:
