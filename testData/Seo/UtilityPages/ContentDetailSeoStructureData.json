@@ -497,68 +497,53 @@
       "name": "News Article Detail",
       "byLanguage": {
         "en": {
-          "path": "/en/news/eka-2-5t-electric-truck-range-payload-specifications",
+          "path": "/en/news/mahindra-cv-3w-sales-report-august-2026",
           "headings": [
             {
               "tag": "h1",
-              "text": "EKA 2.5T: Bharat Ki EVCV with 180 KM Range & 1500 KG Payload"
+              "text": "Mahindra CV & 3W Sales Rise 28% to 42,337 Units in August 2026"
             },
             {
               "tag": "h2",
-              "text": "EKA 2.5T Key Specifications"
+              "text": "Mahindra Commercial Vehicle & 3-Wheeler Sales Grow 28% in August 2026; Exports Surge 71%"
             },
             {
               "tag": "h2",
-              "text": "EKA 2.5T Range and Battery"
+              "text": "Mahindra Domestic CV & 3W Sales – August 2026"
             },
             {
               "tag": "h2",
-              "text": "EKA 2.5T Payload and Cargo Space"
+              "text": "Mahindra Export Sales – August 2026"
             },
             {
               "tag": "h2",
-              "text": "EKA 2.5T Power and Performance"
-            },
-            {
-              "tag": "h2",
-              "text": "EKA 2.5T Features"
-            },
-            {
-              "tag": "h2",
-              "text": "EKA 2.5T Warranty"
-            },
-            {
-              "tag": "h2",
-              "text": "Who Should Buy the EKA 2.5T?"
-            },
-            {
-              "tag": "h2",
-              "text": "EKA 2.5T Price"
-            },
-            {
-              "tag": "h2",
-              "text": "Final Words"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions About EKA 2.5T"
+              "text": "Overall Performance"
             }
           ],
           "faq": {
-            "heading": "Frequently Asked Questions About EKA 2.5T",
+            "heading": "",
             "questions": []
           }
         },
         "hi": {
-          "path": "/hi/news/eka-2-5t-electric-truck-range-payload-specifications",
-          "headings": [],
+          "path": "/hi/news/mahindra-cv-3w-sales-report-august-2026",
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "महिंद्रा CV और 3W सेल्स रिपोर्ट: अगस्त 2026 में 28% की बढ़त के साथ 42,337 वाहन बिके"
+            },
+            {
+              "tag": "h2",
+              "text": "Mahindra CV & 3W की बिक्री में 28% की बढ़ोतरी, अगस्त 2026 में 42,337 यूनिट्स बेचीं"
+            }
+          ],
           "faq": {
             "heading": "",
             "questions": []
           }
         },
         "ta": {
-          "path": "/ta/news/eka-2-5t-electric-truck-range-payload-specifications",
+          "path": "/ta/news/mahindra-cv-3w-sales-report-august-2026",
           "headings": [],
           "faq": {
             "heading": "",

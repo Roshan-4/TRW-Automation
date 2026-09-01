@@ -1,10 +1,12 @@
-name: Truck Junction Automation Test Workflow
+name: DEBUG - SEO Report Pipeline
+
+# Throwaway workflow to validate the new artifact-upload/merge/publish/email
+# plumbing added to cypress.yml without waiting on the full multi-hour
+# suite. Runs exactly one tiny SEO spec on desktop + mobile, then exercises
+# the same merge -> publish -> email steps as the real pipeline. Delete this
+# file once the wiring is confirmed working.
 
 on:
-  pull_request:
-    branches: [main, master, develop]
-  schedule:
-    - cron: '30 21 * * *' # 21:30 UTC = 03:00 AM IST
   workflow_dispatch: {}
 
 env:
@@ -35,13 +37,12 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-  cypress-run:
+  seo-run:
     runs-on: ubuntu-latest
     needs: setup
     strategy:
       fail-fast: false
       matrix:
-        suite: [ui, seo]
         device: [desktop, mobile]
 
     steps:
@@ -66,33 +67,19 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Run Cypress tests (Chrome - ${{ matrix.suite }} - ${{ matrix.device }})
-        run: npm run cypress:run:${{ matrix.suite }}:${{ matrix.device }}
-
-      - name: Upload screenshots
-        uses: actions/upload-artifact@v4
-        if: failure()
-        with:
-          name: screenshots-${{ matrix.suite }}-${{ matrix.device }}
-          path: cypress/screenshots
-
-      - name: Upload videos
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: videos-${{ matrix.suite }}-${{ matrix.device }}
-          path: cypress/videos
+      - name: Run one small SEO spec (Chrome - ${{ matrix.device }})
+        run: npx cross-env DEVICE=${{ matrix.device }} cypress run --browser chrome --spec "cypress/e2e/seo/Brochure/SeoStructure.cy.js" --expose grepTags=@en,grepOmitFiltered=true
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: allure-results-${{ matrix.suite }}-${{ matrix.device }}
+          name: allure-results-${{ matrix.device }}
           path: allure-results
 
       - name: Upload SEO structure Excel report
         uses: actions/upload-artifact@v4
-        if: always() && matrix.suite == 'seo'
+        if: always()
         with:
           name: seo-structure-report-${{ matrix.device }}
           path: artifacts/seo-structure-report.xlsx
@@ -100,7 +87,7 @@ jobs:
 
   publish-report:
     runs-on: ubuntu-latest
-    needs: [setup, cypress-run]
+    needs: [setup, seo-run]
     if: always()
     env:
       REPORTS_DEPLOY_TOKEN: ${{ secrets.REPORTS_DEPLOY_TOKEN }}
@@ -127,57 +114,17 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Download UI desktop Allure results
+      - name: Download desktop Allure results
         uses: actions/download-artifact@v4
         with:
-          name: allure-results-ui-desktop
+          name: allure-results-desktop
           path: allure-results
 
-      - name: Download UI mobile Allure results
+      - name: Download mobile Allure results
         uses: actions/download-artifact@v4
         with:
-          name: allure-results-ui-mobile
+          name: allure-results-mobile
           path: allure-results
-
-      - name: Download SEO desktop Allure results
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-results-seo-desktop
-          path: allure-results
-
-      - name: Download SEO mobile Allure results
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-results-seo-mobile
-          path: allure-results
-
-      - name: Download UI desktop failure screenshots
-        uses: actions/download-artifact@v4
-        continue-on-error: true
-        with:
-          name: screenshots-ui-desktop
-          path: cypress/screenshots-ui-desktop
-
-      - name: Download UI mobile failure screenshots
-        uses: actions/download-artifact@v4
-        continue-on-error: true
-        with:
-          name: screenshots-ui-mobile
-          path: cypress/screenshots-ui-mobile
-
-      - name: Download SEO desktop failure screenshots
-        uses: actions/download-artifact@v4
-        continue-on-error: true
-        with:
-          name: screenshots-seo-desktop
-          path: cypress/screenshots-seo-desktop
-
-      - name: Download SEO mobile failure screenshots
-        uses: actions/download-artifact@v4
-        continue-on-error: true
-        with:
-          name: screenshots-seo-mobile
-          path: cypress/screenshots-seo-mobile
 
       - name: Download SEO structure Excel reports (desktop + mobile)
         uses: actions/download-artifact@v4
@@ -185,7 +132,6 @@ jobs:
         with:
           pattern: seo-structure-report-*
           path: artifacts/seo-structure-per-device
-          merge-multiple: false
 
       - name: Merge SEO structure Excel reports into one file
         run: |
@@ -206,20 +152,12 @@ jobs:
           if-no-files-found: ignore
 
       - name: Generate Allure HTML report
-        if: always()
         run: npm run generate:report
 
-      - name: Upload HTML report
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: html-report
-          path: allure-report
-
       - name: Publish report to GitHub Pages history
-        if: ${{ always() && env.REPORTS_DEPLOY_TOKEN != '' }}
+        if: ${{ env.REPORTS_DEPLOY_TOKEN != '' }}
         run: npm run report:publish
 
       - name: Send report email
-        if: ${{ always() && env.REPORT_EMAIL_API_KEY != '' }}
+        if: ${{ env.REPORT_EMAIL_API_KEY != '' }}
         run: npm run report:email

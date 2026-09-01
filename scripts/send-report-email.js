@@ -1,15 +1,18 @@
 /**
  * Helper for Send_mail.sh: computes the dynamic values for the QA
  * automation report email (execution stats, dated subject, report URL,
- * failed-screenshot URLs) and writes them as a shell-sourceable file at
- * reports/report-email-data.sh, which Send_mail.sh sources before calling
- * curl.
+ * failed-screenshots folder link) and writes them as a shell-sourceable
+ * file at reports/report-email-data.sh, which Send_mail.sh sources before
+ * calling curl.
  *
  * Reads:
  * - allure-report/widgets/summary.json  (pass/fail/total counts — built by
  *   `npm run generate:report`)
- * - reports/last-report-publish.json    (report/screenshot URLs — written
- *   by `npm run report:publish`)
+ * - reports/last-report-publish.json    (report/screenshot-folder URLs —
+ *   written by `npm run report:publish`)
+ * - artifacts/seo-structure-report.xlsx (SEO heading/FAQ diff workbook —
+ *   the sole email attachment; falls back to the branded logo if the run
+ *   had no SEO tests, since the mail API requires at least one attachment)
  * - cypress/.env                        (REPORT_EMAIL_API_KEY,
  *   REPORT_ENVIRONMENT — gitignored, never commit real values)
  *
@@ -27,6 +30,7 @@ require('dotenv').config({ path: path.join(ROOT, 'cypress', '.env') });
 const SUMMARY_PATH = path.join(ROOT, 'allure-report', 'widgets', 'summary.json');
 const MANIFEST_PATH = path.join(ROOT, 'reports', 'last-report-publish.json');
 const OUT_PATH = path.join(ROOT, 'reports', 'report-email-data.sh');
+const SEO_EXCEL_PATH = path.join(ROOT, 'artifacts', 'seo-structure-report.xlsx');
 
 function fail(message) {
   console.error(`send-report-email (prepare) failed: ${message}`);
@@ -84,23 +88,24 @@ function main() {
       `${passedCount} passed, ${failedCount} failed out of ${totalTestCases} total test cases.`;
 
   const screenshots = manifest.screenshots || [];
-  // Never leave data[screenshotUrl] empty — fall back to the report URL.
-  const primaryScreenshotUrl = screenshots.length ? screenshots[0].url : manifest.reportUrl;
-  // This API drops delivery when attachments[] is omitted entirely; attach at
-  // least one local file (failed screenshot, or branded logo fallback).
-  const maxAttachments = Number(process.env.REPORT_MAX_ATTACHMENTS ?? 1);
-  let screenshotLocalPaths = screenshots
-    .map((s) => s.localPath)
-    .filter((p) => p && fs.existsSync(p))
-    .slice(0, maxAttachments);
+  // Never leave data[screenshotUrl] empty — link to the whole failed-screenshots
+  // folder for this run (not one specific image) so a reader can browse every
+  // failure, falling back to the report URL when there were no failures.
+  const primaryScreenshotUrl = manifest.screenshotsFolderUrl || manifest.reportUrl;
 
-  if (screenshotLocalPaths.length === 0) {
+  // Sole email attachment is the SEO structure Excel diff (Summary / Headings
+  // (page-wise) / FAQ (page-wise), each row with its live URL) — readable by
+  // non-technical reviewers without opening Allure. This API drops delivery
+  // when attachments[] is omitted entirely, so fall back to the branded logo
+  // on a UI-only run that produced no SEO Excel.
+  let attachmentPath = fs.existsSync(SEO_EXCEL_PATH) ? SEO_EXCEL_PATH : '';
+  if (!attachmentPath) {
     const logoFallback = path.join(ROOT, 'assets', 'allure', 'truck-logo.png');
     const faviconFallback = path.join(ROOT, 'assets', 'allure', 'favicon-32.png');
     if (fs.existsSync(logoFallback)) {
-      screenshotLocalPaths = [logoFallback];
+      attachmentPath = logoFallback;
     } else if (fs.existsSync(faviconFallback)) {
-      screenshotLocalPaths = [faviconFallback];
+      attachmentPath = faviconFallback;
     }
   }
 
@@ -115,8 +120,7 @@ function main() {
     `EMAIL_SUBJECT=${shellQuote(subject)}`,
     `EMAIL_PRIORITY=${shellQuote(priority)}`,
     `EMAIL_DESCRIPTION=${shellQuote(description)}`,
-    `SCREENSHOT_URLS=(${screenshots.map((s) => shellQuote(s.url)).join(' ')})`,
-    `SCREENSHOT_LOCAL_PATHS=(${screenshotLocalPaths.map(shellQuote).join(' ')})`,
+    `ATTACHMENT_LOCAL_PATH=${shellQuote(attachmentPath)}`,
   ];
 
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
@@ -125,7 +129,8 @@ function main() {
   console.log(`Wrote ${OUT_PATH}`);
   console.log(`  ${totalTestCases} total, ${failedCount} failed, priority=${priority}`);
   console.log(`  report: ${manifest.reportUrl}`);
-  console.log(`  screenshots: ${screenshots.length} (${screenshotLocalPaths.length} attachable locally)`);
+  console.log(`  screenshots folder: ${primaryScreenshotUrl}`);
+  console.log(`  attachment: ${attachmentPath || '(none found)'}`);
 }
 
 main();

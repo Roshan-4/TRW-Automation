@@ -13,7 +13,12 @@
  * -ui-mobile|-seo-desktop|-seo-mobile)/ are published alongside the report, under
  * failed-screenshots/<timestamp>/, renamed to <device>_<TC-id or
  * slug>.png. reports/last-report-publish.json (gitignored) is written with
- * the report/screenshot URLs, for scripts/send-report-email.js to read.
+ * the report/screenshot-folder URLs, for scripts/send-report-email.js to read.
+ *
+ * Retention: before this run's folders are added, any existing run-report
+ * folder or failed-screenshots/<timestamp>/ folder older than
+ * RETENTION_DAYS (7) is deleted from the cloned repo, so the history and
+ * screenshot storage don't grow unbounded.
  *
  * Auth:
  * - CI: set REPORTS_DEPLOY_TOKEN (a fine-grained PAT scoped to just the
@@ -35,6 +40,7 @@ const PAGES_BASE_URL = 'https://roshan-4.github.io/truckjunction-automation-repo
 const TARGET_REPO = process.env.REPORTS_REPO || 'Roshan-4/truckjunction-automation-reports';
 const TOKEN = process.env.REPORTS_DEPLOY_TOKEN || '';
 const RUN_DIR_PATTERN = /^(\d{4}-\d{2}-\d{2})_(\d{2}-\d{2}-\d{2})$/;
+const RETENTION_DAYS = 7;
 const SCREENSHOT_DIRS = [
   { dir: path.join(ROOT, 'cypress', 'screenshots-ui-desktop'), device: 'ui-desktop' },
   { dir: path.join(ROOT, 'cypress', 'screenshots-ui-mobile'), device: 'ui-mobile' },
@@ -67,6 +73,48 @@ function istTimestamp() {
 function parseTimestampArg() {
   const arg = process.argv.find((a) => a.startsWith('--timestamp='));
   return arg ? arg.slice('--timestamp='.length) : process.env.REPORT_TIMESTAMP || istTimestamp();
+}
+
+// Run-dir folder names are IST timestamps (see istTimestamp above) — parse
+// them back as IST so retention age is judged against the same clock they
+// were written with.
+function parseRunTimestamp(dirName) {
+  const match = RUN_DIR_PATTERN.exec(dirName);
+  if (!match) {
+    return null;
+  }
+  const [, date, time] = match;
+  const parsed = new Date(`${date}T${time.replace(/-/g, ':')}+05:30`);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+// Deletes run report folders and failed-screenshots folders older than
+// RETENTION_DAYS from the cloned reports repo, before this run's own
+// folders are added and the result is committed. `latest/` is never a
+// RUN_DIR_PATTERN match, so it's untouched.
+function pruneOldRuns(repoDir) {
+  const cutoff = Date.now() - RETENTION_DAYS * 24 * 60 * 60 * 1000;
+  let removed = 0;
+
+  const pruneDir = (dir) => {
+    if (!fs.existsSync(dir)) {
+      return;
+    }
+    fs.readdirSync(dir, { withFileTypes: true })
+      .filter((entry) => entry.isDirectory())
+      .forEach((entry) => {
+        const runDate = parseRunTimestamp(entry.name);
+        if (runDate && runDate.getTime() < cutoff) {
+          fs.rmSync(path.join(dir, entry.name), { recursive: true, force: true });
+          removed += 1;
+        }
+      });
+  };
+
+  pruneDir(repoDir);
+  pruneDir(path.join(repoDir, 'failed-screenshots'));
+
+  return removed;
 }
 
 function run(cmd, args, cwd, options = {}) {
@@ -261,13 +309,20 @@ function main() {
     console.log(`Cloning ${TARGET_REPO}...`);
     run('git', ['clone', '--depth=1', remoteUrl, workDir], ROOT, { quiet: true });
 
+    const pruned = pruneOldRuns(workDir);
+    if (pruned) {
+      console.log(`Pruned ${pruned} folder(s) older than ${RETENTION_DAYS} days.`);
+    }
+
     console.log(`Publishing report as ${timestamp}...`);
     copyDir(REPORT_DIR, path.join(workDir, timestamp));
     copyDir(REPORT_DIR, path.join(workDir, 'latest'));
 
     const screenshots = publishFailedScreenshots(workDir, timestamp);
+    let screenshotsFolderUrl = '';
     if (screenshots.length) {
       console.log(`Publishing ${screenshots.length} failed-test screenshot(s)...`);
+      screenshotsFolderUrl = `https://github.com/${TARGET_REPO}/tree/main/failed-screenshots/${timestamp}`;
     }
 
     const nojekyllPath = path.join(workDir, '.nojekyll');
@@ -279,7 +334,7 @@ function main() {
 
     const reportUrl = `${PAGES_BASE_URL}/${timestamp}/`;
     const latestUrl = `${PAGES_BASE_URL}/latest/`;
-    const manifest = { timestamp, reportUrl, latestUrl, screenshots };
+    const manifest = { timestamp, reportUrl, latestUrl, screenshots, screenshotsFolderUrl };
 
     run('git', ['add', '-A'], workDir);
     const status = run('git', ['status', '--porcelain'], workDir, { quiet: true }).toString();

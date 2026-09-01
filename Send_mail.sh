@@ -37,6 +37,15 @@ fi
 REPORT_EMAIL_RECIPIENTS="${REPORT_EMAIL_RECIPIENTS:-roshanpaswan@tractorjunction.com,mujjamilsalim@tractorjunction.com}"
 SENDER_NAME="${REPORT_EMAIL_SENDER_NAME:-Roshan Paswan}"
 
+# GitHub Actions sets CI=true. Outside CI (a developer running the pipeline
+# locally) always send to just this one address, regardless of
+# REPORT_EMAIL_RECIPIENTS, so a local test run never spams the real
+# distribution list.
+if [ -z "${CI:-}" ]; then
+  echo "Send_mail.sh: not running in CI — restricting recipients to roshanpaswan@tractorjunction.com."
+  REPORT_EMAIL_RECIPIENTS="roshanpaswan@tractorjunction.com"
+fi
+
 # Parse comma-separated list into a bash array (trim whitespace around each).
 IFS=',' read -ra RECIPIENT_LIST <<< "${REPORT_EMAIL_RECIPIENTS}"
 
@@ -91,14 +100,12 @@ CURL_ARGS+=(
   --form "subject=${EMAIL_SUBJECT}"
 )
 
-if [ "${#SCREENSHOT_LOCAL_PATHS[@]}" -eq 0 ]; then
+if [ -z "${ATTACHMENT_LOCAL_PATH:-}" ]; then
   echo "Send_mail.sh: no attachment file available (required by mail API)." >&2
   exit 1
 fi
 
-for path in "${SCREENSHOT_LOCAL_PATHS[@]}"; do
-  CURL_ARGS+=(--form "attachments[]=@${path}")
-done
+CURL_ARGS+=(--form "attachments[]=@${ATTACHMENT_LOCAL_PATH}")
 
 echo "Sending report email to: ${REPORT_EMAIL_RECIPIENTS}..."
 RESPONSE="$(curl -sS "${CURL_ARGS[@]}")"

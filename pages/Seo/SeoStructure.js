@@ -6,6 +6,7 @@ const {
   comparisonTableHtml,
   headingLine,
 } = require('../../helpers/seoStructureCollector');
+const { currentDevice } = require('../../helpers/deviceLayout');
 
 /**
  * Daily SEO heading / FAQ snapshot check for one page + language.
@@ -105,6 +106,8 @@ class SeoStructure {
         lang: this.lang,
         pageLabel: this.pageLabel,
         path: this.page.path,
+        url: `${Cypress.config('baseUrl')}${this.page.path}`,
+        device: currentDevice(),
         dataFile: this.dataFile,
         headingsMatched: headingReport.matched,
         faqMatched: faqReport.matched,
