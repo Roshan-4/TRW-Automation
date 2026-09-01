@@ -1,12 +1,14 @@
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
 const { LeadFormFiller, exactText } = require('../../helpers/leadFormFiller');
+const { getTyresOfferCta } = require('../../helpers/tyresOfferCta');
 
 /**
  * Tyres (/en/tyres).
  *
- * Live-audited: no page-level lead-form CTA exists — every "View August
- * Offer" button is a per-tyre-model card CTA (7 on the page), each opening
- * the same shared CheckOffersLead modal used across the rest of the site.
+ * Live-audited: no page-level lead-form CTA exists — every "View <current
+ * month> Offer" button is a per-tyre-model card CTA (7 on the page), each
+ * opening the same shared CheckOffersLead modal used across the rest of the
+ * site.
  * Same directory-style pattern as the Bus brand pages: tested via a
  * deterministic click on the first matching card's CTA, which reliably
  * exercises a real, working submission.
@@ -33,7 +35,7 @@ class Tyres {
 
   constructor(lang = 'en') {
     this.lang = lang;
-    this.ctaLabel = 'View August Offer';
+    this.ctaLabel = getTyresOfferCta();
     this.checkOffersLeadCopy =
       truckInIndiaData.CheckOffersForm[lang] || truckInIndiaData.CheckOffersForm.en;
     this.checkOffersLead = new LeadFormFiller({

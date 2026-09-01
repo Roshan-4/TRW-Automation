@@ -1,5 +1,6 @@
 const seoData = require('../../testData/Seo/UtilityPages/TyresSeoContentData.json');
 const { currentDevice } = require('../../helpers/deviceLayout');
+const { getTyresOfferCta } = require('../../helpers/tyresOfferCta');
 
 /**
  * Tyres listing Load More (hub, Latest Truck Tyres, brand listings).
@@ -59,7 +60,7 @@ class TyresListing {
   }
 
   clickLoadMoreAndExpectMoreCards() {
-    const cta = this.page.cardCta;
+    const cta = getTyresOfferCta();
     const pageLabel = this.pageLabel;
     const device = currentDevice();
 
@@ -107,7 +108,7 @@ class TyresListing {
   }
 
   clickLoadMoreAgainIfStillShown() {
-    const cta = this.page.cardCta;
+    const cta = getTyresOfferCta();
     const pageLabel = this.pageLabel;
     const device = currentDevice();
 
