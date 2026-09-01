@@ -40,6 +40,64 @@ function fail(message) {
   process.exit(1);
 }
 
+// Allure's Environment widget reads allure-results/environment.properties
+// (plain Key=Value lines) and the Executor widget reads
+// allure-results/executor.json — neither file existed before, so both
+// widgets showed empty. Writing them here means every `generate:report`
+// call (CI or local) fills them in, without a separate pipeline step.
+function writeEnvironmentProperties() {
+  const isCI = process.env.CI === 'true';
+  const cypressVersion = require('cypress/package.json').version;
+  // Allure's .properties parser splits a line's Key on the first `=`, `:`,
+  // OR whitespace — so any key containing a space (e.g. "Base URL") gets
+  // mis-parsed, with the rest of the intended key swallowed into the
+  // value. Keys below stay single-word or dot/underscore-joined.
+  const lines = [
+    `Base.URL=${process.env.CYPRESS_BASE_URL || 'https://trucks.tractorjunction.com'}`,
+    'Browser=Chrome',
+    `Node.js=${process.version}`,
+    `Cypress=${cypressVersion}`,
+    'Suites=UI + SEO',
+    'Devices=Desktop + Mobile',
+    `Environment=${isCI ? 'CI (GitHub Actions)' : 'Local'}`,
+  ];
+  if (isCI) {
+    const serverUrl = process.env.GITHUB_SERVER_URL || 'https://github.com';
+    const repo = process.env.GITHUB_REPOSITORY || '';
+    lines.push(`Trigger=${process.env.GITHUB_EVENT_NAME || ''}`);
+    lines.push(`Branch=${process.env.GITHUB_REF_NAME || ''}`);
+    if (process.env.GITHUB_RUN_ID) {
+      lines.push(`Workflow.Run=${serverUrl}/${repo}/actions/runs/${process.env.GITHUB_RUN_ID}`);
+    }
+  }
+  fs.mkdirSync(RESULTS_DIR, { recursive: true });
+  fs.writeFileSync(path.join(RESULTS_DIR, 'environment.properties'), `${lines.join('\n')}\n`, 'utf8');
+}
+
+function writeExecutorJson() {
+  const isCI = process.env.CI === 'true' && process.env.GITHUB_RUN_ID;
+  const serverUrl = process.env.GITHUB_SERVER_URL || 'https://github.com';
+  const repo = process.env.GITHUB_REPOSITORY || '';
+  const executor = isCI
+    ? {
+        name: 'GitHub Actions',
+        type: 'github',
+        url: `${serverUrl}/${repo}/actions`,
+        buildOrder: Number(process.env.GITHUB_RUN_NUMBER) || undefined,
+        buildName: `${process.env.GITHUB_WORKFLOW || 'Cypress Tests'} #${process.env.GITHUB_RUN_NUMBER || ''}`,
+        buildUrl: `${serverUrl}/${repo}/actions/runs/${process.env.GITHUB_RUN_ID}`,
+        reportName: REPORT_NAME,
+      }
+    : {
+        name: 'Local',
+        type: 'local',
+        buildName: `Local run — ${new Date().toISOString()}`,
+        reportName: REPORT_NAME,
+      };
+  fs.mkdirSync(RESULTS_DIR, { recursive: true });
+  fs.writeFileSync(path.join(RESULTS_DIR, 'executor.json'), JSON.stringify(executor, null, 2), 'utf8');
+}
+
 function buildLogoCss() {
   if (!fs.existsSync(LOGO_SVG)) {
     fail(`Official logo SVG not found at ${LOGO_SVG}`);
@@ -106,6 +164,11 @@ function runAllureGenerate() {
       'No allure-results found. Run Cypress tests first (e.g. npm run test:homePageSeoContent).'
     );
   }
+
+  // Written here (not earlier) so an empty allure-results/ still fails the
+  // check above instead of looking non-empty because of these two files.
+  writeEnvironmentProperties();
+  writeExecutorJson();
 
   console.log(`Generating Allure report: "${REPORT_NAME}"`);
 
