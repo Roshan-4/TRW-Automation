@@ -4,6 +4,7 @@ const { documentTestCase, allureStep } = require('../../helpers/documentTestCase
 const { registerRedirectionCheck } = require('../../helpers/verifyPageRedirections');
 const { deviceTag } = require('../../helpers/deviceTags');
 const { currentDevice } = require('../../helpers/deviceLayout');
+const { getTyresOfferCta } = require('../../helpers/tyresOfferCta');
 
 const LANGUAGES = TyresListing.supportedLanguages;
 
@@ -57,7 +58,7 @@ function runTyresListingSuite(pageKeys) {
                 title: `Load More shows more tyre cards on ${pageLabel}`,
                 language: lang,
                 description: `Click Load More on ${pageLabel} and confirm more tyre cards appear.`,
-                expectedResult: 'The number of visible “View August Offer” cards increases after Load More.',
+                expectedResult: `The number of visible “${getTyresOfferCta()}” cards increases after Load More.`,
                 steps: [
                   `Open ${pageLabel}`,
                   'Note how many tyre cards are shown',
