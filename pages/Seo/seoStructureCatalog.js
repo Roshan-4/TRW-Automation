@@ -29,6 +29,10 @@ const pick = (pages) =>
     key: page.key,
     name: page.name || page.label,
     path: typeof page.path === 'string' ? page.path : page.path.en,
+    // Per-page override for a page that isn't localized into every
+    // SEO_STRUCTURE_LANGUAGES entry (e.g. one specific article still
+    // awaiting a translation) — omit to inherit the group's languages.
+    ...(page.languages ? { languages: page.languages } : {}),
   }));
 
 const categoryByKey = Object.fromEntries(
@@ -200,6 +204,9 @@ const GROUPS = [
     area: 'UtilityPages',
     group: 'tyresHub',
     dataFile: 'testData/Seo/UtilityPages/TyresSeoStructureData.json',
+    // en only: /hi and /ta tyre URLs have never resolved (404 since this
+    // suite's first commit) — the Tyres section has no hi/ta translation.
+    languages: ['en'],
     pages: pick(
       tyresSeo.TyresSeoContent.en.pages.filter((page) => ['tyres', 'latestTruckTyres'].includes(page.key))
     ),
@@ -208,6 +215,8 @@ const GROUPS = [
     area: 'UtilityPages',
     group: 'tyresBrands',
     dataFile: 'testData/Seo/UtilityPages/TyresSeoStructureData.json',
+    // en only — see tyresHub above.
+    languages: ['en'],
     pages: pick(
       tyresSeo.TyresSeoContent.en.pages.filter(
         (page) => !['tyres', 'latestTruckTyres', 'continentalHdw2'].includes(page.key)
@@ -218,6 +227,8 @@ const GROUPS = [
     area: 'UtilityPages',
     group: 'tyresPdp',
     dataFile: 'testData/Seo/UtilityPages/TyresSeoStructureData.json',
+    // en only — see tyresHub above.
+    languages: ['en'],
     pages: pick(tyresSeo.TyresSeoContent.en.pages.filter((page) => page.key === 'continentalHdw2')),
   },
   {
@@ -357,13 +368,26 @@ const uniquePages = () => {
         return;
       }
       seen.add(id);
-      pages.push({ ...page, area: group.area, group: group.group, dataFile: group.dataFile });
+      pages.push({
+        ...page,
+        area: group.area,
+        group: group.group,
+        dataFile: group.dataFile,
+        languages: page.languages || group.languages || SEO_STRUCTURE_LANGUAGES,
+      });
     });
   });
   return pages;
 };
 
 const getGroup = (groupId) => GROUPS.find((group) => group.group === groupId);
+
+/** Languages a given group's suite should run — defaults to all when unset. */
+const languagesForGroup = (group) => group.languages || SEO_STRUCTURE_LANGUAGES;
+
+/** Languages a given page within a group should run — page overrides group overrides all. */
+const languagesForPage = (page, group) =>
+  page.languages || group.languages || SEO_STRUCTURE_LANGUAGES;
 
 module.exports = {
   GROUPS,
@@ -372,4 +396,6 @@ module.exports = {
   SEO_STRUCTURE_LANGUAGES,
   pathForLang,
   resolveSnapshot,
+  languagesForGroup,
+  languagesForPage,
 };

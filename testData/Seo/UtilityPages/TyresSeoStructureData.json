@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-01",
+  "scrapedAt": "2026-09-02",
   "languages": [
     "en",
     "hi",
@@ -54,22 +54,6 @@
               "Which brand is perfect for the best truck tyres?"
             ]
           }
-        },
-        "hi": {
-          "path": "/hi/tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
         }
       }
     },
@@ -108,22 +92,6 @@
               "How Many Tyres Are Available In The Latest Truck Tyres At Truck Junction?",
               "In which brands the latest truck tyres are available?"
             ]
-          }
-        },
-        "hi": {
-          "path": "/hi/latest-truck-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/latest-truck-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
           }
         }
       }
@@ -164,22 +132,6 @@
               "What is the warranty period of Apollo Truck Tyres?"
             ]
           }
-        },
-        "hi": {
-          "path": "/hi/apollo-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/apollo-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
         }
       }
     },
@@ -218,22 +170,6 @@
               "Which are the most popular CEAT Truck Tyres?",
               "What is the warranty period of CEAT Truck Tyres?"
             ]
-          }
-        },
-        "hi": {
-          "path": "/hi/ceat-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/ceat-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
           }
         }
       }
@@ -274,22 +210,6 @@
               "What is the warranty period of Continental Truck Tyres in India?"
             ]
           }
-        },
-        "hi": {
-          "path": "/hi/continental-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/continental-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
         }
       }
     },
@@ -328,22 +248,6 @@
               "Which is the most popular Dunlop Truck Tyre in India?",
               "What is the Warranty Period of Dunlop Truck Tyres?"
             ]
-          }
-        },
-        "hi": {
-          "path": "/hi/dunlop-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/dunlop-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
           }
         }
       }
@@ -384,22 +288,6 @@
               "What is the Warranty Period of Goodyear Truck Tyres?"
             ]
           }
-        },
-        "hi": {
-          "path": "/hi/goodyear-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/goodyear-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
         }
       }
     },
@@ -438,22 +326,6 @@
               "Which is the most popular JK Truck Tyre in India?",
               "What is the Warranty Period of JK Truck Tyres?"
             ]
-          }
-        },
-        "hi": {
-          "path": "/hi/jk-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/jk-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
           }
         }
       }
@@ -494,22 +366,6 @@
               "What is the Warranty Period of MRF Truck Tyres?"
             ]
           }
-        },
-        "hi": {
-          "path": "/hi/mrf-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/mrf-tyres",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
         }
       }
     },
@@ -544,22 +400,6 @@
               "Is Continental Hdw2 22 Inch good for Indian roads?",
               "Where can I purchase the Continental Hdw2 online?"
             ]
-          }
-        },
-        "hi": {
-          "path": "/hi/continental-tyres/hdw2",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/ta/continental-tyres/hdw2",
-          "headings": [],
-          "faq": {
-            "heading": "",
-            "questions": []
           }
         }
       }

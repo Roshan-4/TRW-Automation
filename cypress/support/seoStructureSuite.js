@@ -1,5 +1,5 @@
 const SeoStructure = require('../../pages/Seo/SeoStructure');
-const { getGroup, SEO_STRUCTURE_LANGUAGES, resolveSnapshot } = require('../../pages/Seo/seoStructureCatalog');
+const { getGroup, resolveSnapshot, languagesForPage } = require('../../pages/Seo/seoStructureCatalog');
 const { TEST_TAGS } = require('../../constants/constants');
 const { documentTestCase, allureStep } = require('../../helpers/documentTestCase');
 const { registerRedirectionCheck } = require('../../helpers/verifyPageRedirections');
@@ -76,7 +76,7 @@ function runSeoStructureSuite(groupId) {
       );
     }
 
-    SEO_STRUCTURE_LANGUAGES.forEach((lang) => {
+    languagesForPage(meta, group).forEach((lang) => {
       const stored = resolveSnapshot(raw, lang);
       if (!stored) {
         if (raw.byLanguage) {

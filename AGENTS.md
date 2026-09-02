@@ -237,6 +237,15 @@ framework jargon.
     is more robust than a fixed search term, and was the actual fix for a
     long-stuck failure the user diagnosed themselves from a working recorded
     Playwright interaction. See `CategoryListing.pickAnyDefaultSuggestion`.
+25. **Never use `try...catch` in automation files.** Cypress should handle
+    test failures naturally. A `try...catch` around Cypress commands can
+    swallow a genuine failure the same way an unguarded `Cypress.on('fail',
+    ...)` handler can (golden rule 15) — let failures surface and fail the
+    test rather than catching and hiding them.
+26. **Never use a generic element selector (`button`, `a`, `div`, etc.)
+    combined with `.contains()` to locate an element** (e.g. avoid
+    `cy.get('button').contains('Receive similar offers').click();`). See
+    **Selector rules** below for the full priority order this project follows.
 
 ### Three-agent layer (Planner → Reviewer → Coder)
 
@@ -586,7 +595,26 @@ otherwise MSYS rewrites it into a Windows path.
 
 ## Selector rules
 
-The site has no `data-cy`/`data-testid`. Prefer, in order:
+General priority order (golden rule 26) — always prefer the most specific,
+stable selector available and never reach past it for a generic one:
+
+1. A dedicated test attribute — `data-testid`, `data-cy`, `data-leadtype`, etc.
+2. A unique, stable ID
+3. A specific, unique, stable class
+4. If the target itself has no reliable ID/class/attribute, locate it through
+   a unique and stable parent/ancestor and then find the child from there
+   (e.g. `cy.get('.offer-card').find('button').click();`) — the
+   parent/ancestor must itself be specific and stable, never a generic tag
+   like a bare `div` when a unique class/ID is available on it.
+5. Text-based `.contains()` only as a last resort when no stable selector
+   exists anywhere in the chain — and even then, always with an anchored
+   exact-text regex (`exactText`), never a bare substring match on a generic
+   tag (never `cy.get('button').contains('...').click()`).
+
+This site specifically has no `data-cy`/`data-testid`/`data-leadtype`
+attributes (tier 1 above is effectively unavailable here today — recheck
+before assuming so on any newly-audited page), so in practice selectors on
+this project land on tiers 2–5. Prefer, in order:
 
 1. `title`/`href`/`placeholder` attributes and `option[value=...]` slugs
 2. Exact visible text via `cy.contains` with an anchored regex (`exactText`)

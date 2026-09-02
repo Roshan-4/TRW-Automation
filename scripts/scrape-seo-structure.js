@@ -121,6 +121,9 @@ const main = async () => {
 
   for (const lang of langs) {
     for (const entry of pages) {
+      if (!entry.languages.includes(lang)) {
+        continue;
+      }
       const localizedPath = pathForLang(entry.path, lang);
       const url = `${baseUrl}${localizedPath === '/' ? '/' : localizedPath}`;
       process.stdout.write(`scraping [${lang}] ${entry.name} (${url}) ... `);
