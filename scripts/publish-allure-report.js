@@ -117,8 +117,16 @@ function pruneOldRuns(repoDir) {
   return removed;
 }
 
+// stdio: 'inherit' by default (visible logs); pass { capture: true } to get
+// output back (e.g. `git status --porcelain`); pass { silent: true } to
+// discard output for commands whose result we don't read (clone, push).
+// Deliberately NOT using stdio: 'pipe' for those — Node's spawnSync has a
+// known Linux bug (ENOBUFS) when a child writes to a piped stream faster
+// than the synchronous read loop drains it, which `git push` of many binary
+// screenshots reliably triggers.
 function run(cmd, args, cwd, options = {}) {
-  return execFileSync(cmd, args, { cwd, stdio: options.quiet ? 'pipe' : 'inherit' });
+  const stdio = options.capture ? 'pipe' : options.silent ? 'ignore' : 'inherit';
+  return execFileSync(cmd, args, { cwd, stdio });
 }
 
 function copyDir(src, dest) {
@@ -307,7 +315,7 @@ function main() {
 
   try {
     console.log(`Cloning ${TARGET_REPO}...`);
-    run('git', ['clone', '--depth=1', remoteUrl, workDir], ROOT, { quiet: true });
+    run('git', ['clone', '--depth=1', remoteUrl, workDir], ROOT, { silent: true });
 
     const pruned = pruneOldRuns(workDir);
     if (pruned) {
@@ -337,7 +345,7 @@ function main() {
     const manifest = { timestamp, reportUrl, latestUrl, screenshots, screenshotsFolderUrl };
 
     run('git', ['add', '-A'], workDir);
-    const status = run('git', ['status', '--porcelain'], workDir, { quiet: true }).toString();
+    const status = run('git', ['status', '--porcelain'], workDir, { capture: true }).toString();
     if (!status.trim()) {
       console.log('No changes to publish (report identical to latest).');
       writeManifest(manifest);
@@ -353,7 +361,7 @@ function main() {
       ],
       workDir
     );
-    run('git', ['push', 'origin', 'HEAD:main'], workDir, { quiet: true });
+    run('git', ['push', 'origin', 'HEAD:main'], workDir, { silent: true });
 
     writeManifest(manifest);
 
