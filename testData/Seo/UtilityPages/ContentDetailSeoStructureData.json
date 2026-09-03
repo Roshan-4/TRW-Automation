@@ -366,51 +366,6 @@
         }
       }
     },
-    "blogHub": {
-      "key": "blogHub",
-      "name": "Truck Junction Blog",
-      "byLanguage": {
-        "en": {
-          "path": "/blog/",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Truck Junction Blog"
-            }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "hi": {
-          "path": "/blog/",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Truck Junction Blog"
-            }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        },
-        "ta": {
-          "path": "/blog/",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Truck Junction Blog"
-            }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          }
-        }
-      }
-    },
     "authorsHub": {
       "key": "authorsHub",
       "name": "All Authors",

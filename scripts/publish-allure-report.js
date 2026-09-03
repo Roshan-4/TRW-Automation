@@ -32,7 +32,7 @@
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
-const { execFileSync } = require('child_process');
+const { execFileSync, spawnSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const REPORT_DIR = path.join(ROOT, 'allure-report');
@@ -117,16 +117,28 @@ function pruneOldRuns(repoDir) {
   return removed;
 }
 
-// stdio: 'inherit' by default (visible logs); pass { capture: true } to get
-// output back (e.g. `git status --porcelain`); pass { silent: true } to
+// stdio: 'inherit' by default (visible logs); pass { silent: true } to
 // discard output for commands whose result we don't read (clone, push).
-// Deliberately NOT using stdio: 'pipe' for those — Node's spawnSync has a
-// known Linux bug (ENOBUFS) when a child writes to a piped stream faster
-// than the synchronous read loop drains it, which `git push` of many binary
-// screenshots reliably triggers.
+// Deliberately NOT using stdio: 'pipe' anywhere here — Node's spawnSync has
+// a known Linux bug (ENOBUFS) when a child writes to a piped stream faster
+// than the synchronous read loop drains it, which both `git push` of many
+// binary screenshots and `git status --porcelain` on an ~9k-file report
+// tree reliably trigger. Anything that used to need piped output (e.g.
+// "are there changes to commit?") is answered via exit codes instead — see
+// hasStagedChanges below.
 function run(cmd, args, cwd, options = {}) {
-  const stdio = options.capture ? 'pipe' : options.silent ? 'ignore' : 'inherit';
+  const stdio = options.silent ? 'ignore' : 'inherit';
   return execFileSync(cmd, args, { cwd, stdio });
+}
+
+// Exit-code check instead of parsing `git status --porcelain` text, so we
+// never pipe the (potentially huge) file list through a synchronous pipe.
+function hasStagedChanges(cwd) {
+  const result = spawnSync('git', ['diff', '--cached', '--quiet'], { cwd, stdio: 'ignore' });
+  if (result.error) {
+    throw result.error;
+  }
+  return result.status !== 0;
 }
 
 function copyDir(src, dest) {
@@ -345,8 +357,7 @@ function main() {
     const manifest = { timestamp, reportUrl, latestUrl, screenshots, screenshotsFolderUrl };
 
     run('git', ['add', '-A'], workDir);
-    const status = run('git', ['status', '--porcelain'], workDir, { capture: true }).toString();
-    if (!status.trim()) {
+    if (!hasStagedChanges(workDir)) {
       console.log('No changes to publish (report identical to latest).');
       writeManifest(manifest);
       return;

@@ -27,12 +27,6 @@
           "heading": "Truck Junction - Sitemap"
         },
         {
-          "key": "blogHub",
-          "name": "Truck Junction Blog",
-          "path": "/blog/",
-          "heading": "Truck Junction Blog"
-        },
-        {
           "key": "authorsHub",
           "name": "All Authors",
           "path": "/en/authors",
