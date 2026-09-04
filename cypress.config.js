@@ -74,7 +74,9 @@ module.exports = defineConfig({
         userEmail: process.env.TJ_USER_EMAIL,
         userOtp: process.env.TJ_USER_OTP,
         authToken: process.env.TJ_AUTH_TOKEN,
-        stagingUrl: process.env.CYPRESS_STAGING_URL || '',
+        // Public QA staging origin — not a secret, so it's safe to default here
+        // for environments (like nightly CI) that don't ship a cypress/.env file.
+        stagingUrl: process.env.CYPRESS_STAGING_URL || 'https://qa-truck.tractorfirst.com',
         device: DEVICE_KEY,
       };
 

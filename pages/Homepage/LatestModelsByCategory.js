@@ -45,12 +45,19 @@ class LatestModelsByCategory {
   }
 
   dismissBlockingOverlays() {
-    cy.get('body').then(($body) => {
-      const dismissTexts = [/accept/i, /agree/i, /got it/i, /allow/i, /close/i, /ठीक/i];
-      dismissTexts.forEach((pattern) => {
-        const btn = $body.find('button').filter((_, el) => pattern.test(el.textContent || ''));
-        if (btn.length) {
-          cy.wrap(btn.first()).click({ force: true });
+    const dismissTexts = [/accept/i, /agree/i, /got it/i, /allow/i, /close/i, /ठीक/i];
+    dismissTexts.forEach((pattern) => {
+      cy.get('body').then(($body) => {
+        const hasMatch = $body
+          .find('button')
+          .toArray()
+          .some((el) => pattern.test(el.textContent || ''));
+        // Re-query live via cy.contains (retry-safe) instead of clicking a
+        // detached jQuery snapshot — ad-tech scripts on this page reflow the
+        // DOM constantly, which made `cy.wrap($staleBtn).click()` fail with
+        // "the page updated while this command was executing".
+        if (hasMatch) {
+          cy.contains('button', pattern).click({ force: true });
         }
       });
     });
@@ -144,17 +151,24 @@ class LatestModelsByCategory {
 
   clickFirstProductNameAndVerifyNavigation() {
     this.scrollToSection();
+    let expectedHref;
     this.getVisibleProductNameLinks()
       .first()
       .then(($link) => {
-        const href = $link.attr('href');
+        expectedHref = $link.attr('href');
         const title = ($link.attr('title') || $link.text() || '').trim();
-        expect(href, `Product “${title}” should have a truck PDP URL`).to.match(
+        expect(expectedHref, `Product “${title}” should have a truck PDP URL`).to.match(
           new RegExp(`^/${this.lang}/[^/]+-truck/`)
         );
-        cy.wrap($link).click();
-        cy.location('pathname').should('eq', href);
       });
+    // Re-query and click live (retry-safe) instead of clicking the jQuery
+    // object captured above — clicking a frozen reference raced with this
+    // page's constant ad-tech DOM reflows and failed with "the page updated
+    // while this command was executing".
+    cy.then(() => {
+      this.getVisibleProductNameLinks().first().click();
+      cy.location('pathname').should('eq', expectedHref);
+    });
   }
 
   verifyViewAllForTab(tabKey) {
