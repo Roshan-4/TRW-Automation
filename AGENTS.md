@@ -246,6 +246,17 @@ framework jargon.
     combined with `.contains()` to locate an element** (e.g. avoid
     `cy.get('button').contains('Receive similar offers').click();`). See
     **Selector rules** below for the full priority order this project follows.
+27. **Never visit, investigate, or run tests against any staging/QA URL**
+    (e.g. `CYPRESS_STAGING_URL` / `qa-truck.tractorfirst.com`) **and never add
+    a new one to code, config, or `.env.example`, until the user explicitly
+    says to run against that environment.** Staging environments here are
+    restricted to the office network by design — hitting them from outside
+    (CI runners, a local browser off the office network, ad hoc debugging)
+    only produces a WAF block, not a real result, and looks like a test/site
+    bug when it's actually an environment-access issue. If a spec already
+    depends on a staging URL (e.g. `pages/Login/LoginRegister.js`), treat its
+    failures in CI as expected/out-of-scope rather than something to debug or
+    "fix" unless the user asks specifically about that spec.
 
 ### Three-agent layer (Planner → Reviewer → Coder)
 

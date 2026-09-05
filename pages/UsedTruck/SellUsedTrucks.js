@@ -1,6 +1,12 @@
 const sellUsedTrucksData = require('../../testData/UsedTruck/SellUsedTrucksData.json');
 const { randomNumberGenerator } = require('../../helpers/randomNumberGenerator');
 
+// Same sticky-header allowance used across pages/Homepage and pages/PDP —
+// a plain scrollIntoView() lands a field's top edge right at the viewport
+// edge, still under the fixed header (confirmed live: the "Select Your
+// Truck" nav link covered the Brands input's `.clear()`/`.type()` target).
+const STICKY_HEADER_OFFSET = 140;
+
 /**
  * Sell Used Trucks (/en/sell-used-truck).
  *
@@ -121,7 +127,11 @@ class SellUsedTrucks {
   pickAutocompleteOption(labelText, typeText, exactMatchText) {
     const match = exactMatchText || typeText;
     const typeIntoField = () => {
-      this.getFieldInputByLabel(labelText).clear().type('{selectall}{backspace}').type(typeText);
+      this.getFieldInputByLabel(labelText)
+        .scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } })
+        .clear()
+        .type('{selectall}{backspace}')
+        .type(typeText);
     };
 
     // Retries via a recursive `.then()`, not `.should()` — `.should()`'s
@@ -170,7 +180,11 @@ class SellUsedTrucks {
     });
     this.getFieldInputByLabel(labelText).then(($input) => {
       const suggestion = closestSuggestionToInput($input);
-      cy.wrap(suggestion).click();
+      // scrollIntoView first — on some fields (e.g. Model) the matched
+      // suggestion sits just under the sticky header and its center is
+      // covered until it's brought clear of it, which failed a plain
+      // `.click()` with "the center of this element is hidden from view".
+      cy.wrap(suggestion).scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } }).click();
     });
   }
 
@@ -234,7 +248,12 @@ class SellUsedTrucks {
   fillStep3Photos() {
     cy.get('input[type="file"]').selectFile('cypress/fixtures/sample-truck-1.png', { force: true });
     cy.get('img[src^="blob:"]', { log: false }).should('have.length.at.least', 1);
-    cy.contains('button', 'Upload Photos', { log: false }).click();
+    // The first upload's preview thumbnail pushes this button back up under
+    // the sticky header — scrollIntoView first, same offset used elsewhere,
+    // or the click fails with "the element is covered by <header>".
+    cy.contains('button', 'Upload Photos', { log: false })
+      .scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } })
+      .click();
     cy.get('input[type="file"]').selectFile('cypress/fixtures/sample-truck-2.png', { force: true });
     cy.get('img[src^="blob:"]', { log: false }).should('have.length.at.least', 2);
     this.clickNext();
@@ -253,7 +272,13 @@ class SellUsedTrucks {
     const mobile = overrides.mobile !== undefined ? overrides.mobile : randomNumberGenerator();
     const { state, district } = this.page.sampleLocation;
 
-    this.getFieldInputByLabel('Full Name*').should('be.visible').click().type(name);
+    // Step 4 opens scrolled to the top, where the sticky header's own search
+    // box overlaps this field — same offset used elsewhere in this class.
+    this.getFieldInputByLabel('Full Name*')
+      .should('be.visible')
+      .scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } })
+      .click()
+      .type(name);
     this.getFieldInputByLabel('Mobile No.*').should('be.visible').click().type(String(mobile));
     this.pickAutocompleteOption('State*', state);
     this.pickAutocompleteOption('District*', district);

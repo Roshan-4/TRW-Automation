@@ -43,7 +43,13 @@ class SeoStructure {
 
   waitForStoredHeadings() {
     const expectedCount = (this.page.headings || []).length;
-    cy.document({ timeout: 20000 }).should((doc) => {
+    // 20s was too tight for a handful of brand pages (Tata/Mahindra/Eicher
+    // Trucks) whose last section renders late under CI network conditions —
+    // confirmed live (re-scraping those pages produced the exact same
+    // heading count as the stored baseline), so this was a rendering-speed
+    // flake rather than a real content change. 40s matches the slack already
+    // given to `cy.visit()` elsewhere in this class.
+    cy.document({ timeout: 40000 }).should((doc) => {
       const live = collectSeoStructure(doc);
       expect(
         live.headings.length,
