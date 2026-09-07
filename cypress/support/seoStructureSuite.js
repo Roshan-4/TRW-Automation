@@ -179,6 +179,29 @@ function runSeoStructureSuite(groupId) {
           );
 
           it(
+            `TC-SEOS-05: meta title/description/keywords on ${pageLabel} [${lang}] match the stored snapshot`,
+            { tags: langTags(lang, TEST_TAGS.POSITIVE, `@${meta.key}`) },
+            () => {
+              documentTestCase({
+                id: 'TC-SEOS-05',
+                title: `Meta title/description/keywords on ${pageLabel} [${lang}] match the stored snapshot`,
+                language: lang,
+                description: `Compare the <title>, meta description and meta keywords on ${pageLabel} (${lang}) with the stored snapshot. Allure and artifacts/seo-structure-report.xlsx (Meta sheet) show expected vs actual so a real content/tag change can be copied into test data after it is confirmed.`,
+                expectedResult: `The page title, meta description and meta keywords on ${pageLabel} (${lang}) are unchanged from the snapshot.`,
+                steps: [
+                  `Open ${pageLabel} (${lang})`,
+                  'Read <title>, meta description and meta keywords',
+                  'Compare with the stored snapshot',
+                ],
+              });
+
+              allureStep(`Compare meta tags on ${pageLabel} (${lang})`, () => {
+                page.verifyMetaMatchesSnapshot();
+              });
+            }
+          );
+
+          it(
             `TC-SEOS-04: heading count on ${pageLabel} [${lang}] still matches the snapshot`,
             { tags: langTags(lang, TEST_TAGS.EDGE, `@${meta.key}`) },
             () => {

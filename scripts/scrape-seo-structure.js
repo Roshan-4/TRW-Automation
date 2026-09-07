@@ -92,6 +92,7 @@ const writeAreaFile = (dataFile, pages) => {
       path: page.path,
       headings: page.headings,
       faq: page.faq,
+      meta: page.meta,
       ...(page.error ? { error: page.error } : {}),
     };
     payload.pages[page.key] = current;
@@ -144,6 +145,7 @@ const main = async () => {
           path: localizedPath,
           headings: structure.headings,
           faq: structure.faq,
+          meta: structure.meta,
         });
         byFile.set(entry.dataFile, list);
       } catch (error) {
@@ -155,6 +157,7 @@ const main = async () => {
           path: localizedPath,
           headings: [],
           faq: { heading: '', questions: [] },
+          meta: { title: '', description: '', keywords: '' },
           error: error.message,
         });
         byFile.set(entry.dataFile, list);

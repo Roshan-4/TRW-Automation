@@ -3,7 +3,9 @@ const {
   collectSeoStructure,
   formatHeadingReport,
   formatFaqReport,
+  formatMetaReport,
   comparisonTableHtml,
+  metaComparisonTableHtml,
   headingLine,
 } = require('../../helpers/seoStructureCollector');
 const { currentDevice } = require('../../helpers/deviceLayout');
@@ -62,7 +64,7 @@ class SeoStructure {
     return cy.document().then((doc) => collectSeoStructure(doc));
   }
 
-  attachAndRecord(kind, live, headingReport, faqReport) {
+  attachAndRecord(kind, live, headingReport, faqReport, metaReport) {
     if (kind === 'headings') {
       allure.attachment(
         `${this.pageLabel} [${this.lang}] headings — expected vs actual`,
@@ -89,6 +91,14 @@ class SeoStructure {
       );
     }
 
+    if (kind === 'meta') {
+      allure.attachment(
+        `${this.pageLabel} [${this.lang}] meta (title/description/keywords) — expected vs actual`,
+        metaComparisonTableHtml(`${this.pageLabel} (${this.lang}) meta`, metaReport.rows),
+        'text/html'
+      );
+    }
+
     if (!headingReport.matched) {
       allure.attachment(
         'Live headings JSON (paste into test data after confirming the change is intended)',
@@ -105,6 +115,14 @@ class SeoStructure {
       );
     }
 
+    if (metaReport && !metaReport.matched) {
+      allure.attachment(
+        'Live meta JSON (paste into test data after confirming the change is intended)',
+        JSON.stringify({ path: this.page.path, meta: live.meta }, null, 2),
+        'application/json'
+      );
+    }
+
     return cy.task(
       'recordSeoStructureComparison',
       {
@@ -117,16 +135,19 @@ class SeoStructure {
         dataFile: this.dataFile,
         headingsMatched: headingReport.matched,
         faqMatched: faqReport.matched,
+        metaMatched: metaReport ? metaReport.matched : undefined,
         missingHeadings: headingReport.missing.map(headingLine),
         extraHeadings: headingReport.extra.map(headingLine),
         headingRows: headingReport.rows,
         faqRows: faqReport.rows,
+        metaRows: metaReport ? metaReport.rows : [],
         expectedFaqHeading: faqReport.expectedHeading,
         actualFaqHeading: faqReport.actualHeading,
         liveSnapshot: {
           path: this.page.path,
           headings: live.headings,
           faq: live.faq,
+          meta: live.meta,
         },
       },
       { log: false }
@@ -186,6 +207,35 @@ class SeoStructure {
         live.headings.length,
         `“${this.pageLabel}” [${this.lang}] should still have ${expected.length} SEO headings (found ${live.headings.length})`
       ).to.eq(expected.length);
+    });
+  }
+
+  verifyMetaMatchesSnapshot() {
+    const expectedHeadings = this.page.headings || [];
+    const expectedFaq = this.page.faq || { heading: '', questions: [] };
+    const expectedMeta = this.page.meta || { title: '', description: '', keywords: '' };
+    this.waitForStoredHeadings();
+    return this.collectLive().then((live) => {
+      const headingReport = formatHeadingReport(expectedHeadings, live.headings);
+      const faqReport = formatFaqReport(expectedFaq, live.faq);
+      const metaReport = formatMetaReport(expectedMeta, live.meta || {});
+      return this.attachAndRecord('meta', live, headingReport, faqReport, metaReport).then(() => {
+        const message = [
+          `Meta tags on “${this.pageLabel}” [${this.lang}] changed.`,
+          ...metaReport.rows
+            .filter((row) => row.result !== 'Match')
+            .map(
+              (row) =>
+                `${row.field}: expected "${row.expectedText || '(none)'}", found "${
+                  row.actualText || '(none)'
+                }" (${row.result})`
+            ),
+          'Open the Allure attachment “meta — expected vs actual” or artifacts/seo-structure-report.xlsx (Meta sheet).',
+        ]
+          .filter(Boolean)
+          .join('\n');
+        expect(metaReport.matched, message).to.eq(true);
+      });
     });
   }
 

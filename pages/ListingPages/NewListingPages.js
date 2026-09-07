@@ -388,9 +388,15 @@ class NewListingPages {
   }
 
   clickListingSecondaryNav(itemTitle) {
+    // On mobile the SecondaryNavbar is a horizontally-scrolling strip — a
+    // later item like "FAQs" can be in the DOM but outside the scrolled-into
+    // view area, so jQuery's :visible check times out without this (confirmed
+    // live: TC-NLP-09 failed here with the real target never becoming
+    // visible before this scroll was added).
     cy.get('div.secondaryNav.sticky', { timeout: 20000 })
       .find(`[title="${itemTitle}"]`)
       .first()
+      .scrollIntoView()
       .should('be.visible')
       .then(($el) => {
         $el[0].click();

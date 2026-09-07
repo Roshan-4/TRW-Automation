@@ -122,12 +122,27 @@ const collectSeoStructure = (doc = document) => {
     })
     .filter(Boolean);
 
+  // Title/description/keywords, alongside headings — a page can lose an SEO
+  // meta tag (e.g. a missing keywords tag) without any heading changing, so
+  // this needs its own snapshot/comparison rather than piggybacking on
+  // headings.
+  const getMetaContent = (name) => {
+    const el = doc.querySelector(`meta[name="${name}" i]`);
+    return clean(el ? el.getAttribute('content') : '');
+  };
+  const meta = {
+    title: clean(doc.title),
+    description: getMetaContent('description'),
+    keywords: getMetaContent('keywords'),
+  };
+
   return {
     headings,
     faq: {
       heading: faqHeading,
       questions,
     },
+    meta,
   };
 };
 
@@ -189,6 +204,30 @@ const formatHeadingReport = (expected, actual) => {
   };
 };
 
+const META_FIELDS = ['title', 'description', 'keywords'];
+
+const formatMetaReport = (expectedMeta = {}, actualMeta = {}) => {
+  const rows = META_FIELDS.map((field, index) => {
+    const exp = expectedMeta[field] || '';
+    const act = actualMeta[field] || '';
+    let result = 'Match';
+    if (!exp && act) {
+      result = 'Extra on live page';
+    } else if (exp && !act) {
+      result = 'Missing on live page';
+    } else if (exp !== act) {
+      result = 'Changed';
+    }
+    return { index: index + 1, field, expectedText: exp, actualText: act, result };
+  });
+  return {
+    matched: rows.every((row) => row.result === 'Match'),
+    rows,
+    expectedMeta,
+    actualMeta,
+  };
+};
+
 const formatFaqReport = (expectedFaq = {}, actualFaq = {}) => {
   const expectedQuestions = expectedFaq.questions || [];
   const actualQuestions = actualFaq.questions || [];
@@ -232,6 +271,22 @@ const escapeHtml = (value) =>
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
 
+const metaComparisonTableHtml = (title, rows) => {
+  const body = (rows || [])
+    .map(
+      (row) =>
+        `<tr><td>${escapeHtml(row.field)}</td><td>${escapeHtml(
+          row.expectedText
+        )}</td><td>${escapeHtml(row.actualText)}</td><td>${escapeHtml(row.result)}</td></tr>`
+    )
+    .join('');
+  return `<h3>${escapeHtml(title)}</h3>
+<table border="1" cellpadding="6" cellspacing="0">
+<thead><tr><th>Field</th><th>Expected (stored in test data)</th><th>Actual (live page)</th><th>Result</th></tr></thead>
+<tbody>${body || '<tr><td colspan="4">(none)</td></tr>'}</tbody>
+</table>`;
+};
+
 module.exports = {
   cleanText,
   normalizeHeading,
@@ -241,5 +296,7 @@ module.exports = {
   headingLine,
   formatHeadingReport,
   formatFaqReport,
+  formatMetaReport,
   comparisonTableHtml,
+  metaComparisonTableHtml,
 };

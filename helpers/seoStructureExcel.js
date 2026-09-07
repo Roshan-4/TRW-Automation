@@ -33,6 +33,7 @@ const SUMMARY_COLUMNS = [
   { header: 'URL', key: 'url', width: 55 },
   { header: 'Headings result', key: 'headingsResult', width: 16 },
   { header: 'FAQ result', key: 'faqResult', width: 16 },
+  { header: 'Meta result', key: 'metaResult', width: 16 },
   { header: 'Missing headings', key: 'missingHeadings', width: 50 },
   { header: 'Extra headings', key: 'extraHeadings', width: 50 },
   { header: 'Snapshot file', key: 'dataFile', width: 48 },
@@ -66,14 +67,38 @@ const FAQ_COLUMNS = [
   { header: 'Actual FAQ heading', key: 'actualHeading', width: 40 },
 ];
 
+const META_COLUMNS = [
+  { header: 'Page key', key: 'pageKey', width: 22 },
+  { header: 'Language', key: 'lang', width: 12 },
+  { header: 'Device', key: 'device', width: 10 },
+  { header: 'Page', key: 'pageLabel', width: 36 },
+  { header: 'URL', key: 'url', width: 55 },
+  { header: 'Field', key: 'field', width: 14 },
+  { header: 'Expected (test data)', key: 'expectedText', width: 70 },
+  { header: 'Actual (live page)', key: 'actualText', width: 70 },
+  { header: 'Result', key: 'result', width: 22 },
+];
+
 // Column index of "Result" in each sheet (for the status color fill), 1-based.
-const RESULT_COL = { summaryHeadings: 6, summaryFaq: 7, headings: 11, faq: 9 };
+const RESULT_COL = { summaryHeadings: 6, summaryFaq: 7, summaryMeta: 8, headings: 11, faq: 9, meta: 9 };
 
 const ensureSheet = (workbook, name, columns) => {
   let sheet = workbook.getWorksheet(name);
-  if (!sheet) {
+  const isNew = !sheet;
+  if (isNew) {
     sheet = workbook.addWorksheet(name);
-    sheet.columns = columns;
+  }
+  // Re-assert columns even for a sheet loaded from an existing file: ExcelJS
+  // does not persist column `key` metadata in the .xlsx format, so a sheet
+  // opened via `readFile` has no key-to-column mapping until this runs —
+  // without it, `addRow({...})` on a re-opened workbook silently drops
+  // values into the wrong cells. This also keeps an older, pre-schema-change
+  // file's header row in sync with a newer column layout (e.g. this file
+  // gaining a "Meta result" column) going forward, though rows written under
+  // the old schema stay wherever they were — this artifact is regenerated
+  // fresh each CI run, so that's only ever a stale local-dev concern.
+  sheet.columns = columns;
+  if (isNew) {
     sheet.getRow(1).font = { bold: true };
   }
   return sheet;
@@ -116,12 +141,20 @@ const writeSeoStructureExcel = async (records) => {
   const summary = ensureSheet(workbook, 'Summary', SUMMARY_COLUMNS);
   const headings = ensureSheet(workbook, 'Headings (page-wise)', HEADINGS_COLUMNS);
   const faqs = ensureSheet(workbook, 'FAQ (page-wise)', FAQ_COLUMNS);
+  const metas = ensureSheet(workbook, 'Meta (page-wise)', META_COLUMNS);
 
   records.forEach((record) => {
     const device = record.device || 'desktop';
     removeRowsForPage(summary, record.pageKey, record.lang, device);
     removeRowsForPage(headings, record.pageKey, record.lang, device);
     removeRowsForPage(faqs, record.pageKey, record.lang, device);
+    removeRowsForPage(metas, record.pageKey, record.lang, device);
+
+    // metaMatched is undefined for records recorded before meta comparison
+    // existed — leave that cell blank rather than claim a Pass/Fail verdict
+    // that was never actually checked.
+    const metaResult =
+      record.metaMatched === undefined ? '' : record.metaMatched ? 'Pass' : 'Fail';
 
     const summaryRow = summary.addRow({
       pageKey: record.pageKey,
@@ -131,12 +164,16 @@ const writeSeoStructureExcel = async (records) => {
       url: record.url || record.path,
       headingsResult: record.headingsMatched ? 'Pass' : 'Fail',
       faqResult: record.faqMatched ? 'Pass' : 'Fail',
+      metaResult,
       missingHeadings: (record.missingHeadings || []).join(' | '),
       extraHeadings: (record.extraHeadings || []).join(' | '),
       dataFile: record.dataFile,
     });
     applyStatus(summaryRow.getCell(RESULT_COL.summaryHeadings), record.headingsMatched ? 'Pass' : 'Fail');
     applyStatus(summaryRow.getCell(RESULT_COL.summaryFaq), record.faqMatched ? 'Pass' : 'Fail');
+    if (metaResult) {
+      applyStatus(summaryRow.getCell(RESULT_COL.summaryMeta), metaResult);
+    }
 
     (record.headingRows || []).forEach((row) => {
       const headingRow = headings.addRow({
@@ -171,6 +208,21 @@ const writeSeoStructureExcel = async (records) => {
       });
       applyStatus(faqRow.getCell(RESULT_COL.faq), row.result);
     });
+
+    (record.metaRows || []).forEach((row) => {
+      const metaRow = metas.addRow({
+        pageKey: record.pageKey,
+        lang: record.lang,
+        device,
+        pageLabel: record.pageLabel,
+        url: record.url || record.path,
+        field: row.field,
+        expectedText: row.expectedText,
+        actualText: row.actualText,
+        result: row.result,
+      });
+      applyStatus(metaRow.getCell(RESULT_COL.meta), row.result);
+    });
   });
 
   await workbook.xlsx.writeFile(REPORT_PATH);
@@ -193,6 +245,7 @@ const mergeSeoStructureExcelFiles = async (sourcePaths, outputPath) => {
   const summary = ensureSheet(workbook, 'Summary', SUMMARY_COLUMNS);
   const headings = ensureSheet(workbook, 'Headings (page-wise)', HEADINGS_COLUMNS);
   const faqs = ensureSheet(workbook, 'FAQ (page-wise)', FAQ_COLUMNS);
+  const metas = ensureSheet(workbook, 'Meta (page-wise)', META_COLUMNS);
 
   const copySheetRows = (sourceSheet, targetSheet, resultCols) => {
     if (!sourceSheet) {
@@ -218,9 +271,11 @@ const mergeSeoStructureExcelFiles = async (sourcePaths, outputPath) => {
     copySheetRows(sourceWorkbook.getWorksheet('Summary'), summary, [
       RESULT_COL.summaryHeadings,
       RESULT_COL.summaryFaq,
+      RESULT_COL.summaryMeta,
     ]);
     copySheetRows(sourceWorkbook.getWorksheet('Headings (page-wise)'), headings, [RESULT_COL.headings]);
     copySheetRows(sourceWorkbook.getWorksheet('FAQ (page-wise)'), faqs, [RESULT_COL.faq]);
+    copySheetRows(sourceWorkbook.getWorksheet('Meta (page-wise)'), metas, [RESULT_COL.meta]);
   }
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });

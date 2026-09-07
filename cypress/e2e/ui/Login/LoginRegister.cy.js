@@ -29,7 +29,14 @@ const langTags = (lang, ...extra) => [
 LANGUAGES.forEach((lang) => {
   const page = new LoginRegister(lang);
 
-  describe(`Login - LoginRegister [${lang}]`, { tags: langTags(lang) }, () => {
+  // Skipped: this suite targets CYPRESS_STAGING_URL, which is restricted to
+  // the office network (see AGENTS.md golden rule 27) — CI runners always get
+  // a 403 here. Even from inside the network, login itself is OTP-gated with
+  // no test OTP configured, so these tests can only ever verify up to the
+  // login form UI, never a completed sign-in. Re-enable (describe, not
+  // describe.skip) only once there's a real reason to run this against
+  // staging from an allowed network.
+  describe.skip(`Login - LoginRegister [${lang}]`, { tags: langTags(lang) }, () => {
     beforeEach(() => {
       page.visitLogin();
     });

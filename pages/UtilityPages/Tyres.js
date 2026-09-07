@@ -1,5 +1,5 @@
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
-const { LeadFormFiller, exactText } = require('../../helpers/leadFormFiller');
+const { LeadFormFiller } = require('../../helpers/leadFormFiller');
 const { getTyresOfferCta } = require('../../helpers/tyresOfferCta');
 
 /**
@@ -91,14 +91,29 @@ class Tyres {
   }
 
   verifyLeadSubmitted() {
-    cy.contains('h3', exactText(this.checkOffersLeadCopy.thankYouHeading)).should('be.visible');
+    // Requirement changed (confirmed live): Tyres no longer shows an inline
+    // "Thank You" confirmation like the rest of the site's CheckOffersLead
+    // modal — a successful submission now redirects the user to the
+    // submitted tyre model's own detail page instead. Which model that is
+    // depends on which card's CTA was clicked, so assert the redirect
+    // happened (away from the Tyres hub, onto a tyre-model path) rather than
+    // a fixed destination URL.
+    cy.location('pathname', { timeout: 15000 }).should((pathname) => {
+      expect(pathname, 'navigates away from the Tyres hub after a successful lead').to.not.eq(
+        Tyres.pageUrl
+      );
+      expect(pathname, 'lands on a tyre model detail page').to.match(/tyre/i);
+    });
   }
 
   submitLead(overrides = {}) {
     this.openLeadFormViaCta();
     this.checkOffersLead.fillAndSubmit({
       name: 'testqa',
-      city: this.checkOffersLeadCopy.city,
+      // "noida" (the shared CheckOffersForm test-city default) does not
+      // resolve on the Tyres lead form's city field (confirmed live) —
+      // use a city known to work here instead.
+      city: 'alwar',
       ...overrides,
     });
     this.verifyLeadSubmitted();

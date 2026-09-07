@@ -32,6 +32,43 @@ registerCypressGrep();
 // in the suite (confirmed live: a deliberately-failing `expect(1).to.equal(2)`
 // reported as passing with this handler present and no rethrow). Never remove
 // the `throw err` fallback — it is what makes real failures fail again.
+// A *different* failure mode than the one above: a genuine assertion failure
+// (e.g. `.should(...)` against a jQuery/DOM subject) can carry a huge DOM
+// element/iframe tree as `err.actual`/`err.expected`. Allure records that
+// error separately from this `fail` handler (via its own `test:after:run`
+// listener), and when it later tries to JSON.stringify that huge payload for
+// the report, it throws — and that secondary RangeError/SecurityError then
+// overwrites the real failure message in the CLI/report output, masking what
+// actually failed. Truncating any oversized actual/expected here, before
+// rethrowing, keeps the genuine error message intact and stops Allure's
+// serializer from ever seeing the huge payload.
+const sanitizeOversizedAssertionData = (err) => {
+  const shrink = (value) => {
+    if (value === null || typeof value !== 'object') {
+      return value;
+    }
+    let str;
+    try {
+      str = JSON.stringify(value);
+    } catch (e) {
+      return '[unserializable value]';
+    }
+    if (!str || str.length <= 5000) {
+      return value;
+    }
+    return `${str.slice(0, 5000)}... [truncated ${str.length} chars]`;
+  };
+  if (err && typeof err === 'object') {
+    if ('actual' in err) err.actual = shrink(err.actual);
+    if ('expected' in err) err.expected = shrink(err.expected);
+    if (err.matcherResult && typeof err.matcherResult === 'object') {
+      if ('actual' in err.matcherResult) err.matcherResult.actual = shrink(err.matcherResult.actual);
+      if ('expected' in err.matcherResult) err.matcherResult.expected = shrink(err.matcherResult.expected);
+    }
+  }
+  return err;
+};
+
 Cypress.on('fail', (err) => {
   const msg = err && err.message ? err.message : String(err);
   const stack = err && err.stack ? err.stack : '';
@@ -42,7 +79,7 @@ Cypress.on('fail', (err) => {
   if (isAllureSerializeNoise) {
     return false;
   }
-  throw err;
+  throw sanitizeOversizedAssertionData(err);
 });
 
 // Truck Junction is a third-party site — ignore known non-test app errors

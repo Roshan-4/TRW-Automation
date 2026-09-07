@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Cypress UI automation for trucks.tractorjunction.com",
   "scripts": {
+    "postinstall": "patch-package",
     "cypress:open": "cypress open --browser chrome",
     "cypress:run": "cypress run --browser chrome",
     "cypress:run:chrome": "cypress run --browser chrome",
@@ -185,6 +186,7 @@
     "eslint-plugin-cypress": "^7.0.0",
     "eslint-plugin-prettier": "^5.5.6",
     "exceljs": "^4.4.0",
+    "patch-package": "^8.0.1",
     "playwright": "^1.62.1",
     "prettier": "^3.9.6",
     "rimraf": "^6.1.3"

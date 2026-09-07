@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-05",
+  "scrapedAt": "2026-09-07",
   "languages": [
     "en",
     "hi",
@@ -65,6 +65,11 @@
               "What body types would be available for the latest bus models in India?",
               "How much is the mileage of the latest bus models in India?"
             ]
+          },
+          "meta": {
+            "title": "New Upcoming EV Buses in India 2026 - TruckJunction",
+            "description": "Latest Upcoming EV Buses in India 2026 check their price, range, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
+            "keywords": ""
           }
         },
         "hi": {
@@ -104,19 +109,16 @@
               "मैं भारत में नए बस ब्रांड मॉडल की प्राइस रेंज कैसे पता कर सकता हूं?",
               "भारत में कुछ नए बस मॉडल कौन से हैं?"
             ]
+          },
+          "meta": {
+            "title": "भारत में नई बसों की मूल्य सूची 2023 - बस स्पेसिफिकेशन्स और रिव्यू",
+            "description": "भारत में 2023 में नई बसों की मूल्य सूची। बस स्पेसिफिकेशन्स, कस्टमर रिव्यू, माइलेज, फीचर्स, सीटिंग कैपेसिटी, अधिकृत डीलर्स, फोटो और बस कंपेरिजन का पता लगाएं।",
+            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/buses",
           "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் புதியது வாங்குகிறார்"
-            },
-            {
-              "tag": "h2",
-              "text": "புதியது இந்தியாவில் பேருந்துகளின் விலை பட்டியல் 2026"
-            },
             {
               "tag": "h2",
               "text": "புதியது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
@@ -124,43 +126,16 @@
             {
               "tag": "h2",
               "text": "அனைத்து பேருந்து நிறுவனங்களும்"
-            },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் புதியது பேருந்து பற்றி"
-            },
-            {
-              "tag": "h2",
-              "text": "New Bus Price in India"
-            },
-            {
-              "tag": "h3",
-              "text": "New Bus Models In India"
-            },
-            {
-              "tag": "h3",
-              "text": "You can find out the bus price in India for all the new models on our website."
-            },
-            {
-              "tag": "h3",
-              "text": "Why BusJunction for New Buses in India?"
-            },
-            {
-              "tag": "h2",
-              "text": "புதியது Buses பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்"
             }
           ],
           "faq": {
-            "heading": "புதியது Buses பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "Which brands are introducing new bus models in India?",
-              "Where to find the latest bus models in India?",
-              "Do new bus models offer petrol fuel options for the operations?",
-              "Which are the latest bus models in India?",
-              "Where to find the price list for new buses in India?",
-              "What body types would be available for the latest bus models in India?",
-              "How much is the mileage of the latest bus models in India?"
-            ]
+            "heading": "",
+            "questions": []
+          },
+          "meta": {
+            "title": "",
+            "description": "",
+            "keywords": ""
           }
         }
       }
@@ -242,6 +217,11 @@
               "Which are the popular bus brands in India?",
               "Where to find popular buses updates in India?"
             ]
+          },
+          "meta": {
+            "title": "Popular Indian Buses Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+            "description": "Check Popular Indian Buses price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+            "keywords": ""
           }
         },
         "hi": {
@@ -315,6 +295,11 @@
               "भारत में लोकप्रिय बस मॉडल कौन से हैं?",
               "भारत में सबसे लोकप्रिय बस ब्रांड कौन से हैं?"
             ]
+          },
+          "meta": {
+            "title": "भारत में लोकप्रिय बसों की मूल्य सूची 2023 - फीचर्स, माइलेज और रिव्यू",
+            "description": "भारत में सबसे लोकप्रिय बस मूल्य सूची 2023 का पता लगाएं। टॉप बस मॉडल, स्पेसिफिकेशन्स, सत्यापित ग्राहक समीक्षा, फीचर्स, फोटो और अधिकृत डीलरों की जांच करें।",
+            "keywords": ""
           }
         },
         "ta": {
@@ -336,6 +321,11 @@
           "faq": {
             "heading": "",
             "questions": []
+          },
+          "meta": {
+            "title": "",
+            "description": "",
+            "keywords": ""
           }
         }
       }
@@ -405,6 +395,11 @@
               "How much is the mileage of the upcoming buses in India?",
               "Where can I find the upcoming bus updates in India?"
             ]
+          },
+          "meta": {
+            "title": "Upcoming Petrol & Diesel Buses in India 2026 | Truck Junction",
+            "description": "Find the upcoming Petrol & Diesel Buses in India in 2026. Check out the upcoming bus models, expected launch dates in the coming months, estimated prices, specifications & images.",
+            "keywords": ""
           }
         },
         "hi": {
@@ -469,6 +464,11 @@
               "मुझे भारत में आगामी बस मॉडल के बारे में अपडेट कहां मिल सकता है?",
               "क्या अपकमिंग बस मॉडल अपने संचालन के लिए पेट्रोल फ्यूल का ऑप्शन प्रदान करेंगे?"
             ]
+          },
+          "meta": {
+            "title": "भारत में आगामी बस 2023 | आगामी बस फोटो, लॉन्च तिथि और कीमत",
+            "description": "भारत में आगामी बस 2023 का पता लगाएं। आगामी बस मॉडल, आने वाले महीनों में लॉन्च होने की संभावित तारीखें, अनुमानित मूल्य, स्पेसिफिकेशन और तस्वीरें देखें।",
+            "keywords": ""
           }
         },
         "ta": {
@@ -490,6 +490,11 @@
           "faq": {
             "heading": "",
             "questions": []
+          },
+          "meta": {
+            "title": "",
+            "description": "",
+            "keywords": ""
           }
         }
       }
@@ -549,6 +554,11 @@
               "What body types would be available for the latest bus models in India?",
               "How much is the latest bus mileage of the new models in India?"
             ]
+          },
+          "meta": {
+            "title": "Latest Bus Price in India 2026 | Latest Bus Models, Specs & Reviews",
+            "description": "Find the latest bus price list in India 2026. Get the latest bus models, images, seating capacity, features, mileage, specifications, reviews & dealers.",
+            "keywords": ""
           }
         },
         "hi": {
@@ -588,6 +598,11 @@
               "भारत में लेटेस्ट हाइली फ्यूल एफिशिएंट बस मॉडल कौन सा है?",
               "भारत में लेटेस्ट बस मॉडल कौन सा है?"
             ]
+          },
+          "meta": {
+            "title": "भारत में नवीनतम बस की कीमत 2023 | नवीनतम बस मॉडल, स्पेसिफिकेशन्स और रिव्यू",
+            "description": "भारत में नवीनतम बस मूल्य सूची 2023 का पता लगाएं। नवीनतम बस मॉडल, फोटो, सीटिंग कैपेसिटी, फीचर्स, माइलेज, स्पेसिफिकेशन्स, रिव्यू और डीलर प्राप्त करें।",
+            "keywords": ""
           }
         },
         "ta": {
@@ -609,6 +624,11 @@
           "faq": {
             "heading": "",
             "questions": []
+          },
+          "meta": {
+            "title": "",
+            "description": "",
+            "keywords": ""
           }
         }
       }
@@ -670,6 +690,11 @@
               "Which is the most popular bus from Ashok Leyland ?",
               "What fuel type options are offered by Ashok Leyland bus in India?"
             ]
+          },
+          "meta": {
+            "title": "Ashok Leyland Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+            "description": "Check Ashok Leyland Buses price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+            "keywords": "Ashok Leyland bus, Ashok Leyland bus price, Ashok Leyland mini bus, Ashok Leyland bus price in India, Ashok Leyland sleeper bus, Ashok Leyland buses price, Ashok Leyland new bus"
           }
         },
         "hi": {
@@ -726,6 +751,11 @@
               "अशोक लेलैंड की सबसे लोकप्रिय बस कौन सी है?",
               "भारत में अशोक लेलैंड बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
             ]
+          },
+          "meta": {
+            "title": "अशोक लेलैंड बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+            "description": "भारत में अशोक लेलैंड बस की कीमत 2026 । नवीनतम अशोक लेलैंड बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+            "keywords": "अशोक लेलैंड बस, अशोक लेलैंड बस मूल्य, अशोक लेलैंड मिनी बस, अशोक लेलैंड भारत में बस की कीमत, अशोक लेलैंड स्लीपर बस, अशोक लेलैंड बसों की कीमत, अशोक लेलैंड नई बस"
           }
         },
         "ta": {
@@ -765,6 +795,11 @@
               "Which is the most popular bus from Ashok Leyland ?",
               "What fuel type options are offered by Ashok Leyland bus in India?"
             ]
+          },
+          "meta": {
+            "title": "இந்தியாவில் உள்ள அனைத்து பேருந்து பிராண்டுகளின் பட்டியல் 2026 | சிறந்த பேருந்து உற்பத்தியாளர்கள்",
+            "description": "இந்தியாவில் உள்ள சிறந்த பேருந்து பிராண்டுகளைத் தேடுகிறீர்களா? பஸ்ஜங்ஷன், பலவிதமான பேருந்து மாடல்களை வழங்கும் சிறந்த பேருந்து உற்பத்தியாளர்களின் விரிவான பட்டியலை வழங்குகிறது.",
+            "keywords": "Ashok Leyland பஸ், Ashok Leyland பஸ் விலை, Ashok Leyland மினி பஸ், Ashok Leyland பஸ் விலை இந்தியாவில், Ashok Leyland ஸ்லீப்பர் பஸ், Ashok Leyland பஸ்கள் விலை, Ashok Leyland புதிய பஸ்"
           }
         }
       }
@@ -850,6 +885,11 @@
               "When did Tata Motors start its operation in India?",
               "How many bus categories are offered by Tata Motors in India?"
             ]
+          },
+          "meta": {
+            "title": "Tata Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+            "description": "Check Tata Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
+            "keywords": "Tata bus, Tata bus price, Tata mini bus, Tata bus price in India, Tata sleeper bus, Tata buses price, Tata new bus"
           }
         },
         "hi": {
@@ -921,6 +961,11 @@
               "टाटा मोटर्स ने भारत में अपना परिचालन कब शुरू किया?",
               "भारत में टाटा मोटर्स द्वारा कितनी बस कैटेगरी पेश की जाती हैं?"
             ]
+          },
+          "meta": {
+            "title": "टाटा बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+            "description": "भारत में टाटा बस की कीमत 2026 । नवीनतम टाटा बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+            "keywords": "टाटा बस, टाटा बस मूल्य, टाटा मिनी बस, टाटा भारत में बस की कीमत, टाटा स्लीपर बस, टाटा बसों की कीमत, टाटा नई बस"
           }
         },
         "ta": {
@@ -980,6 +1025,11 @@
               "When did Tata Motors start its operation in India?",
               "How many bus categories are offered by Tata Motors in India?"
             ]
+          },
+          "meta": {
+            "title": "Tata பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+            "description": "Tata பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Tata பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+            "keywords": "Tata பஸ், Tata பஸ் விலை, Tata மினி பஸ், Tata பஸ் விலை இந்தியாவில், Tata ஸ்லீப்பர் பஸ், Tata பஸ்கள் விலை, Tata புதிய பஸ்"
           }
         }
       }
@@ -1043,6 +1093,11 @@
               "What is the cost of a Eicher electric bus in India ?",
               "What fuel type options are offered by Eicher bus in India?"
             ]
+          },
+          "meta": {
+            "title": "Eicher Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+            "description": "Check Eicher Bus Price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+            "keywords": "Eicher bus, Eicher bus price, Eicher mini bus, Eicher bus price in India, Eicher sleeper bus, Eicher buses price, Eicher new bus"
           }
         },
         "hi": {
@@ -1100,6 +1155,11 @@
               "भारत में आयशर इलेक्ट्रिक बस की कीमत क्या है?",
               "भारत में आयशर बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
             ]
+          },
+          "meta": {
+            "title": "आयशर बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+            "description": "भारत में आयशर बस की कीमत 2026 । नवीनतम आयशर बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+            "keywords": "आयशर बस, आयशर बस मूल्य, आयशर मिनी बस, आयशर भारत में बस की कीमत, आयशर स्लीपर बस, आयशर बसों की कीमत, आयशर नई बस"
           }
         },
         "ta": {
@@ -1157,6 +1217,11 @@
               "இந்தியாவில் Eicher எலக்ட்ரிக் பஸ்ஸின் விலை எவ்வளவு?",
               "இந்தியாவில் Eicher பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
             ]
+          },
+          "meta": {
+            "title": "Eicher பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+            "description": "Eicher பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Eicher பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+            "keywords": "Eicher பஸ், Eicher பஸ் விலை, Eicher மினி பஸ், Eicher பஸ் விலை இந்தியாவில், Eicher ஸ்லீப்பர் பஸ், Eicher பஸ்கள் விலை, Eicher புதிய பஸ்"
           }
         }
       }
@@ -1219,6 +1284,11 @@
               "Which is the most popular bus from SML ISUZU ?",
               "What fuel type options are offered by SML ISUZU bus in India?"
             ]
+          },
+          "meta": {
+            "title": "SML ISUZU Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+            "description": "Check SML ISUZU Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+            "keywords": "SML ISUZU bus, SML ISUZU bus price, SML ISUZU mini bus, SML ISUZU bus price in India, SML ISUZU sleeper bus, SML ISUZU buses price, SML ISUZU new bus"
           }
         },
         "hi": {
@@ -1275,6 +1345,11 @@
               "एसएमएल इसुज़ु की सबसे लोकप्रिय बस कौन सी है?",
               "भारत में एसएमएल इसुज़ु बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
             ]
+          },
+          "meta": {
+            "title": "एसएमएल इसुज़ु बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+            "description": "भारत में एसएमएल इसुज़ु बस की कीमत 2026 । नवीनतम एसएमएल इसुज़ु बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+            "keywords": "एसएमएल इसुज़ु बस, एसएमएल इसुज़ु बस मूल्य, एसएमएल इसुज़ु मिनी बस, एसएमएल इसुज़ु भारत में बस की कीमत, एसएमएल इसुज़ु स्लीपर बस, एसएमएल इसुज़ु बसों की कीमत, एसएमएल इसुज़ु नई बस"
           }
         },
         "ta": {
@@ -1331,6 +1406,11 @@
               "SML ISUZU நிறுவனத்தின் மிகப் பிரபலமான பேருந்து மாடல் எது?",
               "இந்தியாவில் SML ISUZU பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
             ]
+          },
+          "meta": {
+            "title": "SML ISUZU பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+            "description": "SML ISUZU பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய SML ISUZU பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+            "keywords": "SML ISUZU பஸ், SML ISUZU பஸ் விலை, SML ISUZU மினி பஸ், SML ISUZU பஸ் விலை இந்தியாவில், SML ISUZU ஸ்லீப்பர் பஸ், SML ISUZU பஸ்கள் விலை, SML ISUZU புதிய பஸ்"
           }
         }
       }
@@ -1388,6 +1468,11 @@
               "Which is the most expensive bus from Mahindra ?",
               "What fuel type options are offered by Mahindra bus in India?"
             ]
+          },
+          "meta": {
+            "title": "Mahindra Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+            "description": "Check Mahindra Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+            "keywords": "Mahindra bus, Mahindra bus price, Mahindra mini bus, Mahindra bus price in India, Mahindra sleeper bus, Mahindra buses price, Mahindra new bus"
           }
         },
         "hi": {
@@ -1439,6 +1524,11 @@
               "महिंद्रा की सबसे महंगी बस कौन सी है?",
               "भारत में महिंद्रा बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
             ]
+          },
+          "meta": {
+            "title": "महिंद्रा बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+            "description": "भारत में महिंद्रा बस की कीमत 2026 । नवीनतम महिंद्रा बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+            "keywords": "महिंद्रा बस, महिंद्रा बस मूल्य, महिंद्रा मिनी बस, महिंद्रा भारत में बस की कीमत, महिंद्रा स्लीपर बस, महिंद्रा बसों की कीमत, महिंद्रा नई बस"
           }
         },
         "ta": {
@@ -1490,6 +1580,11 @@
               "Mahindra நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
               "இந்தியாவில் Mahindra பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
             ]
+          },
+          "meta": {
+            "title": "Mahindra பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+            "description": "Mahindra பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Mahindra பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+            "keywords": "Mahindra பஸ், Mahindra பஸ் விலை, Mahindra மினி பஸ், Mahindra பஸ் விலை இந்தியாவில், Mahindra ஸ்லீப்பர் பஸ், Mahindra பஸ்கள் விலை, Mahindra புதிய பஸ்"
           }
         }
       }

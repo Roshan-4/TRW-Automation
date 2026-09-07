@@ -112,20 +112,36 @@ module.exports = defineConfig({
         // link check can never block on browser same-origin rules, and a
         // network failure resolves to a result object instead of throwing.
         async checkLinkStatuses(urls) {
-          const results = await Promise.all(
-            urls.map(async (url) => {
-              try {
-                const response = await fetch(url, {
-                  method: 'GET',
-                  redirect: 'manual',
-                  signal: AbortSignal.timeout(15000),
-                });
-                return { url, status: response.status, ok: true };
-              } catch (error) {
-                return { url, status: null, ok: false, error: error.message };
-              }
-            })
-          );
+          // Throttled to ~6-8 requests/sec — firing all of a page's links at
+          // once (previously a single unthrottled Promise.all) was hammering
+          // the live server hard enough to slow it down for real users.
+          const BATCH_SIZE = 7;
+          const MIN_BATCH_INTERVAL_MS = 1000;
+          const results = [];
+          for (let i = 0; i < urls.length; i += BATCH_SIZE) {
+            const batch = urls.slice(i, i + BATCH_SIZE);
+            const batchStarted = Date.now();
+            const batchResults = await Promise.all(
+              batch.map(async (url) => {
+                try {
+                  const response = await fetch(url, {
+                    method: 'GET',
+                    redirect: 'manual',
+                    signal: AbortSignal.timeout(15000),
+                  });
+                  return { url, status: response.status, ok: true };
+                } catch (error) {
+                  return { url, status: null, ok: false, error: error.message };
+                }
+              })
+            );
+            results.push(...batchResults);
+            const hasMore = i + BATCH_SIZE < urls.length;
+            const elapsed = Date.now() - batchStarted;
+            if (hasMore && elapsed < MIN_BATCH_INTERVAL_MS) {
+              await new Promise((resolve) => setTimeout(resolve, MIN_BATCH_INTERVAL_MS - elapsed));
+            }
+          }
           return results;
         },
       });

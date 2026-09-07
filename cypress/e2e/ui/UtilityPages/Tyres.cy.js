@@ -50,12 +50,13 @@ LANGUAGES.forEach((lang) => {
           title: `${page.ctaLabel} lead submits successfully on ${pageLabel}`,
           language: lang,
           description: `Open the ${pageLabel} page, click a tyre card's "${page.ctaLabel}" button to open its lead form, fill name, mobile and city, and submit.`,
-          expectedResult: 'A Thank You confirmation is shown after a successful lead submission.',
+          expectedResult:
+            'A successful lead submission redirects the user away from the Tyres hub to that tyre model\'s detail page (no inline Thank You confirmation here, unlike other CheckOffersLead usages on the site).',
           steps: [
             `Open the ${pageLabel} page`,
             `Click a tyre card's "${page.ctaLabel}" button to open its lead form`,
             'Fill name, mobile and city',
-            'Submit and verify Thank You confirmation',
+            'Submit and verify the redirect to the tyre detail page',
           ],
         });
 
