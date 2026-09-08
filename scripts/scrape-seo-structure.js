@@ -9,6 +9,14 @@
  *   npm run scrape:seo-structure
  *   node scripts/scrape-seo-structure.js --group=home --lang=en
  *   node scripts/scrape-seo-structure.js --lang=hi,ta
+ *   node scripts/scrape-seo-structure.js --device=mobile
+ *
+ * Scrapes once per device (desktop + mobile, the same real Android UA/
+ * viewport the Cypress suite uses — see constants/constants.js DEVICES) so
+ * the stored snapshot matches what each device's CI job actually sees. This
+ * site renders a different DOM per device (server-side, keyed off the
+ * request's user agent, not just CSS) — a desktop-only snapshot compared
+ * against a mobile run reports every such difference as a false "changed".
  *
  * Sequential on purpose — do not parallel-fetch live pages.
  */
@@ -24,6 +32,9 @@ const {
   pathForLang,
 } = require('../pages/Seo/seoStructureCatalog');
 const { collectSeoStructure } = require('../helpers/seoStructureCollector');
+const { DEVICES } = require('../constants/constants');
+
+const DEVICE_KEYS = Object.keys(DEVICES);
 
 const parseArgs = (argv) => {
   const args = {};
@@ -47,6 +58,16 @@ const parseLangs = (value) => {
     .filter((item) => SEO_STRUCTURE_LANGUAGES.includes(item));
 };
 
+const parseDevices = (value) => {
+  if (!value || value === true || value === 'all') {
+    return DEVICE_KEYS.slice();
+  }
+  return String(value)
+    .split(',')
+    .map((item) => item.trim())
+    .filter((item) => DEVICE_KEYS.includes(item));
+};
+
 const asByLanguagePage = (existing, key, name) => {
   if (existing && existing.byLanguage) {
     return existing;
@@ -65,6 +86,27 @@ const asByLanguagePage = (existing, key, name) => {
     };
   }
   return { key, name, byLanguage: {} };
+};
+
+/**
+ * Migrate one language entry to the `byDevice` shape. Older snapshots stored
+ * headings/faq/meta directly on the language entry (desktop-only scrape) —
+ * treat that as this language's `desktop` device so it isn't lost.
+ */
+const asByDeviceLangEntry = (existing) => {
+  if (existing && existing.byDevice) {
+    return existing;
+  }
+  if (existing && existing.headings) {
+    const { path: existingPath, headings, faq, meta, error } = existing;
+    return {
+      path: existingPath,
+      byDevice: {
+        desktop: { headings, faq, meta, ...(error ? { error } : {}) },
+      },
+    };
+  }
+  return { path: existing && existing.path, byDevice: {} };
 };
 
 const writeAreaFile = (dataFile, pages) => {
@@ -88,13 +130,16 @@ const writeAreaFile = (dataFile, pages) => {
     current.key = page.key;
     current.name = page.name;
     current.byLanguage = current.byLanguage || {};
-    current.byLanguage[page.lang] = {
-      path: page.path,
+    const langEntry = asByDeviceLangEntry(current.byLanguage[page.lang]);
+    langEntry.path = page.path;
+    langEntry.byDevice = langEntry.byDevice || {};
+    langEntry.byDevice[page.device] = {
       headings: page.headings,
       faq: page.faq,
       meta: page.meta,
       ...(page.error ? { error: page.error } : {}),
     };
+    current.byLanguage[page.lang] = langEntry;
     payload.pages[page.key] = current;
   });
   fs.writeFileSync(abs, `${JSON.stringify(payload, null, 2)}\n`);
@@ -104,6 +149,7 @@ const writeAreaFile = (dataFile, pages) => {
 const main = async () => {
   const args = parseArgs(process.argv.slice(2));
   const langs = parseLangs(args.lang);
+  const devices = parseDevices(args.device);
   const baseUrl = (process.env.CYPRESS_BASE_URL || 'https://trucks.tractorjunction.com').replace(
     /\/$/,
     ''
@@ -112,12 +158,25 @@ const main = async () => {
     ? uniquePages().filter((page) => page.group === args.group)
     : uniquePages();
 
-  if (!pages.length || !langs.length) {
-    throw new Error(`No pages/languages to scrape (group=${args.group || 'all'} lang=${langs})`);
+  if (!pages.length || !langs.length || !devices.length) {
+    throw new Error(
+      `No pages/languages/devices to scrape (group=${args.group || 'all'} lang=${langs} device=${devices})`
+    );
   }
 
   const browser = await chromium.launch({ channel: 'chrome', headless: true });
-  const page = await browser.newPage({ viewport: { width: 1366, height: 768 } });
+  // One persistent page per device — its viewport + user agent stay fixed
+  // for every navigation on that page, matching how Cypress's own DEVICE=
+  // run pins both together (see constants/constants.js).
+  const devicePages = {};
+  for (const deviceKey of devices) {
+    const deviceCfg = DEVICES[deviceKey];
+    const context = await browser.newContext({
+      viewport: deviceCfg.viewport,
+      ...(deviceCfg.userAgent ? { userAgent: deviceCfg.userAgent } : {}),
+    });
+    devicePages[deviceKey] = await context.newPage();
+  }
   const byFile = new Map();
 
   for (const lang of langs) {
@@ -127,40 +186,45 @@ const main = async () => {
       }
       const localizedPath = pathForLang(entry.path, lang);
       const url = `${baseUrl}${localizedPath === '/' ? '/' : localizedPath}`;
-      process.stdout.write(`scraping [${lang}] ${entry.name} (${url}) ... `);
-      try {
-        await page.goto(url, { waitUntil: 'load', timeout: 60000 });
-        await page.waitForTimeout(2200);
-        // Collector clicks Read More; wait so About headings match Cypress retries.
-        await page.evaluate(collectSeoStructure);
-        await page.waitForTimeout(1000);
-        const structure = await page.evaluate(collectSeoStructure);
-        console.log(
-          `${structure.headings.length} headings, ${structure.faq.questions.length} FAQ`
-        );
-        const list = byFile.get(entry.dataFile) || [];
-        list.push({
-          ...entry,
-          lang,
-          path: localizedPath,
-          headings: structure.headings,
-          faq: structure.faq,
-          meta: structure.meta,
-        });
-        byFile.set(entry.dataFile, list);
-      } catch (error) {
-        console.log(`FAILED: ${error.message}`);
-        const list = byFile.get(entry.dataFile) || [];
-        list.push({
-          ...entry,
-          lang,
-          path: localizedPath,
-          headings: [],
-          faq: { heading: '', questions: [] },
-          meta: { title: '', description: '', keywords: '' },
-          error: error.message,
-        });
-        byFile.set(entry.dataFile, list);
+      for (const deviceKey of devices) {
+        const page = devicePages[deviceKey];
+        process.stdout.write(`scraping [${lang}] [${deviceKey}] ${entry.name} (${url}) ... `);
+        try {
+          await page.goto(url, { waitUntil: 'load', timeout: 60000 });
+          await page.waitForTimeout(2200);
+          // Collector clicks Read More; wait so About headings match Cypress retries.
+          await page.evaluate(collectSeoStructure);
+          await page.waitForTimeout(1000);
+          const structure = await page.evaluate(collectSeoStructure);
+          console.log(
+            `${structure.headings.length} headings, ${structure.faq.questions.length} FAQ`
+          );
+          const list = byFile.get(entry.dataFile) || [];
+          list.push({
+            ...entry,
+            lang,
+            device: deviceKey,
+            path: localizedPath,
+            headings: structure.headings,
+            faq: structure.faq,
+            meta: structure.meta,
+          });
+          byFile.set(entry.dataFile, list);
+        } catch (error) {
+          console.log(`FAILED: ${error.message}`);
+          const list = byFile.get(entry.dataFile) || [];
+          list.push({
+            ...entry,
+            lang,
+            device: deviceKey,
+            path: localizedPath,
+            headings: [],
+            faq: { heading: '', questions: [] },
+            meta: { title: '', description: '', keywords: '' },
+            error: error.message,
+          });
+          byFile.set(entry.dataFile, list);
+        }
       }
     }
   }

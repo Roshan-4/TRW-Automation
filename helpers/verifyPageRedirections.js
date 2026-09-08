@@ -54,7 +54,14 @@ const verifyPageRedirections = (label) => {
       return;
     }
 
-    cy.task('checkLinkStatuses', urls, { timeout: 120000 }).then((results) => {
+    // checkLinkStatuses throttles to ~7 requests/batch with a 1s floor between
+    // batches (cypress.config.js), so a link-heavy page (the sitemap alone has
+    // 800+ links) can take longer to *throttle through* than a fixed 120s cap
+    // allows even when every request is fast. Scale the task timeout with the
+    // link count instead of hard-coding it to today's page sizes.
+    const taskTimeout = Math.max(120000, urls.length * 400);
+
+    cy.task('checkLinkStatuses', urls, { timeout: taskTimeout }).then((results) => {
       const broken = results.filter(
         (result) => !result.ok || !HEALTHY_STATUSES.includes(result.status)
       );

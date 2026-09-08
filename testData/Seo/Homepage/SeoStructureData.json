@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-07",
+  "scrapedAt": "2026-09-08",
   "languages": [
     "en",
     "hi",
@@ -12,92 +12,185 @@
       "byLanguage": {
         "en": {
           "path": "/",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Search The Right Truck"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Search The Right Truck"
+                },
+                {
+                  "tag": "h2",
+                  "text": "The Buzz Board"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Truck Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Electric Commercial Vehicles"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Second Hand Truck"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Models by Category"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Truck Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Find Reliable Used Trucks Near You"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Truck Comparison"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Truck Junction - India’s fastest growing online platform for Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Get the Best Trucks in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Buy and Sell New & Used Trucks in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Find Top Brands of Trucks in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Are You Looking for Commercial Vehicles?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Find Certified Truck Spare Parts Dealers & Service Centres"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Services: Compare Trucks, News, Articles, Loan & Reviews"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Why Choose Truck Junction?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "So, what are you waiting for?"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Trucks Price in India 2026 - New Trucks, Mileage, Reviews - Truck Junction",
+                "description": "Find new truck prices in India for 2026. Compare mileage, payload, GVW, specifications, reviews, images, dealers and offers for trucks, pickups, mini trucks, 3 wheelers and other commercial vehicles.",
+                "keywords": "truck, truck price, new truck, used trucks, buy truck, compare truck"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "The Buzz Board"
-            },
-            {
-              "tag": "h2",
-              "text": "Truck in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Truck Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "Electric Commercial Vehicles"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Second Hand Truck"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Models by Category"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Truck Updates"
-            },
-            {
-              "tag": "h2",
-              "text": "Find Reliable Used Trucks Near You"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Truck Comparison"
-            },
-            {
-              "tag": "h3",
-              "text": "About Truck Junction - India’s fastest growing online platform for Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Get the Best Trucks in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Buy and Sell New & Used Trucks in India"
-            },
-            {
-              "tag": "h2",
-              "text": "Find Top Brands of Trucks in India"
-            },
-            {
-              "tag": "h2",
-              "text": "Are You Looking for Commercial Vehicles?"
-            },
-            {
-              "tag": "h2",
-              "text": "Find Certified Truck Spare Parts Dealers & Service Centres"
-            },
-            {
-              "tag": "h2",
-              "text": "Other Services: Compare Trucks, News, Articles, Loan & Reviews"
-            },
-            {
-              "tag": "h2",
-              "text": "Why Choose Truck Junction?"
-            },
-            {
-              "tag": "h3",
-              "text": "So, what are you waiting for?"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Search The Right Truck"
+                },
+                {
+                  "tag": "h2",
+                  "text": "The Buzz Board"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Truck Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Electric Commercial Vehicles"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Second Hand Truck"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Models by Category"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Truck Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Find Reliable Used Trucks Near You"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Truck Comparison"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Truck Junction - India’s fastest growing online platform for Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Get the Best Trucks in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Buy and Sell New & Used Trucks in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Find Top Brands of Trucks in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Are You Looking for Commercial Vehicles?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Find Certified Truck Spare Parts Dealers & Service Centres"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Services: Compare Trucks, News, Articles, Loan & Reviews"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Why Choose Truck Junction?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "So, what are you waiting for?"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Trucks Price in India 2026 - New Trucks, Mileage, Reviews - Truck Junction",
+                "description": "Find new truck prices in India for 2026. Compare mileage, payload, GVW, specifications, reviews, images, dealers and offers for trucks, pickups, mini trucks, 3 wheelers and other commercial vehicles.",
+                "keywords": "truck, truck price, new truck, used trucks, buy truck, compare truck"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Trucks Price in India 2026 - New Trucks, Mileage, Reviews - Truck Junction",
-            "description": "Find new truck prices in India for 2026. Compare mileage, payload, GVW, specifications, reviews, images, dealers and offers for trucks, pickups, mini trucks, 3 wheelers and other commercial vehicles.",
-            "keywords": "truck, truck price, new truck, used trucks, buy truck, compare truck"
           }
         },
         "hi": {

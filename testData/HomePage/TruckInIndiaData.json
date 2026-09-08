@@ -27,7 +27,7 @@
   "CheckOffersForm": {
     "en": {
       "name": "testqa",
-      "city": "noida",
+      "city": "agra",
       "invalidMobile": "12345",
       "namePlaceholder": "Name",
       "mobilePlaceholder": "Enter your mobile number",
@@ -44,7 +44,7 @@
     },
     "hi": {
       "name": "testqa",
-      "city": "noida",
+      "city": "agra",
       "invalidMobile": "12345",
       "namePlaceholder": "नाम",
       "mobilePlaceholder": "अपना मोबाइल नंबर दर्ज करें",
@@ -55,7 +55,7 @@
     },
     "ta": {
       "name": "testqa",
-      "city": "noida",
+      "city": "agra",
       "invalidMobile": "12345",
       "namePlaceholder": "பெயர்",
       "mobilePlaceholder": "உங்கள் மொபைல் எண்ணை உள்ளிடவும்",

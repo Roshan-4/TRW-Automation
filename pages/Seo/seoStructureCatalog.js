@@ -340,16 +340,31 @@ const pathForLang = (enPath, lang) => {
   return `/${lang}${enPath.slice(3)}`;
 };
 
-const resolveSnapshot = (raw, lang) => {
+/**
+ * @param {string} [device='desktop'] Which device's scrape to compare
+ *   against — this site renders a different DOM per device (server-side),
+ *   so a mobile Cypress run must not be checked against the desktop
+ *   snapshot. Falls back to `desktop`, then to the un-split shape, for
+ *   snapshots written before per-device scraping existed.
+ */
+const resolveSnapshot = (raw, lang, device = 'desktop') => {
   if (!raw) {
     return null;
   }
   if (raw.byLanguage && raw.byLanguage[lang]) {
+    const langEntry = raw.byLanguage[lang];
+    const deviceEntry =
+      (langEntry.byDevice && (langEntry.byDevice[device] || langEntry.byDevice.desktop)) ||
+      langEntry;
     return {
       key: raw.key,
       name: raw.name,
       lang,
-      ...raw.byLanguage[lang],
+      path: langEntry.path,
+      headings: deviceEntry.headings,
+      faq: deviceEntry.faq,
+      meta: deviceEntry.meta,
+      ...(deviceEntry.error ? { error: deviceEntry.error } : {}),
     };
   }
   if (lang === 'en' && raw.path) {

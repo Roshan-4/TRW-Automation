@@ -4,6 +4,7 @@ const { TEST_TAGS } = require('../../constants/constants');
 const { documentTestCase, allureStep } = require('../../helpers/documentTestCase');
 const { registerRedirectionCheck } = require('../../helpers/verifyPageRedirections');
 const { deviceTag } = require('../../helpers/deviceTags');
+const { currentDevice } = require('../../helpers/deviceLayout');
 
 const loadSnapshots = (dataFile) => {
   const files = {
@@ -77,7 +78,7 @@ function runSeoStructureSuite(groupId) {
     }
 
     languagesForPage(meta, group).forEach((lang) => {
-      const stored = resolveSnapshot(raw, lang);
+      const stored = resolveSnapshot(raw, lang, currentDevice());
       if (!stored) {
         if (raw.byLanguage) {
           throw new Error(
