@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-08",
+  "scrapedAt": "2026-09-10",
   "languages": [
     "en",
     "hi",
@@ -12,248 +12,515 @@
       "byLanguage": {
         "en": {
           "path": "/en/trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Trucks"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top 10 Truck Price in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Wheeler Wise Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Commercial Vehicles By GVW"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Second Hand Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Body Types"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular EV Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Trucks Latest Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Trucks",
+                "questions": [
+                  "What is the starting truck price in India in 2026?",
+                  "Which is the cheapest truck in India right now?",
+                  "Which is the most expensive truck in India?",
+                  "What is the average mileage of trucks in India?",
+                  "Which truck brand is best in India?",
+                  "Which truck has the highest payload capacity in India?",
+                  "Which is the best mileage truck in India?",
+                  "What are the types of trucks available in India?",
+                  "What is GVW in trucks?",
+                  "How many tyres does a truck have in India?",
+                  "Which truck is best for small business in India?",
+                  "What fuel options are available in trucks in India?",
+                  "What are the new features in trucks in 2026?",
+                  "Which truck is best for long-distance transport in India?",
+                  "Where can I check the latest truck price in India?"
+                ]
+              },
+              "meta": {
+                "title": "Truck Price in India 2026 - Truck Mileage, Specs & Reviews",
+                "description": "Truck price in India starts at ₹5.62 lakh. Explore Best Truck mileage, specs, payload capacity, images, reviews and on road price at Truck Junction.",
+                "keywords": "truck, truck price, truck price in india, lorry price, lorry price in india, truck mileage, lorry mileage, new truck price, truck on road price"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Top 10 Truck Price in India"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Wheeler Wise Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Commercial Vehicles By GVW"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Trucks Comparison"
-            },
-            {
-              "tag": "h2",
-              "text": "About Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Second Hand Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Other Body Types"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular EV Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Trucks Latest Updates"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Trucks"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top 10 Truck Price in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Wheeler Wise Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Commercial Vehicles By GVW"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Second Hand Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Body Types"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular EV Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Trucks Latest Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Trucks",
+                "questions": [
+                  "What is the starting truck price in India in 2026?",
+                  "Which is the cheapest truck in India right now?",
+                  "Which is the most expensive truck in India?",
+                  "What is the average mileage of trucks in India?",
+                  "Which truck brand is best in India?",
+                  "Which truck has the highest payload capacity in India?",
+                  "Which is the best mileage truck in India?",
+                  "What are the types of trucks available in India?",
+                  "What is GVW in trucks?",
+                  "How many tyres does a truck have in India?",
+                  "Which truck is best for small business in India?",
+                  "What fuel options are available in trucks in India?",
+                  "What are the new features in trucks in 2026?",
+                  "Which truck is best for long-distance transport in India?",
+                  "Where can I check the latest truck price in India?"
+                ]
+              },
+              "meta": {
+                "title": "Truck Price in India 2026 - Truck Mileage, Specs & Reviews",
+                "description": "Truck price in India starts at ₹5.62 lakh. Explore Best Truck mileage, specs, payload capacity, images, reviews and on road price at Truck Junction.",
+                "keywords": "truck, truck price, truck price in india, lorry price, lorry price in india, truck mileage, lorry mileage, new truck price, truck on road price"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Trucks",
-            "questions": [
-              "What is the starting truck price in India in 2026?",
-              "Which is the cheapest truck in India right now?",
-              "Which is the most expensive truck in India?",
-              "What is the average mileage of trucks in India?",
-              "Which truck brand is best in India?",
-              "Which truck has the highest payload capacity in India?",
-              "Which is the best mileage truck in India?",
-              "What are the types of trucks available in India?",
-              "What is GVW in trucks?",
-              "How many tyres does a truck have in India?",
-              "Which truck is best for small business in India?",
-              "What fuel options are available in trucks in India?",
-              "What are the new features in trucks in 2026?",
-              "Which truck is best for long-distance transport in India?",
-              "Where can I check the latest truck price in India?"
-            ]
-          },
-          "meta": {
-            "title": "Truck Price in India 2026 - Truck Mileage, Specs & Reviews",
-            "description": "Truck price in India starts at ₹5.62 lakh. Explore Best Truck mileage, specs, payload capacity, images, reviews and on road price at Truck Junction.",
-            "keywords": "truck, truck price, truck price in india, lorry price, lorry price in india, truck mileage, lorry mileage, new truck price, truck on road price"
           }
         },
         "hi": {
           "path": "/hi/trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "ट्रक"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में ट्रक की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "व्हीलर के अनुसार ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "वजन के अनुसार कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय पुराने ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अन्य बॉडी टाइप"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय इलेक्ट्रिक ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक नवीनतम अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "में भारत में ट्रक की शुरुआती कीमत कितनी है?",
+                  "इस समय भारत का सबसे सस्ता ट्रक कौनसा है?",
+                  "भारत का सबसे महंगा ट्रक कौनसा है?",
+                  "भारत के ट्रक का औसत माइलेज कितना है?",
+                  "भारत में कौनसा ट्रक ब्रांड सबसे अच्छा है?",
+                  "भारत में किस ट्रक की पेलोड क्षमता सबसे ज्यादा है?",
+                  "भारत में सबसे अच्छा माइलेज देने वाला ट्रक कौन सा है?",
+                  "भारत में किस प्रकार के ट्रक उपलब्ध हैं?",
+                  "ट्रक में GVW क्या हाेता है?",
+                  "भारत में एक ट्रक में कितने टायर होते हैं?",
+                  "भारत में छोटे बिजनेस के लिए कौन सा ट्रक सबसे अच्छा है?",
+                  "भारत के ट्रकों में कौन से फ्यूल ऑप्शन उपलब्ध हैं?",
+                  "में ट्रकों में कौन से नए फीचर्स है?",
+                  "भारत में लंबी दूरी के ट्रांसपोर्ट के लिए कौन सा ट्रक सबसे अच्छा है?",
+                  "मैं भारत में ट्रक की लेटेस्ट कीमत कहां देख सकता हूं?"
+                ]
+              },
+              "meta": {
+                "title": "ट्रक प्राइस इन इंडिया 2026 – ट्रक इमेज, मॉडल्स और ऑन-रोड कीमत",
+                "description": "भारत में ट्रक की कीमत ₹5.62 लाख से शुरू होती है। देखें ट्रक इमेज, मॉडल्स, स्पेसिफिकेशन, फीचर्स, माइलेज और 2026 में ट्रक प्राइस इन इंडिया की पूरी जानकारी।",
+                "keywords": "ट्रक, ट्रक price, ट्रक इमेज, ट्रक फोटो, ट्रक की कीमत, ट्रक price in india, ट्रक प्राइस, इंडियन ट्रक, ट्रक का प्राइस, ट्रक की प्राइस, ट्रक प्राइस इन इंडिया"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "भारत में ट्रक की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "व्हीलर के अनुसार ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "वजन के अनुसार कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ब्रांड"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ट्रक तुलना"
-            },
-            {
-              "tag": "h2",
-              "text": "ट्रक के बारे में"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय पुराने ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "अन्य बॉडी टाइप"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय इलेक्ट्रिक ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "ट्रक नवीनतम अपडेट"
-            },
-            {
-              "tag": "h2",
-              "text": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में ट्रक की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "व्हीलर के अनुसार ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "वजन के अनुसार कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय पुराने ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अन्य बॉडी टाइप"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय इलेक्ट्रिक ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक नवीनतम अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "में भारत में ट्रक की शुरुआती कीमत कितनी है?",
+                  "इस समय भारत का सबसे सस्ता ट्रक कौनसा है?",
+                  "भारत का सबसे महंगा ट्रक कौनसा है?",
+                  "भारत के ट्रक का औसत माइलेज कितना है?",
+                  "भारत में कौनसा ट्रक ब्रांड सबसे अच्छा है?",
+                  "भारत में किस ट्रक की पेलोड क्षमता सबसे ज्यादा है?",
+                  "भारत में सबसे अच्छा माइलेज देने वाला ट्रक कौन सा है?",
+                  "भारत में किस प्रकार के ट्रक उपलब्ध हैं?",
+                  "ट्रक में GVW क्या हाेता है?",
+                  "भारत में एक ट्रक में कितने टायर होते हैं?",
+                  "भारत में छोटे बिजनेस के लिए कौन सा ट्रक सबसे अच्छा है?",
+                  "भारत के ट्रकों में कौन से फ्यूल ऑप्शन उपलब्ध हैं?",
+                  "में ट्रकों में कौन से नए फीचर्स है?",
+                  "भारत में लंबी दूरी के ट्रांसपोर्ट के लिए कौन सा ट्रक सबसे अच्छा है?",
+                  "मैं भारत में ट्रक की लेटेस्ट कीमत कहां देख सकता हूं?"
+                ]
+              },
+              "meta": {
+                "title": "ट्रक प्राइस इन इंडिया 2026 – ट्रक इमेज, मॉडल्स और ऑन-रोड कीमत",
+                "description": "भारत में ट्रक की कीमत ₹5.62 लाख से शुरू होती है। देखें ट्रक इमेज, मॉडल्स, स्पेसिफिकेशन, फीचर्स, माइलेज और 2026 में ट्रक प्राइस इन इंडिया की पूरी जानकारी।",
+                "keywords": "ट्रक, ट्रक price, ट्रक इमेज, ट्रक फोटो, ट्रक की कीमत, ट्रक price in india, ट्रक प्राइस, इंडियन ट्रक, ट्रक का प्राइस, ट्रक की प्राइस, ट्रक प्राइस इन इंडिया"
+              }
             }
-          ],
-          "faq": {
-            "heading": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "में भारत में ट्रक की शुरुआती कीमत कितनी है?",
-              "इस समय भारत का सबसे सस्ता ट्रक कौनसा है?",
-              "भारत का सबसे महंगा ट्रक कौनसा है?",
-              "भारत के ट्रक का औसत माइलेज कितना है?",
-              "भारत में कौनसा ट्रक ब्रांड सबसे अच्छा है?",
-              "भारत में किस ट्रक की पेलोड क्षमता सबसे ज्यादा है?",
-              "भारत में सबसे अच्छा माइलेज देने वाला ट्रक कौन सा है?",
-              "भारत में किस प्रकार के ट्रक उपलब्ध हैं?",
-              "ट्रक में GVW क्या हाेता है?",
-              "भारत में एक ट्रक में कितने टायर होते हैं?",
-              "भारत में छोटे बिजनेस के लिए कौन सा ट्रक सबसे अच्छा है?",
-              "भारत के ट्रकों में कौन से फ्यूल ऑप्शन उपलब्ध हैं?",
-              "में ट्रकों में कौन से नए फीचर्स है?",
-              "भारत में लंबी दूरी के ट्रांसपोर्ट के लिए कौन सा ट्रक सबसे अच्छा है?",
-              "मैं भारत में ट्रक की लेटेस्ट कीमत कहां देख सकता हूं?"
-            ]
-          },
-          "meta": {
-            "title": "ट्रक प्राइस इन इंडिया 2026 – ट्रक इमेज, मॉडल्स और ऑन-रोड कीमत",
-            "description": "भारत में ट्रक की कीमत ₹5.62 लाख से शुरू होती है। देखें ट्रक इमेज, मॉडल्स, स्पेसिफिकेशन, फीचर्स, माइलेज और 2026 में ट्रक प्राइस इन इंडिया की पूरी जानकारी।",
-            "keywords": "ट्रक, ट्रक price, ट्रक इमेज, ट्रक फोटो, ट्रक की कीमत, ट्रक price in india, ट्रक प्राइस, इंडियन ट्रक, ट्रक का प्राइस, ट्रक की प्राइस, ट्रक प्राइस इन इंडिया"
           }
         },
         "ta": {
           "path": "/ta/trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "டிரக்குகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் டிரக்குகள் விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வீலர் அடிப்படையில் டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "GVW அடிப்படையில் வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான பிராண்டுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான பயன்படுத்தப்பட்ட டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிற உடல் வகைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான மின்சார டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக்குகள் சமீபத்திய புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "ஆம் ஆண்டில் இந்தியாவில் டிரக்களின் ஆரம்ப விலை என்ன?",
+                  "இந்தியாவில் தற்போது மிகவும் மலிவான டிரக் எது?",
+                  "இந்தியாவில் மிகவும் விலையுயர்ந்த டிரக் எது?",
+                  "இந்தியாவில் டிரக்களின் சராசரி மைலேஜ் என்ன?",
+                  "இந்தியாவில் எந்த டிரக் பிராண்ட் சிறந்தது?",
+                  "இந்தியாவில் எந்த டிரக் அதிக சுமை சுமக்கும் திறன் கொண்டது?",
+                  "இந்தியாவில் சிறந்த மைலேஜ் தரும் டிரக் எது?",
+                  "இந்தியாவில் என்ன வகையான டிரக்குகள் கிடைக்கின்றன?",
+                  "டிரக்களில் GVW என்றால் என்ன?",
+                  "இந்தியாவில் ஒரு டிரக்கில் எத்தனை டயர்கள் உள்ளன?",
+                  "இந்தியாவில் சிறு வணிகத்திற்கு எந்த டிரக் சிறந்தது?",
+                  "இந்தியாவில் டிரக்களில் என்ன எரிபொருள் விருப்பங்கள் கிடைக்கின்றன?",
+                  "ஆம் ஆண்டில் டிரக்களில் புதிய அம்சங்கள் என்ன?",
+                  "இந்தியாவில் நீண்ட தூர போக்குவரத்திற்கு எந்த டிரக் சிறந்தது?",
+                  "இந்தியாவில் சமீபத்திய டிரக் விலையை நான் எங்கே பார்க்கலாம்?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் டிரக் விலை 2026 - புதிய டிரக்களின் விலைகள் & சிறந்த டிரக் மைலேஜ்",
+                "description": "இந்தியாவில் சமீபத்திய டிரக் விலைகள் ₹5.62 லட்சம் முதல் ₹75.62 லட்சம் வரை இருக்கும். புதிய டிரக் மாடல்கள், சிறந்த டிரக் மைலேஜ், டிரக்யின் ஆன் ரோடு விலை, சுமை திறன் மற்றும் சலுகைகளைக் கண்டறியவும்.",
+                "keywords": "டிரக், டிரக் விலை, இந்தியாவில் டிரக் விலை, இந்திய டிரக், இந்தியாவில் டிரக் விலை, டிரக் மைலேஜ், டிரக் மைலேஜ், புதியடிரக் விலை, டிரக்யின் ஆன் ரோடு விலை, டிரக்யின் சராசரி மைலேஜ், இந்தியாவில் சிறந்த டிரக், டிரக் மாடல்கள் இந்தியா, டிரக் சுமை திறன், மலிவு டிரக் விலை, வணிக டிரக் விலை மூடு"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் டிரக்குகள் விலைப்பட்டியல் 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான டிரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "வீலர் அடிப்படையில் டிரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "GVW அடிப்படையில் வணிக வாகனங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான பிராண்டுகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான டிரக்குகள் ஒப்பீடு"
-            },
-            {
-              "tag": "h2",
-              "text": "டிரக்குகள் பற்றி"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான பயன்படுத்தப்பட்ட டிரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிற உடல் வகைகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான மின்சார டிரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "டிரக்குகள் சமீபத்திய புதுப்பிப்புகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் டிரக்குகள் விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வீலர் அடிப்படையில் டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "GVW அடிப்படையில் வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான பிராண்டுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான பயன்படுத்தப்பட்ட டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிற உடல் வகைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான மின்சார டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக்குகள் சமீபத்திய புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "ஆம் ஆண்டில் இந்தியாவில் டிரக்களின் ஆரம்ப விலை என்ன?",
+                  "இந்தியாவில் தற்போது மிகவும் மலிவான டிரக் எது?",
+                  "இந்தியாவில் மிகவும் விலையுயர்ந்த டிரக் எது?",
+                  "இந்தியாவில் டிரக்களின் சராசரி மைலேஜ் என்ன?",
+                  "இந்தியாவில் எந்த டிரக் பிராண்ட் சிறந்தது?",
+                  "இந்தியாவில் எந்த டிரக் அதிக சுமை சுமக்கும் திறன் கொண்டது?",
+                  "இந்தியாவில் சிறந்த மைலேஜ் தரும் டிரக் எது?",
+                  "இந்தியாவில் என்ன வகையான டிரக்குகள் கிடைக்கின்றன?",
+                  "டிரக்களில் GVW என்றால் என்ன?",
+                  "இந்தியாவில் ஒரு டிரக்கில் எத்தனை டயர்கள் உள்ளன?",
+                  "இந்தியாவில் சிறு வணிகத்திற்கு எந்த டிரக் சிறந்தது?",
+                  "இந்தியாவில் டிரக்களில் என்ன எரிபொருள் விருப்பங்கள் கிடைக்கின்றன?",
+                  "ஆம் ஆண்டில் டிரக்களில் புதிய அம்சங்கள் என்ன?",
+                  "இந்தியாவில் நீண்ட தூர போக்குவரத்திற்கு எந்த டிரக் சிறந்தது?",
+                  "இந்தியாவில் சமீபத்திய டிரக் விலையை நான் எங்கே பார்க்கலாம்?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் டிரக் விலை 2026 - புதிய டிரக்களின் விலைகள் & சிறந்த டிரக் மைலேஜ்",
+                "description": "இந்தியாவில் சமீபத்திய டிரக் விலைகள் ₹5.62 லட்சம் முதல் ₹75.62 லட்சம் வரை இருக்கும். புதிய டிரக் மாடல்கள், சிறந்த டிரக் மைலேஜ், டிரக்யின் ஆன் ரோடு விலை, சுமை திறன் மற்றும் சலுகைகளைக் கண்டறியவும்.",
+                "keywords": "டிரக், டிரக் விலை, இந்தியாவில் டிரக் விலை, இந்திய டிரக், இந்தியாவில் டிரக் விலை, டிரக் மைலேஜ், டிரக் மைலேஜ், புதியடிரக் விலை, டிரக்யின் ஆன் ரோடு விலை, டிரக்யின் சராசரி மைலேஜ், இந்தியாவில் சிறந்த டிரக், டிரக் மாடல்கள் இந்தியா, டிரக் சுமை திறன், மலிவு டிரக் விலை, வணிக டிரக் விலை மூடு"
+              }
             }
-          ],
-          "faq": {
-            "heading": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "ஆம் ஆண்டில் இந்தியாவில் டிரக்களின் ஆரம்ப விலை என்ன?",
-              "இந்தியாவில் தற்போது மிகவும் மலிவான டிரக் எது?",
-              "இந்தியாவில் மிகவும் விலையுயர்ந்த டிரக் எது?",
-              "இந்தியாவில் டிரக்களின் சராசரி மைலேஜ் என்ன?",
-              "இந்தியாவில் எந்த டிரக் பிராண்ட் சிறந்தது?",
-              "இந்தியாவில் எந்த டிரக் அதிக சுமை சுமக்கும் திறன் கொண்டது?",
-              "இந்தியாவில் சிறந்த மைலேஜ் தரும் டிரக் எது?",
-              "இந்தியாவில் என்ன வகையான டிரக்குகள் கிடைக்கின்றன?",
-              "டிரக்களில் GVW என்றால் என்ன?",
-              "இந்தியாவில் ஒரு டிரக்கில் எத்தனை டயர்கள் உள்ளன?",
-              "இந்தியாவில் சிறு வணிகத்திற்கு எந்த டிரக் சிறந்தது?",
-              "இந்தியாவில் டிரக்களில் என்ன எரிபொருள் விருப்பங்கள் கிடைக்கின்றன?",
-              "ஆம் ஆண்டில் டிரக்களில் புதிய அம்சங்கள் என்ன?",
-              "இந்தியாவில் நீண்ட தூர போக்குவரத்திற்கு எந்த டிரக் சிறந்தது?",
-              "இந்தியாவில் சமீபத்திய டிரக் விலையை நான் எங்கே பார்க்கலாம்?"
-            ]
-          },
-          "meta": {
-            "title": "இந்தியாவில் டிரக் விலை 2026 - புதிய டிரக்களின் விலைகள் & சிறந்த டிரக் மைலேஜ்",
-            "description": "இந்தியாவில் சமீபத்திய டிரக் விலைகள் ₹5.62 லட்சம் முதல் ₹75.62 லட்சம் வரை இருக்கும். புதிய டிரக் மாடல்கள், சிறந்த டிரக் மைலேஜ், டிரக்யின் ஆன் ரோடு விலை, சுமை திறன் மற்றும் சலுகைகளைக் கண்டறியவும்.",
-            "keywords": "டிரக், டிரக் விலை, இந்தியாவில் டிரக் விலை, இந்திய டிரக், இந்தியாவில் டிரக் விலை, டிரக் மைலேஜ், டிரக் மைலேஜ், புதியடிரக் விலை, டிரக்யின் ஆன் ரோடு விலை, டிரக்யின் சராசரி மைலேஜ், இந்தியாவில் சிறந்த டிரக், டிரக் மாடல்கள் இந்தியா, டிரக் சுமை திறன், மலிவு டிரக் விலை, வணிக டிரக் விலை மூடு"
           }
         }
       }
@@ -264,186 +531,379 @@
       "byLanguage": {
         "en": {
           "path": "/en/popular-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Popular Trucks In India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Popular Trucks In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks Price List in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Truck Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Popular Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Want To Add A Popular Truck to Your Fleet?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks Price in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Truck Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Second Hand Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Popular Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Popular Trucks",
+                "questions": [
+                  "Which Is The Popular Truck Brand In India?",
+                  "What Is The Popular Truck Price Range In India?",
+                  "Which Is The Most Popular Truck Model In India?",
+                  "Which Fuel Types Are Available In Popular Trucks In India?",
+                  "What Is The GVW Range Of Popular Trucks?",
+                  "Which Body Types Are Offered In Popular Trucks?"
+                ]
+              },
+              "meta": {
+                "title": "Popular Trucks Price List in India 2026 – Best Trucks by Features, Specs, & Reviews",
+                "description": "Discover the most popular truck models in India 2026 with prices, mileage, load capacity & user reviews. Compare top popular trucks, tippers & pickups only at Truck Junction.",
+                "keywords": "popular truck, popular truck in India, best trucks 2026, top trucks price, truck comparison"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Popular Trucks Price List in India"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Truck Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "About Popular Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Want To Add A Popular Truck to Your Fleet?"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Trucks Price in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Truck Comparison"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Second Hand Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Trucks Updates"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Popular Trucks"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Popular Trucks In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks Price List in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Popular Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Want To Add A Popular Truck to Your Fleet?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks Price in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Truck Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Second Hand Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Trucks Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Popular Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Popular Trucks",
+                "questions": [
+                  "Which Is The Popular Truck Brand In India?",
+                  "What Is The Popular Truck Price Range In India?",
+                  "Which Is The Most Popular Truck Model In India?",
+                  "Which Fuel Types Are Available In Popular Trucks In India?",
+                  "What Is The GVW Range Of Popular Trucks?",
+                  "Which Body Types Are Offered In Popular Trucks?"
+                ]
+              },
+              "meta": {
+                "title": "Popular Trucks Price List in India 2026 – Best Trucks by Features, Specs, & Reviews",
+                "description": "Discover the most popular truck models in India 2026 with prices, mileage, load capacity & user reviews. Compare top popular trucks, tippers & pickups only at Truck Junction.",
+                "keywords": "popular truck, popular truck in India, best trucks 2026, top trucks price, truck comparison"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Popular Trucks",
-            "questions": [
-              "Which Is The Popular Truck Brand In India?",
-              "What Is The Popular Truck Price Range In India?",
-              "Which Is The Most Popular Truck Model In India?",
-              "Which Fuel Types Are Available In Popular Trucks In India?",
-              "What Is The GVW Range Of Popular Trucks?",
-              "Which Body Types Are Offered In Popular Trucks?"
-            ]
-          },
-          "meta": {
-            "title": "Popular Trucks Price List in India 2026 – Best Trucks by Features, Specs, & Reviews",
-            "description": "Discover the most popular truck models in India 2026 with prices, mileage, load capacity & user reviews. Compare top popular trucks, tippers & pickups only at Truck Junction.",
-            "keywords": "popular truck, popular truck in India, best trucks 2026, top trucks price, truck comparison"
           }
         },
         "hi": {
           "path": "/hi/popular-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में लोकप्रिय ट्रक"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में लोकप्रिय ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लोकप्रिय ट्रकों की मूल्य सूची"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रकों के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अपने बेड़े में एक लोकप्रिय ट्रक जोड़ना चाहते हैं?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लोकप्रिय ट्रक की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "पॉपुलर सेकंड हैंड ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "लोकप्रिय ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में लोकप्रिय ट्रक ब्रांड कौनसा है?",
+                  "सबसे ज़्यादा बिकने वाला ट्रक कौनसा है?",
+                  "भारत में सबसे अच्छा मिनी ट्रक कौन सा है?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में लो​कप्रिय ट्रक 2026 - लो​कप्रिय ट्रक, टिपर की कीमत, माइलेज और स्पेसिफिकेशन",
+                "description": "2026 में लो​कप्रिय ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर लो​कप्रिय टिपर, लो​कप्रिय पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
+                "keywords": "भारत में लो​कप्रिय ट्रक, लो​कप्रिय टिपर, लो​कप्रिय पिकअप"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "भारत में लोकप्रिय ट्रकों की मूल्य सूची"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ट्रक ब्रांड"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ट्रकों के बारे में"
-            },
-            {
-              "tag": "h2",
-              "text": "अपने बेड़े में एक लोकप्रिय ट्रक जोड़ना चाहते हैं?"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में लोकप्रिय ट्रक की कीमत"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ट्रक तुलना"
-            },
-            {
-              "tag": "h2",
-              "text": "पॉपुलर सेकंड हैंड ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ट्रक अपडेट"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में लोकप्रिय ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लोकप्रिय ट्रकों की मूल्य सूची"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रकों के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अपने बेड़े में एक लोकप्रिय ट्रक जोड़ना चाहते हैं?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लोकप्रिय ट्रक की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "पॉपुलर सेकंड हैंड ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "लोकप्रिय ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में लोकप्रिय ट्रक ब्रांड कौनसा है?",
+                  "सबसे ज़्यादा बिकने वाला ट्रक कौनसा है?",
+                  "भारत में सबसे अच्छा मिनी ट्रक कौन सा है?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में लो​कप्रिय ट्रक 2026 - लो​कप्रिय ट्रक, टिपर की कीमत, माइलेज और स्पेसिफिकेशन",
+                "description": "2026 में लो​कप्रिय ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर लो​कप्रिय टिपर, लो​कप्रिय पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
+                "keywords": "भारत में लो​कप्रिय ट्रक, लो​कप्रिय टिपर, लो​कप्रिय पिकअप"
+              }
             }
-          ],
-          "faq": {
-            "heading": "लोकप्रिय ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "भारत में लोकप्रिय ट्रक ब्रांड कौनसा है?",
-              "सबसे ज़्यादा बिकने वाला ट्रक कौनसा है?",
-              "भारत में सबसे अच्छा मिनी ट्रक कौन सा है?"
-            ]
-          },
-          "meta": {
-            "title": "भारत में लो​कप्रिय ट्रक 2026 - लो​कप्रिय ट्रक, टिपर की कीमत, माइलेज और स्पेसिफिकेशन",
-            "description": "2026 में लो​कप्रिय ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर लो​कप्रिय टिपर, लो​कप्रिय पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
-            "keywords": "भारत में लो​कप्रिय ट्रक, लो​कप्रिय टिपर, लो​कप्रिय पिकअप"
           }
         },
         "ta": {
           "path": "/ta/popular-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் பிரபலமான டிரக்குகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் பிரபலமான டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் பிரபலமான டிரக்குகள் விலை பட்டியல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக் பிராண்டுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான இரண்டாவது கை ட்ரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள் புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "பிரபலமான டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "இந்தியாவில் பிரபலமான டிரக் பிராண்ட் எது?",
+                  "இந்தியாவில் பிரபலமான டிரக்களின் விலை வரம்பு என்ன?",
+                  "இந்தியாவில் மிகவும் பிரபலமான டிரக்மாடல் எது?",
+                  "இந்தியாவில் பிரபலமான டிரக்களில் எந்த வகையான எரிபொருள் கிடைக்கிறது?",
+                  "பிரபலமான டிரக்களின் GVW வரம்பு என்ன?",
+                  "பிரபலமான டிரக்களில் எந்த வகையான உடல் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் பிரபலமான டிரக்களின் விலைப் பட்டியல் 2026 - அம்சங்கள், விவரக்குறிப்புகள் மற்றும் மதிப்புரைகள் மூலம் சிறந்த டிரக்கள்",
+                "description": "விலை, மைலேஜ், சுமை திறன் மற்றும் பயனர் மதிப்புரைகளுடன் இந்தியாவில் 2026 இல் மிகவும் பிரபலமான டிரக்மாடல்களைக் கண்டறியவும். டிரக் சந்திப்பில் மட்டுமே பிரபலமான டிரக்கள், டிப்பர்கள் மற்றும் பிக்அப்களை ஒப்பிடுக.",
+                "keywords": "பிரபலமான டிரக், இந்தியாவில் பிரபலமான டிரக், 2026 இல் சிறந்த டிரக்கள், சிறந்த டிரக்கள் விலை, டிரக் ஒப்பீடு"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் பிரபலமான டிரக்குகள் விலை பட்டியல்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான டிரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான டிரக் பிராண்டுகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான டிரக்குகள் பற்றி"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான டிரக் ஒப்பீடு"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான இரண்டாவது கை ட்ரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான டிரக்குகள் புதுப்பிப்புகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் பிரபலமான டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் பிரபலமான டிரக்குகள் விலை பட்டியல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான பிராண்டுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான இரண்டாவது கை ட்ரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள் புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "பிரபலமான டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "இந்தியாவில் பிரபலமான டிரக் பிராண்ட் எது?",
+                  "இந்தியாவில் பிரபலமான டிரக்களின் விலை வரம்பு என்ன?",
+                  "இந்தியாவில் மிகவும் பிரபலமான டிரக்மாடல் எது?",
+                  "இந்தியாவில் பிரபலமான டிரக்களில் எந்த வகையான எரிபொருள் கிடைக்கிறது?",
+                  "பிரபலமான டிரக்களின் GVW வரம்பு என்ன?",
+                  "பிரபலமான டிரக்களில் எந்த வகையான உடல் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் பிரபலமான டிரக்களின் விலைப் பட்டியல் 2026 - அம்சங்கள், விவரக்குறிப்புகள் மற்றும் மதிப்புரைகள் மூலம் சிறந்த டிரக்கள்",
+                "description": "விலை, மைலேஜ், சுமை திறன் மற்றும் பயனர் மதிப்புரைகளுடன் இந்தியாவில் 2026 இல் மிகவும் பிரபலமான டிரக்மாடல்களைக் கண்டறியவும். டிரக் சந்திப்பில் மட்டுமே பிரபலமான டிரக்கள், டிப்பர்கள் மற்றும் பிக்அப்களை ஒப்பிடுக.",
+                "keywords": "பிரபலமான டிரக், இந்தியாவில் பிரபலமான டிரக், 2026 இல் சிறந்த டிரக்கள், சிறந்த டிரக்கள் விலை, டிரக் ஒப்பீடு"
+              }
             }
-          ],
-          "faq": {
-            "heading": "பிரபலமான டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "இந்தியாவில் பிரபலமான டிரக் பிராண்ட் எது?",
-              "இந்தியாவில் பிரபலமான டிரக்களின் விலை வரம்பு என்ன?",
-              "இந்தியாவில் மிகவும் பிரபலமான டிரக்மாடல் எது?",
-              "இந்தியாவில் பிரபலமான டிரக்களில் எந்த வகையான எரிபொருள் கிடைக்கிறது?",
-              "பிரபலமான டிரக்களின் GVW வரம்பு என்ன?",
-              "பிரபலமான டிரக்களில் எந்த வகையான உடல் வகைகள் வழங்கப்படுகின்றன?"
-            ]
-          },
-          "meta": {
-            "title": "இந்தியாவில் பிரபலமான டிரக்களின் விலைப் பட்டியல் 2026 - அம்சங்கள், விவரக்குறிப்புகள் மற்றும் மதிப்புரைகள் மூலம் சிறந்த டிரக்கள்",
-            "description": "விலை, மைலேஜ், சுமை திறன் மற்றும் பயனர் மதிப்புரைகளுடன் இந்தியாவில் 2026 இல் மிகவும் பிரபலமான டிரக்மாடல்களைக் கண்டறியவும். டிரக் சந்திப்பில் மட்டுமே பிரபலமான டிரக்கள், டிப்பர்கள் மற்றும் பிக்அப்களை ஒப்பிடுக.",
-            "keywords": "பிரபலமான டிரக், இந்தியாவில் பிரபலமான டிரக், 2026 இல் சிறந்த டிரக்கள், சிறந்த டிரக்கள் விலை, டிரக் ஒப்பீடு"
           }
         }
       }
@@ -454,144 +914,295 @@
       "byLanguage": {
         "en": {
           "path": "/en/new-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "New Trucks In India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "New Trucks In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "NEW TRUCKS PRICE LIST IN INDIA"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About New Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Trucks Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Electric Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on New Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on New Trucks",
+                "questions": [
+                  "Which are the New truck brands in India?",
+                  "What is the New Trucks price range?",
+                  "Currently, Which fuel type New Trucks are coming to market?",
+                  "In what range the New truck’s GVW lies?",
+                  "Which body types are offered in New Trucks?"
+                ]
+              },
+              "meta": {
+                "title": "New Truck Price in India 2026 - Latest Truck Models & Review",
+                "description": "New truck price in India range between ₹0.58 Lakh to ₹82.03 Lakh. Check latest truck models, mileage, specifications, reviews, and new lorry price in India.",
+                "keywords": "new truck price, new truck, truck new, new trucks, new model truck, new truck price in india, truck new model, latest truck, truck new price, new tata truck price, new truck in india, new lorry price, new lorry price in india, latest trucks"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "NEW TRUCKS PRICE LIST IN INDIA"
-            },
-            {
-              "tag": "h2",
-              "text": "New Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "About New Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "New Trucks Comparison"
-            },
-            {
-              "tag": "h2",
-              "text": "New Electric Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on New Trucks"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "New Trucks In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "NEW TRUCKS PRICE LIST IN INDIA"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About New Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Trucks Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Electric Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on New Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on New Trucks",
+                "questions": [
+                  "Which are the New truck brands in India?",
+                  "What is the New Trucks price range?",
+                  "Currently, Which fuel type New Trucks are coming to market?",
+                  "In what range the New truck’s GVW lies?",
+                  "Which body types are offered in New Trucks?"
+                ]
+              },
+              "meta": {
+                "title": "New Truck Price in India 2026 - Latest Truck Models & Review",
+                "description": "New truck price in India range between ₹0.58 Lakh to ₹82.03 Lakh. Check latest truck models, mileage, specifications, reviews, and new lorry price in India.",
+                "keywords": "new truck price, new truck, truck new, new trucks, new model truck, new truck price in india, truck new model, latest truck, truck new price, new tata truck price, new truck in india, new lorry price, new lorry price in india, latest trucks"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on New Trucks",
-            "questions": [
-              "Which are the New truck brands in India?",
-              "What is the New Trucks price range?",
-              "Currently, Which fuel type New Trucks are coming to market?",
-              "In what range the New truck’s GVW lies?",
-              "Which body types are offered in New Trucks?"
-            ]
-          },
-          "meta": {
-            "title": "New Truck Price in India 2026 - Latest Truck Models & Review",
-            "description": "New truck price in India range between ₹0.58 Lakh to ₹82.03 Lakh. Check latest truck models, mileage, specifications, reviews, and new lorry price in India.",
-            "keywords": "new truck price, new truck, truck new, new trucks, new model truck, new truck price in india, truck new model, latest truck, truck new price, new tata truck price, new truck in india, new lorry price, new lorry price in india, latest trucks"
           }
         },
         "hi": {
           "path": "/hi/new-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में नए ट्रक"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में नए ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नए ट्रकों की मूल्य सूची"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नए ट्रक स्पेसिफिकेशन्स के साथ"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रकों की तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ईवी ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "नए ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में नए ट्रक ब्रांड कौनसे हैं?",
+                  "नए ट्रक की कीमत क्या है?",
+                  "वर्तमान में, कौनसे ईंधन वेरिएंट में नए ट्रक बाजार में आ रहे हैं?",
+                  "नए ट्रक की जीवीडब्ल्यू किस सीमा में है?",
+                  "नए ट्रक कौनसे बॉडी टाइप में आते हैं।"
+                ]
+              },
+              "meta": {
+                "title": "भारत में नया ट्रक 2026 - नए ट्रक, पिकअप की कीमत और माइलेज",
+                "description": "2026 में नए ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर नए टिपर, नए पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
+                "keywords": "भारत में नया ट्रक, नए ट्रकों की कीमत, नया लोडिंग, नए टिपर, नए पिकअप ट्रक"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "भारत में नए ट्रकों की मूल्य सूची"
-            },
-            {
-              "tag": "h2",
-              "text": "नए ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "नए ट्रक के बारे में"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में नए ट्रक स्पेसिफिकेशन्स के साथ"
-            },
-            {
-              "tag": "h2",
-              "text": "नए ट्रक की कीमत"
-            },
-            {
-              "tag": "h2",
-              "text": "नए ट्रकों की तुलना"
-            },
-            {
-              "tag": "h2",
-              "text": "नए ईवी ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "नए ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में नए ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नए ट्रकों की मूल्य सूची"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नए ट्रक स्पेसिफिकेशन्स के साथ"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रकों की तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ईवी ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "नए ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में नए ट्रक ब्रांड कौनसे हैं?",
+                  "नए ट्रक की कीमत क्या है?",
+                  "वर्तमान में, कौनसे ईंधन वेरिएंट में नए ट्रक बाजार में आ रहे हैं?",
+                  "नए ट्रक की जीवीडब्ल्यू किस सीमा में है?",
+                  "नए ट्रक कौनसे बॉडी टाइप में आते हैं।"
+                ]
+              },
+              "meta": {
+                "title": "भारत में नया ट्रक 2026 - नए ट्रक, पिकअप की कीमत और माइलेज",
+                "description": "2026 में नए ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर नए टिपर, नए पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
+                "keywords": "भारत में नया ट्रक, नए ट्रकों की कीमत, नया लोडिंग, नए टिपर, नए पिकअप ट्रक"
+              }
             }
-          ],
-          "faq": {
-            "heading": "नए ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "भारत में नए ट्रक ब्रांड कौनसे हैं?",
-              "नए ट्रक की कीमत क्या है?",
-              "वर्तमान में, कौनसे ईंधन वेरिएंट में नए ट्रक बाजार में आ रहे हैं?",
-              "नए ट्रक की जीवीडब्ल्यू किस सीमा में है?",
-              "नए ट्रक कौनसे बॉडी टाइप में आते हैं।"
-            ]
-          },
-          "meta": {
-            "title": "भारत में नया ट्रक 2026 - नए ट्रक, पिकअप की कीमत और माइलेज",
-            "description": "2026 में नए ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर नए टिपर, नए पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
-            "keywords": "भारत में नया ट्रक, नए ट्रकों की कीमत, नया लोडिंग, नए टिपर, नए पिकअप ट्रक"
           }
         },
         "ta": {
           "path": "/ta/new-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் புதிய டிரக்குகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் புதிய டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் புதிய டிரக்குகளின் விலை பட்டியல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய ட்ரக்குகள் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய மின்சார ட்ரக்குகள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "இந்தியாவில் புதிய டிரக் விலை 2026 - சமீபத்திய டிரக் மாடல்கள் & மதிப்பாய்வு",
+                "description": "இந்தியாவில் புதிய டிரக் விலை ₹0.58 லட்சம் முதல் ₹82.03 லட்சம் வரை இருக்கும். இந்தியாவில் சமீபத்திய டிரக் மாடல்கள், மைலேஜ், விவரக்குறிப்புகள், மதிப்புரைகள் மற்றும் புதிய டிரக் விலையைப் பாருங்கள்.",
+                "keywords": "புதிய டிரக் விலை, புதிய டிரக், டிரக் புதியது, புதிய டிரக்கள், புதிய மாடல் டிரக், இந்தியாவில் புதிய டிரக் விலை, டிரக் புதிய மாடல், சமீபத்திய டிரக், டிரக் புதிய விலை, புதிய டாடா டிரக் விலை, இந்தியாவில் புதிய டிரக், புதிய டிரக் விலை, இந்தியாவில் புதிய டிரக் விலை, சமீபத்திய டிரக்கள்"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் புதிய டிரக்குகளின் விலை பட்டியல்"
-            },
-            {
-              "tag": "h2",
-              "text": "புதிய டிரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "புதிய டிரக்குகள் பற்றி"
-            },
-            {
-              "tag": "h2",
-              "text": "புதிய ட்ரக்குகள் ஒப்பீடு"
-            },
-            {
-              "tag": "h2",
-              "text": "புதிய மின்சார ட்ரக்குகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் புதிய டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் புதிய டிரக்குகளின் விலை பட்டியல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய ட்ரக்குகள் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய மின்சார ட்ரக்குகள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "இந்தியாவில் புதிய டிரக் விலை 2026 - சமீபத்திய டிரக் மாடல்கள் & மதிப்பாய்வு",
+                "description": "இந்தியாவில் புதிய டிரக் விலை ₹0.58 லட்சம் முதல் ₹82.03 லட்சம் வரை இருக்கும். இந்தியாவில் சமீபத்திய டிரக் மாடல்கள், மைலேஜ், விவரக்குறிப்புகள், மதிப்புரைகள் மற்றும் புதிய டிரக் விலையைப் பாருங்கள்.",
+                "keywords": "புதிய டிரக் விலை, புதிய டிரக், டிரக் புதியது, புதிய டிரக்கள், புதிய மாடல் டிரக், இந்தியாவில் புதிய டிரக் விலை, டிரக் புதிய மாடல், சமீபத்திய டிரக், டிரக் புதிய விலை, புதிய டாடா டிரக் விலை, இந்தியாவில் புதிய டிரக், புதிய டிரக் விலை, இந்தியாவில் புதிய டிரக் விலை, சமீபத்திய டிரக்கள்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "இந்தியாவில் புதிய டிரக் விலை 2026 - சமீபத்திய டிரக் மாடல்கள் & மதிப்பாய்வு",
-            "description": "இந்தியாவில் புதிய டிரக் விலை ₹0.58 லட்சம் முதல் ₹82.03 லட்சம் வரை இருக்கும். இந்தியாவில் சமீபத்திய டிரக் மாடல்கள், மைலேஜ், விவரக்குறிப்புகள், மதிப்புரைகள் மற்றும் புதிய டிரக் விலையைப் பாருங்கள்.",
-            "keywords": "புதிய டிரக் விலை, புதிய டிரக், டிரக் புதியது, புதிய டிரக்கள், புதிய மாடல் டிரக், இந்தியாவில் புதிய டிரக் விலை, டிரக் புதிய மாடல், சமீபத்திய டிரக், டிரக் புதிய விலை, புதிய டாடா டிரக் விலை, இந்தியாவில் புதிய டிரக், புதிய டிரக் விலை, இந்தியாவில் புதிய டிரக் விலை, சமீபத்திய டிரக்கள்"
           }
         }
       }
@@ -602,180 +1213,367 @@
       "byLanguage": {
         "en": {
           "path": "/en/upcoming-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Upcoming Trucks In India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Upcoming Trucks In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Trucks Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Commercial Vehicles By Body Type"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Commercial Vehicles Brand"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Commercial Vehicles By Wheeler"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Upcoming Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Trucks Price"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Body Types Of Upcoming Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Truck Model In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Electric Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Trucks",
+                "questions": [
+                  "Which new trucks are coming out in 2026?",
+                  "Which is the best truck to buy in 2026?",
+                  "Will petrol truck fuel types come in upcoming trucks?",
+                  "Under which engine emission norms upcoming trucks will come in 2026?",
+                  "Which brands are coming with upcoming trucks in 2026?",
+                  "Which is the best truck to buy in 2026?"
+                ]
+              },
+              "meta": {
+                "title": "Upcoming Trucks Launches in India 2026 - Upcoming Trucks Prices & Features",
+                "description": "Search for Upcoming Trucks launches in India 2026. Find Upcoming Tippers, Upcoming Pickups, and many more and check Upcoming Truck prices, features, load capacity, GVW, compare trucks.",
+                "keywords": "Upcoming Trucks, Upcoming Tippers, Upcoming Pickups, Upcoming Truck prices"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Upcoming Trucks Found"
-            },
-            {
-              "tag": "h2",
-              "text": "Commercial Vehicles By Body Type"
-            },
-            {
-              "tag": "h2",
-              "text": "Commercial Vehicles Brand"
-            },
-            {
-              "tag": "h2",
-              "text": "Commercial Vehicles By Wheeler"
-            },
-            {
-              "tag": "h2",
-              "text": "About Upcoming Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Upcoming Trucks Price"
-            },
-            {
-              "tag": "h2",
-              "text": "Body Types Of Upcoming Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Upcoming Truck Model In India"
-            },
-            {
-              "tag": "h2",
-              "text": "Upcoming Electric Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Trucks"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Upcoming Trucks In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Trucks Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Commercial Vehicles By Body Type"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Commercial Vehicles Brand"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Commercial Vehicles By Wheeler"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Upcoming Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Trucks Price"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Body Types Of Upcoming Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Truck Model In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Electric Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Trucks",
+                "questions": [
+                  "Which new trucks are coming out in 2026?",
+                  "Which is the best truck to buy in 2026?",
+                  "Will petrol truck fuel types come in upcoming trucks?",
+                  "Under which engine emission norms upcoming trucks will come in 2026?",
+                  "Which brands are coming with upcoming trucks in 2026?",
+                  "Which is the best truck to buy in 2026?"
+                ]
+              },
+              "meta": {
+                "title": "Upcoming Trucks Launches in India 2026 - Upcoming Trucks Prices & Features",
+                "description": "Search for Upcoming Trucks launches in India 2026. Find Upcoming Tippers, Upcoming Pickups, and many more and check Upcoming Truck prices, features, load capacity, GVW, compare trucks.",
+                "keywords": "Upcoming Trucks, Upcoming Tippers, Upcoming Pickups, Upcoming Truck prices"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Trucks",
-            "questions": [
-              "Which new trucks are coming out in 2026?",
-              "Which is the best truck to buy in 2026?",
-              "Will petrol truck fuel types come in upcoming trucks?",
-              "Under which engine emission norms upcoming trucks will come in 2026?",
-              "Which brands are coming with upcoming trucks in 2026?",
-              "Which is the best truck to buy in 2026?"
-            ]
-          },
-          "meta": {
-            "title": "Upcoming Trucks Launches in India 2026 - Upcoming Trucks Prices & Features",
-            "description": "Search for Upcoming Trucks launches in India 2026. Find Upcoming Tippers, Upcoming Pickups, and many more and check Upcoming Truck prices, features, load capacity, GVW, compare trucks.",
-            "keywords": "Upcoming Trucks, Upcoming Tippers, Upcoming Pickups, Upcoming Truck prices"
           }
         },
         "hi": {
           "path": "/hi/upcoming-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में आगामी ट्रक"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में आगामी ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अपकमिंग ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बॉडी टाइप के अनुसार कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ब्रांड के अनुसार कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "व्हीलर के अनुसार कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी ट्रक के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी ट्रकों की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी ट्रकों के बॉडी टाइप"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी इलेक्ट्रिक ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में आगामी ट्रक ब्रांड कौनसे हैं?",
+                  "बजाज कॉम्पैक्ट आरई 3 व्हीलर किस कीमत में उपलब्ध है?",
+                  "कौनसे ईंधन टाइप में आगामी ट्रक बाजार में उपलब्ध है?",
+                  "आगामी ट्रक की जीवीडब्ल्यू सीमा क्या है?",
+                  "आगामी ट्रक किस प्रकार के बॉडी टाइप में आते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में आगामी ट्रक 2026 - अपकमिंग ट्रैक्टर, पिकअप की कीमत और माइलेज",
+                "description": "2026 में आगामी ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर आगामी टिपर, आगामी पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
+                "keywords": "भारत में आगामी ट्रक, आगामी टिपर, आगामी पिकअप, पिकअप की कीमत"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "अपकमिंग ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "बॉडी टाइप के अनुसार कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "ब्रांड के अनुसार कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "व्हीलर के अनुसार कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "आगामी ट्रक के बारे में"
-            },
-            {
-              "tag": "h2",
-              "text": "आगामी ट्रकों की कीमत"
-            },
-            {
-              "tag": "h2",
-              "text": "आगामी ट्रकों के बॉडी टाइप"
-            },
-            {
-              "tag": "h2",
-              "text": "आगामी इलेक्ट्रिक ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में आगामी ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अपकमिंग ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बॉडी टाइप के अनुसार कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ब्रांड के अनुसार कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "व्हीलर के अनुसार कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी ट्रक के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी ट्रकों की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी ट्रकों के बॉडी टाइप"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी इलेक्ट्रिक ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में आगामी ट्रक ब्रांड कौनसे हैं?",
+                  "बजाज कॉम्पैक्ट आरई 3 व्हीलर किस कीमत में उपलब्ध है?",
+                  "कौनसे ईंधन टाइप में आगामी ट्रक बाजार में उपलब्ध है?",
+                  "आगामी ट्रक की जीवीडब्ल्यू सीमा क्या है?",
+                  "आगामी ट्रक किस प्रकार के बॉडी टाइप में आते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में आगामी ट्रक 2026 - अपकमिंग ट्रैक्टर, पिकअप की कीमत और माइलेज",
+                "description": "2026 में आगामी ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर आगामी टिपर, आगामी पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
+                "keywords": "भारत में आगामी ट्रक, आगामी टिपर, आगामी पिकअप, पिकअप की कीमत"
+              }
             }
-          ],
-          "faq": {
-            "heading": "ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "भारत में आगामी ट्रक ब्रांड कौनसे हैं?",
-              "बजाज कॉम्पैक्ट आरई 3 व्हीलर किस कीमत में उपलब्ध है?",
-              "कौनसे ईंधन टाइप में आगामी ट्रक बाजार में उपलब्ध है?",
-              "आगामी ट्रक की जीवीडब्ल्यू सीमा क्या है?",
-              "आगामी ट्रक किस प्रकार के बॉडी टाइप में आते हैं?"
-            ]
-          },
-          "meta": {
-            "title": "भारत में आगामी ट्रक 2026 - अपकमिंग ट्रैक्टर, पिकअप की कीमत और माइलेज",
-            "description": "2026 में आगामी ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर आगामी टिपर, आगामी पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
-            "keywords": "भारत में आगामी ट्रक, आगामी टिपर, आगामी पिकअप, पिकअप की कीमत"
           }
         },
         "ta": {
           "path": "/ta/upcoming-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் வரவிருக்கும் டிரக்குகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் வரவிருக்கும் டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வரவிருக்கும் ட்ரக்குகள் கிடைத்தன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உடல் வகை அடிப்படையில் வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வணிக வாகனங்கள் பிராண்டு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வீலர் அடிப்படையில் வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வரவிருக்கும் டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வரவிருக்கும் மின்சார ட்ரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "ஆம் ஆண்டில் எந்த புதிய டிரக்கள் வெளிவர உள்ளன?",
+                  "ஆம் ஆண்டில் வாங்குவதற்கு சிறந்த டிரக் எது?",
+                  "எதிர்வரும் டிரக்களில் பெட்ரோல் டிரக் எரிபொருள் வகைகள் வருமா?",
+                  "ஆம் ஆண்டில் எந்த எஞ்சின் உமிழ்வு விதிமுறைகளின் கீழ் வரவிருக்கும் டிரக்கள் வரும்?",
+                  "ஆம் ஆண்டில் எந்த பிராண்டுகள் வரவிருக்கும் டிரக்களுடன் வருகின்றன?",
+                  "ஆம் ஆண்டில் வாங்குவதற்கு சிறந்த டிரக் எது?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் 2026 இல் அறிமுகம் செய்யப்பட உள்ள டிரக்கள் - வரவிருக்கும் டிரக்களின் விலைகள் & அம்சங்கள்",
+                "description": "இந்தியாவில் 2026 இல் அறிமுகம் செய்யப்பட உள்ள டிரக்களைத் தேடுங்கள். வரவிருக்கும் டிப்பர்கள், வரவிருக்கும் பிக்அப்கள் மற்றும் பலவற்றைக் கண்டுபிடித்து, வரவிருக்கும் டிரக்விலைகள், அம்சங்கள், சுமை திறன், GVW, டிரக்களை ஒப்பிடுங்கள்.",
+                "keywords": "வரவிருக்கும் டிரக்கள், வரவிருக்கும் டிப்பர்கள், வரவிருக்கும் பிக்அப்கள், வரவிருக்கும் டிரக்விலைகள்"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "வரவிருக்கும் ட்ரக்குகள் கிடைத்தன"
-            },
-            {
-              "tag": "h2",
-              "text": "உடல் வகை அடிப்படையில் வணிக வாகனங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "வணிக வாகனங்கள் பிராண்டு"
-            },
-            {
-              "tag": "h2",
-              "text": "வீலர் அடிப்படையில் வணிக வாகனங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "வரவிருக்கும் டிரக்குகள் பற்றி"
-            },
-            {
-              "tag": "h2",
-              "text": "வரவிருக்கும் மின்சார ட்ரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் வரவிருக்கும் டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வரவிருக்கும் ட்ரக்குகள் கிடைத்தன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உடல் வகை அடிப்படையில் வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வணிக வாகனங்கள் பிராண்டு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வீலர் அடிப்படையில் வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வரவிருக்கும் டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வரவிருக்கும் மின்சார ட்ரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "ஆம் ஆண்டில் எந்த புதிய டிரக்கள் வெளிவர உள்ளன?",
+                  "ஆம் ஆண்டில் வாங்குவதற்கு சிறந்த டிரக் எது?",
+                  "எதிர்வரும் டிரக்களில் பெட்ரோல் டிரக் எரிபொருள் வகைகள் வருமா?",
+                  "ஆம் ஆண்டில் எந்த எஞ்சின் உமிழ்வு விதிமுறைகளின் கீழ் வரவிருக்கும் டிரக்கள் வரும்?",
+                  "ஆம் ஆண்டில் எந்த பிராண்டுகள் வரவிருக்கும் டிரக்களுடன் வருகின்றன?",
+                  "ஆம் ஆண்டில் வாங்குவதற்கு சிறந்த டிரக் எது?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் 2026 இல் அறிமுகம் செய்யப்பட உள்ள டிரக்கள் - வரவிருக்கும் டிரக்களின் விலைகள் & அம்சங்கள்",
+                "description": "இந்தியாவில் 2026 இல் அறிமுகம் செய்யப்பட உள்ள டிரக்களைத் தேடுங்கள். வரவிருக்கும் டிப்பர்கள், வரவிருக்கும் பிக்அப்கள் மற்றும் பலவற்றைக் கண்டுபிடித்து, வரவிருக்கும் டிரக்விலைகள், அம்சங்கள், சுமை திறன், GVW, டிரக்களை ஒப்பிடுங்கள்.",
+                "keywords": "வரவிருக்கும் டிரக்கள், வரவிருக்கும் டிப்பர்கள், வரவிருக்கும் பிக்அப்கள், வரவிருக்கும் டிரக்விலைகள்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "ஆம் ஆண்டில் எந்த புதிய டிரக்கள் வெளிவர உள்ளன?",
-              "ஆம் ஆண்டில் வாங்குவதற்கு சிறந்த டிரக் எது?",
-              "எதிர்வரும் டிரக்களில் பெட்ரோல் டிரக் எரிபொருள் வகைகள் வருமா?",
-              "ஆம் ஆண்டில் எந்த எஞ்சின் உமிழ்வு விதிமுறைகளின் கீழ் வரவிருக்கும் டிரக்கள் வரும்?",
-              "ஆம் ஆண்டில் எந்த பிராண்டுகள் வரவிருக்கும் டிரக்களுடன் வருகின்றன?",
-              "ஆம் ஆண்டில் வாங்குவதற்கு சிறந்த டிரக் எது?"
-            ]
-          },
-          "meta": {
-            "title": "இந்தியாவில் 2026 இல் அறிமுகம் செய்யப்பட உள்ள டிரக்கள் - வரவிருக்கும் டிரக்களின் விலைகள் & அம்சங்கள்",
-            "description": "இந்தியாவில் 2026 இல் அறிமுகம் செய்யப்பட உள்ள டிரக்களைத் தேடுங்கள். வரவிருக்கும் டிப்பர்கள், வரவிருக்கும் பிக்அப்கள் மற்றும் பலவற்றைக் கண்டுபிடித்து, வரவிருக்கும் டிரக்விலைகள், அம்சங்கள், சுமை திறன், GVW, டிரக்களை ஒப்பிடுங்கள்.",
-            "keywords": "வரவிருக்கும் டிரக்கள், வரவிருக்கும் டிப்பர்கள், வரவிருக்கும் பிக்அப்கள், வரவிருக்கும் டிரக்விலைகள்"
           }
         }
       }
@@ -786,210 +1584,427 @@
       "byLanguage": {
         "en": {
           "path": "/en/latest-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Latest Trucks In India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Latest Trucks In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Trucks Price List in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Trucks Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Commercial Vehicle By Body Types"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Commercial Vehicles By Brand"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Commercial Vehicles By Wheeler"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Latest Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Trucks In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Trucks Price in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Truck Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Electric Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Tipper Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Latest Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Latest Trucks",
+                "questions": [
+                  "Which are the latest truck brands in India?",
+                  "What is the Latest Trucks price range?",
+                  "Currently, Which fuel type Latest Trucks are coming to market?",
+                  "In what range the latest truck’s GVW lies?",
+                  "Which body types are offered in Latest Trucks?"
+                ]
+              },
+              "meta": {
+                "title": "Latest Truck Launches in India 2026 - New Trucks & Prices",
+                "description": "Discover the latest truck models launched in India 2026. Check prices, specs, load capacity & compare new trucks, tippers, pickups & trailers at Truck Junction.",
+                "keywords": "latest truck, latest truck in india, new truck launch 2026, latest trucks price, latest pickups, new tippers, new trucks india"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Latest Trucks Price List in India"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Trucks Found"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Commercial Vehicle By Body Types"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Commercial Vehicles By Brand"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Commercial Vehicles By Wheeler"
-            },
-            {
-              "tag": "h2",
-              "text": "About Latest Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Trucks In India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Trucks Price in India"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Truck Comparison"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Electric Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Tipper Updates"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Latest Trucks"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Latest Trucks In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Trucks Price List in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Trucks Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Commercial Vehicle By Body Types"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Commercial Vehicles By Brand"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Commercial Vehicles By Wheeler"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Latest Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Trucks In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Trucks Price in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Truck Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Electric Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Tipper Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Latest Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Latest Trucks",
+                "questions": [
+                  "Which are the latest truck brands in India?",
+                  "What is the Latest Trucks price range?",
+                  "Currently, Which fuel type Latest Trucks are coming to market?",
+                  "In what range the latest truck’s GVW lies?",
+                  "Which body types are offered in Latest Trucks?"
+                ]
+              },
+              "meta": {
+                "title": "Latest Truck Launches in India 2026 - New Trucks & Prices",
+                "description": "Discover the latest truck models launched in India 2026. Check prices, specs, load capacity & compare new trucks, tippers, pickups & trailers at Truck Junction.",
+                "keywords": "latest truck, latest truck in india, new truck launch 2026, latest trucks price, latest pickups, new tippers, new trucks india"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Latest Trucks",
-            "questions": [
-              "Which are the latest truck brands in India?",
-              "What is the Latest Trucks price range?",
-              "Currently, Which fuel type Latest Trucks are coming to market?",
-              "In what range the latest truck’s GVW lies?",
-              "Which body types are offered in Latest Trucks?"
-            ]
-          },
-          "meta": {
-            "title": "Latest Truck Launches in India 2026 - New Trucks & Prices",
-            "description": "Discover the latest truck models launched in India 2026. Check prices, specs, load capacity & compare new trucks, tippers, pickups & trailers at Truck Junction.",
-            "keywords": "latest truck, latest truck in india, new truck launch 2026, latest trucks price, latest pickups, new tippers, new trucks india"
           }
         },
         "hi": {
           "path": "/hi/latest-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में नवीनतम ट्रक"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में नवीनतम ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नवीनतम ट्रकों की मूल्य सूची"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक मिले"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बॉडी टाइप के अनुसार नवीनतम कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ब्रांड के अनुसार नवीनतम कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "व्हीलर के अनुसार नवीनतम कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लेटेस्ट ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लेटेस्ट ट्रकों की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम इलेक्ट्रिक ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम टिपर अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "नवीनतम ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में नवीनतम ट्रक ब्रांड कौनसे हैं?",
+                  "नवीनतम ट्रकों की प्राइस रेंज क्या है?",
+                  "वर्तमान में, नवीनतम ट्रक बाजार में कौनसे ईंधन टाइप उपलब्ध हैं?",
+                  "नवीनतम ट्रक का GVW क्या है?",
+                  "नवीनतम ट्रकों में कौनसे बॉडी टाइप उपलब्ध हैं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में नवीनतम ट्रक 2026 - नवीनतम ट्रक, पिकअप की कीमत और माइलेज",
+                "description": "2026 में नवीनतम ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर नवीनतम टिपर, नवीनतम पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
+                "keywords": "भारत में नवीनतम ट्रक, नवीनतम टिपर, नवीनतम पिकअप"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "भारत में नवीनतम ट्रकों की मूल्य सूची"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम ट्रक मिले"
-            },
-            {
-              "tag": "h2",
-              "text": "बॉडी टाइप के अनुसार नवीनतम कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "ब्रांड के अनुसार नवीनतम कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "व्हीलर के अनुसार नवीनतम कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम ट्रक के बारे में"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में लेटेस्ट ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में लेटेस्ट ट्रकों की कीमत"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम ट्रक तुलना"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम इलेक्ट्रिक ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम टिपर अपडेट"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में नवीनतम ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नवीनतम ट्रकों की मूल्य सूची"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक मिले"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बॉडी टाइप के अनुसार नवीनतम कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ब्रांड के अनुसार नवीनतम कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "व्हीलर के अनुसार नवीनतम कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लेटेस्ट ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लेटेस्ट ट्रकों की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम इलेक्ट्रिक ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम टिपर अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "नवीनतम ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में नवीनतम ट्रक ब्रांड कौनसे हैं?",
+                  "नवीनतम ट्रकों की प्राइस रेंज क्या है?",
+                  "वर्तमान में, नवीनतम ट्रक बाजार में कौनसे ईंधन टाइप उपलब्ध हैं?",
+                  "नवीनतम ट्रक का GVW क्या है?",
+                  "नवीनतम ट्रकों में कौनसे बॉडी टाइप उपलब्ध हैं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में नवीनतम ट्रक 2026 - नवीनतम ट्रक, पिकअप की कीमत और माइलेज",
+                "description": "2026 में नवीनतम ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर नवीनतम टिपर, नवीनतम पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
+                "keywords": "भारत में नवीनतम ट्रक, नवीनतम टिपर, नवीनतम पिकअप"
+              }
             }
-          ],
-          "faq": {
-            "heading": "नवीनतम ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "भारत में नवीनतम ट्रक ब्रांड कौनसे हैं?",
-              "नवीनतम ट्रकों की प्राइस रेंज क्या है?",
-              "वर्तमान में, नवीनतम ट्रक बाजार में कौनसे ईंधन टाइप उपलब्ध हैं?",
-              "नवीनतम ट्रक का GVW क्या है?",
-              "नवीनतम ट्रकों में कौनसे बॉडी टाइप उपलब्ध हैं?"
-            ]
-          },
-          "meta": {
-            "title": "भारत में नवीनतम ट्रक 2026 - नवीनतम ट्रक, पिकअप की कीमत और माइलेज",
-            "description": "2026 में नवीनतम ट्रकों की कीमत, लोडिंग कैपेसिटी खोजें. ट्रक जंक्शन पर नवीनतम टिपर, नवीनतम पिकअप ट्रक माइलेज, भार क्षमता, जीवीडब्ल्यू और अधिक जानकारी प्राप्त करें.",
-            "keywords": "भारत में नवीनतम ट्रक, नवीनतम टिपर, नवीनतम पिकअप"
           }
         },
         "ta": {
           "path": "/ta/latest-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் சமீபத்திய டிரக்குகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் சமீபத்திய டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் சமீபத்திய டிரக்குகள் விலை பட்டியல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்தில் கண்டறியப்பட்ட டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உடல் வகைகளின்படி சமீபத்திய வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிராண்டு அடிப்படையில் சமீபத்திய வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வீலர் அடிப்படையில் சமீபத்திய வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய ட்ரக் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய மின்சார ட்ரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்தியவை டிப்பர்கள் புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "சமீபத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "இந்தியாவில் புதிய டிரக் பிராண்டுகள் எவை?",
+                  "புதிய டிரக்குகளின் விலை வரம்பு என்ன?",
+                  "தற்போது, ​​எந்த எரிபொருள் வகை புதிய டிரக்குகள் சந்தைக்கு வருகின்றன?",
+                  "சமீபத்திய டிரக்கின் GVW எந்த வரம்பில் உள்ளது?",
+                  "புதிய டிரக்குகளில் எந்த உடல் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் 2026 இல் அறிமுகப்படுத்தப்பட்ட சமீபத்திய டிரக்கள் - புதிய டிரக்கள் & விலைகள்",
+                "description": "இந்தியாவில் 2026 இல் அறிமுகப்படுத்தப்பட்ட சமீபத்திய டிரக் மாடல்களைக் கண்டறியவும். டிரக் சந்திப்பில் விலைகள், விவரக்குறிப்புகள், சுமை திறன் ஆகியவற்றைச் சரிபார்க்கவும் & புதிய டிரக்கள், டிப்பர்கள், பிக்அப்கள் & டிரெய்லர்களை ஒப்பிடவும்.",
+                "keywords": "சமீபத்திய டிரக், இந்தியாவில் சமீபத்திய டிரக், புதிய டிரக் வெளியீடு 2026, சமீபத்திய டிரக்கள் விலை, சமீபத்திய பிக்அப்கள், புதிய டிப்பர்கள், இந்தியாவில் புதிய டிரக்கள்"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் சமீபத்திய டிரக்குகள் விலை பட்டியல்"
-            },
-            {
-              "tag": "h2",
-              "text": "சமீபத்தில் கண்டறியப்பட்ட டிரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "உடல் வகைகளின்படி சமீபத்திய வணிக வாகனங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிராண்டு அடிப்படையில் சமீபத்திய வணிக வாகனங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "வீலர் அடிப்படையில் சமீபத்திய வணிக வாகனங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "சமீபத்திய டிரக்குகள் பற்றி"
-            },
-            {
-              "tag": "h2",
-              "text": "சமீபத்திய ட்ரக் ஒப்பீடு"
-            },
-            {
-              "tag": "h2",
-              "text": "சமீபத்திய மின்சார ட்ரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "சமீபத்தியவை டிப்பர்கள் புதுப்பிப்புகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "சமீபத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் சமீபத்திய டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் சமீபத்திய டிரக்குகள் விலை பட்டியல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்தில் கண்டறியப்பட்ட டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உடல் வகைகளின்படி சமீபத்திய வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிராண்டு அடிப்படையில் சமீபத்திய வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வீலர் அடிப்படையில் சமீபத்திய வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய டிரக்குகள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய ட்ரக் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய மின்சார ட்ரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்தியவை டிப்பர்கள் புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "சமீபத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "இந்தியாவில் புதிய டிரக் பிராண்டுகள் எவை?",
+                  "புதிய டிரக்குகளின் விலை வரம்பு என்ன?",
+                  "தற்போது, ​​எந்த எரிபொருள் வகை புதிய டிரக்குகள் சந்தைக்கு வருகின்றன?",
+                  "சமீபத்திய டிரக்கின் GVW எந்த வரம்பில் உள்ளது?",
+                  "புதிய டிரக்குகளில் எந்த உடல் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் 2026 இல் அறிமுகப்படுத்தப்பட்ட சமீபத்திய டிரக்கள் - புதிய டிரக்கள் & விலைகள்",
+                "description": "இந்தியாவில் 2026 இல் அறிமுகப்படுத்தப்பட்ட சமீபத்திய டிரக் மாடல்களைக் கண்டறியவும். டிரக் சந்திப்பில் விலைகள், விவரக்குறிப்புகள், சுமை திறன் ஆகியவற்றைச் சரிபார்க்கவும் & புதிய டிரக்கள், டிப்பர்கள், பிக்அப்கள் & டிரெய்லர்களை ஒப்பிடவும்.",
+                "keywords": "சமீபத்திய டிரக், இந்தியாவில் சமீபத்திய டிரக், புதிய டிரக் வெளியீடு 2026, சமீபத்திய டிரக்கள் விலை, சமீபத்திய பிக்அப்கள், புதிய டிப்பர்கள், இந்தியாவில் புதிய டிரக்கள்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "சமீபத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "இந்தியாவில் புதிய டிரக் பிராண்டுகள் எவை?",
-              "புதிய டிரக்குகளின் விலை வரம்பு என்ன?",
-              "தற்போது, ​​எந்த எரிபொருள் வகை புதிய டிரக்குகள் சந்தைக்கு வருகின்றன?",
-              "சமீபத்திய டிரக்கின் GVW எந்த வரம்பில் உள்ளது?",
-              "புதிய டிரக்குகளில் எந்த உடல் வகைகள் வழங்கப்படுகின்றன?"
-            ]
-          },
-          "meta": {
-            "title": "இந்தியாவில் 2026 இல் அறிமுகப்படுத்தப்பட்ட சமீபத்திய டிரக்கள் - புதிய டிரக்கள் & விலைகள்",
-            "description": "இந்தியாவில் 2026 இல் அறிமுகப்படுத்தப்பட்ட சமீபத்திய டிரக் மாடல்களைக் கண்டறியவும். டிரக் சந்திப்பில் விலைகள், விவரக்குறிப்புகள், சுமை திறன் ஆகியவற்றைச் சரிபார்க்கவும் & புதிய டிரக்கள், டிப்பர்கள், பிக்அப்கள் & டிரெய்லர்களை ஒப்பிடவும்.",
-            "keywords": "சமீபத்திய டிரக், இந்தியாவில் சமீபத்திய டிரக், புதிய டிரக் வெளியீடு 2026, சமீபத்திய டிரக்கள் விலை, சமீபத்திய பிக்அப்கள், புதிய டிப்பர்கள், இந்தியாவில் புதிய டிரக்கள்"
           }
         }
       }
@@ -1000,152 +2015,311 @@
       "byLanguage": {
         "en": {
           "path": "/en/bs-vi",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "BS6 Trucks"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "BS6 Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Trucks Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicles"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicle By Body Types"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicles by Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicles By Wheeler"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About BS6 Commercial Vehicles"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular BS6 Phase 2 Commercial Vehicles"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicle Price In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Electric Commercial Vehicles"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "BS6 Truck In India,BS6 Phase 2 Truck Price, BS6 Phase 2 Pickup, Tipper",
+                "description": "Find Latest BS6 Truck in India. Checkout BS6 Phase 2 Trucks, BS6 Phase 2 mini trucks, BS6 Phase 2 Tipper, BS6 Phase 2 pickups, BS6 Phase 2 3 Wheelers Price, Engine Capacity & Full Details at Truck Junction.",
+                "keywords": "BS6 Truck , BS6 Phase 2 Truck In India, BS6 Phase 2 Commercial Vehicles, BS6 Phase 2 3 Wheelers, BS6 Phase 2 Pickup, BS6 Phase 2 Tipper, BS6 Phase 2 mini trucks, BS6 Phase 2 Trucks Price"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "BS6 Trucks Price List in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "BS6 Commercial Vehicles"
-            },
-            {
-              "tag": "h2",
-              "text": "BS6 Commercial Vehicle By Body Types"
-            },
-            {
-              "tag": "h2",
-              "text": "BS6 Commercial Vehicles by Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "BS6 Commercial Vehicles By Wheeler"
-            },
-            {
-              "tag": "h2",
-              "text": "About BS6 Commercial Vehicles"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular BS6 Phase 2 Commercial Vehicles"
-            },
-            {
-              "tag": "h2",
-              "text": "BS6 Commercial Vehicle Price In India"
-            },
-            {
-              "tag": "h2",
-              "text": "Electric Commercial Vehicles"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "BS6 Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Trucks Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicles"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicle By Body Types"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicles by Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicles By Wheeler"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About BS6 Commercial Vehicles"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular BS6 Phase 2 Commercial Vehicles"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 Commercial Vehicle Price In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Electric Commercial Vehicles"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "BS6 Truck In India,BS6 Phase 2 Truck Price, BS6 Phase 2 Pickup, Tipper",
+                "description": "Find Latest BS6 Truck in India. Checkout BS6 Phase 2 Trucks, BS6 Phase 2 mini trucks, BS6 Phase 2 Tipper, BS6 Phase 2 pickups, BS6 Phase 2 3 Wheelers Price, Engine Capacity & Full Details at Truck Junction.",
+                "keywords": "BS6 Truck , BS6 Phase 2 Truck In India, BS6 Phase 2 Commercial Vehicles, BS6 Phase 2 3 Wheelers, BS6 Phase 2 Pickup, BS6 Phase 2 Tipper, BS6 Phase 2 mini trucks, BS6 Phase 2 Trucks Price"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "BS6 Truck In India,BS6 Phase 2 Truck Price, BS6 Phase 2 Pickup, Tipper",
-            "description": "Find Latest BS6 Truck in India. Checkout BS6 Phase 2 Trucks, BS6 Phase 2 mini trucks, BS6 Phase 2 Tipper, BS6 Phase 2 pickups, BS6 Phase 2 3 Wheelers Price, Engine Capacity & Full Details at Truck Junction.",
-            "keywords": "BS6 Truck , BS6 Phase 2 Truck In India, BS6 Phase 2 Commercial Vehicles, BS6 Phase 2 3 Wheelers, BS6 Phase 2 Pickup, BS6 Phase 2 Tipper, BS6 Phase 2 mini trucks, BS6 Phase 2 Trucks Price"
           }
         },
         "hi": {
           "path": "/hi/bs-vi",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में बीएस6 ट्रक"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में बीएस6 ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में बीएस6 ट्रक की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बीएस6 कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बीएस6 कमर्शियल व्हीकल्स बॉडी प्रकार के अनुसार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ब्रांड के अनुसार बीएस6 कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बीएस6 कमर्शियल व्हीकल्स व्हीलर के अनुसार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बीएस6 कमर्शियल व्हीकल्स के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय बीएस 6 फेज 2 कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में बीएस 6 फेज 2 वाणिज्यिक वाहन की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "इलेक्ट्रिक कमर्शियल व्हीकल्स"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "भारत में बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 ट्रक की कीमत, बीएस 6 फेज 2 पिकअप, टिपर",
+                "description": "भारत में नवीनतम बीएस6 ट्रक खोजें। ट्रक जंक्शन पर बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 मिनी ट्रक, बीएस VI 2 टिपर, बीएस 6 फेज 2 पिकअप, बीएस 6 फेज 2 3 व्हीलर की कीमत, इंजन क्षमता और पूर्ण विवरण प्राप्त करें।",
+                "keywords": "बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 ट्रक की कीमत, भारत में बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 मिनी ट्रक, बीएस VI 2 टिपर, बीएस 6 फेज 2 पिकअप, बीएस 6 फेज 2 3 व्हीलर की कीमत, नवीनतम बीएस 6 फेज 2 ट्रक"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "भारत में बीएस6 ट्रक की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "बीएस6 कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "बीएस6 कमर्शियल व्हीकल्स बॉडी प्रकार के अनुसार"
-            },
-            {
-              "tag": "h2",
-              "text": "ब्रांड के अनुसार बीएस6 कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "बीएस6 कमर्शियल व्हीकल्स व्हीलर के अनुसार"
-            },
-            {
-              "tag": "h2",
-              "text": "बीएस6 कमर्शियल व्हीकल्स के बारे में"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय बीएस 6 फेज 2 कमर्शियल व्हीकल्स"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में बीएस 6 फेज 2 वाणिज्यिक वाहन की कीमत"
-            },
-            {
-              "tag": "h2",
-              "text": "इलेक्ट्रिक कमर्शियल व्हीकल्स"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में बीएस6 ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में बीएस6 ट्रक की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बीएस6 कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बीएस6 कमर्शियल व्हीकल्स बॉडी प्रकार के अनुसार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ब्रांड के अनुसार बीएस6 कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बीएस6 कमर्शियल व्हीकल्स व्हीलर के अनुसार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बीएस6 कमर्शियल व्हीकल्स के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय बीएस 6 फेज 2 कमर्शियल व्हीकल्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में बीएस 6 फेज 2 वाणिज्यिक वाहन की कीमत"
+                },
+                {
+                  "tag": "h2",
+                  "text": "इलेक्ट्रिक कमर्शियल व्हीकल्स"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "भारत में बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 ट्रक की कीमत, बीएस 6 फेज 2 पिकअप, टिपर",
+                "description": "भारत में नवीनतम बीएस6 ट्रक खोजें। ट्रक जंक्शन पर बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 मिनी ट्रक, बीएस VI 2 टिपर, बीएस 6 फेज 2 पिकअप, बीएस 6 फेज 2 3 व्हीलर की कीमत, इंजन क्षमता और पूर्ण विवरण प्राप्त करें।",
+                "keywords": "बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 ट्रक की कीमत, भारत में बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 मिनी ट्रक, बीएस VI 2 टिपर, बीएस 6 फेज 2 पिकअप, बीएस 6 फेज 2 3 व्हीलर की कीमत, नवीनतम बीएस 6 फेज 2 ट्रक"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "भारत में बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 ट्रक की कीमत, बीएस 6 फेज 2 पिकअप, टिपर",
-            "description": "भारत में नवीनतम बीएस6 ट्रक खोजें। ट्रक जंक्शन पर बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 मिनी ट्रक, बीएस VI 2 टिपर, बीएस 6 फेज 2 पिकअप, बीएस 6 फेज 2 3 व्हीलर की कीमत, इंजन क्षमता और पूर्ण विवरण प्राप्त करें।",
-            "keywords": "बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 ट्रक की कीमत, भारत में बीएस 6 फेज 2 ट्रक, बीएस 6 फेज 2 मिनी ट्रक, बीएस VI 2 टिपर, बीएस 6 फेज 2 पिकअप, बीएस 6 फेज 2 3 व्हीलर की कीमत, नवीनतम बीएस 6 फेज 2 ट्रक"
           }
         },
         "ta": {
           "path": "/ta/bs-vi",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் BS6 டிரக்குகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் BS6 டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் BS6 ட்ரக்குகள் விலை பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உடல் வகைகளின்படி BS6 வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிராண்டு அடிப்படையில் BS6 வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 வணிக வாகனங்கள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எலக்ட்ரிக் வாணிக வாகனங்கள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "இந்தியாவில் BS6 டிரக், BS6 கட்டம் 2 டிரக் விலை, BS6 கட்டம் 2 பிக்அப், டிப்பர்",
+                "description": "இந்தியாவில் சமீபத்திய BS6 டிரக்கைக் கண்டறியவும். டிரக் சந்திப்பில் BS6 கட்டம் 2 டிரக்குகள், BS6 கட்டம் 2 மினி டிரக்குகள், BS6 கட்டம் 2 டிப்பர், BS6 கட்டம் 2 பிக்அப்கள், BS6 கட்டம் 2 3 சக்கர வாகனங்கள் விலை, எஞ்சின் திறன் மற்றும் முழு விவரங்களையும் பாருங்கள்.",
+                "keywords": "BS6 டிரக், இந்தியாவில் BS6 கட்டம் 2 டிரக், BS6 கட்டம் 2 வணிக வாகனங்கள், BS6 கட்டம் 2 3 சக்கர வாகனங்கள், BS6 கட்டம் 2 பிக்அப், BS6 கட்டம் 2 டிப்பர், BS6 கட்டம் 2 மினி டிரக்குகள், BS6 கட்டம் 2 டிரக்குகளின் விலை"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் BS6 ட்ரக்குகள் விலை பட்டியல் 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "BS6 வணிக வாகனங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "உடல் வகைகளின்படி BS6 வணிக வாகனங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிராண்டு அடிப்படையில் BS6 வணிக வாகனங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "BS6 வணிக வாகனங்கள் பற்றி"
-            },
-            {
-              "tag": "h2",
-              "text": "எலக்ட்ரிக் வாணிக வாகனங்கள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் BS6 டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் BS6 ட்ரக்குகள் விலை பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உடல் வகைகளின்படி BS6 வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிராண்டு அடிப்படையில் BS6 வணிக வாகனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "BS6 வணிக வாகனங்கள் பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எலக்ட்ரிக் வாணிக வாகனங்கள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "இந்தியாவில் BS6 டிரக், BS6 கட்டம் 2 டிரக் விலை, BS6 கட்டம் 2 பிக்அப், டிப்பர்",
+                "description": "இந்தியாவில் சமீபத்திய BS6 டிரக்கைக் கண்டறியவும். டிரக் சந்திப்பில் BS6 கட்டம் 2 டிரக்குகள், BS6 கட்டம் 2 மினி டிரக்குகள், BS6 கட்டம் 2 டிப்பர், BS6 கட்டம் 2 பிக்அப்கள், BS6 கட்டம் 2 3 சக்கர வாகனங்கள் விலை, எஞ்சின் திறன் மற்றும் முழு விவரங்களையும் பாருங்கள்.",
+                "keywords": "BS6 டிரக், இந்தியாவில் BS6 கட்டம் 2 டிரக், BS6 கட்டம் 2 வணிக வாகனங்கள், BS6 கட்டம் 2 3 சக்கர வாகனங்கள், BS6 கட்டம் 2 பிக்அப், BS6 கட்டம் 2 டிப்பர், BS6 கட்டம் 2 மினி டிரக்குகள், BS6 கட்டம் 2 டிரக்குகளின் விலை"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "இந்தியாவில் BS6 டிரக், BS6 கட்டம் 2 டிரக் விலை, BS6 கட்டம் 2 பிக்அப், டிப்பர்",
-            "description": "இந்தியாவில் சமீபத்திய BS6 டிரக்கைக் கண்டறியவும். டிரக் சந்திப்பில் BS6 கட்டம் 2 டிரக்குகள், BS6 கட்டம் 2 மினி டிரக்குகள், BS6 கட்டம் 2 டிப்பர், BS6 கட்டம் 2 பிக்அப்கள், BS6 கட்டம் 2 3 சக்கர வாகனங்கள் விலை, எஞ்சின் திறன் மற்றும் முழு விவரங்களையும் பாருங்கள்.",
-            "keywords": "BS6 டிரக், இந்தியாவில் BS6 கட்டம் 2 டிரக், BS6 கட்டம் 2 வணிக வாகனங்கள், BS6 கட்டம் 2 3 சக்கர வாகனங்கள், BS6 கட்டம் 2 பிக்அப், BS6 கட்டம் 2 டிப்பர், BS6 கட்டம் 2 மினி டிரக்குகள், BS6 கட்டம் 2 டிரக்குகளின் விலை"
           }
         }
       }

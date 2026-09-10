@@ -1,5 +1,5 @@
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
-const { LeadFormFiller, exactText } = require('../../helpers/leadFormFiller');
+const { LeadFormFiller, exactText, ACTIVE_TAB_SLIDER } = require('../../helpers/leadFormFiller');
 
 const LANG_HOME_PATH = {
   en: '/',
@@ -115,7 +115,7 @@ class TruckInIndia {
   }
 
   getActivePanel() {
-    return this.getSection().find('div.visible', { log: false }).first();
+    return this.getSection().find(ACTIVE_TAB_SLIDER, { log: false }).first();
   }
 
   /**
@@ -210,7 +210,7 @@ class TruckInIndia {
       const clickCta = () => {
         const button = Cypress.$($heading)
           .closest('div.differentTabs')
-          .find('div.visible')
+          .find(ACTIVE_TAB_SLIDER)
           .find(`button[title="${this.copy.checkOffersCta}"]`)
           .filter(':visible')
           .not('.slick-cloned button')

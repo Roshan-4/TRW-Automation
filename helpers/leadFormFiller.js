@@ -23,6 +23,14 @@ const exactText = (text) =>
  * clicks landed on whichever instance a `:visible` query happened to
  * resolve to first.
  */
+/**
+ * Active card slider inside a `div.differentTabs` section.
+ * The live site no longer wraps the active tab in `div.visible` — tabs
+ * swap cards inside this single slider (confirmed on homepage Truck in
+ * India / Latest Models by Category and on Brochure Best Selling Trucks).
+ */
+const ACTIVE_TAB_SLIDER = 'div.card-slider-wrapper';
+
 function makeThrottledCtaClicker(doc, ctaLabel, throttleMs = 800) {
   let lastClickAt = 0;
   return () => {
@@ -96,15 +104,36 @@ class LeadFormFiller {
   // "field truly missing" failure — `.should('be.visible')` still fails
   // loudly when nothing visible matches at all.
   getNameInput() {
-    return cy.get(this.nameSelector).filter(':visible').first();
+    return this.scopeToOpenModal()
+      .find(this.nameSelector)
+      .filter(':visible')
+      .first();
   }
 
   getMobileInput() {
-    return cy.get(this.mobileSelector).filter(':visible').first();
+    return this.scopeToOpenModal()
+      .find(this.mobileSelector)
+      .filter(':visible')
+      .first();
   }
 
   getCityInput() {
-    return cy.get(`input[placeholder="${this.cityPlaceholder}"]`).filter(':visible').first();
+    return this.scopeToOpenModal()
+      .find(`input[placeholder="${this.cityPlaceholder}"]`)
+      .filter(':visible')
+      .first();
+  }
+
+  /**
+   * Prefer the open lead modal (`data-modal-open` from the live capture)
+   * so `#name` / `#phone` are resolved inside that overlay, not against
+   * the whole document.
+   */
+  scopeToOpenModal() {
+    if (typeof this.formRootFinder === 'function') {
+      return this.getFormRoot();
+    }
+    return cy.get('body');
   }
 
   getFormRoot() {
@@ -128,17 +157,54 @@ class LeadFormFiller {
     return this.getFormRoot().contains('button', exactText(this.submitText));
   }
 
-  clearAndTypeName(name) {
-    this.getNameInput().should('be.visible').clear({ force: true });
-    if (name !== undefined && name !== '') {
-      if (this.focusFieldsBeforeType) {
-        this.getNameInput().click();
+  /**
+   * Bring the open lead form into the viewport (above the sticky header)
+   * so the fields being filled are the ones on screen — needed on pages
+   * where the modal is not portal-centered and can sit below the fold.
+   */
+  bringFormIntoView() {
+    this.getFormRoot().should('exist').then(($root) => {
+      const el = $root[0];
+      const fixedOverlay = el.closest('[data-modal-open="true"]') || el.closest('.fixed');
+      // Playwright capture of /en/offers: the Check Offers form lives in a
+      // centered `position:fixed` overlay (`data-modal-open="true"`). It is
+      // already on screen. scrollIntoView() moves the page under that
+      // overlay, then Cypress clicks the name field at the wrong point and
+      // the value stays empty. Skip scroll when the form is that modal.
+      if (fixedOverlay) {
+        return;
       }
-      this.getNameInput().type(String(name), { force: true });
-      this.getNameInput().should('have.value', String(name));
-    } else {
-      this.getNameInput().should('have.value', '');
-    }
+      cy.wrap($root, { log: false }).scrollIntoView({ offset: { top: -140, left: 0 } });
+    });
+  }
+
+  /**
+   * Always wipe the name field and type the given value.
+   * Do not wait for a previously saved / autofilled name to appear, and do
+   * not scroll the input itself (that parks it under the sticky header).
+   * The open form is already scrolled into view by `bringFormIntoView`.
+   * Type only after a real click focuses the field — `{ force: true }` on
+   * this modal leaves the box empty (Offers TC-TMO-01).
+   */
+  clearAndTypeName(name) {
+    const expected = name === undefined || name === '' ? '' : String(name);
+    const nameInput = () => this.getNameInput().should('be.visible');
+
+    const fillName = () => {
+      nameInput().click();
+      nameInput().clear();
+      if (expected) {
+        nameInput().type(expected, { delay: 30 });
+      }
+    };
+
+    fillName();
+    nameInput().invoke('val').then((val) => {
+      if (String(val) !== expected) {
+        fillName();
+      }
+    });
+    nameInput().should('have.value', expected);
   }
 
   clearAndTypeMobile(mobile) {
@@ -196,6 +262,7 @@ class LeadFormFiller {
    * Pass empty string to clear. Pass selectCity:false to type city without picking.
    */
   fillFields({ name, mobile, city, selectCity = true } = {}) {
+    this.bringFormIntoView();
     if (name !== undefined) {
       this.clearAndTypeName(name);
     }
@@ -276,4 +343,5 @@ module.exports = {
   LeadFormFiller,
   exactText,
   makeThrottledCtaClicker,
+  ACTIVE_TAB_SLIDER,
 };

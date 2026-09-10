@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-08",
+  "scrapedAt": "2026-09-10",
   "languages": [
     "en",
     "hi",
@@ -12,127 +12,261 @@
       "byLanguage": {
         "en": {
           "path": "/en/buy-used-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Used Trucks"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Used Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Used Truck Found"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Buy Used Truck and Second Hand Truck for Sale in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Are you searching for used trucks for sale?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "How can I get a second hand truck for sale?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why Truck Junction for used trucks for sale in India?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Used Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Used Trucks",
+                "questions": [
+                  "How many used trucks for sale are listed on Truck Junction?",
+                  "How can I find used trucks for sale in my area?",
+                  "Can I buy used commercial trucks at a fair price with proper documents?",
+                  "Is a second hand small truck also available at Truck Junction?",
+                  "How can I sell my used truck?"
+                ]
+              },
+              "meta": {
+                "title": "Buy Used Truck at Best Prices, Second Hand Trucks for Sale in India",
+                "description": "Used Truck for Sale in India. Here you can Buy second-hand Trucks, Buy Used trucks, Verified Old Trucks, Tippers, Pickup easily at competitive prices.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Used Truck Found"
-            },
-            {
-              "tag": "h3",
-              "text": "Buy Used Truck and Second Hand Truck for Sale in India"
-            },
-            {
-              "tag": "h2",
-              "text": "Are you searching for used trucks for sale?"
-            },
-            {
-              "tag": "h2",
-              "text": "How can I get a second hand truck for sale?"
-            },
-            {
-              "tag": "h3",
-              "text": "Why Truck Junction for used trucks for sale in India?"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Used Trucks"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Used Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Used Truck Found"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Buy Used Truck and Second Hand Truck for Sale in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Are you searching for used trucks for sale?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "How can I get a second hand truck for sale?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why Truck Junction for used trucks for sale in India?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Used Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Used Trucks",
+                "questions": [
+                  "How many used trucks for sale are listed on Truck Junction?",
+                  "How can I find used trucks for sale in my area?",
+                  "Can I buy used commercial trucks at a fair price with proper documents?",
+                  "Is a second hand small truck also available at Truck Junction?",
+                  "How can I sell my used truck?"
+                ]
+              },
+              "meta": {
+                "title": "Buy Used Truck at Best Prices, Second Hand Trucks for Sale in India",
+                "description": "Used Truck for Sale in India. Here you can Buy second-hand Trucks, Buy Used trucks, Verified Old Trucks, Tippers, Pickup easily at competitive prices.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Used Trucks",
-            "questions": [
-              "How many used trucks for sale are listed on Truck Junction?",
-              "How can I find used trucks for sale in my area?",
-              "Can I buy used commercial trucks at a fair price with proper documents?",
-              "Is a second hand small truck also available at Truck Junction?",
-              "How can I sell my used truck?"
-            ]
-          },
-          "meta": {
-            "title": "Buy Used Truck at Best Prices, Second Hand Trucks for Sale in India",
-            "description": "Used Truck for Sale in India. Here you can Buy second-hand Trucks, Buy Used trucks, Verified Old Trucks, Tippers, Pickup easily at competitive prices.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/buy-used-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "पुराने ट्रक"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "पुराने ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "पुराने ट्रक उपलब्ध"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में बिकाऊ पुराना ट्रक और सेकंड हैंड ट्रक खरीदें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "क्या आप बिकाऊ पुराने ट्रकों की तलाश कर रहे हैं?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "मैं बिकाऊ पुराना ट्रक कैसे प्राप्त कर सकता हूं?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में बिकाऊ पुराने ट्रकों के लिए ट्रक जंक्शन क्यों?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "पुराने ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "पुराने ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "ट्रक जंक्शन पर बिक्री के लिए कितने पुराने ट्रक सूचीबद्ध हैं?",
+                  "मुझे अपने क्षेत्र में बिकाऊ पुराने ट्रक कैसे मिल सकते हैं?",
+                  "ट्रक जंक्शन पर कितने ट्रेलर ट्रक बिकने के लिए सूचीबद्ध हैं?",
+                  "क्या मैं उचित दस्तावेजों के साथ पुराने वाणिज्यिक ट्रकों को उचित मूल्य पर खरीद सकता हूं?",
+                  "क्या ट्रक जंक्शन पर सेकंड हैंड छोटा ट्रक भी उपलब्ध है?",
+                  "मैं अपने पुराने ट्रक को कैसे बेच सकता हूं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में बिक्री के लिए इस्तेमाल किए गए ट्रक, सेकंड हैंड ट्रक खरीदें",
+                "description": "भारत में बिक्री के लिए पुराने ट्रक। यहां आप अच्छी कीमतों पर आसानी से सेकेंड हैंड ट्रक, यूज्ड ट्रक, वेरिफाईड ओल्ड ट्रक, टिपर, पिकअप खरीद सकते हैं।",
+                "keywords": "पुराने ट्रक,पुराने टिपर, यूज्ड ट्रक"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "पुराने ट्रक उपलब्ध"
-            },
-            {
-              "tag": "h3",
-              "text": "भारत में बिकाऊ पुराना ट्रक और सेकंड हैंड ट्रक खरीदें"
-            },
-            {
-              "tag": "h2",
-              "text": "क्या आप बिकाऊ पुराने ट्रकों की तलाश कर रहे हैं?"
-            },
-            {
-              "tag": "h2",
-              "text": "मैं बिकाऊ पुराना ट्रक कैसे प्राप्त कर सकता हूं?"
-            },
-            {
-              "tag": "h3",
-              "text": "भारत में बिकाऊ पुराने ट्रकों के लिए ट्रक जंक्शन क्यों?"
-            },
-            {
-              "tag": "h2",
-              "text": "पुराने ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "पुराने ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "पुराने ट्रक उपलब्ध"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में बिकाऊ पुराना ट्रक और सेकंड हैंड ट्रक खरीदें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "क्या आप बिकाऊ पुराने ट्रकों की तलाश कर रहे हैं?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "मैं बिकाऊ पुराना ट्रक कैसे प्राप्त कर सकता हूं?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में बिकाऊ पुराने ट्रकों के लिए ट्रक जंक्शन क्यों?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "पुराने ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "पुराने ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "ट्रक जंक्शन पर बिक्री के लिए कितने पुराने ट्रक सूचीबद्ध हैं?",
+                  "मुझे अपने क्षेत्र में बिकाऊ पुराने ट्रक कैसे मिल सकते हैं?",
+                  "ट्रक जंक्शन पर कितने ट्रेलर ट्रक बिकने के लिए सूचीबद्ध हैं?",
+                  "क्या मैं उचित दस्तावेजों के साथ पुराने वाणिज्यिक ट्रकों को उचित मूल्य पर खरीद सकता हूं?",
+                  "क्या ट्रक जंक्शन पर सेकंड हैंड छोटा ट्रक भी उपलब्ध है?",
+                  "मैं अपने पुराने ट्रक को कैसे बेच सकता हूं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में बिक्री के लिए इस्तेमाल किए गए ट्रक, सेकंड हैंड ट्रक खरीदें",
+                "description": "भारत में बिक्री के लिए पुराने ट्रक। यहां आप अच्छी कीमतों पर आसानी से सेकेंड हैंड ट्रक, यूज्ड ट्रक, वेरिफाईड ओल्ड ट्रक, टिपर, पिकअप खरीद सकते हैं।",
+                "keywords": "पुराने ट्रक,पुराने टिपर, यूज्ड ट्रक"
+              }
             }
-          ],
-          "faq": {
-            "heading": "पुराने ट्रक से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "ट्रक जंक्शन पर बिक्री के लिए कितने पुराने ट्रक सूचीबद्ध हैं?",
-              "मुझे अपने क्षेत्र में बिकाऊ पुराने ट्रक कैसे मिल सकते हैं?",
-              "ट्रक जंक्शन पर कितने ट्रेलर ट्रक बिकने के लिए सूचीबद्ध हैं?",
-              "क्या मैं उचित दस्तावेजों के साथ पुराने वाणिज्यिक ट्रकों को उचित मूल्य पर खरीद सकता हूं?",
-              "क्या ट्रक जंक्शन पर सेकंड हैंड छोटा ट्रक भी उपलब्ध है?",
-              "मैं अपने पुराने ट्रक को कैसे बेच सकता हूं?"
-            ]
-          },
-          "meta": {
-            "title": "भारत में बिक्री के लिए इस्तेमाल किए गए ट्रक, सेकंड हैंड ट्रक खरीदें",
-            "description": "भारत में बिक्री के लिए पुराने ट्रक। यहां आप अच्छी कीमतों पर आसानी से सेकेंड हैंड ट्रक, यूज्ड ट्रक, वेरिफाईड ओल्ड ट्रक, टिपर, पिकअप खरीद सकते हैं।",
-            "keywords": "पुराने ट्रक,पुराने टिपर, यूज्ड ट्रक"
           }
         },
         "ta": {
           "path": "/ta/buy-used-trucks",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "பயன்படுத்திய டிரக்குகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "பயன்படுத்திய டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பயன்படுத்திய டிரக்(s) கண்டுபிடிக்கப்பட்டது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பயன்படுத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "பயன்படுத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "டிரக் ஜங்ஷனில் எத்தனை பயன்படுத்திய டிரக்குகள் விற்பனைக்கு பட்டியலிடப்பட்டுள்ளன?"
+                ]
+              },
+              "meta": {
+                "title": "சிறந்த விலையில் பயன்படுத்தப்பட்ட லாரிகளை வாங்குங்கள்; இந்தியாவில் விற்பனைக்கு உள்ள பழைய லாரிகள்",
+                "description": "இந்தியாவில் விற்பனைக்கு உள்ள பயன்படுத்தப்பட்ட லாரிகள். இங்கே நீங்கள் பழைய லாரிகள், பயன்படுத்தப்பட்ட சரக்கு வாகனங்கள், சரிபார்க்கப்பட்ட பழைய லாரிகள், டிப்பர்கள் மற்றும் பிக்கப் வாகனங்களை மிக எளிதாக, போட்டி விலையில் வாங்கலாம்.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "பயன்படுத்திய டிரக்(s) கண்டுபிடிக்கப்பட்டது"
-            },
-            {
-              "tag": "h2",
-              "text": "பயன்படுத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "பயன்படுத்திய டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பயன்படுத்திய டிரக்(s) கண்டுபிடிக்கப்பட்டது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பயன்படுத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "பயன்படுத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "டிரக் ஜங்ஷனில் எத்தனை பயன்படுத்திய டிரக்குகள் விற்பனைக்கு பட்டியலிடப்பட்டுள்ளன?"
+                ]
+              },
+              "meta": {
+                "title": "சிறந்த விலையில் பயன்படுத்தப்பட்ட லாரிகளை வாங்குங்கள்; இந்தியாவில் விற்பனைக்கு உள்ள பழைய லாரிகள்",
+                "description": "இந்தியாவில் விற்பனைக்கு உள்ள பயன்படுத்தப்பட்ட லாரிகள். இங்கே நீங்கள் பழைய லாரிகள், பயன்படுத்தப்பட்ட சரக்கு வாகனங்கள், சரிபார்க்கப்பட்ட பழைய லாரிகள், டிப்பர்கள் மற்றும் பிக்கப் வாகனங்களை மிக எளிதாக, போட்டி விலையில் வாங்கலாம்.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "பயன்படுத்திய டிரக்குகள் குறித்து அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "டிரக் ஜங்ஷனில் எத்தனை பயன்படுத்திய டிரக்குகள் விற்பனைக்கு பட்டியலிடப்பட்டுள்ளன?"
-            ]
-          },
-          "meta": {
-            "title": "சிறந்த விலையில் பயன்படுத்தப்பட்ட லாரிகளை வாங்குங்கள்; இந்தியாவில் விற்பனைக்கு உள்ள பழைய லாரிகள்",
-            "description": "இந்தியாவில் விற்பனைக்கு உள்ள பயன்படுத்தப்பட்ட லாரிகள். இங்கே நீங்கள் பழைய லாரிகள், பயன்படுத்தப்பட்ட சரக்கு வாகனங்கள், சரிபார்க்கப்பட்ட பழைய லாரிகள், டிப்பர்கள் மற்றும் பிக்கப் வாகனங்களை மிக எளிதாக, போட்டி விலையில் வாங்கலாம்.",
-            "keywords": ""
           }
         }
       }
@@ -143,68 +277,143 @@
       "byLanguage": {
         "en": {
           "path": "/en/sell-used-truck",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Sell Your Used Truck at best Price"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Sell Your Used Truck at best Price"
+                },
+                {
+                  "tag": "h2",
+                  "text": "step away from selling your truck"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Sell Trucks at Best Prices In India, Sell Your Tipper, Pickup Online",
+                "description": "Truck Junction is an online platform where you can sell your second-hand or used trucks easily at fair and competitive market prices.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "step away from selling your truck"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Sell Your Used Truck at best Price"
+                },
+                {
+                  "tag": "h2",
+                  "text": "step away from selling your truck"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Sell Trucks at Best Prices In India, Sell Your Tipper, Pickup Online",
+                "description": "Truck Junction is an online platform where you can sell your second-hand or used trucks easily at fair and competitive market prices.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Sell Trucks at Best Prices In India, Sell Your Tipper, Pickup Online",
-            "description": "Truck Junction is an online platform where you can sell your second-hand or used trucks easily at fair and competitive market prices.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/sell-used-truck",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "अपने ट्रक को सर्वोत्तम मूल्य पर बेचें"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "अपने ट्रक को सर्वोत्तम मूल्य पर बेचें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक बेचने से बस 3 कदम दूर"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "भारत में बिक्री के लिए पुराने ट्रक, टिपर, पिकअप खरीदें",
+                "description": "ट्रक जंक्शन पर आप अपने पुराने ट्रक, टिपर, ३ व्हीलर, मिनी ट्रक और अन्य कमर्शियल वाहनों को उचित कीमत पर आसानी से बेच सकते हैं।",
+                "keywords": "पुराने ट्रक, सेकेंड हैंड ट्रक, यूज्ड ट्रक"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "ट्रक बेचने से बस 3 कदम दूर"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "अपने ट्रक को सर्वोत्तम मूल्य पर बेचें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक बेचने से बस 3 कदम दूर"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "भारत में बिक्री के लिए पुराने ट्रक, टिपर, पिकअप खरीदें",
+                "description": "ट्रक जंक्शन पर आप अपने पुराने ट्रक, टिपर, ३ व्हीलर, मिनी ट्रक और अन्य कमर्शियल वाहनों को उचित कीमत पर आसानी से बेच सकते हैं।",
+                "keywords": "पुराने ट्रक, सेकेंड हैंड ट्रक, यूज्ड ट्रक"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "भारत में बिक्री के लिए पुराने ट्रक, टिपर, पिकअप खरीदें",
-            "description": "ट्रक जंक्शन पर आप अपने पुराने ट्रक, टिपर, ३ व्हीलर, मिनी ट्रक और अन्य कमर्शियल वाहनों को उचित कीमत पर आसानी से बेच सकते हैं।",
-            "keywords": "पुराने ट्रक, सेकेंड हैंड ट्रक, यूज्ड ट्रक"
           }
         },
         "ta": {
           "path": "/ta/sell-used-truck",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "உங்கள் பயன்படுத்திய லாரியை சிறந்த விலையில் விற்கவும்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "உங்கள் பயன்படுத்திய லாரியை சிறந்த விலையில் விற்கவும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்கள் டிரக்கை விற்பதற்கு 3 படிகள் தொலைவில்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "இந்தியாவில் சிறந்த விலையில் டிரக்குகளை விற்பனை செய்யுங்கள், உங்கள் டிப்பர், பிக்கப் வாகனத்தை ஆன்லைனில் விற்கவும்",
+                "description": "டிரக் ஜங்ஷன் என்பது ஒரு ஆன்லைன் தளமாகும், இங்கு நீங்கள் உங்கள் செகண்ட் ஹேண்ட் அல்லது பயன்படுத்திய டிரக்குகளை நியாயமான மற்றும் போட்டித்தன்மை வாய்ந்த சந்தை விலையில் எளிதாக விற்கலாம்.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "உங்கள் டிரக்கை விற்பதற்கு 3 படிகள் தொலைவில்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "உங்கள் பயன்படுத்திய லாரியை சிறந்த விலையில் விற்கவும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்கள் டிரக்கை விற்பதற்கு 3 படிகள் தொலைவில்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "இந்தியாவில் சிறந்த விலையில் டிரக்குகளை விற்பனை செய்யுங்கள், உங்கள் டிப்பர், பிக்கப் வாகனத்தை ஆன்லைனில் விற்கவும்",
+                "description": "டிரக் ஜங்ஷன் என்பது ஒரு ஆன்லைன் தளமாகும், இங்கு நீங்கள் உங்கள் செகண்ட் ஹேண்ட் அல்லது பயன்படுத்திய டிரக்குகளை நியாயமான மற்றும் போட்டித்தன்மை வாய்ந்த சந்தை விலையில் எளிதாக விற்கலாம்.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "இந்தியாவில் சிறந்த விலையில் டிரக்குகளை விற்பனை செய்யுங்கள், உங்கள் டிப்பர், பிக்கப் வாகனத்தை ஆன்லைனில் விற்கவும்",
-            "description": "டிரக் ஜங்ஷன் என்பது ஒரு ஆன்லைன் தளமாகும், இங்கு நீங்கள் உங்கள் செகண்ட் ஹேண்ட் அல்லது பயன்படுத்திய டிரக்குகளை நியாயமான மற்றும் போட்டித்தன்மை வாய்ந்த சந்தை விலையில் எளிதாக விற்கலாம்.",
-            "keywords": ""
           }
         }
       }
@@ -215,176 +424,359 @@
       "byLanguage": {
         "en": {
           "path": "/en/vehicle-permit-check",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "All India permit for Your Vehicle – Quick & Easy!"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "All India permit for Your Vehicle – Quick & Easy!"
+                },
+                {
+                  "tag": "h3",
+                  "text": "All India (National) Permit"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Key Points"
+                },
+                {
+                  "tag": "h2",
+                  "text": "How to Get Your Permit in 3 Easy Steps"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Why You Need a Vehicle Permit"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Vehicle Permit Types"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Need Help Getting Your All India Permit?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Why Choose Us"
+                },
+                {
+                  "tag": "h2",
+                  "text": "What People Say About Us"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Updates"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Check Vehicle Permit Info Online - National Permit Status",
+                "description": "Find your commercial vehicle's All India Permit status, validity & fees—just enter the vehicle number. Quick, easy & verified with official govt. records.",
+                "keywords": "all india permit, national permit status, vehicle permit info, permit fees, commercial vehicle permit, permit validity, permit status, check vehicle permit online, govt. portal verified"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "All India (National) Permit"
-            },
-            {
-              "tag": "h2",
-              "text": "Key Points"
-            },
-            {
-              "tag": "h2",
-              "text": "How to Get Your Permit in 3 Easy Steps"
-            },
-            {
-              "tag": "h2",
-              "text": "Why You Need a Vehicle Permit"
-            },
-            {
-              "tag": "h2",
-              "text": "Truck in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Vehicle Permit Types"
-            },
-            {
-              "tag": "h2",
-              "text": "Need Help Getting Your All India Permit?"
-            },
-            {
-              "tag": "h2",
-              "text": "Why Choose Us"
-            },
-            {
-              "tag": "h2",
-              "text": "What People Say About Us"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Updates"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "All India permit for Your Vehicle – Quick & Easy!"
+                },
+                {
+                  "tag": "h3",
+                  "text": "All India (National) Permit"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Key Points"
+                },
+                {
+                  "tag": "h2",
+                  "text": "How to Get Your Permit in 3 Easy Steps"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Why You Need a Vehicle Permit"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Vehicle Permit Types"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Need Help Getting Your All India Permit?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Why Choose Us"
+                },
+                {
+                  "tag": "h2",
+                  "text": "What People Say About Us"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Updates"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Check Vehicle Permit Info Online - National Permit Status",
+                "description": "Find your commercial vehicle's All India Permit status, validity & fees—just enter the vehicle number. Quick, easy & verified with official govt. records.",
+                "keywords": "all india permit, national permit status, vehicle permit info, permit fees, commercial vehicle permit, permit validity, permit status, check vehicle permit online, govt. portal verified"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Check Vehicle Permit Info Online - National Permit Status",
-            "description": "Find your commercial vehicle's All India Permit status, validity & fees—just enter the vehicle number. Quick, easy & verified with official govt. records.",
-            "keywords": "all india permit, national permit status, vehicle permit info, permit fees, commercial vehicle permit, permit validity, permit status, check vehicle permit online, govt. portal verified"
           }
         },
         "hi": {
           "path": "/hi/vehicle-permit-check",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "आपके वाहन के लिए ऑल इंडिया परमिट – तेज और आसान!"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "आपके वाहन के लिए ऑल इंडिया परमिट – तेज और आसान!"
+                },
+                {
+                  "tag": "h3",
+                  "text": "ऑल इंडिया (नेशनल) परमिट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "मुख्य बातें:"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अपना परमिट 3 आसान चरणों में कैसे प्राप्त करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आपको वाहन परमिट की आवश्यकता क्यों है"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में ट्रक 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "वाहन परमिट प्रकार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "क्या आपको अपना अखिल भारतीय परमिट प्राप्त करने में सहायता चाहिए?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमें क्यों चुनें?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमारे बारे में क्या कहते हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम अपडेट"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ऑनलाइन व्यावसायिक वाहन परमिट जानकारी जांचें - नेशनल परमिट स्टेटस",
+                "description": "अपने व्यावसायिक वाहन का ऑल इंडिया परमिट स्टेटस, वैधता और फीस ऑनलाइन जांचें। बस वाहन नंबर दर्ज करें — आसान, तेज़ और सरकारी रिकॉर्ड से सत्यापित।",
+                "keywords": "ऑल इंडिया परमिट, नेशनल परमिट स्टेटस, वाहन परमिट जानकारी, परमिट फीस, कमर्शियल वाहन परमिट, परमिट वैधता, परमिट स्टेटस, परमिट ऑनलाइन चेक करें, सरकारी पोर्टल सत्यापन"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "ऑल इंडिया (नेशनल) परमिट"
-            },
-            {
-              "tag": "h2",
-              "text": "मुख्य बातें:"
-            },
-            {
-              "tag": "h2",
-              "text": "अपना परमिट 3 आसान चरणों में कैसे प्राप्त करें"
-            },
-            {
-              "tag": "h2",
-              "text": "आपको वाहन परमिट की आवश्यकता क्यों है"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में ट्रक 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "वाहन परमिट प्रकार"
-            },
-            {
-              "tag": "h2",
-              "text": "क्या आपको अपना अखिल भारतीय परमिट प्राप्त करने में सहायता चाहिए?"
-            },
-            {
-              "tag": "h2",
-              "text": "हमें क्यों चुनें?"
-            },
-            {
-              "tag": "h2",
-              "text": "हमारे बारे में क्या कहते हैं"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम अपडेट"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "आपके वाहन के लिए ऑल इंडिया परमिट – तेज और आसान!"
+                },
+                {
+                  "tag": "h3",
+                  "text": "ऑल इंडिया (नेशनल) परमिट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "मुख्य बातें:"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अपना परमिट 3 आसान चरणों में कैसे प्राप्त करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आपको वाहन परमिट की आवश्यकता क्यों है"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में ट्रक 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "वाहन परमिट प्रकार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "क्या आपको अपना अखिल भारतीय परमिट प्राप्त करने में सहायता चाहिए?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमें क्यों चुनें?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमारे बारे में क्या कहते हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम अपडेट"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ऑनलाइन व्यावसायिक वाहन परमिट जानकारी जांचें - नेशनल परमिट स्टेटस",
+                "description": "अपने व्यावसायिक वाहन का ऑल इंडिया परमिट स्टेटस, वैधता और फीस ऑनलाइन जांचें। बस वाहन नंबर दर्ज करें — आसान, तेज़ और सरकारी रिकॉर्ड से सत्यापित।",
+                "keywords": "ऑल इंडिया परमिट, नेशनल परमिट स्टेटस, वाहन परमिट जानकारी, परमिट फीस, कमर्शियल वाहन परमिट, परमिट वैधता, परमिट स्टेटस, परमिट ऑनलाइन चेक करें, सरकारी पोर्टल सत्यापन"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "ऑनलाइन व्यावसायिक वाहन परमिट जानकारी जांचें - नेशनल परमिट स्टेटस",
-            "description": "अपने व्यावसायिक वाहन का ऑल इंडिया परमिट स्टेटस, वैधता और फीस ऑनलाइन जांचें। बस वाहन नंबर दर्ज करें — आसान, तेज़ और सरकारी रिकॉर्ड से सत्यापित।",
-            "keywords": "ऑल इंडिया परमिट, नेशनल परमिट स्टेटस, वाहन परमिट जानकारी, परमिट फीस, कमर्शियल वाहन परमिट, परमिट वैधता, परमिट स्टेटस, परमिट ऑनलाइन चेक करें, सरकारी पोर्टल सत्यापन"
           }
         },
         "ta": {
           "path": "/ta/vehicle-permit-check",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "உங்கள் வாகனத்திற்கான அகில இந்திய அனுமதி – விரைவான & எளிதானது!"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "உங்கள் வாகனத்திற்கான அகில இந்திய அனுமதி – விரைவான & எளிதானது!"
+                },
+                {
+                  "tag": "h3",
+                  "text": "அகில இந்திய (தேசிய) அனுமதி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "முக்கிய புள்ளிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எளிய படிகளில் உங்கள் அனுமதியை எவ்வாறு பெறுவது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்களுக்கு ஏன் வாகன அனுமதி தேவை"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ஆண்டில் உள்ள டிரக்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வாகன அனுமதி வகைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்கள் அகில இந்திய அனுமதி பெற உதவி தேவையா?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எங்களை ஏன் தேர்வு செய்ய வேண்டும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எங்களைப் பற்றி மக்கள் என்ன சொல்கிறார்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய புதுப்பிப்புகள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "வாகன அனுமதித் தகவலை ஆன்லைனில் சரிபார்க்கவும் - தேசிய அனுமதி நிலை",
+                "description": "உங்கள் வணிக வாகனத்தின் அகில இந்திய அனுமதி நிலை, செல்லுபடியாகும் தன்மை மற்றும் கட்டணங்களைக் கண்டறியவும்—வாகன எண்ணை உள்ளிடவும். அரசாங்கத்தின் அதிகாரப்பூர்வ பதிவுகளுடன் விரைவாகவும் எளிதாகவும் சரிபார்க்கப்பட்டது.",
+                "keywords": "அனைத்து இந்திய அனுமதி, தேசிய அனுமதி நிலை, வாகன அனுமதித் தகவல், அனுமதி கட்டணங்கள், வணிக வாகன அனுமதி, அனுமதி செல்லுபடியாகும் தன்மை, அனுமதி நிலை, வாகன அனுமதியை ஆன்லைனில் சரிபார்க்கவும், அரசாங்க போர்டல் சரிபார்க்கப்பட்டது"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "அகில இந்திய (தேசிய) அனுமதி"
-            },
-            {
-              "tag": "h2",
-              "text": "முக்கிய புள்ளிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "எளிய படிகளில் உங்கள் அனுமதியை எவ்வாறு பெறுவது"
-            },
-            {
-              "tag": "h2",
-              "text": "உங்களுக்கு ஏன் வாகன அனுமதி தேவை"
-            },
-            {
-              "tag": "h2",
-              "text": "ஆண்டில் உள்ள டிரக்"
-            },
-            {
-              "tag": "h2",
-              "text": "வாகன அனுமதி வகைகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "உங்கள் அகில இந்திய அனுமதி பெற உதவி தேவையா?"
-            },
-            {
-              "tag": "h2",
-              "text": "எங்களை ஏன் தேர்வு செய்ய வேண்டும்"
-            },
-            {
-              "tag": "h2",
-              "text": "எங்களைப் பற்றி மக்கள் என்ன சொல்கிறார்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "சமீபத்திய புதுப்பிப்புகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "உங்கள் வாகனத்திற்கான அகில இந்திய அனுமதி – விரைவான & எளிதானது!"
+                },
+                {
+                  "tag": "h3",
+                  "text": "அகில இந்திய (தேசிய) அனுமதி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "முக்கிய புள்ளிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எளிய படிகளில் உங்கள் அனுமதியை எவ்வாறு பெறுவது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்களுக்கு ஏன் வாகன அனுமதி தேவை"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ஆண்டில் உள்ள டிரக்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வாகன அனுமதி வகைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்கள் அகில இந்திய அனுமதி பெற உதவி தேவையா?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எங்களை ஏன் தேர்வு செய்ய வேண்டும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எங்களைப் பற்றி மக்கள் என்ன சொல்கிறார்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய புதுப்பிப்புகள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "வாகன அனுமதித் தகவலை ஆன்லைனில் சரிபார்க்கவும் - தேசிய அனுமதி நிலை",
+                "description": "உங்கள் வணிக வாகனத்தின் அகில இந்திய அனுமதி நிலை, செல்லுபடியாகும் தன்மை மற்றும் கட்டணங்களைக் கண்டறியவும்—வாகன எண்ணை உள்ளிடவும். அரசாங்கத்தின் அதிகாரப்பூர்வ பதிவுகளுடன் விரைவாகவும் எளிதாகவும் சரிபார்க்கப்பட்டது.",
+                "keywords": "அனைத்து இந்திய அனுமதி, தேசிய அனுமதி நிலை, வாகன அனுமதித் தகவல், அனுமதி கட்டணங்கள், வணிக வாகன அனுமதி, அனுமதி செல்லுபடியாகும் தன்மை, அனுமதி நிலை, வாகன அனுமதியை ஆன்லைனில் சரிபார்க்கவும், அரசாங்க போர்டல் சரிபார்க்கப்பட்டது"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "வாகன அனுமதித் தகவலை ஆன்லைனில் சரிபார்க்கவும் - தேசிய அனுமதி நிலை",
-            "description": "உங்கள் வணிக வாகனத்தின் அகில இந்திய அனுமதி நிலை, செல்லுபடியாகும் தன்மை மற்றும் கட்டணங்களைக் கண்டறியவும்—வாகன எண்ணை உள்ளிடவும். அரசாங்கத்தின் அதிகாரப்பூர்வ பதிவுகளுடன் விரைவாகவும் எளிதாகவும் சரிபார்க்கப்பட்டது.",
-            "keywords": "அனைத்து இந்திய அனுமதி, தேசிய அனுமதி நிலை, வாகன அனுமதித் தகவல், அனுமதி கட்டணங்கள், வணிக வாகன அனுமதி, அனுமதி செல்லுபடியாகும் தன்மை, அனுமதி நிலை, வாகன அனுமதியை ஆன்லைனில் சரிபார்க்கவும், அரசாங்க போர்டல் சரிபார்க்கப்பட்டது"
           }
         }
       }
@@ -395,158 +787,323 @@
       "byLanguage": {
         "en": {
           "path": "/en/vehicle-history-report",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Know Your Complete Vehicle History in Seconds"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Know Your Complete Vehicle History in Seconds"
+                },
+                {
+                  "tag": "h2",
+                  "text": "How it works"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Used Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Benefits of Vehicle History"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Looking for New Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "What Can I Do with a Vehicle History Report?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "News and Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "FAQ"
+                }
+              ],
+              "faq": {
+                "heading": "FAQ",
+                "questions": [
+                  "What details are included in the vehicle history report?",
+                  "How can I check a vehicle’s history?",
+                  "Is the vehicle history data accurate and trustworthy?",
+                  "Can I check the history of any commercial vehicle?",
+                  "Do I need to sign up to access the report?"
+                ]
+              },
+              "meta": {
+                "title": "Vehicle History Report – Insurance, Challan & Permit Info",
+                "description": "Get complete history of your commercial vehicle in seconds. Check insurance, permits, challans, ownership & more—backed by verified govt. data.",
+                "keywords": "Vehicle history report, check vehicle history, truck history check, commercial vehicle report, insurance and challan status, RC info online, permit status check, vehicle registration report, owner details by vehicle number, truck junction vehicle check"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "How it works"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Used Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "Benefits of Vehicle History"
-            },
-            {
-              "tag": "h2",
-              "text": "Looking for New Trucks"
-            },
-            {
-              "tag": "h2",
-              "text": "What Can I Do with a Vehicle History Report?"
-            },
-            {
-              "tag": "h2",
-              "text": "News and Updates"
-            },
-            {
-              "tag": "h2",
-              "text": "FAQ"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Know Your Complete Vehicle History in Seconds"
+                },
+                {
+                  "tag": "h2",
+                  "text": "How it works"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Used Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Benefits of Vehicle History"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Looking for New Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "What Can I Do with a Vehicle History Report?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "News and Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "FAQ"
+                }
+              ],
+              "faq": {
+                "heading": "FAQ",
+                "questions": [
+                  "What details are included in the vehicle history report?",
+                  "How can I check a vehicle’s history?",
+                  "Is the vehicle history data accurate and trustworthy?",
+                  "Can I check the history of any commercial vehicle?",
+                  "Do I need to sign up to access the report?"
+                ]
+              },
+              "meta": {
+                "title": "Vehicle History Report – Insurance, Challan & Permit Info",
+                "description": "Get complete history of your commercial vehicle in seconds. Check insurance, permits, challans, ownership & more—backed by verified govt. data.",
+                "keywords": "Vehicle history report, check vehicle history, truck history check, commercial vehicle report, insurance and challan status, RC info online, permit status check, vehicle registration report, owner details by vehicle number, truck junction vehicle check"
+              }
             }
-          ],
-          "faq": {
-            "heading": "FAQ",
-            "questions": [
-              "What details are included in the vehicle history report?",
-              "How can I check a vehicle’s history?",
-              "Is the vehicle history data accurate and trustworthy?",
-              "Can I check the history of any commercial vehicle?",
-              "Do I need to sign up to access the report?"
-            ]
-          },
-          "meta": {
-            "title": "Vehicle History Report – Insurance, Challan & Permit Info",
-            "description": "Get complete history of your commercial vehicle in seconds. Check insurance, permits, challans, ownership & more—backed by verified govt. data.",
-            "keywords": "Vehicle history report, check vehicle history, truck history check, commercial vehicle report, insurance and challan status, RC info online, permit status check, vehicle registration report, owner details by vehicle number, truck junction vehicle check"
           }
         },
         "hi": {
           "path": "/hi/vehicle-history-report",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "सिर्फ कुछ सेकंड में अपने वाहन का पूरा इतिहास जानें"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "सिर्फ कुछ सेकंड में अपने वाहन का पूरा इतिहास जानें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "यह कैसे काम करता है"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय प्रयुक्त ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "व्हीकल हिस्ट्री के लाभ"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रकों की तलाश कर रहे हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "मैं व्हीकल हिस्ट्री रिपोर्ट से क्या कर सकता हूँ?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "समाचार और अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अक्सर पूछे जाने वाले सवाल (FAQ)"
+                }
+              ],
+              "faq": {
+                "heading": "अक्सर पूछे जाने वाले सवाल (FAQ)",
+                "questions": [
+                  "व्हीकल हिस्ट्री रिपोर्ट में कौन-कौन सी जानकारी होती है?",
+                  "मैं वाहन का इतिहास कैसे देख सकता हूं?",
+                  "क्या व्हीकल हिस्ट्री डेटा सटीक और भरोसेमंद है?",
+                  "क्या मैं किसी भी कमर्शियल वाहन की हिस्ट्री देख सकता हूं?",
+                  "क्या रिपोर्ट एक्सेस करने के लिए साइन-अप जरूरी है?"
+                ]
+              },
+              "meta": {
+                "title": "वाहन इतिहास रिपोर्ट – बीमा, चालान और परमिट जानकारी",
+                "description": "अपने वाणिज्यिक वाहन का पूरा इतिहास सेकंडों में प्राप्त करें। बीमा, परमिट, चालान, स्वामित्व और अधिक जांचें—सत्यापित सरकारी डेटा द्वारा समर्थित।",
+                "keywords": "वाहन इतिहास रिपोर्ट, वाहन इतिहास जांचें, ट्रक इतिहास जांच, वाणिज्यिक वाहन रिपोर्ट, बीमा और चालान स्थिति, ऑनलाइन आरसी जानकारी, परमिट स्थिति जांच, वाहन पंजीकरण रिपोर्ट, वाहन संख्या द्वारा मालिक विवरण, ट्रक जंक्शन वाहन जांच"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "यह कैसे काम करता है"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय प्रयुक्त ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "व्हीकल हिस्ट्री के लाभ"
-            },
-            {
-              "tag": "h2",
-              "text": "नए ट्रकों की तलाश कर रहे हैं"
-            },
-            {
-              "tag": "h2",
-              "text": "मैं व्हीकल हिस्ट्री रिपोर्ट से क्या कर सकता हूँ?"
-            },
-            {
-              "tag": "h2",
-              "text": "समाचार और अपडेट"
-            },
-            {
-              "tag": "h2",
-              "text": "अक्सर पूछे जाने वाले सवाल (FAQ)"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "सिर्फ कुछ सेकंड में अपने वाहन का पूरा इतिहास जानें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "यह कैसे काम करता है"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय प्रयुक्त ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "व्हीकल हिस्ट्री के लाभ"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रकों की तलाश कर रहे हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "मैं व्हीकल हिस्ट्री रिपोर्ट से क्या कर सकता हूँ?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "समाचार और अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अक्सर पूछे जाने वाले सवाल (FAQ)"
+                }
+              ],
+              "faq": {
+                "heading": "अक्सर पूछे जाने वाले सवाल (FAQ)",
+                "questions": [
+                  "व्हीकल हिस्ट्री रिपोर्ट में कौन-कौन सी जानकारी होती है?",
+                  "मैं वाहन का इतिहास कैसे देख सकता हूं?",
+                  "क्या व्हीकल हिस्ट्री डेटा सटीक और भरोसेमंद है?",
+                  "क्या मैं किसी भी कमर्शियल वाहन की हिस्ट्री देख सकता हूं?",
+                  "क्या रिपोर्ट एक्सेस करने के लिए साइन-अप जरूरी है?"
+                ]
+              },
+              "meta": {
+                "title": "वाहन इतिहास रिपोर्ट – बीमा, चालान और परमिट जानकारी",
+                "description": "अपने वाणिज्यिक वाहन का पूरा इतिहास सेकंडों में प्राप्त करें। बीमा, परमिट, चालान, स्वामित्व और अधिक जांचें—सत्यापित सरकारी डेटा द्वारा समर्थित।",
+                "keywords": "वाहन इतिहास रिपोर्ट, वाहन इतिहास जांचें, ट्रक इतिहास जांच, वाणिज्यिक वाहन रिपोर्ट, बीमा और चालान स्थिति, ऑनलाइन आरसी जानकारी, परमिट स्थिति जांच, वाहन पंजीकरण रिपोर्ट, वाहन संख्या द्वारा मालिक विवरण, ट्रक जंक्शन वाहन जांच"
+              }
             }
-          ],
-          "faq": {
-            "heading": "अक्सर पूछे जाने वाले सवाल (FAQ)",
-            "questions": [
-              "व्हीकल हिस्ट्री रिपोर्ट में कौन-कौन सी जानकारी होती है?",
-              "मैं वाहन का इतिहास कैसे देख सकता हूं?",
-              "क्या व्हीकल हिस्ट्री डेटा सटीक और भरोसेमंद है?",
-              "क्या मैं किसी भी कमर्शियल वाहन की हिस्ट्री देख सकता हूं?",
-              "क्या रिपोर्ट एक्सेस करने के लिए साइन-अप जरूरी है?"
-            ]
-          },
-          "meta": {
-            "title": "वाहन इतिहास रिपोर्ट – बीमा, चालान और परमिट जानकारी",
-            "description": "अपने वाणिज्यिक वाहन का पूरा इतिहास सेकंडों में प्राप्त करें। बीमा, परमिट, चालान, स्वामित्व और अधिक जांचें—सत्यापित सरकारी डेटा द्वारा समर्थित।",
-            "keywords": "वाहन इतिहास रिपोर्ट, वाहन इतिहास जांचें, ट्रक इतिहास जांच, वाणिज्यिक वाहन रिपोर्ट, बीमा और चालान स्थिति, ऑनलाइन आरसी जानकारी, परमिट स्थिति जांच, वाहन पंजीकरण रिपोर्ट, वाहन संख्या द्वारा मालिक विवरण, ट्रक जंक्शन वाहन जांच"
           }
         },
         "ta": {
           "path": "/ta/vehicle-history-report",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "உங்கள் முழுமையான வாகன வரலாற்றை வினாடிகளில் தெரிந்து கொள்ளுங்கள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "உங்கள் முழுமையான வாகன வரலாற்றை வினாடிகளில் தெரிந்து கொள்ளுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இது எவ்வாறு செயல்படுகிறது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான பயன்படுத்திய லாரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வாகன வரலாற்றின் நன்மைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய லாரிகளைத் தேடுகிறது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வாகன வரலாற்று அறிக்கையை வைத்து நான் என்ன செய்ய முடியும்?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "செய்திகள் மற்றும் புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "வாகன வரலாற்று அறிக்கையில் என்ன விவரங்கள் சேர்க்கப்பட்டுள்ளன?",
+                  "ஒரு வாகனத்தின் வரலாற்றை நான் எவ்வாறு சரிபார்க்க முடியும்?",
+                  "வாகன வரலாற்றுத் தரவு துல்லியமானதாகவும் நம்பகமானதாகவும் உள்ளதா?",
+                  "எந்தவொரு வணிக வாகனத்தின் வரலாற்றையும் நான் சரிபார்க்க முடியுமா?",
+                  "அறிக்கையை அணுக நான் பதிவு செய்ய வேண்டுமா?"
+                ]
+              },
+              "meta": {
+                "title": "வாகன வரலாற்று அறிக்கை - காப்பீடு, சலான் & அனுமதி தகவல்",
+                "description": "உங்கள் வணிக வாகனத்தின் முழுமையான வரலாற்றை வினாடிகளில் பெறுங்கள். காப்பீடு, அனுமதிகள், சலான்கள், உரிமை மற்றும் பலவற்றைச் சரிபார்க்கவும்—சரிபார்க்கப்பட்ட அரசாங்கத் தரவுகளால் ஆதரிக்கப்படுகிறது.",
+                "keywords": "வாகன வரலாற்று அறிக்கை, வாகன வரலாற்றைச் சரிபார்க்கவும், லாரி வரலாற்றுச் சரிபார்ப்பு, வணிக வாகன அறிக்கை, காப்பீடு மற்றும் சலான் நிலை, ஆர்சி தகவல் ஆன்லைனில், அனுமதி நிலைச் சரிபார்ப்பு, வாகனப் பதிவு அறிக்கை, வாகன எண் மூலம் உரிமையாளர் விவரங்கள், லாரி சந்திப்பு வாகனச் சரிபார்ப்பு"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "இது எவ்வாறு செயல்படுகிறது"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான பயன்படுத்திய லாரிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "வாகன வரலாற்றின் நன்மைகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "புதிய லாரிகளைத் தேடுகிறது"
-            },
-            {
-              "tag": "h2",
-              "text": "வாகன வரலாற்று அறிக்கையை வைத்து நான் என்ன செய்ய முடியும்?"
-            },
-            {
-              "tag": "h2",
-              "text": "செய்திகள் மற்றும் புதுப்பிப்புகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "உங்கள் முழுமையான வாகன வரலாற்றை வினாடிகளில் தெரிந்து கொள்ளுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இது எவ்வாறு செயல்படுகிறது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான பயன்படுத்திய லாரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வாகன வரலாற்றின் நன்மைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய லாரிகளைத் தேடுகிறது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வாகன வரலாற்று அறிக்கையை வைத்து நான் என்ன செய்ய முடியும்?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "செய்திகள் மற்றும் புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "வாகன வரலாற்று அறிக்கையில் என்ன விவரங்கள் சேர்க்கப்பட்டுள்ளன?",
+                  "ஒரு வாகனத்தின் வரலாற்றை நான் எவ்வாறு சரிபார்க்க முடியும்?",
+                  "வாகன வரலாற்றுத் தரவு துல்லியமானதாகவும் நம்பகமானதாகவும் உள்ளதா?",
+                  "எந்தவொரு வணிக வாகனத்தின் வரலாற்றையும் நான் சரிபார்க்க முடியுமா?",
+                  "அறிக்கையை அணுக நான் பதிவு செய்ய வேண்டுமா?"
+                ]
+              },
+              "meta": {
+                "title": "வாகன வரலாற்று அறிக்கை - காப்பீடு, சலான் & அனுமதி தகவல்",
+                "description": "உங்கள் வணிக வாகனத்தின் முழுமையான வரலாற்றை வினாடிகளில் பெறுங்கள். காப்பீடு, அனுமதிகள், சலான்கள், உரிமை மற்றும் பலவற்றைச் சரிபார்க்கவும்—சரிபார்க்கப்பட்ட அரசாங்கத் தரவுகளால் ஆதரிக்கப்படுகிறது.",
+                "keywords": "வாகன வரலாற்று அறிக்கை, வாகன வரலாற்றைச் சரிபார்க்கவும், லாரி வரலாற்றுச் சரிபார்ப்பு, வணிக வாகன அறிக்கை, காப்பீடு மற்றும் சலான் நிலை, ஆர்சி தகவல் ஆன்லைனில், அனுமதி நிலைச் சரிபார்ப்பு, வாகனப் பதிவு அறிக்கை, வாகன எண் மூலம் உரிமையாளர் விவரங்கள், லாரி சந்திப்பு வாகனச் சரிபார்ப்பு"
+              }
             }
-          ],
-          "faq": {
-            "heading": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "வாகன வரலாற்று அறிக்கையில் என்ன விவரங்கள் சேர்க்கப்பட்டுள்ளன?",
-              "ஒரு வாகனத்தின் வரலாற்றை நான் எவ்வாறு சரிபார்க்க முடியும்?",
-              "வாகன வரலாற்றுத் தரவு துல்லியமானதாகவும் நம்பகமானதாகவும் உள்ளதா?",
-              "எந்தவொரு வணிக வாகனத்தின் வரலாற்றையும் நான் சரிபார்க்க முடியுமா?",
-              "அறிக்கையை அணுக நான் பதிவு செய்ய வேண்டுமா?"
-            ]
-          },
-          "meta": {
-            "title": "வாகன வரலாற்று அறிக்கை - காப்பீடு, சலான் & அனுமதி தகவல்",
-            "description": "உங்கள் வணிக வாகனத்தின் முழுமையான வரலாற்றை வினாடிகளில் பெறுங்கள். காப்பீடு, அனுமதிகள், சலான்கள், உரிமை மற்றும் பலவற்றைச் சரிபார்க்கவும்—சரிபார்க்கப்பட்ட அரசாங்கத் தரவுகளால் ஆதரிக்கப்படுகிறது.",
-            "keywords": "வாகன வரலாற்று அறிக்கை, வாகன வரலாற்றைச் சரிபார்க்கவும், லாரி வரலாற்றுச் சரிபார்ப்பு, வணிக வாகன அறிக்கை, காப்பீடு மற்றும் சலான் நிலை, ஆர்சி தகவல் ஆன்லைனில், அனுமதி நிலைச் சரிபார்ப்பு, வாகனப் பதிவு அறிக்கை, வாகன எண் மூலம் உரிமையாளர் விவரங்கள், லாரி சந்திப்பு வாகனச் சரிபார்ப்பு"
           }
         }
       }
@@ -557,185 +1114,377 @@
       "byLanguage": {
         "en": {
           "path": "/en/e-challan-check-pay-online",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Check & Pay E Challan Online by Vehicle Number"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Check & Pay E Challan Online by Vehicle Number"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Common Reasons for Traffic Challan"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Pay E Challan in 3 Easy Steps"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Why Use Our E-Challan Service?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "What People say about us"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck in 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Check Vehicle History Instantly"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All India Permit for Your Vehicle"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Truck Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on E Challan"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on E Challan",
+                "questions": [
+                  "Is this an official platform to check and pay e-challans?",
+                  "What if I can’t find my challan online?",
+                  "What are the accepted payment methods?",
+                  "Will I receive a receipt after payment?",
+                  "Can I pay an e challan issued to someone else’s vehicle?",
+                  "How do I know if I have a pending e challan?"
+                ]
+              },
+              "meta": {
+                "title": "E Challan Check by Vehicle Number – Pay Traffic Fines Online",
+                "description": "Check e challan by vehicle number & pay online in minutes. View e challan status, fine details & traffic challan history. Fast, secure Vahan e challan system.",
+                "keywords": "e challan, e challan check by vehicle number, e-challan, e challan check, e challan status, traffic e challan, e challan details, e challan online, vahan e challan, check e challan, e challan pay, vehicle e challan"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Common Reasons for Traffic Challan"
-            },
-            {
-              "tag": "h2",
-              "text": "Pay E Challan in 3 Easy Steps"
-            },
-            {
-              "tag": "h2",
-              "text": "Why Use Our E-Challan Service?"
-            },
-            {
-              "tag": "h2",
-              "text": "What People say about us"
-            },
-            {
-              "tag": "h2",
-              "text": "Truck in 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Check Vehicle History Instantly"
-            },
-            {
-              "tag": "h2",
-              "text": "All India Permit for Your Vehicle"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Truck Updates"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on E Challan"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Check & Pay E Challan Online by Vehicle Number"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Common Reasons for Traffic Challan"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Pay E Challan in 3 Easy Steps"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Why Use Our E-Challan Service?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "What People say about us"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck in 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Check Vehicle History Instantly"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All India Permit for Your Vehicle"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Truck Updates"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on E Challan"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on E Challan",
+                "questions": [
+                  "Is this an official platform to check and pay e-challans?",
+                  "What if I can’t find my challan online?",
+                  "What are the accepted payment methods?",
+                  "Will I receive a receipt after payment?",
+                  "Can I pay an e challan issued to someone else’s vehicle?",
+                  "How do I know if I have a pending e challan?"
+                ]
+              },
+              "meta": {
+                "title": "E Challan Check by Vehicle Number – Pay Traffic Fines Online",
+                "description": "Check e challan by vehicle number & pay online in minutes. View e challan status, fine details & traffic challan history. Fast, secure Vahan e challan system.",
+                "keywords": "e challan, e challan check by vehicle number, e-challan, e challan check, e challan status, traffic e challan, e challan details, e challan online, vahan e challan, check e challan, e challan pay, vehicle e challan"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on E Challan",
-            "questions": [
-              "Is this an official platform to check and pay e-challans?",
-              "What if I can’t find my challan online?",
-              "What are the accepted payment methods?",
-              "Will I receive a receipt after payment?",
-              "Can I pay an e challan issued to someone else’s vehicle?",
-              "How do I know if I have a pending e challan?"
-            ]
-          },
-          "meta": {
-            "title": "E Challan Check by Vehicle Number – Pay Traffic Fines Online",
-            "description": "Check e challan by vehicle number & pay online in minutes. View e challan status, fine details & traffic challan history. Fast, secure Vahan e challan system.",
-            "keywords": "e challan, e challan check by vehicle number, e-challan, e challan check, e challan status, traffic e challan, e challan details, e challan online, vahan e challan, check e challan, e challan pay, vehicle e challan"
           }
         },
         "hi": {
           "path": "/hi/e-challan-check-pay-online",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "वाहन नंबर से ई-चालान चेक करें और ऑनलाइन भुगतान करें"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "वाहन नंबर से ई-चालान चेक करें और ऑनलाइन भुगतान करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रैफिक चालान के सामान्य कारण"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आसान स्टेप्स में ई-चालान का भुगतान करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमारी ई-चालान सेवा क्यों चुनें?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमारे बारे में लोग क्या कहते हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "में ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "वाहन का इतिहास तुरन्त जांचें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आपके वाहन के लिए अखिल भारतीय परमिट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ई-चालान पर अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "ई-चालान पर अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "क्या यह आधिकारिक प्लेटफार्म है जहां मैं ई-चालान चेक और भुगतान कर सकता हूं?",
+                  "यदि मैं अपना चालान ऑनलाइन नहीं ढूंढ़ पाता हूँ तो क्या करूं?",
+                  "भुगतान के लिए कौन-कौन से तरीके स्वीकार्य हैं?",
+                  "क्या मुझे भुगतान के बाद रसीद मिलेगी?",
+                  "क्या मैं किसी और के वाहन का ई-चालान भी भर सकता हूं?",
+                  "कैसे पता चलेगा कि मेरा कोई चालान लंबित है?"
+                ]
+              },
+              "meta": {
+                "title": "ई चालान चेक बाय व्हीकल नंबर – ई चालान ऑनलाइन पेमेंट",
+                "description": "वाहन नंबर से ई-चालान चेक करें, डाउनलोड करें और ऑनलाइन पेमेंट करें। ई चालान डिटेल्स व ट्रैफिक चालान इतिहास देखें। आसान और सुरक्षित वाहन ई चालान भुगतान प्रणाली।",
+                "keywords": "ई-चालान डाउनलोड, ई-चालान, ई चालान, ई चालान कैसे चेक करें, ई चालान चेक बाय व्हीकल नंबर, ई चालान ऑनलाइन पेमेंट, ई-चालान चेक, ई चालान चेक, ई-चालान कैसे चेक करें, ई चालान भुगतान"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "ट्रैफिक चालान के सामान्य कारण"
-            },
-            {
-              "tag": "h2",
-              "text": "आसान स्टेप्स में ई-चालान का भुगतान करें"
-            },
-            {
-              "tag": "h2",
-              "text": "हमारी ई-चालान सेवा क्यों चुनें?"
-            },
-            {
-              "tag": "h2",
-              "text": "हमारे बारे में लोग क्या कहते हैं"
-            },
-            {
-              "tag": "h2",
-              "text": "में ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "वाहन का इतिहास तुरन्त जांचें"
-            },
-            {
-              "tag": "h2",
-              "text": "आपके वाहन के लिए अखिल भारतीय परमिट"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम ट्रक अपडेट"
-            },
-            {
-              "tag": "h2",
-              "text": "ई-चालान पर अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "वाहन नंबर से ई-चालान चेक करें और ऑनलाइन भुगतान करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रैफिक चालान के सामान्य कारण"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आसान स्टेप्स में ई-चालान का भुगतान करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमारी ई-चालान सेवा क्यों चुनें?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमारे बारे में लोग क्या कहते हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "में ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "वाहन का इतिहास तुरन्त जांचें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आपके वाहन के लिए अखिल भारतीय परमिट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम ट्रक अपडेट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ई-चालान पर अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "ई-चालान पर अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "क्या यह आधिकारिक प्लेटफार्म है जहां मैं ई-चालान चेक और भुगतान कर सकता हूं?",
+                  "यदि मैं अपना चालान ऑनलाइन नहीं ढूंढ़ पाता हूँ तो क्या करूं?",
+                  "भुगतान के लिए कौन-कौन से तरीके स्वीकार्य हैं?",
+                  "क्या मुझे भुगतान के बाद रसीद मिलेगी?",
+                  "क्या मैं किसी और के वाहन का ई-चालान भी भर सकता हूं?",
+                  "कैसे पता चलेगा कि मेरा कोई चालान लंबित है?"
+                ]
+              },
+              "meta": {
+                "title": "ई चालान चेक बाय व्हीकल नंबर – ई चालान ऑनलाइन पेमेंट",
+                "description": "वाहन नंबर से ई-चालान चेक करें, डाउनलोड करें और ऑनलाइन पेमेंट करें। ई चालान डिटेल्स व ट्रैफिक चालान इतिहास देखें। आसान और सुरक्षित वाहन ई चालान भुगतान प्रणाली।",
+                "keywords": "ई-चालान डाउनलोड, ई-चालान, ई चालान, ई चालान कैसे चेक करें, ई चालान चेक बाय व्हीकल नंबर, ई चालान ऑनलाइन पेमेंट, ई-चालान चेक, ई चालान चेक, ई-चालान कैसे चेक करें, ई चालान भुगतान"
+              }
             }
-          ],
-          "faq": {
-            "heading": "ई-चालान पर अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "क्या यह आधिकारिक प्लेटफार्म है जहां मैं ई-चालान चेक और भुगतान कर सकता हूं?",
-              "यदि मैं अपना चालान ऑनलाइन नहीं ढूंढ़ पाता हूँ तो क्या करूं?",
-              "भुगतान के लिए कौन-कौन से तरीके स्वीकार्य हैं?",
-              "क्या मुझे भुगतान के बाद रसीद मिलेगी?",
-              "क्या मैं किसी और के वाहन का ई-चालान भी भर सकता हूं?",
-              "कैसे पता चलेगा कि मेरा कोई चालान लंबित है?"
-            ]
-          },
-          "meta": {
-            "title": "ई चालान चेक बाय व्हीकल नंबर – ई चालान ऑनलाइन पेमेंट",
-            "description": "वाहन नंबर से ई-चालान चेक करें, डाउनलोड करें और ऑनलाइन पेमेंट करें। ई चालान डिटेल्स व ट्रैफिक चालान इतिहास देखें। आसान और सुरक्षित वाहन ई चालान भुगतान प्रणाली।",
-            "keywords": "ई-चालान डाउनलोड, ई-चालान, ई चालान, ई चालान कैसे चेक करें, ई चालान चेक बाय व्हीकल नंबर, ई चालान ऑनलाइन पेमेंट, ई-चालान चेक, ई चालान चेक, ई-चालान कैसे चेक करें, ई चालान भुगतान"
           }
         },
         "ta": {
           "path": "/ta/e-challan-check-pay-online",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "வாகன எண் மூலம் இ சலான் ஆன்லைனில் சரிபார்த்து செலுத்துங்கள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "வாகன எண் மூலம் இ சலான் ஆன்லைனில் சரிபார்த்து செலுத்துங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "போக்குவரத்து சலான் பொதுவான காரணங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எளிய படிகளில் E சலான் செலுத்துதல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எங்கள் E-சலான் சேவையை ஏன் பயன்படுத்த வேண்டும்?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "மக்கள் எங்களைப் பற்றி என்ன சொல்கிறார்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இல் லாரி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வாகன வரலாற்றை உடனடியாகச் சரிபார்க்கவும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்கள் வாகனத்திற்கான அகில இந்திய அனுமதி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய டிரக் புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "E சலான் பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "E சலான் பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "இது மின்-சலான்களைச் சரிபார்த்து செலுத்துவதற்கான அதிகாரப்பூர்வ தளமா?",
+                  "எனது சலான் ஆன்லைனில் கிடைக்கவில்லை என்றால் என்ன செய்வது?",
+                  "ஏற்றுக்கொள்ளப்பட்ட கட்டண முறைகள் யாவை?",
+                  "பணம் செலுத்திய உடனேயே எனக்கு ரசீது கிடைக்குமா?",
+                  "வேறொருவருக்கு வழங்கப்பட்ட மின்-சலானை நான் செலுத்த முடியுமா?",
+                  "எனக்கு நிலுவையில் உள்ள e-சலான் இருக்கிறதா என்று எனக்கு எப்படித் தெரியும்?"
+                ]
+              },
+              "meta": {
+                "title": "வாகன எண் மூலம் இ சலான் சரிபார்ப்பு - போக்குவரத்து அபராதங்களை ஆன்லைனில் செலுத்துங்கள்",
+                "description": "வாகன எண் மூலம் இ சலானைச் சரிபார்த்து நிமிடங்களில் ஆன்லைனில் பணம் செலுத்துங்கள். இ சலான் நிலை, அபராத விவரங்கள் மற்றும் போக்குவரத்து சலான் வரலாற்றைக் காண்க. வேகமான, பாதுகாப்பான வாகன இ சலான் அமைப்பு.",
+                "keywords": "இ சலான், வாகன எண் மூலம் இ சலான் சரிபார்ப்பு, இ-சலான், இ சலான் சரிபார்ப்பு, இ சலான் நிலை, போக்குவரத்து இ சலான், இ சலான் விவரங்கள், இ சலான் ஆன்லைன், வாகன இ சலான், இ சலான் சரிபார்ப்பு, இ சலான் கட்டணம், வாகன இ சலான்"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "போக்குவரத்து சலான் பொதுவான காரணங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "எளிய படிகளில் E சலான் செலுத்துதல்"
-            },
-            {
-              "tag": "h2",
-              "text": "எங்கள் E-சலான் சேவையை ஏன் பயன்படுத்த வேண்டும்?"
-            },
-            {
-              "tag": "h2",
-              "text": "மக்கள் எங்களைப் பற்றி என்ன சொல்கிறார்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "இல் லாரி"
-            },
-            {
-              "tag": "h2",
-              "text": "வாகன வரலாற்றை உடனடியாகச் சரிபார்க்கவும்"
-            },
-            {
-              "tag": "h2",
-              "text": "உங்கள் வாகனத்திற்கான அகில இந்திய அனுமதி"
-            },
-            {
-              "tag": "h2",
-              "text": "சமீபத்திய டிரக் புதுப்பிப்புகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "E சலான் பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "வாகன எண் மூலம் இ சலான் ஆன்லைனில் சரிபார்த்து செலுத்துங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "போக்குவரத்து சலான் பொதுவான காரணங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எளிய படிகளில் E சலான் செலுத்துதல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எங்கள் E-சலான் சேவையை ஏன் பயன்படுத்த வேண்டும்?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "மக்கள் எங்களைப் பற்றி என்ன சொல்கிறார்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இல் லாரி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வாகன வரலாற்றை உடனடியாகச் சரிபார்க்கவும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்கள் வாகனத்திற்கான அகில இந்திய அனுமதி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்திய டிரக் புதுப்பிப்புகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "E சலான் பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "E சலான் பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "இது மின்-சலான்களைச் சரிபார்த்து செலுத்துவதற்கான அதிகாரப்பூர்வ தளமா?",
+                  "எனது சலான் ஆன்லைனில் கிடைக்கவில்லை என்றால் என்ன செய்வது?",
+                  "ஏற்றுக்கொள்ளப்பட்ட கட்டண முறைகள் யாவை?",
+                  "பணம் செலுத்திய உடனேயே எனக்கு ரசீது கிடைக்குமா?",
+                  "வேறொருவருக்கு வழங்கப்பட்ட மின்-சலானை நான் செலுத்த முடியுமா?",
+                  "எனக்கு நிலுவையில் உள்ள e-சலான் இருக்கிறதா என்று எனக்கு எப்படித் தெரியும்?"
+                ]
+              },
+              "meta": {
+                "title": "வாகன எண் மூலம் இ சலான் சரிபார்ப்பு - போக்குவரத்து அபராதங்களை ஆன்லைனில் செலுத்துங்கள்",
+                "description": "வாகன எண் மூலம் இ சலானைச் சரிபார்த்து நிமிடங்களில் ஆன்லைனில் பணம் செலுத்துங்கள். இ சலான் நிலை, அபராத விவரங்கள் மற்றும் போக்குவரத்து சலான் வரலாற்றைக் காண்க. வேகமான, பாதுகாப்பான வாகன இ சலான் அமைப்பு.",
+                "keywords": "இ சலான், வாகன எண் மூலம் இ சலான் சரிபார்ப்பு, இ-சலான், இ சலான் சரிபார்ப்பு, இ சலான் நிலை, போக்குவரத்து இ சலான், இ சலான் விவரங்கள், இ சலான் ஆன்லைன், வாகன இ சலான், இ சலான் சரிபார்ப்பு, இ சலான் கட்டணம், வாகன இ சலான்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "E சலான் பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "இது மின்-சலான்களைச் சரிபார்த்து செலுத்துவதற்கான அதிகாரப்பூர்வ தளமா?",
-              "எனது சலான் ஆன்லைனில் கிடைக்கவில்லை என்றால் என்ன செய்வது?",
-              "ஏற்றுக்கொள்ளப்பட்ட கட்டண முறைகள் யாவை?",
-              "பணம் செலுத்திய உடனேயே எனக்கு ரசீது கிடைக்குமா?",
-              "வேறொருவருக்கு வழங்கப்பட்ட மின்-சலானை நான் செலுத்த முடியுமா?",
-              "எனக்கு நிலுவையில் உள்ள e-சலான் இருக்கிறதா என்று எனக்கு எப்படித் தெரியும்?"
-            ]
-          },
-          "meta": {
-            "title": "வாகன எண் மூலம் இ சலான் சரிபார்ப்பு - போக்குவரத்து அபராதங்களை ஆன்லைனில் செலுத்துங்கள்",
-            "description": "வாகன எண் மூலம் இ சலானைச் சரிபார்த்து நிமிடங்களில் ஆன்லைனில் பணம் செலுத்துங்கள். இ சலான் நிலை, அபராத விவரங்கள் மற்றும் போக்குவரத்து சலான் வரலாற்றைக் காண்க. வேகமான, பாதுகாப்பான வாகன இ சலான் அமைப்பு.",
-            "keywords": "இ சலான், வாகன எண் மூலம் இ சலான் சரிபார்ப்பு, இ-சலான், இ சலான் சரிபார்ப்பு, இ சலான் நிலை, போக்குவரத்து இ சலான், இ சலான் விவரங்கள், இ சலான் ஆன்லைன், வாகன இ சலான், இ சலான் சரிபார்ப்பு, இ சலான் கட்டணம், வாகன இ சலான்"
           }
         }
       }

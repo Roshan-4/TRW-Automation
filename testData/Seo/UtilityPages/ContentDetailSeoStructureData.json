@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-08",
+  "scrapedAt": "2026-09-10",
   "languages": [
     "en",
     "hi",
@@ -12,68 +12,143 @@
       "byLanguage": {
         "en": {
           "path": "/en/about-us",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "About Truck Junction - India’s fastest growing online platform for Trucks"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "About Truck Junction - India’s fastest growing online platform for Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "CONTACT US"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "About us Truck Junction - Find New & Used Trucks, Prices, Comparison",
+                "description": "Know more about us by visiting us. Here you can buy, sell, finance, insure, and service new/used Trucks. Truck Junction provides fair truck price and features at a single place.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "CONTACT US"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "About Truck Junction - India’s fastest growing online platform for Trucks"
+                },
+                {
+                  "tag": "h2",
+                  "text": "CONTACT US"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "About us Truck Junction - Find New & Used Trucks, Prices, Comparison",
+                "description": "Know more about us by visiting us. Here you can buy, sell, finance, insure, and service new/used Trucks. Truck Junction provides fair truck price and features at a single place.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "About us Truck Junction - Find New & Used Trucks, Prices, Comparison",
-            "description": "Know more about us by visiting us. Here you can buy, sell, finance, insure, and service new/used Trucks. Truck Junction provides fair truck price and features at a single place.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/about-us",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "ट्रक जंक्शन के बारे में - ट्रकों के लिए भारत का सबसे तेजी से बढ़ता ऑनलाइन प्लेटफॉर्म"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ट्रक जंक्शन के बारे में - ट्रकों के लिए भारत का सबसे तेजी से बढ़ता ऑनलाइन प्लेटफॉर्म"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमसे संपर्क करें"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ट्रक जंक्शन के बारे में- नए और पुराने ट्रक खोजें, कीमतें, तुलना",
+                "description": "ट्रक जंक्शन के बारे में अधिक जानकारी के लिए ट्रक जंक्शन। यहां आप नए/प्रयुक्त ट्रक खरीद, बेच, वित्त, बीमा और सेवा कर सकते हैं। ट्रक जंक्शन एक ही स्थान पर उचित ट्रक मूल्य और सुविधाएँ प्रदान करता है।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "हमसे संपर्क करें"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ट्रक जंक्शन के बारे में - ट्रकों के लिए भारत का सबसे तेजी से बढ़ता ऑनलाइन प्लेटफॉर्म"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हमसे संपर्क करें"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ट्रक जंक्शन के बारे में- नए और पुराने ट्रक खोजें, कीमतें, तुलना",
+                "description": "ट्रक जंक्शन के बारे में अधिक जानकारी के लिए ट्रक जंक्शन। यहां आप नए/प्रयुक्त ट्रक खरीद, बेच, वित्त, बीमा और सेवा कर सकते हैं। ट्रक जंक्शन एक ही स्थान पर उचित ट्रक मूल्य और सुविधाएँ प्रदान करता है।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "ट्रक जंक्शन के बारे में- नए और पुराने ट्रक खोजें, कीमतें, तुलना",
-            "description": "ट्रक जंक्शन के बारे में अधिक जानकारी के लिए ट्रक जंक्शन। यहां आप नए/प्रयुक्त ट्रक खरीद, बेच, वित्त, बीमा और सेवा कर सकते हैं। ट्रक जंक्शन एक ही स्थान पर उचित ट्रक मूल्य और सुविधाएँ प्रदान करता है।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/about-us",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "டிரக் ஜங்ஷன் பற்றி - இந்தியாவின் மிக வேகமாக வளர்ந்து வரும் டிரக்குகளுக்கான ஆன்லைன் தளம்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "டிரக் ஜங்ஷன் பற்றி - இந்தியாவின் மிக வேகமாக வளர்ந்து வரும் டிரக்குகளுக்கான ஆன்லைன் தளம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எங்களை தொடர்பு கொள்ளுங்கள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "எங்களைப் பற்றி - டிரக் ஜங்ஷன் - புதிய மற்றும் பயன்படுத்தப்பட்ட டிரக்குகள், விலைகள், ஒப்பீடு",
+                "description": "எங்களைப் பற்றி மேலும் அறிய எங்களைப் பார்வையிடவும். இங்கே நீங்கள் புதிய/பயன்படுத்தப்பட்ட டிரக்குகளை வாங்கலாம், விற்கலாம், நிதி உதவி பெறலாம், காப்பீடு செய்யலாம் மற்றும் சேவை பெறலாம். டிரக் ஜங்ஷன் ஒரே இடத்தில் நியாயமான டிரக் விலை மற்றும் அம்சங்களை வழங்குகிறது.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "எங்களை தொடர்பு கொள்ளுங்கள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "டிரக் ஜங்ஷன் பற்றி - இந்தியாவின் மிக வேகமாக வளர்ந்து வரும் டிரக்குகளுக்கான ஆன்லைன் தளம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எங்களை தொடர்பு கொள்ளுங்கள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "எங்களைப் பற்றி - டிரக் ஜங்ஷன் - புதிய மற்றும் பயன்படுத்தப்பட்ட டிரக்குகள், விலைகள், ஒப்பீடு",
+                "description": "எங்களைப் பற்றி மேலும் அறிய எங்களைப் பார்வையிடவும். இங்கே நீங்கள் புதிய/பயன்படுத்தப்பட்ட டிரக்குகளை வாங்கலாம், விற்கலாம், நிதி உதவி பெறலாம், காப்பீடு செய்யலாம் மற்றும் சேவை பெறலாம். டிரக் ஜங்ஷன் ஒரே இடத்தில் நியாயமான டிரக் விலை மற்றும் அம்சங்களை வழங்குகிறது.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "எங்களைப் பற்றி - டிரக் ஜங்ஷன் - புதிய மற்றும் பயன்படுத்தப்பட்ட டிரக்குகள், விலைகள், ஒப்பீடு",
-            "description": "எங்களைப் பற்றி மேலும் அறிய எங்களைப் பார்வையிடவும். இங்கே நீங்கள் புதிய/பயன்படுத்தப்பட்ட டிரக்குகளை வாங்கலாம், விற்கலாம், நிதி உதவி பெறலாம், காப்பீடு செய்யலாம் மற்றும் சேவை பெறலாம். டிரக் ஜங்ஷன் ஒரே இடத்தில் நியாயமான டிரக் விலை மற்றும் அம்சங்களை வழங்குகிறது.",
-            "keywords": ""
           }
         }
       }
@@ -84,212 +159,431 @@
       "byLanguage": {
         "en": {
           "path": "/en/privacy-policy",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Privacy Policy | Truckjunction"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Privacy Policy | Truckjunction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "1. OVERVIEW AND SCOPE OF THIS POLICY"
+                },
+                {
+                  "tag": "h2",
+                  "text": "2. WHAT INFORMATION IS COLLECTED"
+                },
+                {
+                  "tag": "h2",
+                  "text": "3. HOW WE USE THIS INFORMATION"
+                },
+                {
+                  "tag": "h2",
+                  "text": "4. WHO DO WE SHARE YOUR INFORMATION WITH"
+                },
+                {
+                  "tag": "h2",
+                  "text": "5. SCOPE OF CONSENT AND ACKNOWLEDGMENT"
+                },
+                {
+                  "tag": "h2",
+                  "text": "6. JOB APPLICANTS"
+                },
+                {
+                  "tag": "h2",
+                  "text": "7. PERMISSIBLE AGE"
+                },
+                {
+                  "tag": "h2",
+                  "text": "8. DATA SECURITY"
+                },
+                {
+                  "tag": "h2",
+                  "text": "9. YOUR RIGHTS"
+                },
+                {
+                  "tag": "h2",
+                  "text": "10. DATA RETENTION"
+                },
+                {
+                  "tag": "h2",
+                  "text": "11. HOW WILL WE INFORM YOU ABOUT CHANGES IN OUR PRIVACY POLICY"
+                },
+                {
+                  "tag": "h2",
+                  "text": "12. DISCLAIMER"
+                },
+                {
+                  "tag": "h2",
+                  "text": "13. GRIEVANCE REDRESSAL"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Privacy Policy | Truck Junction",
+                "description": "Click here to know more about Truck Junction's privacy policy.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "1. OVERVIEW AND SCOPE OF THIS POLICY"
-            },
-            {
-              "tag": "h2",
-              "text": "2. WHAT INFORMATION IS COLLECTED"
-            },
-            {
-              "tag": "h2",
-              "text": "3. HOW WE USE THIS INFORMATION"
-            },
-            {
-              "tag": "h2",
-              "text": "4. WHO DO WE SHARE YOUR INFORMATION WITH"
-            },
-            {
-              "tag": "h2",
-              "text": "5. SCOPE OF CONSENT AND ACKNOWLEDGMENT"
-            },
-            {
-              "tag": "h2",
-              "text": "6. JOB APPLICANTS"
-            },
-            {
-              "tag": "h2",
-              "text": "7. PERMISSIBLE AGE"
-            },
-            {
-              "tag": "h2",
-              "text": "8. DATA SECURITY"
-            },
-            {
-              "tag": "h2",
-              "text": "9. YOUR RIGHTS"
-            },
-            {
-              "tag": "h2",
-              "text": "10. DATA RETENTION"
-            },
-            {
-              "tag": "h2",
-              "text": "11. HOW WILL WE INFORM YOU ABOUT CHANGES IN OUR PRIVACY POLICY"
-            },
-            {
-              "tag": "h2",
-              "text": "12. DISCLAIMER"
-            },
-            {
-              "tag": "h2",
-              "text": "13. GRIEVANCE REDRESSAL"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Privacy Policy | Truckjunction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "1. OVERVIEW AND SCOPE OF THIS POLICY"
+                },
+                {
+                  "tag": "h2",
+                  "text": "2. WHAT INFORMATION IS COLLECTED"
+                },
+                {
+                  "tag": "h2",
+                  "text": "3. HOW WE USE THIS INFORMATION"
+                },
+                {
+                  "tag": "h2",
+                  "text": "4. WHO DO WE SHARE YOUR INFORMATION WITH"
+                },
+                {
+                  "tag": "h2",
+                  "text": "5. SCOPE OF CONSENT AND ACKNOWLEDGMENT"
+                },
+                {
+                  "tag": "h2",
+                  "text": "6. JOB APPLICANTS"
+                },
+                {
+                  "tag": "h2",
+                  "text": "7. PERMISSIBLE AGE"
+                },
+                {
+                  "tag": "h2",
+                  "text": "8. DATA SECURITY"
+                },
+                {
+                  "tag": "h2",
+                  "text": "9. YOUR RIGHTS"
+                },
+                {
+                  "tag": "h2",
+                  "text": "10. DATA RETENTION"
+                },
+                {
+                  "tag": "h2",
+                  "text": "11. HOW WILL WE INFORM YOU ABOUT CHANGES IN OUR PRIVACY POLICY"
+                },
+                {
+                  "tag": "h2",
+                  "text": "12. DISCLAIMER"
+                },
+                {
+                  "tag": "h2",
+                  "text": "13. GRIEVANCE REDRESSAL"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Privacy Policy | Truck Junction",
+                "description": "Click here to know more about Truck Junction's privacy policy.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Privacy Policy | Truck Junction",
-            "description": "Click here to know more about Truck Junction's privacy policy.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/privacy-policy",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "गोपनीयता नीति । ट्रकजंक्शन"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "गोपनीयता नीति । ट्रकजंक्शन"
+                },
+                {
+                  "tag": "h2",
+                  "text": "1. इस नीति का अवलोकन और दायरा"
+                },
+                {
+                  "tag": "h2",
+                  "text": "2. कौन-सी जानकारी एकत्र की जाती है"
+                },
+                {
+                  "tag": "h2",
+                  "text": "3. हम इस जानकारी का उपयोग कैसे करते हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "4. हम आपकी जानकारी किसके साथ साझा करते हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "5. सहमति का दायरा और स्वीकृति"
+                },
+                {
+                  "tag": "h2",
+                  "text": "6. नौकरी के आवेदक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "7. अनुमेय आयु"
+                },
+                {
+                  "tag": "h2",
+                  "text": "8. डेटा सुरक्षा"
+                },
+                {
+                  "tag": "h2",
+                  "text": "9. आपके अधिकार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "10. डेटा संरक्षण अवधि"
+                },
+                {
+                  "tag": "h2",
+                  "text": "11. हम गोपनीयता नीति में बदलावों की जानकारी आपको कैसे देंगे"
+                },
+                {
+                  "tag": "h2",
+                  "text": "12. अस्वीकरण"
+                },
+                {
+                  "tag": "h2",
+                  "text": "13. शिकायत निवारण"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "गोपनीयता नीति । ट्रकजंक्शन",
+                "description": "ट्रक जंक्शन की गोपनीयता नीति के बारे में अधिक जानने के लिए यहां क्लिक करें।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "1. इस नीति का अवलोकन और दायरा"
-            },
-            {
-              "tag": "h2",
-              "text": "2. कौन-सी जानकारी एकत्र की जाती है"
-            },
-            {
-              "tag": "h2",
-              "text": "3. हम इस जानकारी का उपयोग कैसे करते हैं"
-            },
-            {
-              "tag": "h2",
-              "text": "4. हम आपकी जानकारी किसके साथ साझा करते हैं"
-            },
-            {
-              "tag": "h2",
-              "text": "5. सहमति का दायरा और स्वीकृति"
-            },
-            {
-              "tag": "h2",
-              "text": "6. नौकरी के आवेदक"
-            },
-            {
-              "tag": "h2",
-              "text": "7. अनुमेय आयु"
-            },
-            {
-              "tag": "h2",
-              "text": "8. डेटा सुरक्षा"
-            },
-            {
-              "tag": "h2",
-              "text": "9. आपके अधिकार"
-            },
-            {
-              "tag": "h2",
-              "text": "10. डेटा संरक्षण अवधि"
-            },
-            {
-              "tag": "h2",
-              "text": "11. हम गोपनीयता नीति में बदलावों की जानकारी आपको कैसे देंगे"
-            },
-            {
-              "tag": "h2",
-              "text": "12. अस्वीकरण"
-            },
-            {
-              "tag": "h2",
-              "text": "13. शिकायत निवारण"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "गोपनीयता नीति । ट्रकजंक्शन"
+                },
+                {
+                  "tag": "h2",
+                  "text": "1. इस नीति का अवलोकन और दायरा"
+                },
+                {
+                  "tag": "h2",
+                  "text": "2. कौन-सी जानकारी एकत्र की जाती है"
+                },
+                {
+                  "tag": "h2",
+                  "text": "3. हम इस जानकारी का उपयोग कैसे करते हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "4. हम आपकी जानकारी किसके साथ साझा करते हैं"
+                },
+                {
+                  "tag": "h2",
+                  "text": "5. सहमति का दायरा और स्वीकृति"
+                },
+                {
+                  "tag": "h2",
+                  "text": "6. नौकरी के आवेदक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "7. अनुमेय आयु"
+                },
+                {
+                  "tag": "h2",
+                  "text": "8. डेटा सुरक्षा"
+                },
+                {
+                  "tag": "h2",
+                  "text": "9. आपके अधिकार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "10. डेटा संरक्षण अवधि"
+                },
+                {
+                  "tag": "h2",
+                  "text": "11. हम गोपनीयता नीति में बदलावों की जानकारी आपको कैसे देंगे"
+                },
+                {
+                  "tag": "h2",
+                  "text": "12. अस्वीकरण"
+                },
+                {
+                  "tag": "h2",
+                  "text": "13. शिकायत निवारण"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "गोपनीयता नीति । ट्रकजंक्शन",
+                "description": "ट्रक जंक्शन की गोपनीयता नीति के बारे में अधिक जानने के लिए यहां क्लिक करें।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "गोपनीयता नीति । ट्रकजंक्शन",
-            "description": "ट्रक जंक्शन की गोपनीयता नीति के बारे में अधिक जानने के लिए यहां क्लिक करें।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/privacy-policy",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "தனியுரிமைக் கொள்கை | டிரக் ஜங்ஷன்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "தனியுரிமைக் கொள்கை | டிரக் ஜங்ஷன்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "1. இந்த கொள்கையின் மேற்பார்வை மற்றும் வரம்பு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "2. எந்த தகவல்கள் சேகரிக்கப்படுகின்றன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "3. இந்த தகவலை எவ்வாறு பயன்படுத்துகிறோம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "4. உங்கள் தகவலை யாருடன் பகிர்கிறோம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "5. சம்மதத்தின் வரம்பும் ஒப்புதலும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "6. வேலைவாய்ப்பு விண்ணப்பதாரர்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "7. அனுமதிக்கப்பட்ட வயது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "8. தரவு பாதுகாப்பு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "9. உங்கள் உரிமைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "10. தரவு காப்பக காலம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "11. தனியுரிமைக் கொள்கை மாற்றங்கள் குறித்து எவ்வாறு தகவலறிவிப்போம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "12. மறுப்பு அறிவிப்பு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "13. குறைதீர் நடைமுறை"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "தனியுரிமைக் கொள்கை | டிரக் ஜங்ஷன்",
+                "description": "டிரக் ஜங்ஷனின் தனியுரிமைக் கொள்கையைப் பற்றி மேலும் அறிய இங்கே கிளிக் செய்யவும்.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "1. இந்த கொள்கையின் மேற்பார்வை மற்றும் வரம்பு"
-            },
-            {
-              "tag": "h2",
-              "text": "2. எந்த தகவல்கள் சேகரிக்கப்படுகின்றன"
-            },
-            {
-              "tag": "h2",
-              "text": "3. இந்த தகவலை எவ்வாறு பயன்படுத்துகிறோம்"
-            },
-            {
-              "tag": "h2",
-              "text": "4. உங்கள் தகவலை யாருடன் பகிர்கிறோம்"
-            },
-            {
-              "tag": "h2",
-              "text": "5. சம்மதத்தின் வரம்பும் ஒப்புதலும்"
-            },
-            {
-              "tag": "h2",
-              "text": "6. வேலைவாய்ப்பு விண்ணப்பதாரர்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "7. அனுமதிக்கப்பட்ட வயது"
-            },
-            {
-              "tag": "h2",
-              "text": "8. தரவு பாதுகாப்பு"
-            },
-            {
-              "tag": "h2",
-              "text": "9. உங்கள் உரிமைகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "10. தரவு காப்பக காலம்"
-            },
-            {
-              "tag": "h2",
-              "text": "11. தனியுரிமைக் கொள்கை மாற்றங்கள் குறித்து எவ்வாறு தகவலறிவிப்போம்"
-            },
-            {
-              "tag": "h2",
-              "text": "12. மறுப்பு அறிவிப்பு"
-            },
-            {
-              "tag": "h2",
-              "text": "13. குறைதீர் நடைமுறை"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "தனியுரிமைக் கொள்கை | டிரக் ஜங்ஷன்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "1. இந்த கொள்கையின் மேற்பார்வை மற்றும் வரம்பு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "2. எந்த தகவல்கள் சேகரிக்கப்படுகின்றன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "3. இந்த தகவலை எவ்வாறு பயன்படுத்துகிறோம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "4. உங்கள் தகவலை யாருடன் பகிர்கிறோம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "5. சம்மதத்தின் வரம்பும் ஒப்புதலும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "6. வேலைவாய்ப்பு விண்ணப்பதாரர்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "7. அனுமதிக்கப்பட்ட வயது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "8. தரவு பாதுகாப்பு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "9. உங்கள் உரிமைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "10. தரவு காப்பக காலம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "11. தனியுரிமைக் கொள்கை மாற்றங்கள் குறித்து எவ்வாறு தகவலறிவிப்போம்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "12. மறுப்பு அறிவிப்பு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "13. குறைதீர் நடைமுறை"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "தனியுரிமைக் கொள்கை | டிரக் ஜங்ஷன்",
+                "description": "டிரக் ஜங்ஷனின் தனியுரிமைக் கொள்கையைப் பற்றி மேலும் அறிய இங்கே கிளிக் செய்யவும்.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "தனியுரிமைக் கொள்கை | டிரக் ஜங்ஷன்",
-            "description": "டிரக் ஜங்ஷனின் தனியுரிமைக் கொள்கையைப் பற்றி மேலும் அறிய இங்கே கிளிக் செய்யவும்.",
-            "keywords": ""
           }
         }
       }
@@ -300,68 +594,143 @@
       "byLanguage": {
         "en": {
           "path": "/en/terms-and-condition",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Terms and Conditions - Truck Junction"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Terms and Conditions - Truck Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Terms of Use"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Terms and Conditions at Truck Junction",
+                "description": "Truck Junction - Know about terms and condition of Truck Junction.",
+                "keywords": "Terms and Conditions"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Terms of Use"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Terms and Conditions - Truck Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Terms of Use"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Terms and Conditions at Truck Junction",
+                "description": "Truck Junction - Know about terms and condition of Truck Junction.",
+                "keywords": "Terms and Conditions"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Terms and Conditions at Truck Junction",
-            "description": "Truck Junction - Know about terms and condition of Truck Junction.",
-            "keywords": "Terms and Conditions"
           }
         },
         "hi": {
           "path": "/hi/terms-and-condition",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "नियम और शर्तें - ट्रक जंक्शन"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "नियम और शर्तें - ट्रक जंक्शन"
+                },
+                {
+                  "tag": "h2",
+                  "text": "उपयोग की शर्तें"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ट्रक जंक्शन के नियम और शर्तें",
+                "description": "ट्रक जंक्शन - ट्रक जंक्शन के नियम और शर्तों के बारे में जानें ।",
+                "keywords": "नियम और शर्तें"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "उपयोग की शर्तें"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "नियम और शर्तें - ट्रक जंक्शन"
+                },
+                {
+                  "tag": "h2",
+                  "text": "उपयोग की शर्तें"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ट्रक जंक्शन के नियम और शर्तें",
+                "description": "ट्रक जंक्शन - ट्रक जंक्शन के नियम और शर्तों के बारे में जानें ।",
+                "keywords": "नियम और शर्तें"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "ट्रक जंक्शन के नियम और शर्तें",
-            "description": "ट्रक जंक्शन - ट्रक जंक्शन के नियम और शर्तों के बारे में जानें ।",
-            "keywords": "नियम और शर्तें"
           }
         },
         "ta": {
           "path": "/ta/terms-and-condition",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "விதிமுறைகள் மற்றும் நிபந்தனைகள் - டிரக் ஜங்ஷன்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "விதிமுறைகள் மற்றும் நிபந்தனைகள் - டிரக் ஜங்ஷன்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Terms of Use"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "டிரக் ஜங்ஷனில் உள்ள விதிமுறைகள் மற்றும் நிபந்தனைகள்",
+                "description": "டிரக் ஜங்ஷன் - டிரக் ஜங்ஷனின் விதிமுறைகள் மற்றும் நிபந்தனைகளைப் பற்றி அறிந்து கொள்ளுங்கள்.",
+                "keywords": "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Terms of Use"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "விதிமுறைகள் மற்றும் நிபந்தனைகள் - டிரக் ஜங்ஷன்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Terms of Use"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "டிரக் ஜங்ஷனில் உள்ள விதிமுறைகள் மற்றும் நிபந்தனைகள்",
+                "description": "டிரக் ஜங்ஷன் - டிரக் ஜங்ஷனின் விதிமுறைகள் மற்றும் நிபந்தனைகளைப் பற்றி அறிந்து கொள்ளுங்கள்.",
+                "keywords": "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "டிரக் ஜங்ஷனில் உள்ள விதிமுறைகள் மற்றும் நிபந்தனைகள்",
-            "description": "டிரக் ஜங்ஷன் - டிரக் ஜங்ஷனின் விதிமுறைகள் மற்றும் நிபந்தனைகளைப் பற்றி அறிந்து கொள்ளுங்கள்.",
-            "keywords": "விதிமுறைகள் மற்றும் நிபந்தனைகள்"
           }
         }
       }
@@ -372,56 +741,119 @@
       "byLanguage": {
         "en": {
           "path": "/en/sitemap",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Truck Junction - Sitemap"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Truck Junction - Sitemap"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Truck Junction Sitemap",
+                "description": "Visit Truck Junction site map for a complete overview of the website. You can instantly access any page easily. Now, in one click, you can get what you need at Truck Junction",
+                "keywords": ""
+              }
+            },
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Truck Junction - Sitemap"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Truck Junction Sitemap",
+                "description": "Visit Truck Junction site map for a complete overview of the website. You can instantly access any page easily. Now, in one click, you can get what you need at Truck Junction",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Truck Junction Sitemap",
-            "description": "Visit Truck Junction site map for a complete overview of the website. You can instantly access any page easily. Now, in one click, you can get what you need at Truck Junction",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/sitemap",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "ट्रंक जंक्शन - साइटमैप"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ट्रंक जंक्शन - साइटमैप"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ट्रक जंक्शन साइटमैप",
+                "description": "वेबसाइट के संपूर्ण अवलोकन के लिए ट्रक जंक्शन साइट मैप पर जाएं। यहां आप किसी भी पेज को आसानी से तुरंत एक्सेस कर सकते हैं। ट्रक जंक्शन पर आपको अब, एक क्लिक में वह मिल सकता है जिसकी आपको आवश्यकता है।",
+                "keywords": ""
+              }
+            },
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ट्रंक जंक्शन - साइटमैप"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ट्रक जंक्शन साइटमैप",
+                "description": "वेबसाइट के संपूर्ण अवलोकन के लिए ट्रक जंक्शन साइट मैप पर जाएं। यहां आप किसी भी पेज को आसानी से तुरंत एक्सेस कर सकते हैं। ट्रक जंक्शन पर आपको अब, एक क्लिक में वह मिल सकता है जिसकी आपको आवश्यकता है।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "ट्रक जंक्शन साइटमैप",
-            "description": "वेबसाइट के संपूर्ण अवलोकन के लिए ट्रक जंक्शन साइट मैप पर जाएं। यहां आप किसी भी पेज को आसानी से तुरंत एक्सेस कर सकते हैं। ट्रक जंक्शन पर आपको अब, एक क्लिक में वह मिल सकता है जिसकी आपको आवश्यकता है।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/sitemap",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "டிரக் ஜங்க்ஷன் - தள வரைபடம்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "டிரக் ஜங்க்ஷன் - தள வரைபடம்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "டிரக் ஜங்க்ஷன் தள வரைபடம்",
+                "description": "டிரக் ஜங்க்ஷன் தளத்தின் முழுமையான தொகுப்பைக் காண தள வரைபடத்தைப் பார்வையிடுங்கள். எந்தப் பக்கத்தையும் விரைவாக எளிதாக அணுகலாம். ஒரே கிளிக்கில், உங்கள் தேவை டிரக் ஜங்க்ஷனில் கிடைக்கும்",
+                "keywords": ""
+              }
+            },
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "டிரக் ஜங்க்ஷன் - தள வரைபடம்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "டிரக் ஜங்க்ஷன் தள வரைபடம்",
+                "description": "டிரக் ஜங்க்ஷன் தளத்தின் முழுமையான தொகுப்பைக் காண தள வரைபடத்தைப் பார்வையிடுங்கள். எந்தப் பக்கத்தையும் விரைவாக எளிதாக அணுகலாம். ஒரே கிளிக்கில், உங்கள் தேவை டிரக் ஜங்க்ஷனில் கிடைக்கும்",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "டிரக் ஜங்க்ஷன் தள வரைபடம்",
-            "description": "டிரக் ஜங்க்ஷன் தளத்தின் முழுமையான தொகுப்பைக் காண தள வரைபடத்தைப் பார்வையிடுங்கள். எந்தப் பக்கத்தையும் விரைவாக எளிதாக அணுகலாம். ஒரே கிளிக்கில், உங்கள் தேவை டிரக் ஜங்க்ஷனில் கிடைக்கும்",
-            "keywords": ""
           }
         }
       }
@@ -432,92 +864,191 @@
       "byLanguage": {
         "en": {
           "path": "/en/authors",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "All Authors"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "All Authors"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Author List"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Posts"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck in India 2026"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Truck News Authors | Commercial Vehicle News by Industry Experts",
+                "description": "Meet Truck Junction's team of experienced truck news authors. Get the latest updates, trusted opinions, and expert reviews on the commercial vehicle industry in India.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Author List"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Posts"
-            },
-            {
-              "tag": "h2",
-              "text": "Truck in India 2026"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "All Authors"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Author List"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Posts"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck in India 2026"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Truck News Authors | Commercial Vehicle News by Industry Experts",
+                "description": "Meet Truck Junction's team of experienced truck news authors. Get the latest updates, trusted opinions, and expert reviews on the commercial vehicle industry in India.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Truck News Authors | Commercial Vehicle News by Industry Experts",
-            "description": "Meet Truck Junction's team of experienced truck news authors. Get the latest updates, trusted opinions, and expert reviews on the commercial vehicle industry in India.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/authors",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "हमारे एक्सपर्ट लेखक"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "हमारे एक्सपर्ट लेखक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लेखक सूची"
+                },
+                {
+                  "tag": "h2",
+                  "text": "पॉपुलर पोस्ट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "में भारत के ट्रक"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ट्रक न्यूज लेखक | इंडस्ट्री एक्सपर्ट्स द्वारा कमर्शियल वाहन समाचार |",
+                "description": "Truck Junction के अनुभवी ट्रक न्यूज लेखकों की टीम से मिलिए। भारत में कमर्शियल वाहन इंडस्ट्री की ताजा खबरें, भरोसेमंद राय और एक्सपर्ट रिव्यू पाएं।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "लेखक सूची"
-            },
-            {
-              "tag": "h2",
-              "text": "पॉपुलर पोस्ट"
-            },
-            {
-              "tag": "h2",
-              "text": "में भारत के ट्रक"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "हमारे एक्सपर्ट लेखक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लेखक सूची"
+                },
+                {
+                  "tag": "h2",
+                  "text": "पॉपुलर पोस्ट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "में भारत के ट्रक"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ट्रक न्यूज लेखक | इंडस्ट्री एक्सपर्ट्स द्वारा कमर्शियल वाहन समाचार |",
+                "description": "Truck Junction के अनुभवी ट्रक न्यूज लेखकों की टीम से मिलिए। भारत में कमर्शियल वाहन इंडस्ट्री की ताजा खबरें, भरोसेमंद राय और एक्सपर्ट रिव्यू पाएं।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "ट्रक न्यूज लेखक | इंडस्ट्री एक्सपर्ट्स द्वारा कमर्शियल वाहन समाचार |",
-            "description": "Truck Junction के अनुभवी ट्रक न्यूज लेखकों की टीम से मिलिए। भारत में कमर्शियल वाहन इंडस्ट्री की ताजा खबरें, भरोसेमंद राय और एक्सपर्ट रिव्यू पाएं।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/authors",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "அனைத்து எழுத்தாளர்கள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "அனைத்து எழுத்தாளர்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ஆசிரியர் பட்டியல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான பதிவுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ஆண்டில் உள்ள டிரக்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "டிரக் செய்திகளை எழுதும் ஆசிரியர்கள் | துறை சார்ந்த நிபுணர்களின் வணிக வாகனச் செய்திகள்",
+                "description": "டிரக் ஜங்ஷனின் அனுபவம் வாய்ந்த டிரக் செய்தி ஆசிரியர்களைச் சந்தியுங்கள். இந்தியாவில் உள்ள வணிக வாகனத் துறை குறித்த சமீபத்திய தகவல்கள், நம்பகமான கருத்துகள் மற்றும் நிபுணர்களின் மதிப்பாய்வுகளைப் பெறுங்கள்.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "ஆசிரியர் பட்டியல்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான பதிவுகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "ஆண்டில் உள்ள டிரக்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "அனைத்து எழுத்தாளர்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ஆசிரியர் பட்டியல்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான பதிவுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ஆண்டில் உள்ள டிரக்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "டிரக் செய்திகளை எழுதும் ஆசிரியர்கள் | துறை சார்ந்த நிபுணர்களின் வணிக வாகனச் செய்திகள்",
+                "description": "டிரக் ஜங்ஷனின் அனுபவம் வாய்ந்த டிரக் செய்தி ஆசிரியர்களைச் சந்தியுங்கள். இந்தியாவில் உள்ள வணிக வாகனத் துறை குறித்த சமீபத்திய தகவல்கள், நம்பகமான கருத்துகள் மற்றும் நிபுணர்களின் மதிப்பாய்வுகளைப் பெறுங்கள்.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "டிரக் செய்திகளை எழுதும் ஆசிரியர்கள் | துறை சார்ந்த நிபுணர்களின் வணிக வாகனச் செய்திகள்",
-            "description": "டிரக் ஜங்ஷனின் அனுபவம் வாய்ந்த டிரக் செய்தி ஆசிரியர்களைச் சந்தியுங்கள். இந்தியாவில் உள்ள வணிக வாகனத் துறை குறித்த சமீபத்திய தகவல்கள், நம்பகமான கருத்துகள் மற்றும் நிபுணர்களின் மதிப்பாய்வுகளைப் பெறுங்கள்.",
-            "keywords": ""
           }
         }
       }
@@ -528,58 +1059,120 @@
       "byLanguage": {
         "en": {
           "path": "/en/news/mahindra-cv-3w-sales-report-august-2026",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Mahindra CV & 3W Sales Rise 28% to 42,337 Units in August 2026"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Mahindra CV & 3W Sales Rise 28% to 42,337 Units in August 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra Commercial Vehicle & 3-Wheeler Sales Grow 28% in August 2026; Exports Surge 71%"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra Domestic CV & 3W Sales – August 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra Export Sales – August 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Overall Performance"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Mahindra CV & 3W Sales Rise 28% to 42,337 Units in August 2026",
+                "description": "Mahindra CV and 3W sales rose 28% to 42,337 units in August 2026. LCV and 3-wheeler sales grew, while exports surged 71% to 6,054 units.",
+                "keywords": "Mahindra CV sales August 2026, Mahindra 3W sales August 2026, Mahindra sales August 2026, Mahindra commercial vehicle sales, Mahindra three wheeler sales, Mahindra exports August 2026, Mahindra sales report 2026"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Mahindra Commercial Vehicle & 3-Wheeler Sales Grow 28% in August 2026; Exports Surge 71%"
-            },
-            {
-              "tag": "h2",
-              "text": "Mahindra Domestic CV & 3W Sales – August 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Mahindra Export Sales – August 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Overall Performance"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Mahindra CV & 3W Sales Rise 28% to 42,337 Units in August 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra Commercial Vehicle & 3-Wheeler Sales Grow 28% in August 2026; Exports Surge 71%"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra Domestic CV & 3W Sales – August 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra Export Sales – August 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Overall Performance"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Mahindra CV & 3W Sales Rise 28% to 42,337 Units in August 2026",
+                "description": "Mahindra CV and 3W sales rose 28% to 42,337 units in August 2026. LCV and 3-wheeler sales grew, while exports surged 71% to 6,054 units.",
+                "keywords": "Mahindra CV sales August 2026, Mahindra 3W sales August 2026, Mahindra sales August 2026, Mahindra commercial vehicle sales, Mahindra three wheeler sales, Mahindra exports August 2026, Mahindra sales report 2026"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Mahindra CV & 3W Sales Rise 28% to 42,337 Units in August 2026",
-            "description": "Mahindra CV and 3W sales rose 28% to 42,337 units in August 2026. LCV and 3-wheeler sales grew, while exports surged 71% to 6,054 units.",
-            "keywords": "Mahindra CV sales August 2026, Mahindra 3W sales August 2026, Mahindra sales August 2026, Mahindra commercial vehicle sales, Mahindra three wheeler sales, Mahindra exports August 2026, Mahindra sales report 2026"
           }
         },
         "hi": {
           "path": "/hi/news/mahindra-cv-3w-sales-report-august-2026",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "महिंद्रा CV और 3W सेल्स रिपोर्ट: अगस्त 2026 में 28% की बढ़त के साथ 42,337 वाहन बिके"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "महिंद्रा CV और 3W सेल्स रिपोर्ट: अगस्त 2026 में 28% की बढ़त के साथ 42,337 वाहन बिके"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra CV & 3W की बिक्री में 28% की बढ़ोतरी, अगस्त 2026 में 42,337 यूनिट्स बेचीं"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Mahindra CV Sales August 2026: बिक्री 28% बढ़कर 42,337 यूनिट्स हुई, एक्सपोर्ट में 71% उछाल",
+                "description": "महिंद्रा ने अगस्त 2026 में 28% की बढ़त के साथ 42,337 कमर्शियल वाहन और 3-व्हीलर्स बेचे। जानें LCV, 3-व्हीलर और एक्सपोर्ट सेल्स के पूरे आंकड़े और बिक्री में तेजी के मुख्य कारण।",
+                "keywords": "महिंद्रा सीवी सेल्स अगस्त 2026, महिंद्रा कमर्शियल व्हीकल सेल्स, महिंद्रा 3 व्हीलर सेल्स, महिंद्रा एलसीवी सेल्स, महिंद्रा पिकअप सेल्स रिपोर्ट, महिंद्रा एक्सपोर्ट सेल्स अगस्त 2026, महिंद्रा एक्सपोर्ट सेल्स"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Mahindra CV & 3W की बिक्री में 28% की बढ़ोतरी, अगस्त 2026 में 42,337 यूनिट्स बेचीं"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "महिंद्रा CV और 3W सेल्स रिपोर्ट: अगस्त 2026 में 28% की बढ़त के साथ 42,337 वाहन बिके"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra CV & 3W की बिक्री में 28% की बढ़ोतरी, अगस्त 2026 में 42,337 यूनिट्स बेचीं"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Mahindra CV Sales August 2026: बिक्री 28% बढ़कर 42,337 यूनिट्स हुई, एक्सपोर्ट में 71% उछाल",
+                "description": "महिंद्रा ने अगस्त 2026 में 28% की बढ़त के साथ 42,337 कमर्शियल वाहन और 3-व्हीलर्स बेचे। जानें LCV, 3-व्हीलर और एक्सपोर्ट सेल्स के पूरे आंकड़े और बिक्री में तेजी के मुख्य कारण।",
+                "keywords": "महिंद्रा सीवी सेल्स अगस्त 2026, महिंद्रा कमर्शियल व्हीकल सेल्स, महिंद्रा 3 व्हीलर सेल्स, महिंद्रा एलसीवी सेल्स, महिंद्रा पिकअप सेल्स रिपोर्ट, महिंद्रा एक्सपोर्ट सेल्स अगस्त 2026, महिंद्रा एक्सपोर्ट सेल्स"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Mahindra CV Sales August 2026: बिक्री 28% बढ़कर 42,337 यूनिट्स हुई, एक्सपोर्ट में 71% उछाल",
-            "description": "महिंद्रा ने अगस्त 2026 में 28% की बढ़त के साथ 42,337 कमर्शियल वाहन और 3-व्हीलर्स बेचे। जानें LCV, 3-व्हीलर और एक्सपोर्ट सेल्स के पूरे आंकड़े और बिक्री में तेजी के मुख्य कारण।",
-            "keywords": "महिंद्रा सीवी सेल्स अगस्त 2026, महिंद्रा कमर्शियल व्हीकल सेल्स, महिंद्रा 3 व्हीलर सेल्स, महिंद्रा एलसीवी सेल्स, महिंद्रा पिकअप सेल्स रिपोर्ट, महिंद्रा एक्सपोर्ट सेल्स अगस्त 2026, महिंद्रा एक्सपोर्ट सेल्स"
           }
         },
         "ta": {
@@ -598,80 +1191,167 @@
       "byLanguage": {
         "en": {
           "path": "/blog/ace-pro-ev-vs-treo-zor-vs-reep-l3/",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland 1920 4X2 Price in India"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Tata ACE Pro EV vs Treo Zor vs Reep L3: Best Electric Cargo EV",
+                "description": "Compare Tata Ace Pro EV, Mahindra Treo Zor & Reep L3. Check range, payload, charging time & find the best electric cargo EV for business needs.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
-            },
-            {
-              "tag": "h2",
-              "text": "Ashok Leyland 1920 4X2 Price in India"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland 1920 4X2 Price in India"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Tata ACE Pro EV vs Treo Zor vs Reep L3: Best Electric Cargo EV",
+                "description": "Compare Tata Ace Pro EV, Mahindra Treo Zor & Reep L3. Check range, payload, charging time & find the best electric cargo EV for business needs.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Tata ACE Pro EV vs Treo Zor vs Reep L3: Best Electric Cargo EV",
-            "description": "Compare Tata Ace Pro EV, Mahindra Treo Zor & Reep L3. Check range, payload, charging time & find the best electric cargo EV for business needs.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/blog/ace-pro-ev-vs-treo-zor-vs-reep-l3/",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland 1920 4X2 Price in Cities Near Mumbai"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Tata ACE Pro EV vs Treo Zor vs Reep L3: Best Electric Cargo EV",
+                "description": "Compare Tata Ace Pro EV, Mahindra Treo Zor & Reep L3. Check range, payload, charging time & find the best electric cargo EV for business needs.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
-            },
-            {
-              "tag": "h2",
-              "text": "Ashok Leyland 1920 4X2 Price in Cities Near Mumbai"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland 1920 4X2 Price in Cities Near Mumbai"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Tata ACE Pro EV vs Treo Zor vs Reep L3: Best Electric Cargo EV",
+                "description": "Compare Tata Ace Pro EV, Mahindra Treo Zor & Reep L3. Check range, payload, charging time & find the best electric cargo EV for business needs.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Tata ACE Pro EV vs Treo Zor vs Reep L3: Best Electric Cargo EV",
-            "description": "Compare Tata Ace Pro EV, Mahindra Treo Zor & Reep L3. Check range, payload, charging time & find the best electric cargo EV for business needs.",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/blog/ace-pro-ev-vs-treo-zor-vs-reep-l3/",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland 1920 4X2 Price in Cities Near Mumbai"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Tata ACE Pro EV vs Treo Zor vs Reep L3: Best Electric Cargo EV",
+                "description": "Compare Tata Ace Pro EV, Mahindra Treo Zor & Reep L3. Check range, payload, charging time & find the best electric cargo EV for business needs.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
-            },
-            {
-              "tag": "h2",
-              "text": "Ashok Leyland 1920 4X2 Price in Cities Near Mumbai"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "ACE Pro EV vs Treo Zor vs Reep 3 Wheeler: Best Electric Cargo EV for Your Business"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Choose the Right EV for Your Business: ACE EV Pro vs L3, L5 & 4-Wheel EVs"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland 1920 4X2 Price in Cities Near Mumbai"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Tata ACE Pro EV vs Treo Zor vs Reep L3: Best Electric Cargo EV",
+                "description": "Compare Tata Ace Pro EV, Mahindra Treo Zor & Reep L3. Check range, payload, charging time & find the best electric cargo EV for business needs.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Tata ACE Pro EV vs Treo Zor vs Reep L3: Best Electric Cargo EV",
-            "description": "Compare Tata Ace Pro EV, Mahindra Treo Zor & Reep L3. Check range, payload, charging time & find the best electric cargo EV for business needs.",
-            "keywords": ""
           }
         }
       }
@@ -682,92 +1362,191 @@
       "byLanguage": {
         "en": {
           "path": "/authors/neeraj-joshi",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Neeraj Joshi"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recent News by Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Author"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top News"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Neeraj Joshi – Expert & Content Writer at Truck Junction",
+                "description": "Discover Neeraj Joshi’s author profile – SEO expert and content writer at Truck Junction. Specializes in automobiles.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Recent News by Neeraj Joshi"
-            },
-            {
-              "tag": "h2",
-              "text": "Other Author"
-            },
-            {
-              "tag": "h2",
-              "text": "Top News"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recent News by Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Author"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top News"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Neeraj Joshi – Expert & Content Writer at Truck Junction",
+                "description": "Discover Neeraj Joshi’s author profile – SEO expert and content writer at Truck Junction. Specializes in automobiles.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Neeraj Joshi – Expert & Content Writer at Truck Junction",
-            "description": "Discover Neeraj Joshi’s author profile – SEO expert and content writer at Truck Junction. Specializes in automobiles.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/authors/neeraj-joshi",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Neeraj Joshi"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recent News by Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Author"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top News"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Neeraj Joshi – Expert & Content Writer at Truck Junction",
+                "description": "Discover Neeraj Joshi’s author profile – SEO expert and content writer at Truck Junction. Specializes in automobiles.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Recent News by Neeraj Joshi"
-            },
-            {
-              "tag": "h2",
-              "text": "Other Author"
-            },
-            {
-              "tag": "h2",
-              "text": "Top News"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recent News by Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Author"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top News"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Neeraj Joshi – Expert & Content Writer at Truck Junction",
+                "description": "Discover Neeraj Joshi’s author profile – SEO expert and content writer at Truck Junction. Specializes in automobiles.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Neeraj Joshi – Expert & Content Writer at Truck Junction",
-            "description": "Discover Neeraj Joshi’s author profile – SEO expert and content writer at Truck Junction. Specializes in automobiles.",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/authors/neeraj-joshi",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Neeraj Joshi"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recent News by Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Author"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top News"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Neeraj Joshi – Expert & Content Writer at Truck Junction",
+                "description": "Discover Neeraj Joshi’s author profile – SEO expert and content writer at Truck Junction. Specializes in automobiles.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Recent News by Neeraj Joshi"
-            },
-            {
-              "tag": "h2",
-              "text": "Other Author"
-            },
-            {
-              "tag": "h2",
-              "text": "Top News"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recent News by Neeraj Joshi"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Author"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top News"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Neeraj Joshi – Expert & Content Writer at Truck Junction",
+                "description": "Discover Neeraj Joshi’s author profile – SEO expert and content writer at Truck Junction. Specializes in automobiles.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Neeraj Joshi – Expert & Content Writer at Truck Junction",
-            "description": "Discover Neeraj Joshi’s author profile – SEO expert and content writer at Truck Junction. Specializes in automobiles.",
-            "keywords": ""
           }
         }
       }

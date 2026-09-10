@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-08",
+  "scrapedAt": "2026-09-10",
   "languages": [
     "en",
     "hi",
@@ -12,170 +12,267 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "New Buses In India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "New Buses In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Buses Price List In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Buses Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About New Bus in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Bus Price in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "New Bus Models In India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "You can find out the bus price in India for all the new models on our website."
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for New Buses in India?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on New Buses"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on New Buses",
+                "questions": [
+                  "Which brands are introducing new bus models in India?",
+                  "Where to find the latest bus models in India?",
+                  "Do new bus models offer petrol fuel options for the operations?",
+                  "Which are the latest bus models in India?",
+                  "Where to find the price list for new buses in India?",
+                  "What body types would be available for the latest bus models in India?",
+                  "How much is the mileage of the latest bus models in India?"
+                ]
+              },
+              "meta": {
+                "title": "New Upcoming EV Buses in India 2026 - TruckJunction",
+                "description": "Latest Upcoming EV Buses in India 2026 check their price, range, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "New Buses Price List In India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "New Buses Found"
-            },
-            {
-              "tag": "h2",
-              "text": "All Bus Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "About New Bus in India"
-            },
-            {
-              "tag": "h2",
-              "text": "New Bus Price in India"
-            },
-            {
-              "tag": "h3",
-              "text": "New Bus Models In India"
-            },
-            {
-              "tag": "h3",
-              "text": "You can find out the bus price in India for all the new models on our website."
-            },
-            {
-              "tag": "h3",
-              "text": "Why BusJunction for New Buses in India?"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on New Buses"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "New Buses In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Buses Price List In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Buses Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About New Bus in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Bus Price in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "New Bus Models In India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "You can find out the bus price in India for all the new models on our website."
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for New Buses in India?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on New Buses"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on New Buses",
+                "questions": [
+                  "Which brands are introducing new bus models in India?",
+                  "Where to find the latest bus models in India?",
+                  "Do new bus models offer petrol fuel options for the operations?",
+                  "Which are the latest bus models in India?",
+                  "Where to find the price list for new buses in India?",
+                  "What body types would be available for the latest bus models in India?",
+                  "How much is the mileage of the latest bus models in India?"
+                ]
+              },
+              "meta": {
+                "title": "New Upcoming EV Buses in India 2026 - TruckJunction",
+                "description": "Latest Upcoming EV Buses in India 2026 check their price, range, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on New Buses",
-            "questions": [
-              "Which brands are introducing new bus models in India?",
-              "Where to find the latest bus models in India?",
-              "Do new bus models offer petrol fuel options for the operations?",
-              "Which are the latest bus models in India?",
-              "Where to find the price list for new buses in India?",
-              "What body types would be available for the latest bus models in India?",
-              "How much is the mileage of the latest bus models in India?"
-            ]
-          },
-          "meta": {
-            "title": "New Upcoming EV Buses in India 2026 - TruckJunction",
-            "description": "Latest Upcoming EV Buses in India 2026 check their price, range, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/buses",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में नई बसें"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में नई बसें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नई बसों की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नई बसें उपलब्ध"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नई बसों के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नई बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "नई बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में नए बस मॉडल के लिए कौन से बॉडी टाइप उपलब्ध होंगे?",
+                  "मुझे भारत में नए बस मॉडल के स्पेसिफिकेशन्स कहां मिल सकते हैं?",
+                  "क्या भारत में नई बस पेट्रोल फ्यूल टाइप से लैस होगी?",
+                  "मैं भारत में नए बस ब्रांड मॉडल की प्राइस रेंज कैसे पता कर सकता हूं?",
+                  "भारत में कुछ नए बस मॉडल कौन से हैं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में नई बसों की मूल्य सूची 2023 - बस स्पेसिफिकेशन्स और रिव्यू",
+                "description": "भारत में 2023 में नई बसों की मूल्य सूची। बस स्पेसिफिकेशन्स, कस्टमर रिव्यू, माइलेज, फीचर्स, सीटिंग कैपेसिटी, अधिकृत डीलर्स, फोटो और बस कंपेरिजन का पता लगाएं।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "भारत में नई बसों की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "नई बसें उपलब्ध"
-            },
-            {
-              "tag": "h2",
-              "text": "सभी बस ब्रांड"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में नई बसों के बारे में"
-            },
-            {
-              "tag": "h2",
-              "text": "नई बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में नई बसें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नई बसों की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नई बसें उपलब्ध"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नई बसों के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नई बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "नई बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में नए बस मॉडल के लिए कौन से बॉडी टाइप उपलब्ध होंगे?",
+                  "मुझे भारत में नए बस मॉडल के स्पेसिफिकेशन्स कहां मिल सकते हैं?",
+                  "क्या भारत में नई बस पेट्रोल फ्यूल टाइप से लैस होगी?",
+                  "मैं भारत में नए बस ब्रांड मॉडल की प्राइस रेंज कैसे पता कर सकता हूं?",
+                  "भारत में कुछ नए बस मॉडल कौन से हैं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में नई बसों की मूल्य सूची 2023 - बस स्पेसिफिकेशन्स और रिव्यू",
+                "description": "भारत में 2023 में नई बसों की मूल्य सूची। बस स्पेसिफिकेशन्स, कस्टमर रिव्यू, माइलेज, फीचर्स, सीटिंग कैपेसिटी, अधिकृत डीलर्स, फोटो और बस कंपेरिजन का पता लगाएं।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "नई बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "भारत में नए बस मॉडल के लिए कौन से बॉडी टाइप उपलब्ध होंगे?",
-              "मुझे भारत में नए बस मॉडल के स्पेसिफिकेशन्स कहां मिल सकते हैं?",
-              "क्या भारत में नई बस पेट्रोल फ्यूल टाइप से लैस होगी?",
-              "मैं भारत में नए बस ब्रांड मॉडल की प्राइस रेंज कैसे पता कर सकता हूं?",
-              "भारत में कुछ नए बस मॉडल कौन से हैं?"
-            ]
-          },
-          "meta": {
-            "title": "भारत में नई बसों की मूल्य सूची 2023 - बस स्पेसिफिकेशन्स और रिव्यू",
-            "description": "भारत में 2023 में नई बसों की मूल्य सूची। बस स्पेसिफिकेशन्स, कस्टमर रिव्यू, माइलेज, फीचर्स, सीटिंग कैपेसिटी, अधिकृत डीलर्स, फोटो और बस कंपेरिजन का पता लगाएं।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/buses",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் புதியது வாங்குகிறார்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h2",
+                  "text": "புதியது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "புதியது இந்தியாவில் பேருந்துகளின் விலை பட்டியல் 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "புதியது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
-            },
-            {
-              "tag": "h2",
-              "text": "அனைத்து பேருந்து நிறுவனங்களும்"
-            },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் புதியது பேருந்து பற்றி"
-            },
-            {
-              "tag": "h2",
-              "text": "New Bus Price in India"
-            },
-            {
-              "tag": "h3",
-              "text": "New Bus Models In India"
-            },
-            {
-              "tag": "h3",
-              "text": "You can find out the bus price in India for all the new models on our website."
-            },
-            {
-              "tag": "h3",
-              "text": "Why BusJunction for New Buses in India?"
-            },
-            {
-              "tag": "h2",
-              "text": "புதியது Buses பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h2",
+                  "text": "புதியது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "புதியது Buses பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "Which brands are introducing new bus models in India?",
-              "Where to find the latest bus models in India?",
-              "Do new bus models offer petrol fuel options for the operations?",
-              "Which are the latest bus models in India?",
-              "Where to find the price list for new buses in India?",
-              "What body types would be available for the latest bus models in India?",
-              "How much is the mileage of the latest bus models in India?"
-            ]
-          },
-          "meta": {
-            "title": "New Upcoming EV Buses in India 2026 - TruckJunction",
-            "description": "Latest Upcoming EV Buses in India 2026 check their price, range, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
-            "keywords": ""
           }
         }
       }
@@ -186,186 +283,379 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses/popular",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Popular Buses In India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Popular Buses In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Buses Price List In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Buses Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Popular Bus"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Popular Bus Models India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Popular Buses Price Range in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Popular Bus Brands in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Ashok Leyland"
+                },
+                {
+                  "tag": "h4",
+                  "text": "TATA"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Eicher"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Explore Popular Buses With BusJunction!"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Review and Compare"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Customer Support Service"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Popular Bus"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Popular Bus",
+                "questions": [
+                  "What are some of the popular bus models in India?",
+                  "Where to find and buy popular buses?",
+                  "Which are popular bus categories in India?",
+                  "Which are the popular bus brands in India?",
+                  "Where to find popular buses updates in India?"
+                ]
+              },
+              "meta": {
+                "title": "Popular Indian Buses Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Popular Indian Buses price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Popular Buses Price List In India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Buses Found"
-            },
-            {
-              "tag": "h2",
-              "text": "All Bus Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "About Popular Bus"
-            },
-            {
-              "tag": "h3",
-              "text": "Popular Bus Models India"
-            },
-            {
-              "tag": "h3",
-              "text": "Popular Buses Price Range in India"
-            },
-            {
-              "tag": "h3",
-              "text": "Popular Bus Brands in India"
-            },
-            {
-              "tag": "h4",
-              "text": "Ashok Leyland"
-            },
-            {
-              "tag": "h4",
-              "text": "TATA"
-            },
-            {
-              "tag": "h4",
-              "text": "Eicher"
-            },
-            {
-              "tag": "h3",
-              "text": "Explore Popular Buses With BusJunction!"
-            },
-            {
-              "tag": "h3",
-              "text": "Review and Compare"
-            },
-            {
-              "tag": "h3",
-              "text": "Customer Support Service"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Popular Bus"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Popular Buses In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Buses Price List In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Buses Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Popular Bus"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Popular Bus Models India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Popular Buses Price Range in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Popular Bus Brands in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Ashok Leyland"
+                },
+                {
+                  "tag": "h4",
+                  "text": "TATA"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Eicher"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Explore Popular Buses With BusJunction!"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Review and Compare"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Customer Support Service"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Popular Bus"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Popular Bus",
+                "questions": [
+                  "What are some of the popular bus models in India?",
+                  "Where to find and buy popular buses?",
+                  "Which are popular bus categories in India?",
+                  "Which are the popular bus brands in India?",
+                  "Where to find popular buses updates in India?"
+                ]
+              },
+              "meta": {
+                "title": "Popular Indian Buses Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Popular Indian Buses price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Popular Bus",
-            "questions": [
-              "What are some of the popular bus models in India?",
-              "Where to find and buy popular buses?",
-              "Which are popular bus categories in India?",
-              "Which are the popular bus brands in India?",
-              "Where to find popular buses updates in India?"
-            ]
-          },
-          "meta": {
-            "title": "Popular Indian Buses Price, Specs, Mileage & Reviews 2026 | TruckJunction",
-            "description": "Check Popular Indian Buses price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/buses/popular",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में लोकप्रिय बसें"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में लोकप्रिय बसें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लोकप्रिय बसों की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय बसें उपलब्ध"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय बसों के बारे में"
+                },
+                {
+                  "tag": "h3",
+                  "text": "लोकप्रिय बस मॉडल"
+                },
+                {
+                  "tag": "h4",
+                  "text": "टाटा मार्कोपोलो बस :"
+                },
+                {
+                  "tag": "h4",
+                  "text": "अशोक लेलैंड लिंक्स स्मार्ट बस :"
+                },
+                {
+                  "tag": "h4",
+                  "text": "वोल्वो 8400 सिटी बस :"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में लोकप्रिय बसों के लिए ट्रक जंक्शन क्यों?"
+                },
+                {
+                  "tag": "h4",
+                  "text": "रिव्यू और कंपेयर"
+                },
+                {
+                  "tag": "h4",
+                  "text": "फाइनेंस ऑप्शन"
+                },
+                {
+                  "tag": "h4",
+                  "text": "कस्टमर सपोर्ट सर्विस"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "लोकप्रिय बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में सबसे अच्छी बस कंपनी कौन सी है?",
+                  "भारत की सबसे शक्तिशाली बस कौन सी है?",
+                  "भारत में सबसे सुरक्षित बस ब्रांड कौन सा है?",
+                  "भारत में सबसे शानदार बस ब्रांड कौन सा है?",
+                  "लोकप्रिय टाटा स्टार बस 35 सीटर की कीमत कितनी है?",
+                  "भारत में लोकप्रिय बस मॉडल कौन से हैं?",
+                  "भारत में सबसे लोकप्रिय बस ब्रांड कौन से हैं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में लोकप्रिय बसों की मूल्य सूची 2023 - फीचर्स, माइलेज और रिव्यू",
+                "description": "भारत में सबसे लोकप्रिय बस मूल्य सूची 2023 का पता लगाएं। टॉप बस मॉडल, स्पेसिफिकेशन्स, सत्यापित ग्राहक समीक्षा, फीचर्स, फोटो और अधिकृत डीलरों की जांच करें।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "भारत में लोकप्रिय बसों की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय बसें उपलब्ध"
-            },
-            {
-              "tag": "h2",
-              "text": "सभी बस ब्रांड"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय बसों के बारे में"
-            },
-            {
-              "tag": "h3",
-              "text": "लोकप्रिय बस मॉडल"
-            },
-            {
-              "tag": "h4",
-              "text": "टाटा मार्कोपोलो बस :"
-            },
-            {
-              "tag": "h4",
-              "text": "अशोक लेलैंड लिंक्स स्मार्ट बस :"
-            },
-            {
-              "tag": "h4",
-              "text": "वोल्वो 8400 सिटी बस :"
-            },
-            {
-              "tag": "h3",
-              "text": "भारत में लोकप्रिय बसों के लिए ट्रक जंक्शन क्यों?"
-            },
-            {
-              "tag": "h4",
-              "text": "रिव्यू और कंपेयर"
-            },
-            {
-              "tag": "h4",
-              "text": "फाइनेंस ऑप्शन"
-            },
-            {
-              "tag": "h4",
-              "text": "कस्टमर सपोर्ट सर्विस"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में लोकप्रिय बसें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में लोकप्रिय बसों की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय बसें उपलब्ध"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय बसों के बारे में"
+                },
+                {
+                  "tag": "h3",
+                  "text": "लोकप्रिय बस मॉडल"
+                },
+                {
+                  "tag": "h4",
+                  "text": "टाटा मार्कोपोलो बस :"
+                },
+                {
+                  "tag": "h4",
+                  "text": "अशोक लेलैंड लिंक्स स्मार्ट बस :"
+                },
+                {
+                  "tag": "h4",
+                  "text": "वोल्वो 8400 सिटी बस :"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में लोकप्रिय बसों के लिए ट्रक जंक्शन क्यों?"
+                },
+                {
+                  "tag": "h4",
+                  "text": "रिव्यू और कंपेयर"
+                },
+                {
+                  "tag": "h4",
+                  "text": "फाइनेंस ऑप्शन"
+                },
+                {
+                  "tag": "h4",
+                  "text": "कस्टमर सपोर्ट सर्विस"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "लोकप्रिय बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में सबसे अच्छी बस कंपनी कौन सी है?",
+                  "भारत की सबसे शक्तिशाली बस कौन सी है?",
+                  "भारत में सबसे सुरक्षित बस ब्रांड कौन सा है?",
+                  "भारत में सबसे शानदार बस ब्रांड कौन सा है?",
+                  "लोकप्रिय टाटा स्टार बस 35 सीटर की कीमत कितनी है?",
+                  "भारत में लोकप्रिय बस मॉडल कौन से हैं?",
+                  "भारत में सबसे लोकप्रिय बस ब्रांड कौन से हैं?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में लोकप्रिय बसों की मूल्य सूची 2023 - फीचर्स, माइलेज और रिव्यू",
+                "description": "भारत में सबसे लोकप्रिय बस मूल्य सूची 2023 का पता लगाएं। टॉप बस मॉडल, स्पेसिफिकेशन्स, सत्यापित ग्राहक समीक्षा, फीचर्स, फोटो और अधिकृत डीलरों की जांच करें।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "लोकप्रिय बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "भारत में सबसे अच्छी बस कंपनी कौन सी है?",
-              "भारत की सबसे शक्तिशाली बस कौन सी है?",
-              "भारत में सबसे सुरक्षित बस ब्रांड कौन सा है?",
-              "भारत में सबसे शानदार बस ब्रांड कौन सा है?",
-              "लोकप्रिय टाटा स्टार बस 35 सीटर की कीमत कितनी है?",
-              "भारत में लोकप्रिय बस मॉडल कौन से हैं?",
-              "भारत में सबसे लोकप्रिय बस ब्रांड कौन से हैं?"
-            ]
-          },
-          "meta": {
-            "title": "भारत में लोकप्रिय बसों की मूल्य सूची 2023 - फीचर्स, माइलेज और रिव्यू",
-            "description": "भारत में सबसे लोकप्रिय बस मूल्य सूची 2023 का पता लगाएं। टॉप बस मॉडल, स्पेसिफिकेशन्स, सत्यापित ग्राहक समीक्षा, फीचर्स, फोटो और अधिकृत डीलरों की जांच करें।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/buses/popular",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் பிரபலமானது வாங்குகிறார்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் பிரபலமானது வாங்குகிறார்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமானது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "பிரபலமானது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
-            },
-            {
-              "tag": "h2",
-              "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் பிரபலமானது வாங்குகிறார்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமானது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "",
-            "description": "",
-            "keywords": ""
           }
         }
       }
@@ -376,165 +666,337 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses/upcoming",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Upcoming Buses In India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Upcoming Buses In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Buses Price List In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Buses Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Upcoming Bus"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Upcoming Bus Models in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Upcoming Bus Price List in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for the Upcoming Bus Updates?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Review and Compare"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Customer Support Service"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Upcoming Bus"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Upcoming Bus",
+                "questions": [
+                  "Which brands will come up with upcoming bus models in India?",
+                  "Where to find out about the upcoming bus models in India?",
+                  "Will upcoming bus models offer diesel fuel options for the operations?",
+                  "Which are the upcoming bus models in India?",
+                  "Where to find the price list for the upcoming bus price list in India?",
+                  "What body types would be available for the upcoming buses in India?",
+                  "Which brands are coming up with the upcoming electric buses in India?",
+                  "How much is the mileage of the upcoming buses in India?",
+                  "Where can I find the upcoming bus updates in India?"
+                ]
+              },
+              "meta": {
+                "title": "Upcoming Petrol & Diesel Buses in India 2026 | Truck Junction",
+                "description": "Find the upcoming Petrol & Diesel Buses in India in 2026. Check out the upcoming bus models, expected launch dates in the coming months, estimated prices, specifications & images.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Upcoming Buses Price List In India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Upcoming Buses Found"
-            },
-            {
-              "tag": "h2",
-              "text": "All Bus Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "About Upcoming Bus"
-            },
-            {
-              "tag": "h3",
-              "text": "Upcoming Bus Models in India"
-            },
-            {
-              "tag": "h3",
-              "text": "Upcoming Bus Price List in India"
-            },
-            {
-              "tag": "h3",
-              "text": "Why BusJunction for the Upcoming Bus Updates?"
-            },
-            {
-              "tag": "h3",
-              "text": "Review and Compare"
-            },
-            {
-              "tag": "h3",
-              "text": "Customer Support Service"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Upcoming Bus"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Upcoming Buses In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Buses Price List In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Upcoming Buses Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Upcoming Bus"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Upcoming Bus Models in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Upcoming Bus Price List in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for the Upcoming Bus Updates?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Review and Compare"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Customer Support Service"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Upcoming Bus"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Upcoming Bus",
+                "questions": [
+                  "Which brands will come up with upcoming bus models in India?",
+                  "Where to find out about the upcoming bus models in India?",
+                  "Will upcoming bus models offer diesel fuel options for the operations?",
+                  "Which are the upcoming bus models in India?",
+                  "Where to find the price list for the upcoming bus price list in India?",
+                  "What body types would be available for the upcoming buses in India?",
+                  "Which brands are coming up with the upcoming electric buses in India?",
+                  "How much is the mileage of the upcoming buses in India?",
+                  "Where can I find the upcoming bus updates in India?"
+                ]
+              },
+              "meta": {
+                "title": "Upcoming Petrol & Diesel Buses in India 2026 | Truck Junction",
+                "description": "Find the upcoming Petrol & Diesel Buses in India in 2026. Check out the upcoming bus models, expected launch dates in the coming months, estimated prices, specifications & images.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Upcoming Bus",
-            "questions": [
-              "Which brands will come up with upcoming bus models in India?",
-              "Where to find out about the upcoming bus models in India?",
-              "Will upcoming bus models offer diesel fuel options for the operations?",
-              "Which are the upcoming bus models in India?",
-              "Where to find the price list for the upcoming bus price list in India?",
-              "What body types would be available for the upcoming buses in India?",
-              "Which brands are coming up with the upcoming electric buses in India?",
-              "How much is the mileage of the upcoming buses in India?",
-              "Where can I find the upcoming bus updates in India?"
-            ]
-          },
-          "meta": {
-            "title": "Upcoming Petrol & Diesel Buses in India 2026 | Truck Junction",
-            "description": "Find the upcoming Petrol & Diesel Buses in India in 2026. Check out the upcoming bus models, expected launch dates in the coming months, estimated prices, specifications & images.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/buses/upcoming",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में आगामी बसें"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में आगामी बसें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में आगामी बसों की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी बसें उपलब्ध"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी बसों के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "टाटा 1512 LPO"
+                },
+                {
+                  "tag": "h4",
+                  "text": "स्कैनिया मेट्रोलिंक HD बस"
+                },
+                {
+                  "tag": "h4",
+                  "text": "अशोक लेलैंड लिंक्स स्मार्ट बस"
+                },
+                {
+                  "tag": "h4",
+                  "text": "वोल्वो 8400 सिटी बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "अपकमिंग बस की कीमत"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में अपकमिंग बसों के लिए ट्रक जंक्शन क्यों?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "आगामी बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में लोकप्रिय बस मॉडल कौन से हैं?",
+                  "भारत में सबसे लोकप्रिय बस ब्रांड कौन से हैं?",
+                  "मुझे भारत में अपकमिंग बस मॉडल कहां मिल सकते हैं?",
+                  "भारत में 2023 में अपकमिंग इलेक्ट्रिक बस मॉडल के साथ कौन से ब्रांड आ रहे हैं?",
+                  "मुझे भारत में आगामी बस मॉडल के बारे में अपडेट कहां मिल सकता है?",
+                  "क्या अपकमिंग बस मॉडल अपने संचालन के लिए पेट्रोल फ्यूल का ऑप्शन प्रदान करेंगे?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में आगामी बस 2023 | आगामी बस फोटो, लॉन्च तिथि और कीमत",
+                "description": "भारत में आगामी बस 2023 का पता लगाएं। आगामी बस मॉडल, आने वाले महीनों में लॉन्च होने की संभावित तारीखें, अनुमानित मूल्य, स्पेसिफिकेशन और तस्वीरें देखें।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "भारत में आगामी बसों की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "आगामी बसें उपलब्ध"
-            },
-            {
-              "tag": "h2",
-              "text": "सभी बस ब्रांड"
-            },
-            {
-              "tag": "h2",
-              "text": "आगामी बसों के बारे में"
-            },
-            {
-              "tag": "h4",
-              "text": "टाटा 1512 LPO"
-            },
-            {
-              "tag": "h4",
-              "text": "स्कैनिया मेट्रोलिंक HD बस"
-            },
-            {
-              "tag": "h4",
-              "text": "अशोक लेलैंड लिंक्स स्मार्ट बस"
-            },
-            {
-              "tag": "h4",
-              "text": "वोल्वो 8400 सिटी बस"
-            },
-            {
-              "tag": "h3",
-              "text": "अपकमिंग बस की कीमत"
-            },
-            {
-              "tag": "h3",
-              "text": "भारत में अपकमिंग बसों के लिए ट्रक जंक्शन क्यों?"
-            },
-            {
-              "tag": "h2",
-              "text": "आगामी बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में आगामी बसें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में आगामी बसों की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी बसें उपलब्ध"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी बसों के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "टाटा 1512 LPO"
+                },
+                {
+                  "tag": "h4",
+                  "text": "स्कैनिया मेट्रोलिंक HD बस"
+                },
+                {
+                  "tag": "h4",
+                  "text": "अशोक लेलैंड लिंक्स स्मार्ट बस"
+                },
+                {
+                  "tag": "h4",
+                  "text": "वोल्वो 8400 सिटी बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "अपकमिंग बस की कीमत"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में अपकमिंग बसों के लिए ट्रक जंक्शन क्यों?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आगामी बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "आगामी बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में लोकप्रिय बस मॉडल कौन से हैं?",
+                  "भारत में सबसे लोकप्रिय बस ब्रांड कौन से हैं?",
+                  "मुझे भारत में अपकमिंग बस मॉडल कहां मिल सकते हैं?",
+                  "भारत में 2023 में अपकमिंग इलेक्ट्रिक बस मॉडल के साथ कौन से ब्रांड आ रहे हैं?",
+                  "मुझे भारत में आगामी बस मॉडल के बारे में अपडेट कहां मिल सकता है?",
+                  "क्या अपकमिंग बस मॉडल अपने संचालन के लिए पेट्रोल फ्यूल का ऑप्शन प्रदान करेंगे?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में आगामी बस 2023 | आगामी बस फोटो, लॉन्च तिथि और कीमत",
+                "description": "भारत में आगामी बस 2023 का पता लगाएं। आगामी बस मॉडल, आने वाले महीनों में लॉन्च होने की संभावित तारीखें, अनुमानित मूल्य, स्पेसिफिकेशन और तस्वीरें देखें।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "आगामी बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "भारत में लोकप्रिय बस मॉडल कौन से हैं?",
-              "भारत में सबसे लोकप्रिय बस ब्रांड कौन से हैं?",
-              "मुझे भारत में अपकमिंग बस मॉडल कहां मिल सकते हैं?",
-              "भारत में 2023 में अपकमिंग इलेक्ट्रिक बस मॉडल के साथ कौन से ब्रांड आ रहे हैं?",
-              "मुझे भारत में आगामी बस मॉडल के बारे में अपडेट कहां मिल सकता है?",
-              "क्या अपकमिंग बस मॉडल अपने संचालन के लिए पेट्रोल फ्यूल का ऑप्शन प्रदान करेंगे?"
-            ]
-          },
-          "meta": {
-            "title": "भारत में आगामी बस 2023 | आगामी बस फोटो, लॉन्च तिथि और कीमत",
-            "description": "भारत में आगामी बस 2023 का पता लगाएं। आगामी बस मॉडल, आने वाले महीनों में लॉन्च होने की संभावित तारीखें, अनुमानित मूल्य, स्पेसिफिकेशन और तस्वीरें देखें।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/buses/upcoming",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் வரவிருப்பது வாங்குகிறார்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் வரவிருப்பது வாங்குகிறார்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வரவிருப்பது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "வரவிருப்பது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
-            },
-            {
-              "tag": "h2",
-              "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் வரவிருப்பது வாங்குகிறார்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வரவிருப்பது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "",
-            "description": "",
-            "keywords": ""
           }
         }
       }
@@ -545,130 +1007,267 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses/latest",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Latest Buses In India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Latest Buses In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Buses Price List In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Buses Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Latest Bus"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Here are Some Latest Buses in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Latest Bus Price List in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for Latest Bus in India?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Latest Bus"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Latest Bus",
+                "questions": [
+                  "Which brands are introducing the latest buses in India?",
+                  "Where to find the latest bus models in India?",
+                  "Will the latest bus brands in India offer diesel fuel options in their buses?",
+                  "Which are the new bus models in India?",
+                  "Where to find the price list for new buses in India?",
+                  "What body types would be available for the latest bus models in India?",
+                  "How much is the latest bus mileage of the new models in India?"
+                ]
+              },
+              "meta": {
+                "title": "Latest Bus Price in India 2026 | Latest Bus Models, Specs & Reviews",
+                "description": "Find the latest bus price list in India 2026. Get the latest bus models, images, seating capacity, features, mileage, specifications, reviews & dealers.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Latest Buses Price List In India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Buses Found"
-            },
-            {
-              "tag": "h2",
-              "text": "All Bus Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "About Latest Bus"
-            },
-            {
-              "tag": "h3",
-              "text": "Here are Some Latest Buses in India"
-            },
-            {
-              "tag": "h3",
-              "text": "Latest Bus Price List in India"
-            },
-            {
-              "tag": "h3",
-              "text": "Why BusJunction for Latest Bus in India?"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Latest Bus"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Latest Buses In India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Buses Price List In India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Buses Found"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Latest Bus"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Here are Some Latest Buses in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Latest Bus Price List in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for Latest Bus in India?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Latest Bus"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Latest Bus",
+                "questions": [
+                  "Which brands are introducing the latest buses in India?",
+                  "Where to find the latest bus models in India?",
+                  "Will the latest bus brands in India offer diesel fuel options in their buses?",
+                  "Which are the new bus models in India?",
+                  "Where to find the price list for new buses in India?",
+                  "What body types would be available for the latest bus models in India?",
+                  "How much is the latest bus mileage of the new models in India?"
+                ]
+              },
+              "meta": {
+                "title": "Latest Bus Price in India 2026 | Latest Bus Models, Specs & Reviews",
+                "description": "Find the latest bus price list in India 2026. Get the latest bus models, images, seating capacity, features, mileage, specifications, reviews & dealers.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Latest Bus",
-            "questions": [
-              "Which brands are introducing the latest buses in India?",
-              "Where to find the latest bus models in India?",
-              "Will the latest bus brands in India offer diesel fuel options in their buses?",
-              "Which are the new bus models in India?",
-              "Where to find the price list for new buses in India?",
-              "What body types would be available for the latest bus models in India?",
-              "How much is the latest bus mileage of the new models in India?"
-            ]
-          },
-          "meta": {
-            "title": "Latest Bus Price in India 2026 | Latest Bus Models, Specs & Reviews",
-            "description": "Find the latest bus price list in India 2026. Get the latest bus models, images, seating capacity, features, mileage, specifications, reviews & dealers.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/buses/latest",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में नवीनतम बसें"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में नवीनतम बसें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नवीनतम बसों की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम बसें उपलब्ध"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम बसों के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "नवीनतम बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में भारतबेंज़ के लेटेस्ट बस मॉडल कौन से हैं?",
+                  "भारत में एक नई मिनीबस की लागत कितनी है?",
+                  "भारत में लेटेस्ट बसों की प्राइस रेंज क्या है?",
+                  "भारत में लेटेस्ट हाइली फ्यूल एफिशिएंट बस मॉडल कौन सा है?",
+                  "भारत में लेटेस्ट बस मॉडल कौन सा है?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में नवीनतम बस की कीमत 2023 | नवीनतम बस मॉडल, स्पेसिफिकेशन्स और रिव्यू",
+                "description": "भारत में नवीनतम बस मूल्य सूची 2023 का पता लगाएं। नवीनतम बस मॉडल, फोटो, सीटिंग कैपेसिटी, फीचर्स, माइलेज, स्पेसिफिकेशन्स, रिव्यू और डीलर प्राप्त करें।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "भारत में नवीनतम बसों की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम बसें उपलब्ध"
-            },
-            {
-              "tag": "h2",
-              "text": "सभी बस ब्रांड"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम बसों के बारे में"
-            },
-            {
-              "tag": "h2",
-              "text": "नवीनतम बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में नवीनतम बसें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में नवीनतम बसों की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम बसें उपलब्ध"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम बसों के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नवीनतम बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "नवीनतम बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में भारतबेंज़ के लेटेस्ट बस मॉडल कौन से हैं?",
+                  "भारत में एक नई मिनीबस की लागत कितनी है?",
+                  "भारत में लेटेस्ट बसों की प्राइस रेंज क्या है?",
+                  "भारत में लेटेस्ट हाइली फ्यूल एफिशिएंट बस मॉडल कौन सा है?",
+                  "भारत में लेटेस्ट बस मॉडल कौन सा है?"
+                ]
+              },
+              "meta": {
+                "title": "भारत में नवीनतम बस की कीमत 2023 | नवीनतम बस मॉडल, स्पेसिफिकेशन्स और रिव्यू",
+                "description": "भारत में नवीनतम बस मूल्य सूची 2023 का पता लगाएं। नवीनतम बस मॉडल, फोटो, सीटिंग कैपेसिटी, फीचर्स, माइलेज, स्पेसिफिकेशन्स, रिव्यू और डीलर प्राप्त करें।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "नवीनतम बसों से संबंधित अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "भारत में भारतबेंज़ के लेटेस्ट बस मॉडल कौन से हैं?",
-              "भारत में एक नई मिनीबस की लागत कितनी है?",
-              "भारत में लेटेस्ट बसों की प्राइस रेंज क्या है?",
-              "भारत में लेटेस्ट हाइली फ्यूल एफिशिएंट बस मॉडल कौन सा है?",
-              "भारत में लेटेस्ट बस मॉडल कौन सा है?"
-            ]
-          },
-          "meta": {
-            "title": "भारत में नवीनतम बस की कीमत 2023 | नवीनतम बस मॉडल, स्पेसिफिकेशन्स और रिव्यू",
-            "description": "भारत में नवीनतम बस मूल्य सूची 2023 का पता लगाएं। नवीनतम बस मॉडल, फोटो, सीटिंग कैपेसिटी, फीचर्स, माइलेज, स्पेसिफिकेशन्स, रिव्यू और डीलर प्राप्त करें।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/buses/latest",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் சமீபத்தியது வாங்குகிறார்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் சமீபத்தியது வாங்குகிறார்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்தியது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "சமீபத்தியது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
-            },
-            {
-              "tag": "h2",
-              "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் சமீபத்தியது வாங்குகிறார்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்தியது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "",
-            "description": "",
-            "keywords": ""
           }
         }
       }
@@ -679,167 +1278,341 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses/ashok-leyland",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Ashok Leyland Buses in India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Ashok Leyland Buses in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Ashok Leyland Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Ashok Leyland Buses in India Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of Ashok Leyland"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Ashok Leyland Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Categories Offered by Ashok Leyland"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Ashok Leyland Buses Price in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Some Popular Models from Ashok Leyland bus in 2026"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Explore Ashok Leyland Buses at Bus Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Ashok Leyland Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Ashok Leyland Buses in India",
+                "questions": [
+                  "How many Ashok Leyland bus models are offered at BusJunction?",
+                  "What is the starting Price of a Ashok Leyland bus in India?",
+                  "Which is the most expensive bus from Ashok Leyland ?",
+                  "Which is the most popular bus from Ashok Leyland ?",
+                  "What fuel type options are offered by Ashok Leyland bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "Ashok Leyland Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Ashok Leyland Buses price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": "Ashok Leyland bus, Ashok Leyland bus price, Ashok Leyland mini bus, Ashok Leyland bus price in India, Ashok Leyland sleeper bus, Ashok Leyland buses price, Ashok Leyland new bus"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "Ashok Leyland Bus Price List in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Ashok Leyland Buses in India Bus Models"
-            },
-            {
-              "tag": "h2",
-              "text": "Similar Brands of Ashok Leyland"
-            },
-            {
-              "tag": "h3",
-              "text": "About Ashok Leyland Buses"
-            },
-            {
-              "tag": "h4",
-              "text": "Bus Categories Offered by Ashok Leyland"
-            },
-            {
-              "tag": "h4",
-              "text": "Ashok Leyland Buses Price in India"
-            },
-            {
-              "tag": "h4",
-              "text": "Some Popular Models from Ashok Leyland bus in 2026"
-            },
-            {
-              "tag": "h4",
-              "text": "Explore Ashok Leyland Buses at Bus Junction"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Ashok Leyland Buses in India"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Ashok Leyland Buses in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Ashok Leyland Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Ashok Leyland Buses in India Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of Ashok Leyland"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Ashok Leyland Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Categories Offered by Ashok Leyland"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Ashok Leyland Buses Price in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Some Popular Models from Ashok Leyland bus in 2026"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Explore Ashok Leyland Buses at Bus Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Ashok Leyland Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Ashok Leyland Buses in India",
+                "questions": [
+                  "How many Ashok Leyland bus models are offered at BusJunction?",
+                  "What is the starting Price of a Ashok Leyland bus in India?",
+                  "Which is the most expensive bus from Ashok Leyland ?",
+                  "Which is the most popular bus from Ashok Leyland ?",
+                  "What fuel type options are offered by Ashok Leyland bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "Ashok Leyland Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Ashok Leyland Buses price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": "Ashok Leyland bus, Ashok Leyland bus price, Ashok Leyland mini bus, Ashok Leyland bus price in India, Ashok Leyland sleeper bus, Ashok Leyland buses price, Ashok Leyland new bus"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Ashok Leyland Buses in India",
-            "questions": [
-              "How many Ashok Leyland bus models are offered at BusJunction?",
-              "What is the starting Price of a Ashok Leyland bus in India?",
-              "Which is the most expensive bus from Ashok Leyland ?",
-              "Which is the most popular bus from Ashok Leyland ?",
-              "What fuel type options are offered by Ashok Leyland bus in India?"
-            ]
-          },
-          "meta": {
-            "title": "Ashok Leyland Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
-            "description": "Check Ashok Leyland Buses price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
-            "keywords": "Ashok Leyland bus, Ashok Leyland bus price, Ashok Leyland mini bus, Ashok Leyland bus price in India, Ashok Leyland sleeper bus, Ashok Leyland buses price, Ashok Leyland new bus"
           }
         },
         "hi": {
           "path": "/hi/buses/ashok-leyland",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "अशोक लेलैंड बस"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "अशोक लेलैंड बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में अशोक लेलैंड बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय अशोक लेलैंड बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अशोक लेलैंड के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "अशोक लेलैंड बस के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "अशोक लेलैंड द्वारा ऑफर की जाने वाली बस कैटेगरी"
+                },
+                {
+                  "tag": "h4",
+                  "text": "भारत में अशोक लेलैंड बस की कीमत"
+                },
+                {
+                  "tag": "h4",
+                  "text": "अशोक लेलैंड बस 2026 के कुछ पॉपुलर मॉडल"
+                },
+                {
+                  "tag": "h4",
+                  "text": "बस जंक्शन पर अशोक लेलैंड बसों को एक्सप्लोर करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में अशोक लेलैंड बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में अशोक लेलैंड बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "बस जंक्शन पर कितने अशोक लेलैंड बस मॉडल पेश किए गए हैं?",
+                  "भारत में अशोक लेलैंड बस की शुरुआती कीमत क्या है?",
+                  "अशोक लेलैंड बस का माइलेज क्या है?",
+                  "अशोक लेलैंड की सबसे महंगी बस कौन सी है?",
+                  "अशोक लेलैंड की सबसे लोकप्रिय बस कौन सी है?",
+                  "भारत में अशोक लेलैंड बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "अशोक लेलैंड बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में अशोक लेलैंड बस की कीमत 2026 । नवीनतम अशोक लेलैंड बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "अशोक लेलैंड बस, अशोक लेलैंड बस मूल्य, अशोक लेलैंड मिनी बस, अशोक लेलैंड भारत में बस की कीमत, अशोक लेलैंड स्लीपर बस, अशोक लेलैंड बसों की कीमत, अशोक लेलैंड नई बस"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "भारत में अशोक लेलैंड बस की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय अशोक लेलैंड बस बस मॉडल"
-            },
-            {
-              "tag": "h2",
-              "text": "अशोक लेलैंड के समान ब्रांड्स"
-            },
-            {
-              "tag": "h3",
-              "text": "अशोक लेलैंड बस के बारे में"
-            },
-            {
-              "tag": "h4",
-              "text": "अशोक लेलैंड द्वारा ऑफर की जाने वाली बस कैटेगरी"
-            },
-            {
-              "tag": "h4",
-              "text": "भारत में अशोक लेलैंड बस की कीमत"
-            },
-            {
-              "tag": "h4",
-              "text": "अशोक लेलैंड बस 2026 के कुछ पॉपुलर मॉडल"
-            },
-            {
-              "tag": "h4",
-              "text": "बस जंक्शन पर अशोक लेलैंड बसों को एक्सप्लोर करें"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में अशोक लेलैंड बसों पर अक्सर पूछे जाने वाले सवाल"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "अशोक लेलैंड बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में अशोक लेलैंड बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय अशोक लेलैंड बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अशोक लेलैंड के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "अशोक लेलैंड बस के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "अशोक लेलैंड द्वारा ऑफर की जाने वाली बस कैटेगरी"
+                },
+                {
+                  "tag": "h4",
+                  "text": "भारत में अशोक लेलैंड बस की कीमत"
+                },
+                {
+                  "tag": "h4",
+                  "text": "अशोक लेलैंड बस 2026 के कुछ पॉपुलर मॉडल"
+                },
+                {
+                  "tag": "h4",
+                  "text": "बस जंक्शन पर अशोक लेलैंड बसों को एक्सप्लोर करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में अशोक लेलैंड बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में अशोक लेलैंड बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "बस जंक्शन पर कितने अशोक लेलैंड बस मॉडल पेश किए गए हैं?",
+                  "भारत में अशोक लेलैंड बस की शुरुआती कीमत क्या है?",
+                  "अशोक लेलैंड बस का माइलेज क्या है?",
+                  "अशोक लेलैंड की सबसे महंगी बस कौन सी है?",
+                  "अशोक लेलैंड की सबसे लोकप्रिय बस कौन सी है?",
+                  "भारत में अशोक लेलैंड बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "अशोक लेलैंड बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में अशोक लेलैंड बस की कीमत 2026 । नवीनतम अशोक लेलैंड बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "अशोक लेलैंड बस, अशोक लेलैंड बस मूल्य, अशोक लेलैंड मिनी बस, अशोक लेलैंड भारत में बस की कीमत, अशोक लेलैंड स्लीपर बस, अशोक लेलैंड बसों की कीमत, अशोक लेलैंड नई बस"
+              }
             }
-          ],
-          "faq": {
-            "heading": "भारत में अशोक लेलैंड बसों पर अक्सर पूछे जाने वाले सवाल",
-            "questions": [
-              "बस जंक्शन पर कितने अशोक लेलैंड बस मॉडल पेश किए गए हैं?",
-              "भारत में अशोक लेलैंड बस की शुरुआती कीमत क्या है?",
-              "अशोक लेलैंड बस का माइलेज क्या है?",
-              "अशोक लेलैंड की सबसे महंगी बस कौन सी है?",
-              "अशोक लेलैंड की सबसे लोकप्रिय बस कौन सी है?",
-              "भारत में अशोक लेलैंड बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
-            ]
-          },
-          "meta": {
-            "title": "अशोक लेलैंड बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
-            "description": "भारत में अशोक लेलैंड बस की कीमत 2026 । नवीनतम अशोक लेलैंड बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
-            "keywords": "अशोक लेलैंड बस, अशोक लेलैंड बस मूल्य, अशोक लेलैंड मिनी बस, अशोक लेलैंड भारत में बस की कीमत, अशोक लेलैंड स्लीपर बस, अशोक लेलैंड बसों की कीमत, अशोक लेलैंड नई बस"
           }
         },
         "ta": {
           "path": "/ta/buses/ashok-leyland",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Ashok Leyland பேருந்துகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Ashok Leyland பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் Ashok Leyland பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான Ashok Leyland பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Ashok Leyland Buses பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் Ashok Leyland பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் Ashok Leyland பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "How many Ashok Leyland bus models are offered at BusJunction?",
+                  "What is the starting Price of a Ashok Leyland bus in India?",
+                  "Which is the most expensive bus from Ashok Leyland ?",
+                  "Which is the most popular bus from Ashok Leyland ?",
+                  "What fuel type options are offered by Ashok Leyland bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் உள்ள அனைத்து பேருந்து பிராண்டுகளின் பட்டியல் 2026 | சிறந்த பேருந்து உற்பத்தியாளர்கள்",
+                "description": "இந்தியாவில் உள்ள சிறந்த பேருந்து பிராண்டுகளைத் தேடுகிறீர்களா? பஸ்ஜங்ஷன், பலவிதமான பேருந்து மாடல்களை வழங்கும் சிறந்த பேருந்து உற்பத்தியாளர்களின் விரிவான பட்டியலை வழங்குகிறது.",
+                "keywords": "Ashok Leyland பஸ், Ashok Leyland பஸ் விலை, Ashok Leyland மினி பஸ், Ashok Leyland பஸ் விலை இந்தியாவில், Ashok Leyland ஸ்லீப்பர் பஸ், Ashok Leyland பஸ்கள் விலை, Ashok Leyland புதிய பஸ்"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "இந்தியாவில் Ashok Leyland பேருந்து விலைப்பட்டியல் 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான Ashok Leyland பேருந்துகள் பஸ் மாதிரிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "Ashok Leyland நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
-            },
-            {
-              "tag": "h3",
-              "text": "Ashok Leyland Buses பற்றி"
-            },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் Ashok Leyland பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Ashok Leyland பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் Ashok Leyland பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான Ashok Leyland பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Ashok Leyland Buses பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் Ashok Leyland பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் Ashok Leyland பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "How many Ashok Leyland bus models are offered at BusJunction?",
+                  "What is the starting Price of a Ashok Leyland bus in India?",
+                  "Which is the most expensive bus from Ashok Leyland ?",
+                  "Which is the most popular bus from Ashok Leyland ?",
+                  "What fuel type options are offered by Ashok Leyland bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "இந்தியாவில் உள்ள அனைத்து பேருந்து பிராண்டுகளின் பட்டியல் 2026 | சிறந்த பேருந்து உற்பத்தியாளர்கள்",
+                "description": "இந்தியாவில் உள்ள சிறந்த பேருந்து பிராண்டுகளைத் தேடுகிறீர்களா? பஸ்ஜங்ஷன், பலவிதமான பேருந்து மாடல்களை வழங்கும் சிறந்த பேருந்து உற்பத்தியாளர்களின் விரிவான பட்டியலை வழங்குகிறது.",
+                "keywords": "Ashok Leyland பஸ், Ashok Leyland பஸ் விலை, Ashok Leyland மினி பஸ், Ashok Leyland பஸ் விலை இந்தியாவில், Ashok Leyland ஸ்லீப்பர் பஸ், Ashok Leyland பஸ்கள் விலை, Ashok Leyland புதிய பஸ்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "இந்தியாவில் Ashok Leyland பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "How many Ashok Leyland bus models are offered at BusJunction?",
-              "What is the starting Price of a Ashok Leyland bus in India?",
-              "Which is the most expensive bus from Ashok Leyland ?",
-              "Which is the most popular bus from Ashok Leyland ?",
-              "What fuel type options are offered by Ashok Leyland bus in India?"
-            ]
-          },
-          "meta": {
-            "title": "இந்தியாவில் உள்ள அனைத்து பேருந்து பிராண்டுகளின் பட்டியல் 2026 | சிறந்த பேருந்து உற்பத்தியாளர்கள்",
-            "description": "இந்தியாவில் உள்ள சிறந்த பேருந்து பிராண்டுகளைத் தேடுகிறீர்களா? பஸ்ஜங்ஷன், பலவிதமான பேருந்து மாடல்களை வழங்கும் சிறந்த பேருந்து உற்பத்தியாளர்களின் விரிவான பட்டியலை வழங்குகிறது.",
-            "keywords": "Ashok Leyland பஸ், Ashok Leyland பஸ் விலை, Ashok Leyland மினி பஸ், Ashok Leyland பஸ் விலை இந்தியாவில், Ashok Leyland ஸ்லீப்பர் பஸ், Ashok Leyland பஸ்கள் விலை, Ashok Leyland புதிய பஸ்"
           }
         }
       }
@@ -850,226 +1623,459 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses/tata",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Tata Bus in India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Tata Bus in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Tata Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Tata Bus in India Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of Tata"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Tata Buses"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why are Tata Buses Leading the Transportation Industry?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Bus Categories Offered by Tata"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Tata Buses Price Range in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "History Of Tata Motors"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Zero Emission Vehicle Portfolio Of Tata Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Tata Ultra: 9/9m Electric Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Tata Urban : 9/12m Electric Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Starbus EV: Tata 4/12m Low Floor & Low Entry Electric Buses"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why Choose BusJunction for Tata Buses?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Tata Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Tata Buses in India",
+                "questions": [
+                  "What is the price of the most inexpensive Tata Motors bus model?",
+                  "How many Tata bus models can you buy on BusJunction?",
+                  "What is the ex-showroom price of the most reasonably priced Tata bus model?",
+                  "What are the different fuel options available in Tata Motors Bus in India?",
+                  "Which is the most sold Tata Bus Model?",
+                  "In which year did Tata Motors come out with the World's cheapest car of the time?",
+                  "How many Tata Motors manufacturing plants are there in India?",
+                  "When did Tata Motors start its operation in India?",
+                  "How many bus categories are offered by Tata Motors in India?"
+                ]
+              },
+              "meta": {
+                "title": "Tata Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Tata Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
+                "keywords": "Tata bus, Tata bus price, Tata mini bus, Tata bus price in India, Tata sleeper bus, Tata buses price, Tata new bus"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "Tata Bus Price List in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Tata Bus in India Bus Models"
-            },
-            {
-              "tag": "h2",
-              "text": "Similar Brands of Tata"
-            },
-            {
-              "tag": "h3",
-              "text": "About Tata Buses"
-            },
-            {
-              "tag": "h3",
-              "text": "Why are Tata Buses Leading the Transportation Industry?"
-            },
-            {
-              "tag": "h3",
-              "text": "Bus Categories Offered by Tata"
-            },
-            {
-              "tag": "h3",
-              "text": "Tata Buses Price Range in India"
-            },
-            {
-              "tag": "h3",
-              "text": "History Of Tata Motors"
-            },
-            {
-              "tag": "h3",
-              "text": "Zero Emission Vehicle Portfolio Of Tata Buses"
-            },
-            {
-              "tag": "h4",
-              "text": "Tata Ultra: 9/9m Electric Buses"
-            },
-            {
-              "tag": "h4",
-              "text": "Tata Urban : 9/12m Electric Buses"
-            },
-            {
-              "tag": "h4",
-              "text": "Starbus EV: Tata 4/12m Low Floor & Low Entry Electric Buses"
-            },
-            {
-              "tag": "h3",
-              "text": "Why Choose BusJunction for Tata Buses?"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Tata Buses in India"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Tata Bus in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Tata Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Tata Bus in India Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of Tata"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Tata Buses"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why are Tata Buses Leading the Transportation Industry?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Bus Categories Offered by Tata"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Tata Buses Price Range in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "History Of Tata Motors"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Zero Emission Vehicle Portfolio Of Tata Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Tata Ultra: 9/9m Electric Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Tata Urban : 9/12m Electric Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Starbus EV: Tata 4/12m Low Floor & Low Entry Electric Buses"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why Choose BusJunction for Tata Buses?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Tata Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Tata Buses in India",
+                "questions": [
+                  "What is the price of the most inexpensive Tata Motors bus model?",
+                  "How many Tata bus models can you buy on BusJunction?",
+                  "What is the ex-showroom price of the most reasonably priced Tata bus model?",
+                  "What are the different fuel options available in Tata Motors Bus in India?",
+                  "Which is the most sold Tata Bus Model?",
+                  "In which year did Tata Motors come out with the World's cheapest car of the time?",
+                  "How many Tata Motors manufacturing plants are there in India?",
+                  "When did Tata Motors start its operation in India?",
+                  "How many bus categories are offered by Tata Motors in India?"
+                ]
+              },
+              "meta": {
+                "title": "Tata Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Tata Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
+                "keywords": "Tata bus, Tata bus price, Tata mini bus, Tata bus price in India, Tata sleeper bus, Tata buses price, Tata new bus"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Tata Buses in India",
-            "questions": [
-              "What is the price of the most inexpensive Tata Motors bus model?",
-              "How many Tata bus models can you buy on BusJunction?",
-              "What is the ex-showroom price of the most reasonably priced Tata bus model?",
-              "What are the different fuel options available in Tata Motors Bus in India?",
-              "Which is the most sold Tata Bus Model?",
-              "In which year did Tata Motors come out with the World's cheapest car of the time?",
-              "How many Tata Motors manufacturing plants are there in India?",
-              "When did Tata Motors start its operation in India?",
-              "How many bus categories are offered by Tata Motors in India?"
-            ]
-          },
-          "meta": {
-            "title": "Tata Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
-            "description": "Check Tata Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
-            "keywords": "Tata bus, Tata bus price, Tata mini bus, Tata bus price in India, Tata sleeper bus, Tata buses price, Tata new bus"
           }
         },
         "hi": {
           "path": "/hi/buses/tata",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "टाटा बस"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "टाटा बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में टाटा बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय टाटा बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "टाटा के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा बस के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "टाटा बसें ट्रांसपोर्टेशन इंडस्ट्री में लीडिंग क्यों हैं?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा द्वारा प्रस्तावित बस कैटेगरी"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में टाटा बसों का प्राइस रेंज"
+                },
+                {
+                  "tag": "h3",
+                  "text": "लोकप्रिय टाटा बस मॉडल 2026"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा मोटर्स का इतिहास"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा बसों का शून्य उत्सर्जन वाहन पोर्टफोलियो"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा बसों के लिए बस जंक्शन क्यों चुनें?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में टाटा बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में टाटा बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "टाटा मोटर्स के सबसे सस्ते बस मॉडल की कीमत क्या है?",
+                  "बस जंक्शन पर कितने टाटा बस मॉडल उपलब्ध हैं?",
+                  "सबसे उचित मूल्य वाली टाटा बस मॉडल की एक्स-शोरूम कीमत क्या है?",
+                  "भारत में टाटा मोटर्स बस में कौन से विभिन्न ईंधन विकल्प उपलब्ध हैं?",
+                  "सबसे अधिक बिकने वाला टाटा बस मॉडल कौन सा है?",
+                  "टाटा मोटर्स ने किस वर्ष में दुनिया की सबसे सस्ती कार को पेश किया था?",
+                  "भारत में टाटा मोटर्स के कितने मैन्युफैक्चरिंग प्लांट्स हैं?",
+                  "टाटा मोटर्स ने भारत में अपना परिचालन कब शुरू किया?",
+                  "भारत में टाटा मोटर्स द्वारा कितनी बस कैटेगरी पेश की जाती हैं?"
+                ]
+              },
+              "meta": {
+                "title": "टाटा बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में टाटा बस की कीमत 2026 । नवीनतम टाटा बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "टाटा बस, टाटा बस मूल्य, टाटा मिनी बस, टाटा भारत में बस की कीमत, टाटा स्लीपर बस, टाटा बसों की कीमत, टाटा नई बस"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "भारत में टाटा बस की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय टाटा बस बस मॉडल"
-            },
-            {
-              "tag": "h2",
-              "text": "टाटा के समान ब्रांड्स"
-            },
-            {
-              "tag": "h3",
-              "text": "टाटा बस के बारे में"
-            },
-            {
-              "tag": "h2",
-              "text": "टाटा बसें ट्रांसपोर्टेशन इंडस्ट्री में लीडिंग क्यों हैं?"
-            },
-            {
-              "tag": "h3",
-              "text": "टाटा द्वारा प्रस्तावित बस कैटेगरी"
-            },
-            {
-              "tag": "h3",
-              "text": "भारत में टाटा बसों का प्राइस रेंज"
-            },
-            {
-              "tag": "h3",
-              "text": "लोकप्रिय टाटा बस मॉडल 2026"
-            },
-            {
-              "tag": "h3",
-              "text": "टाटा मोटर्स का इतिहास"
-            },
-            {
-              "tag": "h3",
-              "text": "टाटा बसों का शून्य उत्सर्जन वाहन पोर्टफोलियो"
-            },
-            {
-              "tag": "h3",
-              "text": "टाटा बसों के लिए बस जंक्शन क्यों चुनें?"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में टाटा बसों पर अक्सर पूछे जाने वाले सवाल"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "टाटा बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में टाटा बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय टाटा बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "टाटा के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा बस के बारे में"
+                },
+                {
+                  "tag": "h2",
+                  "text": "टाटा बसें ट्रांसपोर्टेशन इंडस्ट्री में लीडिंग क्यों हैं?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा द्वारा प्रस्तावित बस कैटेगरी"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में टाटा बसों का प्राइस रेंज"
+                },
+                {
+                  "tag": "h3",
+                  "text": "लोकप्रिय टाटा बस मॉडल 2026"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा मोटर्स का इतिहास"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा बसों का शून्य उत्सर्जन वाहन पोर्टफोलियो"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टाटा बसों के लिए बस जंक्शन क्यों चुनें?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में टाटा बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में टाटा बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "टाटा मोटर्स के सबसे सस्ते बस मॉडल की कीमत क्या है?",
+                  "बस जंक्शन पर कितने टाटा बस मॉडल उपलब्ध हैं?",
+                  "सबसे उचित मूल्य वाली टाटा बस मॉडल की एक्स-शोरूम कीमत क्या है?",
+                  "भारत में टाटा मोटर्स बस में कौन से विभिन्न ईंधन विकल्प उपलब्ध हैं?",
+                  "सबसे अधिक बिकने वाला टाटा बस मॉडल कौन सा है?",
+                  "टाटा मोटर्स ने किस वर्ष में दुनिया की सबसे सस्ती कार को पेश किया था?",
+                  "भारत में टाटा मोटर्स के कितने मैन्युफैक्चरिंग प्लांट्स हैं?",
+                  "टाटा मोटर्स ने भारत में अपना परिचालन कब शुरू किया?",
+                  "भारत में टाटा मोटर्स द्वारा कितनी बस कैटेगरी पेश की जाती हैं?"
+                ]
+              },
+              "meta": {
+                "title": "टाटा बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में टाटा बस की कीमत 2026 । नवीनतम टाटा बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "टाटा बस, टाटा बस मूल्य, टाटा मिनी बस, टाटा भारत में बस की कीमत, टाटा स्लीपर बस, टाटा बसों की कीमत, टाटा नई बस"
+              }
             }
-          ],
-          "faq": {
-            "heading": "भारत में टाटा बसों पर अक्सर पूछे जाने वाले सवाल",
-            "questions": [
-              "टाटा मोटर्स के सबसे सस्ते बस मॉडल की कीमत क्या है?",
-              "बस जंक्शन पर कितने टाटा बस मॉडल उपलब्ध हैं?",
-              "सबसे उचित मूल्य वाली टाटा बस मॉडल की एक्स-शोरूम कीमत क्या है?",
-              "भारत में टाटा मोटर्स बस में कौन से विभिन्न ईंधन विकल्प उपलब्ध हैं?",
-              "सबसे अधिक बिकने वाला टाटा बस मॉडल कौन सा है?",
-              "टाटा मोटर्स ने किस वर्ष में दुनिया की सबसे सस्ती कार को पेश किया था?",
-              "भारत में टाटा मोटर्स के कितने मैन्युफैक्चरिंग प्लांट्स हैं?",
-              "टाटा मोटर्स ने भारत में अपना परिचालन कब शुरू किया?",
-              "भारत में टाटा मोटर्स द्वारा कितनी बस कैटेगरी पेश की जाती हैं?"
-            ]
-          },
-          "meta": {
-            "title": "टाटा बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
-            "description": "भारत में टाटा बस की कीमत 2026 । नवीनतम टाटा बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
-            "keywords": "टाटा बस, टाटा बस मूल्य, टाटा मिनी बस, टाटा भारत में बस की कीमत, टाटा स्लीपर बस, टाटा बसों की कीमत, टाटा नई बस"
           }
         },
         "ta": {
           "path": "/ta/buses/tata",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Tata பேருந்துகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Tata பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் Tata பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான Tata பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Tata நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Tata Buses பற்றி"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Tata வழங்கும் பேருந்து வகைகள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "இந்தியாவில் Tata பேருந்துகளின் விலை"
+                },
+                {
+                  "tag": "h4",
+                  "text": "ஆம் ஆண்டில் Tata பேருந்திலிருந்து சில பிரபல மாடல்கள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Junction-இல் Tata பேருந்துகளை ஆராயுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் Tata பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் Tata பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "What is the price of the most inexpensive Tata Motors bus model?",
+                  "How many Tata bus models can you buy on BusJunction?",
+                  "What is the ex-showroom price of the most reasonably priced Tata bus model?",
+                  "What are the different fuel options available in Tata Motors Bus in India?",
+                  "Which is the most sold Tata Bus Model?",
+                  "In which year did Tata Motors come out with the World's cheapest car of the time?",
+                  "How many Tata Motors manufacturing plants are there in India?",
+                  "When did Tata Motors start its operation in India?",
+                  "How many bus categories are offered by Tata Motors in India?"
+                ]
+              },
+              "meta": {
+                "title": "Tata பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+                "description": "Tata பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Tata பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+                "keywords": "Tata பஸ், Tata பஸ் விலை, Tata மினி பஸ், Tata பஸ் விலை இந்தியாவில், Tata ஸ்லீப்பர் பஸ், Tata பஸ்கள் விலை, Tata புதிய பஸ்"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "இந்தியாவில் Tata பேருந்து விலைப்பட்டியல் 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான Tata பேருந்துகள் பஸ் மாதிரிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "Tata நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
-            },
-            {
-              "tag": "h3",
-              "text": "Tata Buses பற்றி"
-            },
-            {
-              "tag": "h4",
-              "text": "Tata வழங்கும் பேருந்து வகைகள்"
-            },
-            {
-              "tag": "h4",
-              "text": "இந்தியாவில் Tata பேருந்துகளின் விலை"
-            },
-            {
-              "tag": "h4",
-              "text": "ஆம் ஆண்டில் Tata பேருந்திலிருந்து சில பிரபல மாடல்கள்"
-            },
-            {
-              "tag": "h4",
-              "text": "Bus Junction-இல் Tata பேருந்துகளை ஆராயுங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் Tata பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Tata பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் Tata பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான Tata பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Tata நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Tata Buses பற்றி"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Tata வழங்கும் பேருந்து வகைகள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "இந்தியாவில் Tata பேருந்துகளின் விலை"
+                },
+                {
+                  "tag": "h4",
+                  "text": "ஆம் ஆண்டில் Tata பேருந்திலிருந்து சில பிரபல மாடல்கள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Junction-இல் Tata பேருந்துகளை ஆராயுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் Tata பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் Tata பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "What is the price of the most inexpensive Tata Motors bus model?",
+                  "How many Tata bus models can you buy on BusJunction?",
+                  "What is the ex-showroom price of the most reasonably priced Tata bus model?",
+                  "What are the different fuel options available in Tata Motors Bus in India?",
+                  "Which is the most sold Tata Bus Model?",
+                  "In which year did Tata Motors come out with the World's cheapest car of the time?",
+                  "How many Tata Motors manufacturing plants are there in India?",
+                  "When did Tata Motors start its operation in India?",
+                  "How many bus categories are offered by Tata Motors in India?"
+                ]
+              },
+              "meta": {
+                "title": "Tata பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+                "description": "Tata பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Tata பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+                "keywords": "Tata பஸ், Tata பஸ் விலை, Tata மினி பஸ், Tata பஸ் விலை இந்தியாவில், Tata ஸ்லீப்பர் பஸ், Tata பஸ்கள் விலை, Tata புதிய பஸ்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "இந்தியாவில் Tata பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "What is the price of the most inexpensive Tata Motors bus model?",
-              "How many Tata bus models can you buy on BusJunction?",
-              "What is the ex-showroom price of the most reasonably priced Tata bus model?",
-              "What are the different fuel options available in Tata Motors Bus in India?",
-              "Which is the most sold Tata Bus Model?",
-              "In which year did Tata Motors come out with the World's cheapest car of the time?",
-              "How many Tata Motors manufacturing plants are there in India?",
-              "When did Tata Motors start its operation in India?",
-              "How many bus categories are offered by Tata Motors in India?"
-            ]
-          },
-          "meta": {
-            "title": "Tata பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
-            "description": "Tata பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Tata பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
-            "keywords": "Tata பஸ், Tata பஸ் விலை, Tata மினி பஸ், Tata பஸ் விலை இந்தியாவில், Tata ஸ்லீப்பர் பஸ், Tata பஸ்கள் விலை, Tata புதிய பஸ்"
           }
         }
       }
@@ -1080,188 +2086,383 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses/eicher",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Eicher Bus Price in India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Eicher Bus Price in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Eicher Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Eicher Bus Price in India Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of Eicher"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Eicher Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Categories Offered by Eicher"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Eicher Buses Price in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Some Popular Models from Eicher bus in 2026"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Explore Eicher Buses at Bus Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Eicher Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Eicher Buses in India",
+                "questions": [
+                  "How many Eicher bus models are offered at BusJunction?",
+                  "What is the starting Price of a Eicher bus in India?",
+                  "What is the mileage of a Eicher bus?",
+                  "Which is the most expensive bus from Eicher ?",
+                  "Which is the most popular bus from Eicher ?",
+                  "What is the cost of a Eicher electric bus in India ?",
+                  "What fuel type options are offered by Eicher bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "Eicher Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Eicher Bus Price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": "Eicher bus, Eicher bus price, Eicher mini bus, Eicher bus price in India, Eicher sleeper bus, Eicher buses price, Eicher new bus"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "Eicher Bus Price List in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Eicher Bus Price in India Bus Models"
-            },
-            {
-              "tag": "h2",
-              "text": "Similar Brands of Eicher"
-            },
-            {
-              "tag": "h3",
-              "text": "About Eicher Buses"
-            },
-            {
-              "tag": "h4",
-              "text": "Bus Categories Offered by Eicher"
-            },
-            {
-              "tag": "h4",
-              "text": "Eicher Buses Price in India"
-            },
-            {
-              "tag": "h4",
-              "text": "Some Popular Models from Eicher bus in 2026"
-            },
-            {
-              "tag": "h4",
-              "text": "Explore Eicher Buses at Bus Junction"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Eicher Buses in India"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Eicher Bus Price in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Eicher Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Eicher Bus Price in India Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of Eicher"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Eicher Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Categories Offered by Eicher"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Eicher Buses Price in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Some Popular Models from Eicher bus in 2026"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Explore Eicher Buses at Bus Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Eicher Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Eicher Buses in India",
+                "questions": [
+                  "How many Eicher bus models are offered at BusJunction?",
+                  "What is the starting Price of a Eicher bus in India?",
+                  "What is the mileage of a Eicher bus?",
+                  "Which is the most expensive bus from Eicher ?",
+                  "Which is the most popular bus from Eicher ?",
+                  "What is the cost of a Eicher electric bus in India ?",
+                  "What fuel type options are offered by Eicher bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "Eicher Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Eicher Bus Price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": "Eicher bus, Eicher bus price, Eicher mini bus, Eicher bus price in India, Eicher sleeper bus, Eicher buses price, Eicher new bus"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Eicher Buses in India",
-            "questions": [
-              "How many Eicher bus models are offered at BusJunction?",
-              "What is the starting Price of a Eicher bus in India?",
-              "What is the mileage of a Eicher bus?",
-              "Which is the most expensive bus from Eicher ?",
-              "Which is the most popular bus from Eicher ?",
-              "What is the cost of a Eicher electric bus in India ?",
-              "What fuel type options are offered by Eicher bus in India?"
-            ]
-          },
-          "meta": {
-            "title": "Eicher Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
-            "description": "Check Eicher Bus Price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
-            "keywords": "Eicher bus, Eicher bus price, Eicher mini bus, Eicher bus price in India, Eicher sleeper bus, Eicher buses price, Eicher new bus"
           }
         },
         "hi": {
           "path": "/hi/buses/eicher",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "आयशर बस"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "आयशर बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में आयशर बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय आयशर बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आयशर के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "आयशर बस के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "आयशर द्वारा ऑफर की जाने वाली बस कैटेगरी"
+                },
+                {
+                  "tag": "h4",
+                  "text": "भारत में आयशर बस की कीमत"
+                },
+                {
+                  "tag": "h4",
+                  "text": "आयशर बस 2026 के कुछ पॉपुलर मॉडल"
+                },
+                {
+                  "tag": "h4",
+                  "text": "बस जंक्शन पर आयशर बसों को एक्सप्लोर करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में आयशर बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में आयशर बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "बस जंक्शन पर कितने आयशर बस मॉडल पेश किए गए हैं?",
+                  "भारत में आयशर बस की शुरुआती कीमत क्या है?",
+                  "आयशर बस का माइलेज क्या है?",
+                  "आयशर की सबसे महंगी बस कौन सी है?",
+                  "आयशर की सबसे लोकप्रिय बस कौन सी है?",
+                  "भारत में आयशर इलेक्ट्रिक बस की कीमत क्या है?",
+                  "भारत में आयशर बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "आयशर बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में आयशर बस की कीमत 2026 । नवीनतम आयशर बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "आयशर बस, आयशर बस मूल्य, आयशर मिनी बस, आयशर भारत में बस की कीमत, आयशर स्लीपर बस, आयशर बसों की कीमत, आयशर नई बस"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "भारत में आयशर बस की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय आयशर बस बस मॉडल"
-            },
-            {
-              "tag": "h2",
-              "text": "आयशर के समान ब्रांड्स"
-            },
-            {
-              "tag": "h3",
-              "text": "आयशर बस के बारे में"
-            },
-            {
-              "tag": "h4",
-              "text": "आयशर द्वारा ऑफर की जाने वाली बस कैटेगरी"
-            },
-            {
-              "tag": "h4",
-              "text": "भारत में आयशर बस की कीमत"
-            },
-            {
-              "tag": "h4",
-              "text": "आयशर बस 2026 के कुछ पॉपुलर मॉडल"
-            },
-            {
-              "tag": "h4",
-              "text": "बस जंक्शन पर आयशर बसों को एक्सप्लोर करें"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में आयशर बसों पर अक्सर पूछे जाने वाले सवाल"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "आयशर बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में आयशर बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय आयशर बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आयशर के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "आयशर बस के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "आयशर द्वारा ऑफर की जाने वाली बस कैटेगरी"
+                },
+                {
+                  "tag": "h4",
+                  "text": "भारत में आयशर बस की कीमत"
+                },
+                {
+                  "tag": "h4",
+                  "text": "आयशर बस 2026 के कुछ पॉपुलर मॉडल"
+                },
+                {
+                  "tag": "h4",
+                  "text": "बस जंक्शन पर आयशर बसों को एक्सप्लोर करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में आयशर बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में आयशर बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "बस जंक्शन पर कितने आयशर बस मॉडल पेश किए गए हैं?",
+                  "भारत में आयशर बस की शुरुआती कीमत क्या है?",
+                  "आयशर बस का माइलेज क्या है?",
+                  "आयशर की सबसे महंगी बस कौन सी है?",
+                  "आयशर की सबसे लोकप्रिय बस कौन सी है?",
+                  "भारत में आयशर इलेक्ट्रिक बस की कीमत क्या है?",
+                  "भारत में आयशर बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "आयशर बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में आयशर बस की कीमत 2026 । नवीनतम आयशर बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "आयशर बस, आयशर बस मूल्य, आयशर मिनी बस, आयशर भारत में बस की कीमत, आयशर स्लीपर बस, आयशर बसों की कीमत, आयशर नई बस"
+              }
             }
-          ],
-          "faq": {
-            "heading": "भारत में आयशर बसों पर अक्सर पूछे जाने वाले सवाल",
-            "questions": [
-              "बस जंक्शन पर कितने आयशर बस मॉडल पेश किए गए हैं?",
-              "भारत में आयशर बस की शुरुआती कीमत क्या है?",
-              "आयशर बस का माइलेज क्या है?",
-              "आयशर की सबसे महंगी बस कौन सी है?",
-              "आयशर की सबसे लोकप्रिय बस कौन सी है?",
-              "भारत में आयशर इलेक्ट्रिक बस की कीमत क्या है?",
-              "भारत में आयशर बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
-            ]
-          },
-          "meta": {
-            "title": "आयशर बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
-            "description": "भारत में आयशर बस की कीमत 2026 । नवीनतम आयशर बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
-            "keywords": "आयशर बस, आयशर बस मूल्य, आयशर मिनी बस, आयशर भारत में बस की कीमत, आयशर स्लीपर बस, आयशर बसों की कीमत, आयशर नई बस"
           }
         },
         "ta": {
           "path": "/ta/buses/eicher",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Eicher பேருந்துகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Eicher பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் Eicher பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான Eicher பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Eicher நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Eicher Buses பற்றி"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Eicher வழங்கும் பேருந்து வகைகள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "இந்தியாவில் Eicher பேருந்துகளின் விலை"
+                },
+                {
+                  "tag": "h4",
+                  "text": "ஆம் ஆண்டில் Eicher பேருந்திலிருந்து சில பிரபல மாடல்கள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Junction-இல் Eicher பேருந்துகளை ஆராயுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் Eicher பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் Eicher பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "BusJunction-இல் எத்தனை Eicher பேருந்து மாடல்கள் வழங்கப்படுகின்றன?",
+                  "இந்தியாவில் Eicher பேருந்தின் ஆரம்ப விலை என்ன?",
+                  "Eicher பேருந்தின் மைலேஜ் என்ன?",
+                  "Eicher நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
+                  "Eicher நிறுவனத்தின் மிகப் பிரபலமான பேருந்து மாடல் எது?",
+                  "இந்தியாவில் Eicher எலக்ட்ரிக் பஸ்ஸின் விலை எவ்வளவு?",
+                  "இந்தியாவில் Eicher பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "Eicher பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+                "description": "Eicher பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Eicher பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+                "keywords": "Eicher பஸ், Eicher பஸ் விலை, Eicher மினி பஸ், Eicher பஸ் விலை இந்தியாவில், Eicher ஸ்லீப்பர் பஸ், Eicher பஸ்கள் விலை, Eicher புதிய பஸ்"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "இந்தியாவில் Eicher பேருந்து விலைப்பட்டியல் 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான Eicher பேருந்துகள் பஸ் மாதிரிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "Eicher நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
-            },
-            {
-              "tag": "h3",
-              "text": "Eicher Buses பற்றி"
-            },
-            {
-              "tag": "h4",
-              "text": "Eicher வழங்கும் பேருந்து வகைகள்"
-            },
-            {
-              "tag": "h4",
-              "text": "இந்தியாவில் Eicher பேருந்துகளின் விலை"
-            },
-            {
-              "tag": "h4",
-              "text": "ஆம் ஆண்டில் Eicher பேருந்திலிருந்து சில பிரபல மாடல்கள்"
-            },
-            {
-              "tag": "h4",
-              "text": "Bus Junction-இல் Eicher பேருந்துகளை ஆராயுங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் Eicher பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Eicher பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் Eicher பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான Eicher பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Eicher நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Eicher Buses பற்றி"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Eicher வழங்கும் பேருந்து வகைகள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "இந்தியாவில் Eicher பேருந்துகளின் விலை"
+                },
+                {
+                  "tag": "h4",
+                  "text": "ஆம் ஆண்டில் Eicher பேருந்திலிருந்து சில பிரபல மாடல்கள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Junction-இல் Eicher பேருந்துகளை ஆராயுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் Eicher பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் Eicher பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "BusJunction-இல் எத்தனை Eicher பேருந்து மாடல்கள் வழங்கப்படுகின்றன?",
+                  "இந்தியாவில் Eicher பேருந்தின் ஆரம்ப விலை என்ன?",
+                  "Eicher பேருந்தின் மைலேஜ் என்ன?",
+                  "Eicher நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
+                  "Eicher நிறுவனத்தின் மிகப் பிரபலமான பேருந்து மாடல் எது?",
+                  "இந்தியாவில் Eicher எலக்ட்ரிக் பஸ்ஸின் விலை எவ்வளவு?",
+                  "இந்தியாவில் Eicher பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "Eicher பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+                "description": "Eicher பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Eicher பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+                "keywords": "Eicher பஸ், Eicher பஸ் விலை, Eicher மினி பஸ், Eicher பஸ் விலை இந்தியாவில், Eicher ஸ்லீப்பர் பஸ், Eicher பஸ்கள் விலை, Eicher புதிய பஸ்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "இந்தியாவில் Eicher பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "BusJunction-இல் எத்தனை Eicher பேருந்து மாடல்கள் வழங்கப்படுகின்றன?",
-              "இந்தியாவில் Eicher பேருந்தின் ஆரம்ப விலை என்ன?",
-              "Eicher பேருந்தின் மைலேஜ் என்ன?",
-              "Eicher நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
-              "Eicher நிறுவனத்தின் மிகப் பிரபலமான பேருந்து மாடல் எது?",
-              "இந்தியாவில் Eicher எலக்ட்ரிக் பஸ்ஸின் விலை எவ்வளவு?",
-              "இந்தியாவில் Eicher பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
-            ]
-          },
-          "meta": {
-            "title": "Eicher பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
-            "description": "Eicher பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Eicher பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
-            "keywords": "Eicher பஸ், Eicher பஸ் விலை, Eicher மினி பஸ், Eicher பஸ் விலை இந்தியாவில், Eicher ஸ்லீப்பர் பஸ், Eicher பஸ்கள் விலை, Eicher புதிய பஸ்"
           }
         }
       }
@@ -1272,185 +2473,377 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses/sml-isuzu",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "SML ISUZU Bus in India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "SML ISUZU Bus in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "SML ISUZU Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular SML ISUZU Bus in India Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of SML ISUZU"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About SML ISUZU Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Categories Offered by SML ISUZU"
+                },
+                {
+                  "tag": "h4",
+                  "text": "SML ISUZU Buses Price in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Some Popular Models from SML ISUZU bus in 2026"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Explore SML ISUZU Buses at Bus Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on SML ISUZU Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on SML ISUZU Buses in India",
+                "questions": [
+                  "How many SML ISUZU bus models are offered at BusJunction?",
+                  "What is the starting Price of a SML ISUZU bus in India?",
+                  "What is the mileage of a SML ISUZU bus?",
+                  "Which is the most expensive bus from SML ISUZU ?",
+                  "Which is the most popular bus from SML ISUZU ?",
+                  "What fuel type options are offered by SML ISUZU bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "SML ISUZU Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check SML ISUZU Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": "SML ISUZU bus, SML ISUZU bus price, SML ISUZU mini bus, SML ISUZU bus price in India, SML ISUZU sleeper bus, SML ISUZU buses price, SML ISUZU new bus"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "SML ISUZU Bus Price List in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular SML ISUZU Bus in India Bus Models"
-            },
-            {
-              "tag": "h2",
-              "text": "Similar Brands of SML ISUZU"
-            },
-            {
-              "tag": "h3",
-              "text": "About SML ISUZU Buses"
-            },
-            {
-              "tag": "h4",
-              "text": "Bus Categories Offered by SML ISUZU"
-            },
-            {
-              "tag": "h4",
-              "text": "SML ISUZU Buses Price in India"
-            },
-            {
-              "tag": "h4",
-              "text": "Some Popular Models from SML ISUZU bus in 2026"
-            },
-            {
-              "tag": "h4",
-              "text": "Explore SML ISUZU Buses at Bus Junction"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on SML ISUZU Buses in India"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "SML ISUZU Bus in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "SML ISUZU Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular SML ISUZU Bus in India Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of SML ISUZU"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About SML ISUZU Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Categories Offered by SML ISUZU"
+                },
+                {
+                  "tag": "h4",
+                  "text": "SML ISUZU Buses Price in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Some Popular Models from SML ISUZU bus in 2026"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Explore SML ISUZU Buses at Bus Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on SML ISUZU Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on SML ISUZU Buses in India",
+                "questions": [
+                  "How many SML ISUZU bus models are offered at BusJunction?",
+                  "What is the starting Price of a SML ISUZU bus in India?",
+                  "What is the mileage of a SML ISUZU bus?",
+                  "Which is the most expensive bus from SML ISUZU ?",
+                  "Which is the most popular bus from SML ISUZU ?",
+                  "What fuel type options are offered by SML ISUZU bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "SML ISUZU Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check SML ISUZU Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": "SML ISUZU bus, SML ISUZU bus price, SML ISUZU mini bus, SML ISUZU bus price in India, SML ISUZU sleeper bus, SML ISUZU buses price, SML ISUZU new bus"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on SML ISUZU Buses in India",
-            "questions": [
-              "How many SML ISUZU bus models are offered at BusJunction?",
-              "What is the starting Price of a SML ISUZU bus in India?",
-              "What is the mileage of a SML ISUZU bus?",
-              "Which is the most expensive bus from SML ISUZU ?",
-              "Which is the most popular bus from SML ISUZU ?",
-              "What fuel type options are offered by SML ISUZU bus in India?"
-            ]
-          },
-          "meta": {
-            "title": "SML ISUZU Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
-            "description": "Check SML ISUZU Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
-            "keywords": "SML ISUZU bus, SML ISUZU bus price, SML ISUZU mini bus, SML ISUZU bus price in India, SML ISUZU sleeper bus, SML ISUZU buses price, SML ISUZU new bus"
           }
         },
         "hi": {
           "path": "/hi/buses/sml-isuzu",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "एसएमएल इसुज़ु बस"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "एसएमएल इसुज़ु बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में एसएमएल इसुज़ु बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय एसएमएल इसुज़ु बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "एसएमएल इसुज़ु के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "एसएमएल इसुज़ु बस के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "एसएमएल इसुज़ु द्वारा ऑफर की जाने वाली बस कैटेगरी"
+                },
+                {
+                  "tag": "h4",
+                  "text": "भारत में एसएमएल इसुज़ु बस की कीमत"
+                },
+                {
+                  "tag": "h4",
+                  "text": "एसएमएल इसुज़ु बस 2026 के कुछ पॉपुलर मॉडल"
+                },
+                {
+                  "tag": "h4",
+                  "text": "बस जंक्शन पर एसएमएल इसुज़ु बसों को एक्सप्लोर करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में एसएमएल इसुज़ु बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में एसएमएल इसुज़ु बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "बस जंक्शन पर कितने एसएमएल इसुज़ु बस मॉडल पेश किए गए हैं?",
+                  "भारत में एसएमएल इसुज़ु बस की शुरुआती कीमत क्या है?",
+                  "एसएमएल इसुज़ु बस का माइलेज क्या है?",
+                  "एसएमएल इसुज़ु की सबसे महंगी बस कौन सी है?",
+                  "एसएमएल इसुज़ु की सबसे लोकप्रिय बस कौन सी है?",
+                  "भारत में एसएमएल इसुज़ु बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "एसएमएल इसुज़ु बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में एसएमएल इसुज़ु बस की कीमत 2026 । नवीनतम एसएमएल इसुज़ु बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "एसएमएल इसुज़ु बस, एसएमएल इसुज़ु बस मूल्य, एसएमएल इसुज़ु मिनी बस, एसएमएल इसुज़ु भारत में बस की कीमत, एसएमएल इसुज़ु स्लीपर बस, एसएमएल इसुज़ु बसों की कीमत, एसएमएल इसुज़ु नई बस"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "भारत में एसएमएल इसुज़ु बस की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय एसएमएल इसुज़ु बस बस मॉडल"
-            },
-            {
-              "tag": "h2",
-              "text": "एसएमएल इसुज़ु के समान ब्रांड्स"
-            },
-            {
-              "tag": "h3",
-              "text": "एसएमएल इसुज़ु बस के बारे में"
-            },
-            {
-              "tag": "h4",
-              "text": "एसएमएल इसुज़ु द्वारा ऑफर की जाने वाली बस कैटेगरी"
-            },
-            {
-              "tag": "h4",
-              "text": "भारत में एसएमएल इसुज़ु बस की कीमत"
-            },
-            {
-              "tag": "h4",
-              "text": "एसएमएल इसुज़ु बस 2026 के कुछ पॉपुलर मॉडल"
-            },
-            {
-              "tag": "h4",
-              "text": "बस जंक्शन पर एसएमएल इसुज़ु बसों को एक्सप्लोर करें"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में एसएमएल इसुज़ु बसों पर अक्सर पूछे जाने वाले सवाल"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "एसएमएल इसुज़ु बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में एसएमएल इसुज़ु बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय एसएमएल इसुज़ु बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "एसएमएल इसुज़ु के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "एसएमएल इसुज़ु बस के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "एसएमएल इसुज़ु द्वारा ऑफर की जाने वाली बस कैटेगरी"
+                },
+                {
+                  "tag": "h4",
+                  "text": "भारत में एसएमएल इसुज़ु बस की कीमत"
+                },
+                {
+                  "tag": "h4",
+                  "text": "एसएमएल इसुज़ु बस 2026 के कुछ पॉपुलर मॉडल"
+                },
+                {
+                  "tag": "h4",
+                  "text": "बस जंक्शन पर एसएमएल इसुज़ु बसों को एक्सप्लोर करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में एसएमएल इसुज़ु बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में एसएमएल इसुज़ु बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "बस जंक्शन पर कितने एसएमएल इसुज़ु बस मॉडल पेश किए गए हैं?",
+                  "भारत में एसएमएल इसुज़ु बस की शुरुआती कीमत क्या है?",
+                  "एसएमएल इसुज़ु बस का माइलेज क्या है?",
+                  "एसएमएल इसुज़ु की सबसे महंगी बस कौन सी है?",
+                  "एसएमएल इसुज़ु की सबसे लोकप्रिय बस कौन सी है?",
+                  "भारत में एसएमएल इसुज़ु बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "एसएमएल इसुज़ु बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में एसएमएल इसुज़ु बस की कीमत 2026 । नवीनतम एसएमएल इसुज़ु बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "एसएमएल इसुज़ु बस, एसएमएल इसुज़ु बस मूल्य, एसएमएल इसुज़ु मिनी बस, एसएमएल इसुज़ु भारत में बस की कीमत, एसएमएल इसुज़ु स्लीपर बस, एसएमएल इसुज़ु बसों की कीमत, एसएमएल इसुज़ु नई बस"
+              }
             }
-          ],
-          "faq": {
-            "heading": "भारत में एसएमएल इसुज़ु बसों पर अक्सर पूछे जाने वाले सवाल",
-            "questions": [
-              "बस जंक्शन पर कितने एसएमएल इसुज़ु बस मॉडल पेश किए गए हैं?",
-              "भारत में एसएमएल इसुज़ु बस की शुरुआती कीमत क्या है?",
-              "एसएमएल इसुज़ु बस का माइलेज क्या है?",
-              "एसएमएल इसुज़ु की सबसे महंगी बस कौन सी है?",
-              "एसएमएल इसुज़ु की सबसे लोकप्रिय बस कौन सी है?",
-              "भारत में एसएमएल इसुज़ु बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
-            ]
-          },
-          "meta": {
-            "title": "एसएमएल इसुज़ु बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
-            "description": "भारत में एसएमएल इसुज़ु बस की कीमत 2026 । नवीनतम एसएमएल इसुज़ु बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
-            "keywords": "एसएमएल इसुज़ु बस, एसएमएल इसुज़ु बस मूल्य, एसएमएल इसुज़ु मिनी बस, एसएमएल इसुज़ु भारत में बस की कीमत, एसएमएल इसुज़ु स्लीपर बस, एसएमएल इसुज़ु बसों की कीमत, एसएमएल इसुज़ु नई बस"
           }
         },
         "ta": {
           "path": "/ta/buses/sml-isuzu",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "SML ISUZU பேருந்துகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "SML ISUZU பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் SML ISUZU பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான SML ISUZU பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "SML ISUZU நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "SML ISUZU Buses பற்றி"
+                },
+                {
+                  "tag": "h4",
+                  "text": "SML ISUZU வழங்கும் பேருந்து வகைகள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "இந்தியாவில் SML ISUZU பேருந்துகளின் விலை"
+                },
+                {
+                  "tag": "h4",
+                  "text": "ஆம் ஆண்டில் SML ISUZU பேருந்திலிருந்து சில பிரபல மாடல்கள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Junction-இல் SML ISUZU பேருந்துகளை ஆராயுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் SML ISUZU பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் SML ISUZU பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "BusJunction-இல் எத்தனை SML ISUZU பேருந்து மாடல்கள் வழங்கப்படுகின்றன?",
+                  "இந்தியாவில் SML ISUZU பேருந்தின் ஆரம்ப விலை என்ன?",
+                  "SML ISUZU பேருந்தின் மைலேஜ் என்ன?",
+                  "SML ISUZU நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
+                  "SML ISUZU நிறுவனத்தின் மிகப் பிரபலமான பேருந்து மாடல் எது?",
+                  "இந்தியாவில் SML ISUZU பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "SML ISUZU பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+                "description": "SML ISUZU பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய SML ISUZU பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+                "keywords": "SML ISUZU பஸ், SML ISUZU பஸ் விலை, SML ISUZU மினி பஸ், SML ISUZU பஸ் விலை இந்தியாவில், SML ISUZU ஸ்லீப்பர் பஸ், SML ISUZU பஸ்கள் விலை, SML ISUZU புதிய பஸ்"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "இந்தியாவில் SML ISUZU பேருந்து விலைப்பட்டியல் 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான SML ISUZU பேருந்துகள் பஸ் மாதிரிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "SML ISUZU நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
-            },
-            {
-              "tag": "h3",
-              "text": "SML ISUZU Buses பற்றி"
-            },
-            {
-              "tag": "h4",
-              "text": "SML ISUZU வழங்கும் பேருந்து வகைகள்"
-            },
-            {
-              "tag": "h4",
-              "text": "இந்தியாவில் SML ISUZU பேருந்துகளின் விலை"
-            },
-            {
-              "tag": "h4",
-              "text": "ஆம் ஆண்டில் SML ISUZU பேருந்திலிருந்து சில பிரபல மாடல்கள்"
-            },
-            {
-              "tag": "h4",
-              "text": "Bus Junction-இல் SML ISUZU பேருந்துகளை ஆராயுங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் SML ISUZU பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "SML ISUZU பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் SML ISUZU பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான SML ISUZU பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "SML ISUZU நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "SML ISUZU Buses பற்றி"
+                },
+                {
+                  "tag": "h4",
+                  "text": "SML ISUZU வழங்கும் பேருந்து வகைகள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "இந்தியாவில் SML ISUZU பேருந்துகளின் விலை"
+                },
+                {
+                  "tag": "h4",
+                  "text": "ஆம் ஆண்டில் SML ISUZU பேருந்திலிருந்து சில பிரபல மாடல்கள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Junction-இல் SML ISUZU பேருந்துகளை ஆராயுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் SML ISUZU பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் SML ISUZU பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "BusJunction-இல் எத்தனை SML ISUZU பேருந்து மாடல்கள் வழங்கப்படுகின்றன?",
+                  "இந்தியாவில் SML ISUZU பேருந்தின் ஆரம்ப விலை என்ன?",
+                  "SML ISUZU பேருந்தின் மைலேஜ் என்ன?",
+                  "SML ISUZU நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
+                  "SML ISUZU நிறுவனத்தின் மிகப் பிரபலமான பேருந்து மாடல் எது?",
+                  "இந்தியாவில் SML ISUZU பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "SML ISUZU பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+                "description": "SML ISUZU பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய SML ISUZU பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+                "keywords": "SML ISUZU பஸ், SML ISUZU பஸ் விலை, SML ISUZU மினி பஸ், SML ISUZU பஸ் விலை இந்தியாவில், SML ISUZU ஸ்லீப்பர் பஸ், SML ISUZU பஸ்கள் விலை, SML ISUZU புதிய பஸ்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "இந்தியாவில் SML ISUZU பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "BusJunction-இல் எத்தனை SML ISUZU பேருந்து மாடல்கள் வழங்கப்படுகின்றன?",
-              "இந்தியாவில் SML ISUZU பேருந்தின் ஆரம்ப விலை என்ன?",
-              "SML ISUZU பேருந்தின் மைலேஜ் என்ன?",
-              "SML ISUZU நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
-              "SML ISUZU நிறுவனத்தின் மிகப் பிரபலமான பேருந்து மாடல் எது?",
-              "இந்தியாவில் SML ISUZU பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
-            ]
-          },
-          "meta": {
-            "title": "SML ISUZU பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
-            "description": "SML ISUZU பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய SML ISUZU பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
-            "keywords": "SML ISUZU பஸ், SML ISUZU பஸ் விலை, SML ISUZU மினி பஸ், SML ISUZU பஸ் விலை இந்தியாவில், SML ISUZU ஸ்லீப்பர் பஸ், SML ISUZU பஸ்கள் விலை, SML ISUZU புதிய பஸ்"
           }
         }
       }
@@ -1461,170 +2854,347 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses/mahindra",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Mahindra Buses"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Mahindra Buses"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Mahindra Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Mahindra Buses Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of Mahindra"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Mahindra Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Categories Offered by Mahindra"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Mahindra Buses Price in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Explore Mahindra Buses at Bus Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Mahindra Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Mahindra Buses in India",
+                "questions": [
+                  "How many Mahindra bus models are offered at BusJunction?",
+                  "What is the starting Price of a Mahindra bus in India?",
+                  "What is the mileage of a Mahindra bus?",
+                  "Which is the most expensive bus from Mahindra ?",
+                  "What fuel type options are offered by Mahindra bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "Mahindra Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Mahindra Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": "Mahindra bus, Mahindra bus price, Mahindra mini bus, Mahindra bus price in India, Mahindra sleeper bus, Mahindra buses price, Mahindra new bus"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "Mahindra Bus Price List in India 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Mahindra Buses Bus Models"
-            },
-            {
-              "tag": "h2",
-              "text": "Similar Brands of Mahindra"
-            },
-            {
-              "tag": "h3",
-              "text": "About Mahindra Buses"
-            },
-            {
-              "tag": "h4",
-              "text": "Bus Categories Offered by Mahindra"
-            },
-            {
-              "tag": "h4",
-              "text": "Mahindra Buses Price in India"
-            },
-            {
-              "tag": "h4",
-              "text": "Explore Mahindra Buses at Bus Junction"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on Mahindra Buses in India"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Mahindra Buses"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Mahindra Bus Price List in India 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Mahindra Buses Bus Models"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Similar Brands of Mahindra"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Mahindra Buses"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Categories Offered by Mahindra"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Mahindra Buses Price in India"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Explore Mahindra Buses at Bus Junction"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on Mahindra Buses in India"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on Mahindra Buses in India",
+                "questions": [
+                  "How many Mahindra bus models are offered at BusJunction?",
+                  "What is the starting Price of a Mahindra bus in India?",
+                  "What is the mileage of a Mahindra bus?",
+                  "Which is the most expensive bus from Mahindra ?",
+                  "What fuel type options are offered by Mahindra bus in India?"
+                ]
+              },
+              "meta": {
+                "title": "Mahindra Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
+                "description": "Check Mahindra Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
+                "keywords": "Mahindra bus, Mahindra bus price, Mahindra mini bus, Mahindra bus price in India, Mahindra sleeper bus, Mahindra buses price, Mahindra new bus"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on Mahindra Buses in India",
-            "questions": [
-              "How many Mahindra bus models are offered at BusJunction?",
-              "What is the starting Price of a Mahindra bus in India?",
-              "What is the mileage of a Mahindra bus?",
-              "Which is the most expensive bus from Mahindra ?",
-              "What fuel type options are offered by Mahindra bus in India?"
-            ]
-          },
-          "meta": {
-            "title": "Mahindra Bus Price, Specs, Mileage & Reviews 2026 | TruckJunction",
-            "description": "Check Mahindra Bus price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India",
-            "keywords": "Mahindra bus, Mahindra bus price, Mahindra mini bus, Mahindra bus price in India, Mahindra sleeper bus, Mahindra buses price, Mahindra new bus"
           }
         },
         "hi": {
           "path": "/hi/buses/mahindra",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "महिंद्रा बस"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "महिंद्रा बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में महिंद्रा बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय महिंद्रा बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "महिंद्रा के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "महिंद्रा बस के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "महिंद्रा द्वारा ऑफर की जाने वाली बस कैटेगरी"
+                },
+                {
+                  "tag": "h4",
+                  "text": "भारत में महिंद्रा बस की कीमत"
+                },
+                {
+                  "tag": "h4",
+                  "text": "बस जंक्शन पर महिंद्रा बसों को एक्सप्लोर करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में महिंद्रा बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में महिंद्रा बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "बस जंक्शन पर कितने महिंद्रा बस मॉडल पेश किए गए हैं?",
+                  "भारत में महिंद्रा बस की शुरुआती कीमत क्या है?",
+                  "महिंद्रा बस का माइलेज क्या है?",
+                  "महिंद्रा की सबसे महंगी बस कौन सी है?",
+                  "भारत में महिंद्रा बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "महिंद्रा बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में महिंद्रा बस की कीमत 2026 । नवीनतम महिंद्रा बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "महिंद्रा बस, महिंद्रा बस मूल्य, महिंद्रा मिनी बस, महिंद्रा भारत में बस की कीमत, महिंद्रा स्लीपर बस, महिंद्रा बसों की कीमत, महिंद्रा नई बस"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "भारत में महिंद्रा बस की मूल्य सूची 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय महिंद्रा बस बस मॉडल"
-            },
-            {
-              "tag": "h2",
-              "text": "महिंद्रा के समान ब्रांड्स"
-            },
-            {
-              "tag": "h3",
-              "text": "महिंद्रा बस के बारे में"
-            },
-            {
-              "tag": "h4",
-              "text": "महिंद्रा द्वारा ऑफर की जाने वाली बस कैटेगरी"
-            },
-            {
-              "tag": "h4",
-              "text": "भारत में महिंद्रा बस की कीमत"
-            },
-            {
-              "tag": "h4",
-              "text": "बस जंक्शन पर महिंद्रा बसों को एक्सप्लोर करें"
-            },
-            {
-              "tag": "h2",
-              "text": "भारत में महिंद्रा बसों पर अक्सर पूछे जाने वाले सवाल"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "महिंद्रा बस"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में महिंद्रा बस की मूल्य सूची 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय महिंद्रा बस बस मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "महिंद्रा के समान ब्रांड्स"
+                },
+                {
+                  "tag": "h3",
+                  "text": "महिंद्रा बस के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "महिंद्रा द्वारा ऑफर की जाने वाली बस कैटेगरी"
+                },
+                {
+                  "tag": "h4",
+                  "text": "भारत में महिंद्रा बस की कीमत"
+                },
+                {
+                  "tag": "h4",
+                  "text": "बस जंक्शन पर महिंद्रा बसों को एक्सप्लोर करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "भारत में महिंद्रा बसों पर अक्सर पूछे जाने वाले सवाल"
+                }
+              ],
+              "faq": {
+                "heading": "भारत में महिंद्रा बसों पर अक्सर पूछे जाने वाले सवाल",
+                "questions": [
+                  "बस जंक्शन पर कितने महिंद्रा बस मॉडल पेश किए गए हैं?",
+                  "भारत में महिंद्रा बस की शुरुआती कीमत क्या है?",
+                  "महिंद्रा बस का माइलेज क्या है?",
+                  "महिंद्रा की सबसे महंगी बस कौन सी है?",
+                  "भारत में महिंद्रा बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
+                ]
+              },
+              "meta": {
+                "title": "महिंद्रा बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
+                "description": "भारत में महिंद्रा बस की कीमत 2026 । नवीनतम महिंद्रा बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
+                "keywords": "महिंद्रा बस, महिंद्रा बस मूल्य, महिंद्रा मिनी बस, महिंद्रा भारत में बस की कीमत, महिंद्रा स्लीपर बस, महिंद्रा बसों की कीमत, महिंद्रा नई बस"
+              }
             }
-          ],
-          "faq": {
-            "heading": "भारत में महिंद्रा बसों पर अक्सर पूछे जाने वाले सवाल",
-            "questions": [
-              "बस जंक्शन पर कितने महिंद्रा बस मॉडल पेश किए गए हैं?",
-              "भारत में महिंद्रा बस की शुरुआती कीमत क्या है?",
-              "महिंद्रा बस का माइलेज क्या है?",
-              "महिंद्रा की सबसे महंगी बस कौन सी है?",
-              "भारत में महिंद्रा बस द्वारा कौन से फ्यूल टाइप ऑप्शन पेश किए जाते हैं?"
-            ]
-          },
-          "meta": {
-            "title": "महिंद्रा बस की कीमत, माइलेज, स्पेसिफिकेशन और रिव्यू 2026",
-            "description": "भारत में महिंद्रा बस की कीमत 2026 । नवीनतम महिंद्रा बस मॉडल, स्पेसिफिकेशन्स, बस चेसिस, माइलेज, यूजर्स रिव्यू, डीलर और फोटो प्राप्त करें।",
-            "keywords": "महिंद्रा बस, महिंद्रा बस मूल्य, महिंद्रा मिनी बस, महिंद्रा भारत में बस की कीमत, महिंद्रा स्लीपर बस, महिंद्रा बसों की कीमत, महिंद्रा नई बस"
           }
         },
         "ta": {
           "path": "/ta/buses/mahindra",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Mahindra பேருந்துகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Mahindra பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் Mahindra பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான Mahindra பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Mahindra Buses பற்றி"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Mahindra வழங்கும் பேருந்து வகைகள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "இந்தியாவில் Mahindra பேருந்துகளின் விலை"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Junction-இல் Mahindra பேருந்துகளை ஆராயுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் Mahindra பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் Mahindra பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "BusJunction-இல் எத்தனை Mahindra பேருந்து மாடல்கள் வழங்கப்படுகின்றன?",
+                  "இந்தியாவில் Mahindra பேருந்தின் ஆரம்ப விலை என்ன?",
+                  "Mahindra பேருந்தின் மைலேஜ் என்ன?",
+                  "Mahindra நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
+                  "இந்தியாவில் Mahindra பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "Mahindra பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+                "description": "Mahindra பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Mahindra பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+                "keywords": "Mahindra பஸ், Mahindra பஸ் விலை, Mahindra மினி பஸ், Mahindra பஸ் விலை இந்தியாவில், Mahindra ஸ்லீப்பர் பஸ், Mahindra பஸ்கள் விலை, Mahindra புதிய பஸ்"
+              }
             },
-            {
-              "tag": "h3",
-              "text": "இந்தியாவில் Mahindra பேருந்து விலைப்பட்டியல் 2026"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான Mahindra பேருந்துகள் பஸ் மாதிரிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "Mahindra நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
-            },
-            {
-              "tag": "h3",
-              "text": "Mahindra Buses பற்றி"
-            },
-            {
-              "tag": "h4",
-              "text": "Mahindra வழங்கும் பேருந்து வகைகள்"
-            },
-            {
-              "tag": "h4",
-              "text": "இந்தியாவில் Mahindra பேருந்துகளின் விலை"
-            },
-            {
-              "tag": "h4",
-              "text": "Bus Junction-இல் Mahindra பேருந்துகளை ஆராயுங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "இந்தியாவில் Mahindra பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Mahindra பேருந்துகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "இந்தியாவில் Mahindra பேருந்து விலைப்பட்டியல் 2026"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான Mahindra பேருந்துகள் பஸ் மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra நிறுவனத்துடன் ஒத்த பிராண்டுகள்"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Mahindra Buses பற்றி"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Mahindra வழங்கும் பேருந்து வகைகள்"
+                },
+                {
+                  "tag": "h4",
+                  "text": "இந்தியாவில் Mahindra பேருந்துகளின் விலை"
+                },
+                {
+                  "tag": "h4",
+                  "text": "Bus Junction-இல் Mahindra பேருந்துகளை ஆராயுங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் Mahindra பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "இந்தியாவில் Mahindra பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "BusJunction-இல் எத்தனை Mahindra பேருந்து மாடல்கள் வழங்கப்படுகின்றன?",
+                  "இந்தியாவில் Mahindra பேருந்தின் ஆரம்ப விலை என்ன?",
+                  "Mahindra பேருந்தின் மைலேஜ் என்ன?",
+                  "Mahindra நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
+                  "இந்தியாவில் Mahindra பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
+                ]
+              },
+              "meta": {
+                "title": "Mahindra பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
+                "description": "Mahindra பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Mahindra பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
+                "keywords": "Mahindra பஸ், Mahindra பஸ் விலை, Mahindra மினி பஸ், Mahindra பஸ் விலை இந்தியாவில், Mahindra ஸ்லீப்பர் பஸ், Mahindra பஸ்கள் விலை, Mahindra புதிய பஸ்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "இந்தியாவில் Mahindra பேருந்துகள் குறித்த அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "BusJunction-இல் எத்தனை Mahindra பேருந்து மாடல்கள் வழங்கப்படுகின்றன?",
-              "இந்தியாவில் Mahindra பேருந்தின் ஆரம்ப விலை என்ன?",
-              "Mahindra பேருந்தின் மைலேஜ் என்ன?",
-              "Mahindra நிறுவனத்தின் மிக உயர்ந்த விலை கொண்ட பேருந்து எது?",
-              "இந்தியாவில் Mahindra பஸ்களுக்கு எத்தகைய எரிபொருள் வகைகள் வழங்கப்படுகின்றன?"
-            ]
-          },
-          "meta": {
-            "title": "Mahindra பேருந்து விலை, மைலேஜ், விவரங்கள் & விமர்சனங்கள் 2026",
-            "description": "Mahindra பேருந்து விலை இந்தியாவில் 2026. சமீபத்திய Mahindra பேருந்து மாதிரிகள், விவரக்குறிப்புகள், பேருந்து சாசி, மைலேஜ், பயனர் விமர்சனங்கள், டீலர்கள் மற்றும் படங்களைப் பெறுங்கள்.",
-            "keywords": "Mahindra பஸ், Mahindra பஸ் விலை, Mahindra மினி பஸ், Mahindra பஸ் விலை இந்தியாவில், Mahindra ஸ்லீப்பர் பஸ், Mahindra பஸ்கள் விலை, Mahindra புதிய பஸ்"
           }
         }
       }

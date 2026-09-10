@@ -1,6 +1,6 @@
 const tabbedModelOffersData = require('../../testData/UtilityPages/TabbedModelOffersData.json');
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
-const { LeadFormFiller, exactText } = require('../../helpers/leadFormFiller');
+const { LeadFormFiller, exactText, makeThrottledCtaClicker } = require('../../helpers/leadFormFiller');
 
 /**
  * Pages built around a "Popular Models by <Application/Category>" tab strip
@@ -28,18 +28,17 @@ class TabbedModelOffers {
     this.checkOffersLeadCopy =
       truckInIndiaData.CheckOffersForm[lang] || truckInIndiaData.CheckOffersForm.en;
     this.checkOffersLead = new LeadFormFiller({
+      nameSelector: 'input#name[name="name"]',
+      mobileSelector: 'input#phone[name="phone"]',
       cityPlaceholder: this.checkOffersLeadCopy.cityPlaceholder,
       submitText: this.checkOffersLeadCopy.submitCta,
-      // The default `getFormRoot()` walks up from the name input looking
-      // for the closest ancestor containing both a phone input and a
-      // submit button — on the Offers page specifically the modal isn't
-      // portal-isolated, so that ancestor ends up being a container
-      // spanning ~40 unrelated "Check Offers" buttons elsewhere on the
-      // page (confirmed live), breaking `.contains('button', ...)` with a
-      // "multiple elements" error. The modal's own wrapper always carries
-      // a `max-w-[...]` Tailwind class, which scopes tightly regardless of
-      // where in the DOM the modal is mounted.
-      formRootFinder: (filler) => filler.getNameInput().closest('[class*="max-w-"]'),
+      focusFieldsBeforeType: true,
+      // Playwright capture of the open Check Offers modal:
+      //   div[data-modal-open="true"] → input#name[name="name"]
+      // `data-modal-open` is the stable open-state attribute; `#name` /
+      // `#phone` are unique ids. Do not use Tailwind `max-w-[…]` or
+      // placeholder text — those change.
+      formRootFinder: () => cy.get('[data-modal-open="true"]'),
     });
   }
 
@@ -100,30 +99,34 @@ class TabbedModelOffers {
   }
 
   /**
-   * Open the shared CheckOffersLead modal via this page's per-model
-   * "Check Offers" CTA; re-click until it hydrates. Same raw-DOM-click
-   * pattern used by every other page object in this project (see AGENTS.md
-   * golden rule 20 — never the bare `document` global).
+   * Scroll the page to a card's Check Offers button, then click it.
+   * The modal is `position:fixed` (`[data-modal-open="true"]`) and already
+   * centered — do not scroll again after it opens (that moves the page
+   * under the overlay and Cypress misses the name field).
    */
   openLeadFormViaCta() {
     const ctaLabel = this.page.ctaLabel;
     cy.document().then((doc) => {
-      const clickCta = () => {
-        const button = [...doc.querySelectorAll('button')].find(
+      const findCta = () =>
+        [...doc.querySelectorAll('button')].find(
           (el) => el.textContent.trim() === ctaLabel && el.offsetParent !== null
         );
-        if (button) {
-          button.click();
-        }
-      };
 
+      const cta = findCta();
+      expect(cta, `${ctaLabel} button is on the page`).to.exist;
+      cta.scrollIntoView({ block: 'center' });
+
+      const clickCta = makeThrottledCtaClicker(doc, ctaLabel);
       clickCta();
-      cy.get('input#name[name="name"]').should(($input) => {
-        if (!$input.is(':visible')) {
-          clickCta();
-        }
-        expect($input.is(':visible'), `${ctaLabel} lead form is visible`).to.eq(true);
-      });
+      cy.get('[data-modal-open="true"]')
+        .should('be.visible')
+        .find('input#name[name="name"]')
+        .should(($input) => {
+          if (!$input.is(':visible')) {
+            clickCta();
+          }
+          expect($input.is(':visible'), `${ctaLabel} lead form is visible`).to.eq(true);
+        });
     });
   }
 
@@ -161,6 +164,9 @@ class TabbedModelOffers {
         // duplicated "testqatestqa" name value).
         cy.clearCookies();
         cy.clearLocalStorage();
+        cy.window().then((win) => {
+          win.sessionStorage.clear();
+        });
         this.navigate();
       }
       this.selectTab(tabLabel);

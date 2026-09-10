@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-08",
+  "scrapedAt": "2026-09-10",
   "languages": [
     "en",
     "hi",
@@ -12,96 +12,199 @@
       "byLanguage": {
         "en": {
           "path": "/en/select-your-truck",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Choose Best Truck For You"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Choose Best Truck For You"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Models by Application"
+                },
+                {
+                  "tag": "h2",
+                  "text": "News"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Best Truck For You"
+                },
+                {
+                  "tag": "h4",
+                  "text": "How Can I Get Best Suited Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Select Your Truck at Best Price, Find Right Truck Online",
+                "description": "Select Your Best Suited Truck at Truck Junction. Here You can Choose Your Truck, Tipper, Mini Truck according to best suited category, model and features.",
+                "keywords": "Select Your Truck, Select Your Best Suited Truck, Choose my Truck, Best Suited Truck for you, Select Truck"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Popular Models by Application"
-            },
-            {
-              "tag": "h2",
-              "text": "News"
-            },
-            {
-              "tag": "h2",
-              "text": "About Best Truck For You"
-            },
-            {
-              "tag": "h4",
-              "text": "How Can I Get Best Suited Trucks"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Choose Best Truck For You"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Models by Application"
+                },
+                {
+                  "tag": "h2",
+                  "text": "News"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Best Truck For You"
+                },
+                {
+                  "tag": "h4",
+                  "text": "How Can I Get Best Suited Trucks"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Select Your Truck at Best Price, Find Right Truck Online",
+                "description": "Select Your Best Suited Truck at Truck Junction. Here You can Choose Your Truck, Tipper, Mini Truck according to best suited category, model and features.",
+                "keywords": "Select Your Truck, Select Your Best Suited Truck, Choose my Truck, Best Suited Truck for you, Select Truck"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Select Your Truck at Best Price, Find Right Truck Online",
-            "description": "Select Your Best Suited Truck at Truck Junction. Here You can Choose Your Truck, Tipper, Mini Truck according to best suited category, model and features.",
-            "keywords": "Select Your Truck, Select Your Best Suited Truck, Choose my Truck, Best Suited Truck for you, Select Truck"
           }
         },
         "hi": {
           "path": "/hi/select-your-truck",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "अपने लिए सर्वश्रेष्ठ ट्रक चुनें"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "अपने लिए सर्वश्रेष्ठ ट्रक चुनें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "एप्लिकेशन द्वारा लोकप्रिय मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "समाचार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आपके लिए बेस्ट ट्रक के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "मैं सर्वश्रेष्ठ उपयुक्त ट्रक कैसे प्राप्त कर सकता हूं ?"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "अच्छी कीमत पर अपने ट्रक का चयन करें, ऑनलाइन सही ट्रक खोजें",
+                "description": "ट्रक जंक्शन पर अपना सर्वश्रेष्ठ उपयुक्त ट्रक चुनें। यहां आप सबसे उपयुक्त श्रेणी, मॉडल और सुविधाओं के अनुसार अपना ट्रक, टिपर, मिनी ट्रक चुन सकते हैं।",
+                "keywords": "अपना ट्रक चुनें, अपना सर्वश्रेष्ठ उपयुक्त ट्रक चुनें, आपके लिए सबसे उपयुक्त ट्रक चुनें, ट्रक चुनें"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "एप्लिकेशन द्वारा लोकप्रिय मॉडल"
-            },
-            {
-              "tag": "h2",
-              "text": "समाचार"
-            },
-            {
-              "tag": "h2",
-              "text": "आपके लिए बेस्ट ट्रक के बारे में"
-            },
-            {
-              "tag": "h4",
-              "text": "मैं सर्वश्रेष्ठ उपयुक्त ट्रक कैसे प्राप्त कर सकता हूं ?"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "अपने लिए सर्वश्रेष्ठ ट्रक चुनें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "एप्लिकेशन द्वारा लोकप्रिय मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "समाचार"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आपके लिए बेस्ट ट्रक के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "मैं सर्वश्रेष्ठ उपयुक्त ट्रक कैसे प्राप्त कर सकता हूं ?"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "अच्छी कीमत पर अपने ट्रक का चयन करें, ऑनलाइन सही ट्रक खोजें",
+                "description": "ट्रक जंक्शन पर अपना सर्वश्रेष्ठ उपयुक्त ट्रक चुनें। यहां आप सबसे उपयुक्त श्रेणी, मॉडल और सुविधाओं के अनुसार अपना ट्रक, टिपर, मिनी ट्रक चुन सकते हैं।",
+                "keywords": "अपना ट्रक चुनें, अपना सर्वश्रेष्ठ उपयुक्त ट्रक चुनें, आपके लिए सबसे उपयुक्त ट्रक चुनें, ट्रक चुनें"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "अच्छी कीमत पर अपने ट्रक का चयन करें, ऑनलाइन सही ट्रक खोजें",
-            "description": "ट्रक जंक्शन पर अपना सर्वश्रेष्ठ उपयुक्त ट्रक चुनें। यहां आप सबसे उपयुक्त श्रेणी, मॉडल और सुविधाओं के अनुसार अपना ट्रक, टिपर, मिनी ट्रक चुन सकते हैं।",
-            "keywords": "अपना ट्रक चुनें, अपना सर्वश्रेष्ठ उपयुक्त ट्रक चुनें, आपके लिए सबसे उपयुक्त ट्रक चुनें, ट्रक चुनें"
           }
         },
         "ta": {
           "path": "/ta/select-your-truck",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "உங்களுக்கு சிறந்த டிரக் தேர்வு செய்யவும்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "உங்களுக்கு சிறந்த டிரக் தேர்வு செய்யவும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பயன்பாட்டின்படி பிரபல மாடல்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "செய்திகள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "சிறந்த விலையில் உங்கள் சரக்கு வாகனத்தைத் தேர்ந்தெடுங்கள்; இணையத்தில் சரியான வாகனத்தைக் கண்டறியுங்கள்",
+                "description": "ட்ரக் ஜங்ஷனில் உங்களுக்கு மிகவும் பொருத்தமான லாரியை தேர்வு செய்யுங்கள். இங்கு, உங்கள் தேவைக்கு ஏற்ப லாரி, டிப்பர், மினி ட்ரக் போன்றவற்றை வகை, மாடல் மற்றும் அம்சங்களின் அடிப்படையில் தேர்ந்தெடுக்கலாம்.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "பயன்பாட்டின்படி பிரபல மாடல்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "செய்திகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "உங்களுக்கு சிறந்த டிரக் தேர்வு செய்யவும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பயன்பாட்டின்படி பிரபல மாடல்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "செய்திகள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "சிறந்த விலையில் உங்கள் சரக்கு வாகனத்தைத் தேர்ந்தெடுங்கள்; இணையத்தில் சரியான வாகனத்தைக் கண்டறியுங்கள்",
+                "description": "ட்ரக் ஜங்ஷனில் உங்களுக்கு மிகவும் பொருத்தமான லாரியை தேர்வு செய்யுங்கள். இங்கு, உங்கள் தேவைக்கு ஏற்ப லாரி, டிப்பர், மினி ட்ரக் போன்றவற்றை வகை, மாடல் மற்றும் அம்சங்களின் அடிப்படையில் தேர்ந்தெடுக்கலாம்.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "சிறந்த விலையில் உங்கள் சரக்கு வாகனத்தைத் தேர்ந்தெடுங்கள்; இணையத்தில் சரியான வாகனத்தைக் கண்டறியுங்கள்",
-            "description": "ட்ரக் ஜங்ஷனில் உங்களுக்கு மிகவும் பொருத்தமான லாரியை தேர்வு செய்யுங்கள். இங்கு, உங்கள் தேவைக்கு ஏற்ப லாரி, டிப்பர், மினி ட்ரக் போன்றவற்றை வகை, மாடல் மற்றும் அம்சங்களின் அடிப்படையில் தேர்ந்தெடுக்கலாம்.",
-            "keywords": ""
           }
         }
       }
@@ -112,140 +215,287 @@
       "byLanguage": {
         "en": {
           "path": "/en/offers",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "It’s Trucks Offers!"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "It’s Trucks Offers!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Don’t Miss Out!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New truck offers and discounts"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Discounts"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Flexible Payment Plans"
+                },
+                {
+                  "tag": "h2",
+                  "text": "On Road Price Offers"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Models by Category"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Links"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "September 2026 Truck Offers & Discounts - Best CV Deals",
+                "description": "Explore the September 2026 offers, discounts, and flexible finance schemes on trucks, tippers, mini trucks, three wheelers, auto rickshaws & more on Truck Junction",
+                "keywords": "September 2026 truck offers, tipper discounts September 2026, mini truck deals, auto rickshaw EMI offers, commercial vehicle discounts, festive dhamaka truck deals, flexible three wheeler finance, best CV deals India 2026"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Don’t Miss Out!"
-            },
-            {
-              "tag": "h2",
-              "text": "New truck offers and discounts"
-            },
-            {
-              "tag": "h2",
-              "text": "Discounts"
-            },
-            {
-              "tag": "h2",
-              "text": "Flexible Payment Plans"
-            },
-            {
-              "tag": "h2",
-              "text": "On Road Price Offers"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Models by Category"
-            },
-            {
-              "tag": "h2",
-              "text": "Other Links"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "It’s Trucks Offers!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Don’t Miss Out!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New truck offers and discounts"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Discounts"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Flexible Payment Plans"
+                },
+                {
+                  "tag": "h2",
+                  "text": "On Road Price Offers"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Models by Category"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Other Links"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "September 2026 Truck Offers & Discounts - Best CV Deals",
+                "description": "Explore the September 2026 offers, discounts, and flexible finance schemes on trucks, tippers, mini trucks, three wheelers, auto rickshaws & more on Truck Junction",
+                "keywords": "September 2026 truck offers, tipper discounts September 2026, mini truck deals, auto rickshaw EMI offers, commercial vehicle discounts, festive dhamaka truck deals, flexible three wheeler finance, best CV deals India 2026"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "September 2026 Truck Offers & Discounts - Best CV Deals",
-            "description": "Explore the September 2026 offers, discounts, and flexible finance schemes on trucks, tippers, mini trucks, three wheelers, auto rickshaws & more on Truck Junction",
-            "keywords": "September 2026 truck offers, tipper discounts September 2026, mini truck deals, auto rickshaw EMI offers, commercial vehicle discounts, festive dhamaka truck deals, flexible three wheeler finance, best CV deals India 2026"
           }
         },
         "hi": {
           "path": "/hi/offers",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "यह ट्रक ऑफर है!"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "यह ट्रक ऑफर है!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "मिस मत करो!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक पर ऑफर और डिस्काउंट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "डिस्काउंट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "फ्लेक्सिबल पेमेंट प्लान"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ऑन रोड प्राइस ऑफर"
+                },
+                {
+                  "tag": "h2",
+                  "text": "श्रेणी के अनुसार लोकप्रिय मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अन्य लिंक"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "सितम्बर 2026 ट्रक ऑफर और छूट - सबसे अच्छे वाणिज्यिक वाहन डील्स",
+                "description": "ट्रक जंक्शन पर सितम्बर 2026 में ट्रक, टिपर, मिनी ट्रक, थ्री व्हीलर, ऑटो रिक्शा और अन्य व्यावसायिक वाहनों पर बेहतरीन ऑफ़र, छूट और आसान फाइनेंस योजनाओं का लाभ उठाएं।",
+                "keywords": "सितम्बर 2026 ट्रक ऑफर, सीवी छूट सितम्बर 2026, वाणिज्यिक वाहन डील्स, फेस्टिव धमाका ऑफर, ट्रक ईएमआई ऑफर, भारत में ट्रक डील्स 2026"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "मिस मत करो!"
-            },
-            {
-              "tag": "h2",
-              "text": "नए ट्रक पर ऑफर और डिस्काउंट"
-            },
-            {
-              "tag": "h2",
-              "text": "डिस्काउंट"
-            },
-            {
-              "tag": "h2",
-              "text": "फ्लेक्सिबल पेमेंट प्लान"
-            },
-            {
-              "tag": "h2",
-              "text": "ऑन रोड प्राइस ऑफर"
-            },
-            {
-              "tag": "h2",
-              "text": "श्रेणी के अनुसार लोकप्रिय मॉडल"
-            },
-            {
-              "tag": "h2",
-              "text": "अन्य लिंक"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "यह ट्रक ऑफर है!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "मिस मत करो!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "नए ट्रक पर ऑफर और डिस्काउंट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "डिस्काउंट"
+                },
+                {
+                  "tag": "h2",
+                  "text": "फ्लेक्सिबल पेमेंट प्लान"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ऑन रोड प्राइस ऑफर"
+                },
+                {
+                  "tag": "h2",
+                  "text": "श्रेणी के अनुसार लोकप्रिय मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अन्य लिंक"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "सितम्बर 2026 ट्रक ऑफर और छूट - सबसे अच्छे वाणिज्यिक वाहन डील्स",
+                "description": "ट्रक जंक्शन पर सितम्बर 2026 में ट्रक, टिपर, मिनी ट्रक, थ्री व्हीलर, ऑटो रिक्शा और अन्य व्यावसायिक वाहनों पर बेहतरीन ऑफ़र, छूट और आसान फाइनेंस योजनाओं का लाभ उठाएं।",
+                "keywords": "सितम्बर 2026 ट्रक ऑफर, सीवी छूट सितम्बर 2026, वाणिज्यिक वाहन डील्स, फेस्टिव धमाका ऑफर, ट्रक ईएमआई ऑफर, भारत में ट्रक डील्स 2026"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "सितम्बर 2026 ट्रक ऑफर और छूट - सबसे अच्छे वाणिज्यिक वाहन डील्स",
-            "description": "ट्रक जंक्शन पर सितम्बर 2026 में ट्रक, टिपर, मिनी ट्रक, थ्री व्हीलर, ऑटो रिक्शा और अन्य व्यावसायिक वाहनों पर बेहतरीन ऑफ़र, छूट और आसान फाइनेंस योजनाओं का लाभ उठाएं।",
-            "keywords": "सितम्बर 2026 ट्रक ऑफर, सीवी छूट सितम्बर 2026, वाणिज्यिक वाहन डील्स, फेस्टिव धमाका ऑफर, ट्रक ईएमआई ऑफर, भारत में ट्रक डील्स 2026"
           }
         },
         "ta": {
           "path": "/ta/offers",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இது லாரிகள் சலுகைகள்!"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இது லாரிகள் சலுகைகள்!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "தவறவிடாதீர்கள்!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய டிரக் சலுகைகள் மற்றும் தள்ளுபடிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "தள்ளுபடிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "நெகிழ்வான கட்டணத் திட்டங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சாலை விலை சலுகைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வகையின்படி பிரபலமான மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிற இணைப்புகள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "செப்டெம்பர் 2026 டிரக் சலுகைகள் & தள்ளுபடிகள் - சிறந்த CV டீல்கள்",
+                "description": "டிரக் சந்திப்பில் செப்டெம்பர் 2026 சலுகைகள், தள்ளுபடிகள் மற்றும் நெகிழ்வான நிதித் திட்டங்களை ஆராயுங்கள்",
+                "keywords": "செப்டெம்பர் 2026 டிரக் சலுகைகள், டிப்பர் தள்ளுபடிகள் செப்டெம்பர் 2026, மினி டிரக் டீல்கள், ஆட்டோ ரிக்‌ஷா EMI சலுகைகள், வணிக வாகன தள்ளுபடிகள், பண்டிகை தமாகா டிரக் டீல்கள், நெகிழ்வான மூன்று சக்கர வாகன நிதி, சிறந்த CV டீல்கள் இந்தியா 2026"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "தவறவிடாதீர்கள்!"
-            },
-            {
-              "tag": "h2",
-              "text": "புதிய டிரக் சலுகைகள் மற்றும் தள்ளுபடிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "தள்ளுபடிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "நெகிழ்வான கட்டணத் திட்டங்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "சாலை விலை சலுகைகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "வகையின்படி பிரபலமான மாதிரிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பிற இணைப்புகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இது லாரிகள் சலுகைகள்!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "தவறவிடாதீர்கள்!"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதிய டிரக் சலுகைகள் மற்றும் தள்ளுபடிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "தள்ளுபடிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "நெகிழ்வான கட்டணத் திட்டங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சாலை விலை சலுகைகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வகையின்படி பிரபலமான மாதிரிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிற இணைப்புகள்"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "செப்டெம்பர் 2026 டிரக் சலுகைகள் & தள்ளுபடிகள் - சிறந்த CV டீல்கள்",
+                "description": "டிரக் சந்திப்பில் செப்டெம்பர் 2026 சலுகைகள், தள்ளுபடிகள் மற்றும் நெகிழ்வான நிதித் திட்டங்களை ஆராயுங்கள்",
+                "keywords": "செப்டெம்பர் 2026 டிரக் சலுகைகள், டிப்பர் தள்ளுபடிகள் செப்டெம்பர் 2026, மினி டிரக் டீல்கள், ஆட்டோ ரிக்‌ஷா EMI சலுகைகள், வணிக வாகன தள்ளுபடிகள், பண்டிகை தமாகா டிரக் டீல்கள், நெகிழ்வான மூன்று சக்கர வாகன நிதி, சிறந்த CV டீல்கள் இந்தியா 2026"
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "செப்டெம்பர் 2026 டிரக் சலுகைகள் & தள்ளுபடிகள் - சிறந்த CV டீல்கள்",
-            "description": "டிரக் சந்திப்பில் செப்டெம்பர் 2026 சலுகைகள், தள்ளுபடிகள் மற்றும் நெகிழ்வான நிதித் திட்டங்களை ஆராயுங்கள்",
-            "keywords": "செப்டெம்பர் 2026 டிரக் சலுகைகள், டிப்பர் தள்ளுபடிகள் செப்டெம்பர் 2026, மினி டிரக் டீல்கள், ஆட்டோ ரிக்‌ஷா EMI சலுகைகள், வணிக வாகன தள்ளுபடிகள், பண்டிகை தமாகா டிரக் டீல்கள், நெகிழ்வான மூன்று சக்கர வாகன நிதி, சிறந்த CV டீல்கள் இந்தியா 2026"
           }
         }
       }
@@ -256,68 +506,143 @@
       "byLanguage": {
         "en": {
           "path": "/en/body-makers",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Truck Body Makers in India"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Truck Body Makers in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck Body Makers"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Truck Body Makers, Truck Body Builders In India - Body Makers Near Me",
+                "description": "Find 20 truck body makers in India. Get contact numbers, address and location of the best truck body makers and builders near you only on Truck Junction.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Truck Body Makers"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Truck Body Makers in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck Body Makers"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Truck Body Makers, Truck Body Builders In India - Body Makers Near Me",
+                "description": "Find 20 truck body makers in India. Get contact numbers, address and location of the best truck body makers and builders near you only on Truck Junction.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Truck Body Makers, Truck Body Builders In India - Body Makers Near Me",
-            "description": "Find 20 truck body makers in India. Get contact numbers, address and location of the best truck body makers and builders near you only on Truck Junction.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/body-makers",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "भारत में ट्रक बॉडी मेकर्स"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में ट्रक बॉडी मेकर्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक बॉडी मेकर्स"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "भारत में ट्रक बॉडी मेकर्स, ट्रक बॉडी बिल्डर्स - मेरे निकटतम बॉडी मेकर्स",
+                "description": "भारत में 20 ट्रक बॉडी निर्माता खोजें। केवल ट्रक जंक्शन पर अपने निकटतम सर्वश्रेष्ठ ट्रक बॉडी निर्माताओं और बिल्डरों के संपर्क नंबर, पता और स्थान प्राप्त करें।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "ट्रक बॉडी मेकर्स"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "भारत में ट्रक बॉडी मेकर्स"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक बॉडी मेकर्स"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "भारत में ट्रक बॉडी मेकर्स, ट्रक बॉडी बिल्डर्स - मेरे निकटतम बॉडी मेकर्स",
+                "description": "भारत में 20 ट्रक बॉडी निर्माता खोजें। केवल ट्रक जंक्शन पर अपने निकटतम सर्वश्रेष्ठ ट्रक बॉडी निर्माताओं और बिल्डरों के संपर्क नंबर, पता और स्थान प्राप्त करें।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "भारत में ट्रक बॉडी मेकर्स, ट्रक बॉडी बिल्डर्स - मेरे निकटतम बॉडी मेकर्स",
-            "description": "भारत में 20 ट्रक बॉडी निर्माता खोजें। केवल ट्रक जंक्शन पर अपने निकटतम सर्वश्रेष्ठ ट्रक बॉडी निर्माताओं और बिल्डरों के संपर्क नंबर, पता और स्थान प्राप्त करें।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/body-makers",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "இந்தியாவில் ட்ரக் உடல் உருவாக்குபவர்கள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் ட்ரக் உடல் உருவாக்குபவர்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck Body Makers"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ட்ரக் உடல் உருவாக்குபவர்கள், இந்தியாவில் ட்ரக் உடல் கட்டமைப்பாளர்கள் - எனக்கு அருகிலுள்ள உடல் உருவாக்குபவர்கள்",
+                "description": "இந்தியாவில் 20 ட்ரக் உடல் உருவாக்குபவர்களைக் கண்டறியுங்கள். ட்ரக் ஜங்க்ஷனில் மட்டுமே உங்களுக்கு அருகிலுள்ள சிறந்த ட்ரக் உடல் உருவாக்குபவர்கள் மற்றும் கட்டமைப்பாளர்களின் தொடர்பு எண்கள், முகவரி மற்றும் இருப்பிடத்தைப் பெறுங்கள்.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Truck Body Makers"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் ட்ரக் உடல் உருவாக்குபவர்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Truck Body Makers"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "ட்ரக் உடல் உருவாக்குபவர்கள், இந்தியாவில் ட்ரக் உடல் கட்டமைப்பாளர்கள் - எனக்கு அருகிலுள்ள உடல் உருவாக்குபவர்கள்",
+                "description": "இந்தியாவில் 20 ட்ரக் உடல் உருவாக்குபவர்களைக் கண்டறியுங்கள். ட்ரக் ஜங்க்ஷனில் மட்டுமே உங்களுக்கு அருகிலுள்ள சிறந்த ட்ரக் உடல் உருவாக்குபவர்கள் மற்றும் கட்டமைப்பாளர்களின் தொடர்பு எண்கள், முகவரி மற்றும் இருப்பிடத்தைப் பெறுங்கள்.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "ட்ரக் உடல் உருவாக்குபவர்கள், இந்தியாவில் ட்ரக் உடல் கட்டமைப்பாளர்கள் - எனக்கு அருகிலுள்ள உடல் உருவாக்குபவர்கள்",
-            "description": "இந்தியாவில் 20 ட்ரக் உடல் உருவாக்குபவர்களைக் கண்டறியுங்கள். ட்ரக் ஜங்க்ஷனில் மட்டுமே உங்களுக்கு அருகிலுள்ள சிறந்த ட்ரக் உடல் உருவாக்குபவர்கள் மற்றும் கட்டமைப்பாளர்களின் தொடர்பு எண்கள், முகவரி மற்றும் இருப்பிடத்தைப் பெறுங்கள்.",
-            "keywords": ""
           }
         }
       }

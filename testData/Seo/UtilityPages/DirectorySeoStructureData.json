@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-08",
+  "scrapedAt": "2026-09-10",
   "languages": [
     "en",
     "hi",
@@ -12,161 +12,329 @@
       "byLanguage": {
         "en": {
           "path": "/en/brands",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "All Truck Brands"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "All Truck Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top Truck Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Models by Category"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Trucks By Budget"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recommended for You"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Truck Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "More About Truck Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Tools For Help"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on All Brands"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on All Brands",
+                "questions": [
+                  "Which truck brand is popular in India?",
+                  "Which electric truck model in popular in India?"
+                ]
+              },
+              "meta": {
+                "title": "Top Trucks, Buses & 3 Wheeler Brands in India 2026 – Models, Segments & More",
+                "description": "Explore all truck, buses & 3 wheeler brands in India with latest models, specs & segments. Compare pickups, tippers, highway trucks & more from top Indian commercial makers.",
+                "keywords": "truck brands, truck brands in India, mini truck brands, tipper brands, pickup brands, 3-wheeler brands, truck manufacturers in India"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Top Truck Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "Latest Models by Category"
-            },
-            {
-              "tag": "h2",
-              "text": "Trucks By Budget"
-            },
-            {
-              "tag": "h2",
-              "text": "Recommended for You"
-            },
-            {
-              "tag": "h2",
-              "text": "Popular Truck Comparison"
-            },
-            {
-              "tag": "h2",
-              "text": "More About Truck Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "Tools For Help"
-            },
-            {
-              "tag": "h2",
-              "text": "Frequently Asked Questions on All Brands"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "All Truck Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Top Truck Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Latest Models by Category"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Trucks By Budget"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recommended for You"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Popular Truck Comparison"
+                },
+                {
+                  "tag": "h2",
+                  "text": "More About Truck Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Tools For Help"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Frequently Asked Questions on All Brands"
+                }
+              ],
+              "faq": {
+                "heading": "Frequently Asked Questions on All Brands",
+                "questions": [
+                  "Which truck brand is popular in India?",
+                  "Which electric truck model in popular in India?"
+                ]
+              },
+              "meta": {
+                "title": "Top Trucks, Buses & 3 Wheeler Brands in India 2026 – Models, Segments & More",
+                "description": "Explore all truck, buses & 3 wheeler brands in India with latest models, specs & segments. Compare pickups, tippers, highway trucks & more from top Indian commercial makers.",
+                "keywords": "truck brands, truck brands in India, mini truck brands, tipper brands, pickup brands, 3-wheeler brands, truck manufacturers in India"
+              }
             }
-          ],
-          "faq": {
-            "heading": "Frequently Asked Questions on All Brands",
-            "questions": [
-              "Which truck brand is popular in India?",
-              "Which electric truck model in popular in India?"
-            ]
-          },
-          "meta": {
-            "title": "Top Trucks, Buses & 3 Wheeler Brands in India 2026 – Models, Segments & More",
-            "description": "Explore all truck, buses & 3 wheeler brands in India with latest models, specs & segments. Compare pickups, tippers, highway trucks & more from top Indian commercial makers.",
-            "keywords": "truck brands, truck brands in India, mini truck brands, tipper brands, pickup brands, 3-wheeler brands, truck manufacturers in India"
           }
         },
         "hi": {
           "path": "/hi/brands",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "सभी ट्रक ब्रांड"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "सभी ट्रक ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "शीर्ष ट्रक ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "श्रेणी के द्वारा नवीनतम मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बजट के हिसाब से ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आपके लिए अनुशंसित"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक ब्रांड के बारे में अधिक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "टूल फॉर हेल्प"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी ब्रांड्स पर अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "सभी ब्रांड्स पर अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में कौन सा ट्रक ब्रांड लोकप्रिय है?",
+                  "भारत में कौन सा इलेक्ट्रिक ट्रक मॉडल लोकप्रिय है?"
+                ]
+              },
+              "meta": {
+                "title": "सभी ट्रक ब्रांड भारत में, मिनी ट्रक ब्रांड सूची, टिपर्स ब्रांड्स लिस्ट",
+                "description": "भारत में सभी ट्रक ब्रांड्स, मिनी ट्रक ब्रांड्स सूची, टिपर्स ब्रांड्स, पिकअप ब्रांड्स, 3-व्हीलर ब्रांड्स, ट्रक जंक्शन पर ट्रांजिट मिक्सर खोजें।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "शीर्ष ट्रक ब्रांड"
-            },
-            {
-              "tag": "h2",
-              "text": "श्रेणी के द्वारा नवीनतम मॉडल"
-            },
-            {
-              "tag": "h2",
-              "text": "बजट के हिसाब से ट्रक"
-            },
-            {
-              "tag": "h2",
-              "text": "आपके लिए अनुशंसित"
-            },
-            {
-              "tag": "h2",
-              "text": "लोकप्रिय ट्रक तुलना"
-            },
-            {
-              "tag": "h2",
-              "text": "ट्रक ब्रांड के बारे में अधिक"
-            },
-            {
-              "tag": "h2",
-              "text": "टूल फॉर हेल्प"
-            },
-            {
-              "tag": "h2",
-              "text": "सभी ब्रांड्स पर अक्सर पूछे जाने वाले प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "सभी ट्रक ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "शीर्ष ट्रक ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "श्रेणी के द्वारा नवीनतम मॉडल"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बजट के हिसाब से ट्रक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आपके लिए अनुशंसित"
+                },
+                {
+                  "tag": "h2",
+                  "text": "लोकप्रिय ट्रक तुलना"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ट्रक ब्रांड के बारे में अधिक"
+                },
+                {
+                  "tag": "h2",
+                  "text": "टूल फॉर हेल्प"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी ब्रांड्स पर अक्सर पूछे जाने वाले प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "सभी ब्रांड्स पर अक्सर पूछे जाने वाले प्रश्न",
+                "questions": [
+                  "भारत में कौन सा ट्रक ब्रांड लोकप्रिय है?",
+                  "भारत में कौन सा इलेक्ट्रिक ट्रक मॉडल लोकप्रिय है?"
+                ]
+              },
+              "meta": {
+                "title": "सभी ट्रक ब्रांड भारत में, मिनी ट्रक ब्रांड सूची, टिपर्स ब्रांड्स लिस्ट",
+                "description": "भारत में सभी ट्रक ब्रांड्स, मिनी ट्रक ब्रांड्स सूची, टिपर्स ब्रांड्स, पिकअप ब्रांड्स, 3-व्हीलर ब्रांड्स, ट्रक जंक्शन पर ट्रांजिट मिक्सर खोजें।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "सभी ब्रांड्स पर अक्सर पूछे जाने वाले प्रश्न",
-            "questions": [
-              "भारत में कौन सा ट्रक ब्रांड लोकप्रिय है?",
-              "भारत में कौन सा इलेक्ट्रिक ट्रक मॉडल लोकप्रिय है?"
-            ]
-          },
-          "meta": {
-            "title": "सभी ट्रक ब्रांड भारत में, मिनी ट्रक ब्रांड सूची, टिपर्स ब्रांड्स लिस्ट",
-            "description": "भारत में सभी ट्रक ब्रांड्स, मिनी ट्रक ब्रांड्स सूची, टिपर्स ब्रांड्स, पिकअप ब्रांड्स, 3-व्हीलर ब्रांड्स, ट्रक जंक्शन पर ट्रांजिट मिक्सर खोजें।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/brands",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "அனைத்து டிரக் பிராண்டுகள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "அனைத்து டிரக் பிராண்டுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "முன்னணி டிரக் பிராண்டுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வகைபடுத்தப்பட்ட புதிய மாடல்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பட்ஜெட் வாரியாக டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்களுக்கு பரிந்துரைக்கப்படுகிறது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக் பிராண்டுகள் பற்றி மேலும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உதவிக்கான கருவிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பிராண்டுகளின் அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "அனைத்து பிராண்டுகளின் அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "இந்தியாவில் எந்த டிரக் பிராண்ட் பிரபலமானது?",
+                  "இந்தியாவில் எந்த எலக்ட்ரிக் டிரக் மாடல் பிரபலமானது?"
+                ]
+              },
+              "meta": {
+                "title": "2026 ஆம் ஆண்டில் இந்தியாவின் சிறந்த டிரக் பிராண்டுகள் - மாடல்கள், பிரிவுகள் மற்றும் பல",
+                "description": "சமீபத்திய மாடல்கள், விவரக்குறிப்புகள் மற்றும் பிரிவுகளுடன் இந்தியாவில் உள்ள அனைத்து டிரக் பிராண்டுகளையும் ஆராயுங்கள். சிறந்த இந்திய வணிக உற்பத்தியாளர்களிடமிருந்து பிக்அப்கள், டிப்பர்கள், நெடுஞ்சாலை டிரக்கள் மற்றும் பலவற்றை ஒப்பிடுக.",
+                "keywords": "டிரக் பிராண்டுகள், இந்தியாவில் டிரக் பிராண்டுகள், மினி டிரக் பிராண்டுகள், டிப்பர் பிராண்டுகள், பிக்அப் பிராண்டுகள், 3-சக்கர வாகன பிராண்டுகள், இந்தியாவில் டிரக் உற்பத்தியாளர்கள்"
+              }
             },
-            {
-              "tag": "h2",
-              "text": "முன்னணி டிரக் பிராண்டுகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "வகைபடுத்தப்பட்ட புதிய மாடல்கள்"
-            },
-            {
-              "tag": "h2",
-              "text": "பட்ஜெட் வாரியாக டிரக்குகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "உங்களுக்கு பரிந்துரைக்கப்படுகிறது"
-            },
-            {
-              "tag": "h2",
-              "text": "பிரபலமான டிரக் ஒப்பீடு"
-            },
-            {
-              "tag": "h2",
-              "text": "டிரக் பிராண்டுகள் பற்றி மேலும்"
-            },
-            {
-              "tag": "h2",
-              "text": "உதவிக்கான கருவிகள்"
-            },
-            {
-              "tag": "h2",
-              "text": "அனைத்து பிராண்டுகளின் அடிக்கடி கேட்கப்படும் கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "அனைத்து டிரக் பிராண்டுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "முன்னணி டிரக் பிராண்டுகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வகைபடுத்தப்பட்ட புதிய மாடல்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பட்ஜெட் வாரியாக டிரக்குகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உங்களுக்கு பரிந்துரைக்கப்படுகிறது"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பிரபலமான டிரக் ஒப்பீடு"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டிரக் பிராண்டுகள் பற்றி மேலும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "உதவிக்கான கருவிகள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பிராண்டுகளின் அடிக்கடி கேட்கப்படும் கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "அனைத்து பிராண்டுகளின் அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "இந்தியாவில் எந்த டிரக் பிராண்ட் பிரபலமானது?",
+                  "இந்தியாவில் எந்த எலக்ட்ரிக் டிரக் மாடல் பிரபலமானது?"
+                ]
+              },
+              "meta": {
+                "title": "2026 ஆம் ஆண்டில் இந்தியாவின் சிறந்த டிரக் பிராண்டுகள் - மாடல்கள், பிரிவுகள் மற்றும் பல",
+                "description": "சமீபத்திய மாடல்கள், விவரக்குறிப்புகள் மற்றும் பிரிவுகளுடன் இந்தியாவில் உள்ள அனைத்து டிரக் பிராண்டுகளையும் ஆராயுங்கள். சிறந்த இந்திய வணிக உற்பத்தியாளர்களிடமிருந்து பிக்அப்கள், டிப்பர்கள், நெடுஞ்சாலை டிரக்கள் மற்றும் பலவற்றை ஒப்பிடுக.",
+                "keywords": "டிரக் பிராண்டுகள், இந்தியாவில் டிரக் பிராண்டுகள், மினி டிரக் பிராண்டுகள், டிப்பர் பிராண்டுகள், பிக்அப் பிராண்டுகள், 3-சக்கர வாகன பிராண்டுகள், இந்தியாவில் டிரக் உற்பத்தியாளர்கள்"
+              }
             }
-          ],
-          "faq": {
-            "heading": "அனைத்து பிராண்டுகளின் அடிக்கடி கேட்கப்படும் கேள்விகள்",
-            "questions": [
-              "இந்தியாவில் எந்த டிரக் பிராண்ட் பிரபலமானது?",
-              "இந்தியாவில் எந்த எலக்ட்ரிக் டிரக் மாடல் பிரபலமானது?"
-            ]
-          },
-          "meta": {
-            "title": "2026 ஆம் ஆண்டில் இந்தியாவின் சிறந்த டிரக் பிராண்டுகள் - மாடல்கள், பிரிவுகள் மற்றும் பல",
-            "description": "சமீபத்திய மாடல்கள், விவரக்குறிப்புகள் மற்றும் பிரிவுகளுடன் இந்தியாவில் உள்ள அனைத்து டிரக் பிராண்டுகளையும் ஆராயுங்கள். சிறந்த இந்திய வணிக உற்பத்தியாளர்களிடமிருந்து பிக்அப்கள், டிப்பர்கள், நெடுஞ்சாலை டிரக்கள் மற்றும் பலவற்றை ஒப்பிடுக.",
-            "keywords": "டிரக் பிராண்டுகள், இந்தியாவில் டிரக் பிராண்டுகள், மினி டிரக் பிராண்டுகள், டிப்பர் பிராண்டுகள், பிக்அப் பிராண்டுகள், 3-சக்கர வாகன பிராண்டுகள், இந்தியாவில் டிரக் உற்பத்தியாளர்கள்"
           }
         }
       }
@@ -177,124 +345,255 @@
       "byLanguage": {
         "en": {
           "path": "/en/buses/brands",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Top Bus Brands"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Top Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Bus By Seating Capacity"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Bus By Budget"
+                },
+                {
+                  "tag": "h2",
+                  "text": "More About Bus Brands"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Explore the Best of Bus Brands with Us"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for Choosing Buses From Top Brands?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Customer Support Service"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Leading Bus Brands in India 2026 | TruckJunction",
+                "description": "Check bus brands in India compare their price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "All Bus Brands"
-            },
-            {
-              "tag": "h2",
-              "text": "Bus By Seating Capacity"
-            },
-            {
-              "tag": "h2",
-              "text": "Bus By Budget"
-            },
-            {
-              "tag": "h2",
-              "text": "More About Bus Brands"
-            },
-            {
-              "tag": "h3",
-              "text": "Explore the Best of Bus Brands with Us"
-            },
-            {
-              "tag": "h3",
-              "text": "Why BusJunction for Choosing Buses From Top Brands?"
-            },
-            {
-              "tag": "h3",
-              "text": "Customer Support Service"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Top Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "All Bus Brands"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Bus By Seating Capacity"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Bus By Budget"
+                },
+                {
+                  "tag": "h2",
+                  "text": "More About Bus Brands"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Explore the Best of Bus Brands with Us"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for Choosing Buses From Top Brands?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Customer Support Service"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "Leading Bus Brands in India 2026 | TruckJunction",
+                "description": "Check bus brands in India compare their price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "Leading Bus Brands in India 2026 | TruckJunction",
-            "description": "Check bus brands in India compare their price, mileage, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/buses/brands",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "टॉप बस ब्रांड"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "टॉप बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सीटिंग कैपेसिटी के अनुसार बस"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बजट के अनुसार बस"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बस ब्रांड के बारे में अधिक"
+                },
+                {
+                  "tag": "h3",
+                  "text": "हमारे साथ सर्वोत्तम बस ब्रांड खोजें"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टॉप ब्रांड्स की बसें चुनने के लिए बस जंक्शन क्यों?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "कस्टमर सपोर्ट सर्विस"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "भारत में सभी बस ब्रांड्स की सूची 2023 | टॉप बस मैन्युफैक्चरर",
+                "description": "भारत में बेस्ट बस ब्रांड ढूंढ़ रहे हैं। बस जंक्शन टॉप बस मैन्युफैक्चरर की कंप्लीट लिस्ट प्रदान करता है, जो बस मॉडलों की वाइड रेंज पेश करता है।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "सभी बस ब्रांड"
-            },
-            {
-              "tag": "h2",
-              "text": "सीटिंग कैपेसिटी के अनुसार बस"
-            },
-            {
-              "tag": "h2",
-              "text": "बजट के अनुसार बस"
-            },
-            {
-              "tag": "h2",
-              "text": "बस ब्रांड के बारे में अधिक"
-            },
-            {
-              "tag": "h3",
-              "text": "हमारे साथ सर्वोत्तम बस ब्रांड खोजें"
-            },
-            {
-              "tag": "h3",
-              "text": "टॉप ब्रांड्स की बसें चुनने के लिए बस जंक्शन क्यों?"
-            },
-            {
-              "tag": "h3",
-              "text": "कस्टमर सपोर्ट सर्विस"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "टॉप बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सभी बस ब्रांड"
+                },
+                {
+                  "tag": "h2",
+                  "text": "सीटिंग कैपेसिटी के अनुसार बस"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बजट के अनुसार बस"
+                },
+                {
+                  "tag": "h2",
+                  "text": "बस ब्रांड के बारे में अधिक"
+                },
+                {
+                  "tag": "h3",
+                  "text": "हमारे साथ सर्वोत्तम बस ब्रांड खोजें"
+                },
+                {
+                  "tag": "h3",
+                  "text": "टॉप ब्रांड्स की बसें चुनने के लिए बस जंक्शन क्यों?"
+                },
+                {
+                  "tag": "h3",
+                  "text": "कस्टमर सपोर्ट सर्विस"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "भारत में सभी बस ब्रांड्स की सूची 2023 | टॉप बस मैन्युफैक्चरर",
+                "description": "भारत में बेस्ट बस ब्रांड ढूंढ़ रहे हैं। बस जंक्शन टॉप बस मैन्युफैक्चरर की कंप्लीट लिस्ट प्रदान करता है, जो बस मॉडलों की वाइड रेंज पेश करता है।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "भारत में सभी बस ब्रांड्स की सूची 2023 | टॉप बस मैन्युफैक्चरर",
-            "description": "भारत में बेस्ट बस ब्रांड ढूंढ़ रहे हैं। बस जंक्शन टॉप बस मैन्युफैक्चरर की कंप्लीट लिस्ट प्रदान करता है, जो बस मॉडलों की वाइड रेंज पेश करता है।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/buses/brands",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "முன்னணி பேருந்து நிறுவனங்கள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "முன்னணி பேருந்து நிறுவனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இருக்கை வசதி வாரியாக பேருந்து"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பட்ஜெட் வாரியாக பேருந்து"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "அனைத்து பேருந்து நிறுவனங்களும்"
-            },
-            {
-              "tag": "h2",
-              "text": "இருக்கை வசதி வாரியாக பேருந்து"
-            },
-            {
-              "tag": "h2",
-              "text": "பட்ஜெட் வாரியாக பேருந்து"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "முன்னணி பேருந்து நிறுவனங்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இருக்கை வசதி வாரியாக பேருந்து"
+                },
+                {
+                  "tag": "h2",
+                  "text": "பட்ஜெட் வாரியாக பேருந்து"
+                }
+              ],
+              "faq": {
+                "heading": "",
+                "questions": []
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "",
-            "questions": []
-          },
-          "meta": {
-            "title": "",
-            "description": "",
-            "keywords": ""
           }
         }
       }
@@ -305,222 +604,451 @@
       "byLanguage": {
         "en": {
           "path": "/en/commercial-vehicle-series",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "Popular Truck Series"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Popular Truck Series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Tata commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Eicher commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Atul commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "SML Isuzu commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Volvo commercial vehicle series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Top Truck Series in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Detailed Commercial Vehicle Breakdown by Brand"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Tata Commercial Vehicle Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Ashok Leyland Commercial Vehicle Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Mahindra Commercial Vehicle Series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Heavy Duty & Specialized Truck Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Eicher Pro Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Volvo FM Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "SML Isuzu Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Atul 3 Wheeler Series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recently Asked Questions"
+                }
+              ],
+              "faq": {
+                "heading": "Recently Asked Questions",
+                "questions": [
+                  "How many truck series are available in India?",
+                  "Which is the best truck series in India?",
+                  "Which are the top truck series by Mahindra?",
+                  "Which are the top truck series by Ashok Leyland?",
+                  "Which are the top truck series from Tata?"
+                ]
+              },
+              "meta": {
+                "title": "Truck Series 2026 | Popular Truck Series in India | Top Truck Series",
+                "description": "Get the popular truck series 2026 in India. Know the top truck series like Tata Ace, Mahindra Supro, Tata Signa, Ashok Leyland Boss etc at Truck Junction.",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "Tata commercial vehicle series"
-            },
-            {
-              "tag": "h2",
-              "text": "Ashok Leyland commercial vehicle series"
-            },
-            {
-              "tag": "h2",
-              "text": "Mahindra commercial vehicle series"
-            },
-            {
-              "tag": "h2",
-              "text": "Eicher commercial vehicle series"
-            },
-            {
-              "tag": "h2",
-              "text": "Atul commercial vehicle series"
-            },
-            {
-              "tag": "h2",
-              "text": "SML Isuzu commercial vehicle series"
-            },
-            {
-              "tag": "h2",
-              "text": "Volvo commercial vehicle series"
-            },
-            {
-              "tag": "h3",
-              "text": "About Top Truck Series in India"
-            },
-            {
-              "tag": "h2",
-              "text": "Detailed Commercial Vehicle Breakdown by Brand"
-            },
-            {
-              "tag": "h3",
-              "text": "Tata Commercial Vehicle Series"
-            },
-            {
-              "tag": "h3",
-              "text": "Ashok Leyland Commercial Vehicle Series"
-            },
-            {
-              "tag": "h3",
-              "text": "Mahindra Commercial Vehicle Series"
-            },
-            {
-              "tag": "h2",
-              "text": "Heavy Duty & Specialized Truck Series"
-            },
-            {
-              "tag": "h3",
-              "text": "Eicher Pro Series"
-            },
-            {
-              "tag": "h3",
-              "text": "Volvo FM Series"
-            },
-            {
-              "tag": "h3",
-              "text": "SML Isuzu Series"
-            },
-            {
-              "tag": "h3",
-              "text": "Atul 3 Wheeler Series"
-            },
-            {
-              "tag": "h2",
-              "text": "Recently Asked Questions"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "Popular Truck Series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Tata commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Ashok Leyland commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Mahindra commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Eicher commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Atul commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "SML Isuzu commercial vehicle series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Volvo commercial vehicle series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "About Top Truck Series in India"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Detailed Commercial Vehicle Breakdown by Brand"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Tata Commercial Vehicle Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Ashok Leyland Commercial Vehicle Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Mahindra Commercial Vehicle Series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Heavy Duty & Specialized Truck Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Eicher Pro Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Volvo FM Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "SML Isuzu Series"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Atul 3 Wheeler Series"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Recently Asked Questions"
+                }
+              ],
+              "faq": {
+                "heading": "Recently Asked Questions",
+                "questions": [
+                  "How many truck series are available in India?",
+                  "Which is the best truck series in India?",
+                  "Which are the top truck series by Mahindra?",
+                  "Which are the top truck series by Ashok Leyland?",
+                  "Which are the top truck series from Tata?"
+                ]
+              },
+              "meta": {
+                "title": "Truck Series 2026 | Popular Truck Series in India | Top Truck Series",
+                "description": "Get the popular truck series 2026 in India. Know the top truck series like Tata Ace, Mahindra Supro, Tata Signa, Ashok Leyland Boss etc at Truck Junction.",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "Recently Asked Questions",
-            "questions": [
-              "How many truck series are available in India?",
-              "Which is the best truck series in India?",
-              "Which are the top truck series by Mahindra?",
-              "Which are the top truck series by Ashok Leyland?",
-              "Which are the top truck series from Tata?"
-            ]
-          },
-          "meta": {
-            "title": "Truck Series 2026 | Popular Truck Series in India | Top Truck Series",
-            "description": "Get the popular truck series 2026 in India. Know the top truck series like Tata Ace, Mahindra Supro, Tata Signa, Ashok Leyland Boss etc at Truck Junction.",
-            "keywords": ""
           }
         },
         "hi": {
           "path": "/hi/commercial-vehicle-series",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "लोकप्रिय ट्रक सीरीज"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "लोकप्रिय ट्रक सीरीज"
+                },
+                {
+                  "tag": "h2",
+                  "text": "टाटा वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अशोक लेलैंड वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "महिंद्रा वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आयशर वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अतुल वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "एसएमएल इसुज़ु वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "वोल्वो वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में टॉप ट्रक सीरीज के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "सेगमेंट में बेस्ट ट्रक सीरीज पेश करने वाले लोकप्रिय ब्रांड"
+                },
+                {
+                  "tag": "h4",
+                  "text": "पॉपुलर ट्रक सीरीज के ट्रक को अपने फ्लीट में शामिल करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हाल ही में पूछे गए प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "हाल ही में पूछे गए प्रश्न",
+                "questions": [
+                  "भारत में कितनी ट्रक सीरीज उपलब्ध हैं?",
+                  "भारत में बेस्ट ट्रक सीरीज कौनसी है?",
+                  "महिंद्रा की टॉप ट्रक सीरीज कौन सी हैं?",
+                  "अशोक लेलैंड की टॉप ट्रक सीरीज कौन सी है?",
+                  "टाटा की टॉप ट्रक सीरीज कौनसी है?"
+                ]
+              },
+              "meta": {
+                "title": "ट्रक सीरीज 2026 | भारत में लोकप्रिय ट्रक सीरीज | टॉप ट्रक सीरीज",
+                "description": "भारत में लोकप्रिय ट्रक सीरीज 2026 प्राप्त करें। ट्रक जंक्शन पर टाटा ऐस, महिंद्रा सुप्रो, टाटा सिग्ना, अशोक लेलैंड बॉस आदि जैसी टॉप ट्रक सीरीज के बारे में जानें।",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "टाटा वाणिज्यिक वाहन श्रृंखला"
-            },
-            {
-              "tag": "h2",
-              "text": "अशोक लेलैंड वाणिज्यिक वाहन श्रृंखला"
-            },
-            {
-              "tag": "h2",
-              "text": "महिंद्रा वाणिज्यिक वाहन श्रृंखला"
-            },
-            {
-              "tag": "h2",
-              "text": "आयशर वाणिज्यिक वाहन श्रृंखला"
-            },
-            {
-              "tag": "h2",
-              "text": "अतुल वाणिज्यिक वाहन श्रृंखला"
-            },
-            {
-              "tag": "h2",
-              "text": "एसएमएल इसुज़ु वाणिज्यिक वाहन श्रृंखला"
-            },
-            {
-              "tag": "h2",
-              "text": "वोल्वो वाणिज्यिक वाहन श्रृंखला"
-            },
-            {
-              "tag": "h3",
-              "text": "भारत में टॉप ट्रक सीरीज के बारे में"
-            },
-            {
-              "tag": "h4",
-              "text": "सेगमेंट में बेस्ट ट्रक सीरीज पेश करने वाले लोकप्रिय ब्रांड"
-            },
-            {
-              "tag": "h4",
-              "text": "पॉपुलर ट्रक सीरीज के ट्रक को अपने फ्लीट में शामिल करें"
-            },
-            {
-              "tag": "h2",
-              "text": "हाल ही में पूछे गए प्रश्न"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "लोकप्रिय ट्रक सीरीज"
+                },
+                {
+                  "tag": "h2",
+                  "text": "टाटा वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अशोक लेलैंड वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "महिंद्रा वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "आयशर वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "अतुल वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "एसएमएल इसुज़ु वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h2",
+                  "text": "वोल्वो वाणिज्यिक वाहन श्रृंखला"
+                },
+                {
+                  "tag": "h3",
+                  "text": "भारत में टॉप ट्रक सीरीज के बारे में"
+                },
+                {
+                  "tag": "h4",
+                  "text": "सेगमेंट में बेस्ट ट्रक सीरीज पेश करने वाले लोकप्रिय ब्रांड"
+                },
+                {
+                  "tag": "h4",
+                  "text": "पॉपुलर ट्रक सीरीज के ट्रक को अपने फ्लीट में शामिल करें"
+                },
+                {
+                  "tag": "h2",
+                  "text": "हाल ही में पूछे गए प्रश्न"
+                }
+              ],
+              "faq": {
+                "heading": "हाल ही में पूछे गए प्रश्न",
+                "questions": [
+                  "भारत में कितनी ट्रक सीरीज उपलब्ध हैं?",
+                  "भारत में बेस्ट ट्रक सीरीज कौनसी है?",
+                  "महिंद्रा की टॉप ट्रक सीरीज कौन सी हैं?",
+                  "अशोक लेलैंड की टॉप ट्रक सीरीज कौन सी है?",
+                  "टाटा की टॉप ट्रक सीरीज कौनसी है?"
+                ]
+              },
+              "meta": {
+                "title": "ट्रक सीरीज 2026 | भारत में लोकप्रिय ट्रक सीरीज | टॉप ट्रक सीरीज",
+                "description": "भारत में लोकप्रिय ट्रक सीरीज 2026 प्राप्त करें। ट्रक जंक्शन पर टाटा ऐस, महिंद्रा सुप्रो, टाटा सिग्ना, अशोक लेलैंड बॉस आदि जैसी टॉप ट्रक सीरीज के बारे में जानें।",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "हाल ही में पूछे गए प्रश्न",
-            "questions": [
-              "भारत में कितनी ट्रक सीरीज उपलब्ध हैं?",
-              "भारत में बेस्ट ट्रक सीरीज कौनसी है?",
-              "महिंद्रा की टॉप ट्रक सीरीज कौन सी हैं?",
-              "अशोक लेलैंड की टॉप ट्रक सीरीज कौन सी है?",
-              "टाटा की टॉप ट्रक सीरीज कौनसी है?"
-            ]
-          },
-          "meta": {
-            "title": "ट्रक सीरीज 2026 | भारत में लोकप्रिय ट्रक सीरीज | टॉप ट्रक सीरीज",
-            "description": "भारत में लोकप्रिय ट्रक सीरीज 2026 प्राप्त करें। ट्रक जंक्शन पर टाटा ऐस, महिंद्रा सुप्रो, टाटा सिग्ना, अशोक लेलैंड बॉस आदि जैसी टॉप ट्रक सीरीज के बारे में जानें।",
-            "keywords": ""
           }
         },
         "ta": {
           "path": "/ta/commercial-vehicle-series",
-          "headings": [
-            {
-              "tag": "h1",
-              "text": "பிரபலமான ட்ரக் தொடர்கள்"
+          "byDevice": {
+            "desktop": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "பிரபலமான ட்ரக் தொடர்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டாடா வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அசோக் லேலேண்ட் வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "மஹிந்திரா வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ஐச்சர் வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அதுல் வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எஸ்எம்எல் இஸுசு வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வோல்வோ வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்தில் கேட்கப்பட்ட கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "சமீபத்தில் கேட்கப்பட்ட கேள்விகள்",
+                "questions": [
+                  "இந்தியாவில் எத்தனை ட்ரக் தொடர்கள் கிடைக்கின்றன?",
+                  "இந்தியாவில் சிறந்த ட்ரக் தொடர் எது?",
+                  "மஹிந்திராவின் சிறந்த ட்ரக் தொடர்கள் எவை?",
+                  "அசோக் லேலண்டின் சிறந்த ட்ரக் தொடர்கள் எவை?",
+                  "டாடாவின் சிறந்த ட்ரக் தொடர்கள் எவை?"
+                ]
+              },
+              "meta": {
+                "title": "Trucks",
+                "description": "truck.AllSeriesPageDescriptionPara1truck.AllSeriesPageDescriptionPara2truck.AllSeriesPageDescriptionPara2",
+                "keywords": ""
+              }
             },
-            {
-              "tag": "h2",
-              "text": "டாடா வணிக வாகனத் தொடர்"
-            },
-            {
-              "tag": "h2",
-              "text": "அசோக் லேலேண்ட் வணிக வாகனத் தொடர்"
-            },
-            {
-              "tag": "h2",
-              "text": "மஹிந்திரா வணிக வாகனத் தொடர்"
-            },
-            {
-              "tag": "h2",
-              "text": "ஐச்சர் வணிக வாகனத் தொடர்"
-            },
-            {
-              "tag": "h2",
-              "text": "அதுல் வணிக வாகனத் தொடர்"
-            },
-            {
-              "tag": "h2",
-              "text": "எஸ்எம்எல் இஸுசு வணிக வாகனத் தொடர்"
-            },
-            {
-              "tag": "h2",
-              "text": "வோல்வோ வணிக வாகனத் தொடர்"
-            },
-            {
-              "tag": "h2",
-              "text": "சமீபத்தில் கேட்கப்பட்ட கேள்விகள்"
+            "mobile": {
+              "headings": [
+                {
+                  "tag": "h1",
+                  "text": "பிரபலமான ட்ரக் தொடர்கள்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "டாடா வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அசோக் லேலேண்ட் வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "மஹிந்திரா வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "ஐச்சர் வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "அதுல் வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "எஸ்எம்எல் இஸுசு வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "வோல்வோ வணிக வாகனத் தொடர்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "சமீபத்தில் கேட்கப்பட்ட கேள்விகள்"
+                }
+              ],
+              "faq": {
+                "heading": "சமீபத்தில் கேட்கப்பட்ட கேள்விகள்",
+                "questions": [
+                  "இந்தியாவில் எத்தனை ட்ரக் தொடர்கள் கிடைக்கின்றன?",
+                  "இந்தியாவில் சிறந்த ட்ரக் தொடர் எது?",
+                  "மஹிந்திராவின் சிறந்த ட்ரக் தொடர்கள் எவை?",
+                  "அசோக் லேலண்டின் சிறந்த ட்ரக் தொடர்கள் எவை?",
+                  "டாடாவின் சிறந்த ட்ரக் தொடர்கள் எவை?"
+                ]
+              },
+              "meta": {
+                "title": "Trucks",
+                "description": "truck.AllSeriesPageDescriptionPara1truck.AllSeriesPageDescriptionPara2truck.AllSeriesPageDescriptionPara2",
+                "keywords": ""
+              }
             }
-          ],
-          "faq": {
-            "heading": "சமீபத்தில் கேட்கப்பட்ட கேள்விகள்",
-            "questions": [
-              "இந்தியாவில் எத்தனை ட்ரக் தொடர்கள் கிடைக்கின்றன?",
-              "இந்தியாவில் சிறந்த ட்ரக் தொடர் எது?",
-              "மஹிந்திராவின் சிறந்த ட்ரக் தொடர்கள் எவை?",
-              "அசோக் லேலண்டின் சிறந்த ட்ரக் தொடர்கள் எவை?",
-              "டாடாவின் சிறந்த ட்ரக் தொடர்கள் எவை?"
-            ]
-          },
-          "meta": {
-            "title": "Trucks",
-            "description": "truck.AllSeriesPageDescriptionPara1truck.AllSeriesPageDescriptionPara2truck.AllSeriesPageDescriptionPara2",
-            "keywords": ""
           }
         }
       }

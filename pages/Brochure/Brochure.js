@@ -1,6 +1,6 @@
 const brochureData = require('../../testData/Brochure/BrochureData.json');
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
-const { LeadFormFiller, exactText } = require('../../helpers/leadFormFiller');
+const { LeadFormFiller, exactText, ACTIVE_TAB_SLIDER } = require('../../helpers/leadFormFiller');
 
 /**
  * Brochure (/en/brochure).
@@ -25,7 +25,7 @@ const { LeadFormFiller, exactText } = require('../../helpers/leadFormFiller');
  *
  * The page also has a "Best Selling Trucks" carousel further down (the same
  * reusable tabbed component as Homepage's Truck in India section — same
- * `div.differentTabs`/`div.visible`/slick-carousel markup) with Popular /
+ * `div.differentTabs`/`div.card-slider-wrapper`/slick-carousel markup) with Popular /
  * Upcoming / Latest tabs. Every truck card in that carousel has its own
  * "Download Brochure" button that opens the identical shared CheckOffersLead
  * modal. Per explicit user direction, each tab is its own lead-form entry
@@ -160,7 +160,7 @@ class Brochure {
       const clickCta = () => {
         const button = Cypress.$($heading)
           .closest('div.differentTabs')
-          .find('div.visible')
+          .find(ACTIVE_TAB_SLIDER)
           .find(`button[title="${this.page.leadTriggerCta}"]`)
           .filter(':visible')
           .not('.slick-cloned button')
