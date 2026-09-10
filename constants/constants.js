@@ -60,6 +60,7 @@ const TEST_TAGS = {
   NEW_LISTING_PAGES: '@newListingPages',
   SEO: '@seo',
   SEO_STRUCTURE: '@seoStructure',
+  SITEMAP: '@sitemap',
   HOME_PAGE_SEO_CONTENT: '@homePageSeoContent',
   LANGUAGE: '@language',
   EN: '@en',

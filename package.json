@@ -13,6 +13,7 @@
     "cypress:run:mobile": "cross-env DEVICE=mobile cypress run --browser chrome",
     "cypress:run:ui:desktop": "cypress run --browser chrome --spec \"cypress/e2e/ui/**/*.cy.js\"",
     "cypress:run:ui:mobile": "cross-env DEVICE=mobile cypress run --browser chrome --spec \"cypress/e2e/ui/**/*.cy.js\"",
+    "test:sitemap": "npm run cypress:run -- --spec 'cypress/e2e/sitemap/**/*.cy.js'",
     "cypress:run:seo:desktop": "cypress run --browser chrome --spec \"cypress/e2e/seo/**/*.cy.js\"",
     "cypress:run:seo:mobile": "cross-env DEVICE=mobile cypress run --browser chrome --spec \"cypress/e2e/seo/**/*.cy.js\"",
     "test": "npm run cypress:run",

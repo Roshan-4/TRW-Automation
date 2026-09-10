@@ -330,6 +330,7 @@ session unless the task requires it.
 | UtilityPages: Tyres | `pages/UtilityPages/Tyres.js`, `cypress/e2e/ui/UtilityPages/Tyres.cy.js` — IDs `TC-TYR-00` (redirection) + `TC-TYR-01..03`; single page (`/en/tyres`), no page-level CTA — only repeated per-tyre-model card CTAs ("View \<current month\> Offer" ×7, derived at runtime by `helpers/tyresOfferCta.js` since the label rotates monthly on the live site — it broke going from August to September when it was still hardcoded), tested via a deterministic click on the first match (same directory-style pattern as the Bus brand pages), reusing the same `formRootFinder` scoping fix as `TabbedModelOffers` for the same non-portal-modal reason. **`TC-TYR-01` (positive submission) is a known, currently-failing live finding, not a test bug**: the site returns a real production error — "Sorry! right now we not able to submit your request" — even with a fully valid, correctly-filled form (name/mobile/city all client-side validated with checkmarks). Confirmed via direct native-DOM-click reproduction outside Cypress too, ruling out a Cypress-specific interaction issue. Left as-is rather than "fixed" by loosening the assertion, since the test is correctly catching real behavior; flag to the site's backend team, though it may also be session-based rate-limiting from repeated live testing rather than a permanent outage — re-verify independently before escalating |
 | UtilityPages: Body Makers | `pages/UtilityPages/BodyMakers.js`, `cypress/e2e/ui/UtilityPages/BodyMakers.cy.js` — IDs `TC-BDM-00` (redirection) + `TC-BDM-01..03`; single page (`/en/body-makers`), no page-level CTA — only repeated per-dealer card CTAs ("Talk To Dealer" ×12), tested via a deterministic click on the first match. The modal here is a genuine bespoke variant, not reused via `LeadFormFiller`: same Name/Mobile/City selectors as `CheckOffersLead`, but with two extra **required** dropdowns (Brand, then Model — Model only populates real options after Brand is chosen, confirmed live; `fillFields({ model: 'auto' })` waits for that and picks whichever option ends up first) and a "Talk To Dealer" submit instead of "Check Offers". Confirmed live validation copy: "Please enter your name", "Please enter mobile no.", "Please select your location" (the first three match the standard `CheckOffersForm` copy exactly), plus "Please select a brand"/"Please select a model". **Unlike every other lead form in this project, a successful submission here closes the modal entirely and shows a top-right toast** ("Success" / "Your request has been submitted successfully") instead of an in-modal "Thank You!!!" heading — confirmed live via DOM inspection after the modal had already vanished. Same `formRootFinder`-style `[class*="max-w-"]` scoping as `Tyres`/`TabbedModelOffers` for the same non-portal-modal reason |
 | UtilityPages: Content Pages | `pages/UtilityPages/ContentPage.js`, `cypress/e2e/ui/UtilityPages/ContentPages.cy.js`, `testData/UtilityPages/ContentPageData.json` — ID `TC-CNT-00` (redirection) only; **8 pages** via `pageKey`: Dealers, Service Center, Spare Parts, EMI Calculator, Brand And Tonnage, News, Videos, Web Story (`/web-stories`, no `/en/` prefix — confirmed 404 with it, 200 without). Live-audited (button/input scan per page, not assumed): none of these 8 has any lead-capture element at all — no "Check Offers"-style button, no name/mobile/city fields anywhere on the page, only the site-wide search box and the generic footer tel:/mailto: links present identically on every page across this whole project. A structurally different page type (calculator, dealer locator, article/video listings) from every other page automated so far — scope is redirection/load health only, per user direction, matching the baseline every other page object gets |
+| Sitemap: HTTPS URL health | `cypress/e2e/sitemap/SitemapUrlHealth.cy.js`, `testData/Sitemap/SitemapUrlHealthData.json`, `helpers/sitemapUrlHealth.js` — IDs `TC-SM-00` (count `<loc>` page addresses inside each XML) + `TC-SM-01..08` (https status of those listed page addresses in pages/brands/trucks/dealers-brand/dealers-city/bus-pages/buses/bus-brands). The XML file status is not the check. **Log-only** — records 200 / 301 / 404 / 500 and never fails. Cypress `cy.request` (`failOnStatusCode: false`, `followRedirect: false`): next listed URL only after the previous response, until the list is empty (no fixed wait). Not part of `cypress:run:ui` / `cypress:run:seo`. Nightly/manual GitHub Action job `sitemap-run` (not on PRs). `npm run test:sitemap` |
 
 Two more distinct lead-form components were found across UsedTruck, beyond `CheckOffersLead`/`GetOffersLead`:
 
@@ -339,6 +340,7 @@ Two more distinct lead-form components were found across UsedTruck, beyond `Chec
 | Random mobile | `helpers/randomNumberGenerator.js` (+ `cy.randomNumberGenerator`) |
 | Test case Description / Expected Result | `helpers/documentTestCase.js` (`documentTestCase`, `allureStep`) |
 | Redirection / broken-link check (every spec's `TC-<PREFIX>-00`) | `helpers/verifyPageRedirections.js` (`registerRedirectionCheck`); Node task `checkLinkStatuses` in `cypress.config.js` |
+| Sitemap HTTPS URL health | `helpers/sitemapUrlHealth.js` + `helpers/parseSitemapLocs.js`; Node task `fetchSitemapHttpsLocs` in `cypress.config.js`; `cypress/e2e/sitemap/SitemapUrlHealth.cy.js` — IDs `TC-SM-nn` |
 | Base URL / Allure / scrollBehavior | `cypress.config.js`; secrets `cypress/.env` from `.env.example` |
 | Terminal console output during a run | `cypress-terminal-report`: printer in `cypress.config.js` (`installLogsPrinter`), collector in `cypress/support/e2e.js` (`installLogsCollector`, scoped to `cons:log/info/warn/error`, `cy:log`, `cy:xhr`, `cy:request` — deliberately excludes `cy:fetch`/`cy:command`, which fire on every static asset/every command and drown out real output) |
 | App error filter | `cypress/support/e2e.js` |
@@ -356,6 +358,7 @@ npm run test:searchRightTruck
 npm run test:truckInIndia
 npm run test:popularTruckBrands
 npm run test:newListingPages
+npm run test:sitemap
 npm run test:en                    # all Homepage specs, English tag
 npx cypress run --spec "cypress/e2e/ui/Homepage/<Section>.cy.js" --expose grep=TC-XXX-01,grepOmitFiltered=true
 ```
@@ -400,6 +403,7 @@ cypress.config.js                       baseUrl, Allure, timeouts, scrollBehavio
 | `CategoryPages` (UI) | `ElectricVehicle` (`/en/electric`; lead forms only — Check Truck Price + Call Now); `CategoryListing` (37 Wheelers/Fuel Type/GVW/Category/Brand/Truck Series pages via `pageKey`, split across 6 spec files by nav group; lead forms only) |
 | `Buses` (UI) | `BusListing` (9 pages — New/Popular/Upcoming/Latest Buses + 5 bus brand pages via `pageKey`, all in one spec file; lead forms only) |
 | `UtilityPages` (UI) | `TabbedModelOffers` (Select Your Truck + Offers, one lead per tab); `Tyres`, `BodyMakers` (single per-item-CTA pages, bespoke Brand/Model dropdowns on the latter); `ContentPage` (8 pages — Dealers/Service Center/Spare Parts/EMI Calculator/Brand And Tonnage/News/Videos/Web Story, redirection-only, no lead form on any of them) |
+| `sitemap` | `SitemapUrlHealth` (https `<loc>` checks for a scoped list of XML sitemaps; fails on 404/500) |
 
 **When the user asks for a new test:**
 
@@ -811,6 +815,7 @@ above) and always runs first; feature test cases start at `-01`.
 | UtilityPages: Tyres | `TC-TYR-nn` | `ui/UtilityPages/Tyres.cy.js` |
 | UtilityPages: Body Makers | `TC-BDM-nn` | `ui/UtilityPages/BodyMakers.cy.js` |
 | UtilityPages: Content Pages (8 pages, redirection-only) | `TC-CNT-00` | `ui/UtilityPages/ContentPages.cy.js` |
+| Sitemap HTTPS URL health (8 XML files) | `TC-SM-nn` | `sitemap/SitemapUrlHealth.cy.js` |
 
 If the user **does not supply a TC ID**, invent the prefix from the section
 (e.g. a new Homepage “Compare Trucks” section → `TC-CT-01`, `TC-CT-02`, …) and

@@ -98,13 +98,59 @@ jobs:
           path: artifacts/seo-structure-report.xlsx
           if-no-files-found: ignore
 
+  # Nightly (03:00 IST) and manual workflow_dispatch only — not on PRs.
+  # Log-only sitemap URL health: cy.request on each <loc> inside the 8 XMLs.
+  # Runs in parallel with ui/seo. continue-on-error so a timeout here does
+  # not block the combined Allure report from ui/seo.
+  sitemap-run:
+    runs-on: ubuntu-latest
+    needs: setup
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    timeout-minutes: 360
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Restore cached dependencies
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            node_modules
+            ~/.cache/Cypress
+          key: ${{ runner.os }}-node${{ env.NODE_VERSION }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies (cache miss fallback)
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Run sitemap HTTPS URL health (log only)
+        run: npm run test:sitemap
+
+      - name: Upload sitemap Allure results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: allure-results-sitemap
+          path: allure-results
+          if-no-files-found: ignore
+
   publish-report:
     runs-on: ubuntu-latest
-    needs: [setup, cypress-run]
-    if: always()
+    needs: [setup, cypress-run, sitemap-run]
+    if: >-
+      always() && !cancelled() && needs.setup.result == 'success' &&
+      (needs.sitemap-run.result == 'success' || needs.sitemap-run.result == 'skipped' || needs.sitemap-run.result == 'failure')
     env:
       REPORTS_DEPLOY_TOKEN: ${{ secrets.REPORTS_DEPLOY_TOKEN }}
       REPORT_EMAIL_API_KEY: ${{ secrets.REPORT_EMAIL_API_KEY }}
+      REPORT_EMAIL_RECIPIENTS: ${{ vars.REPORT_EMAIL_RECIPIENTS }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -149,6 +195,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: allure-results-seo-mobile
+          path: allure-results
+
+      - name: Download sitemap Allure results
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: allure-results-sitemap
           path: allure-results
 
       - name: Download UI desktop failure screenshots

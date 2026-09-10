@@ -1,0 +1,52 @@
+{
+  "sitemaps": [
+    {
+      "key": "pages",
+      "label": "Sitemap Pages",
+      "path": "/sitemap-pages.xml",
+      "tc": "01"
+    },
+    {
+      "key": "brands",
+      "label": "Sitemap Brands",
+      "path": "/sitemap-brands.xml",
+      "tc": "02"
+    },
+    {
+      "key": "trucks",
+      "label": "Sitemap Trucks",
+      "path": "/sitemap-trucks.xml",
+      "tc": "03"
+    },
+    {
+      "key": "dealersBrand",
+      "label": "Sitemap Dealers by Brand",
+      "path": "/sitemap-dealers-brand.xml",
+      "tc": "04"
+    },
+    {
+      "key": "dealersCity",
+      "label": "Sitemap Dealers by City",
+      "path": "/sitemap-dealers-city.xml",
+      "tc": "05"
+    },
+    {
+      "key": "busPages",
+      "label": "Sitemap Bus Pages",
+      "path": "/sitemap-bus-pages.xml",
+      "tc": "06"
+    },
+    {
+      "key": "buses",
+      "label": "Sitemap Buses",
+      "path": "/sitemap-buses.xml",
+      "tc": "07"
+    },
+    {
+      "key": "busBrands",
+      "label": "Sitemap Bus Brands",
+      "path": "/sitemap-bus-brands.xml",
+      "tc": "08"
+    }
+  ]
+}

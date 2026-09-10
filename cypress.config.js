@@ -33,6 +33,8 @@ module.exports = defineConfig({
     requestTimeout: 30000,
     responseTimeout: 30000,
     pageLoadTimeout: 60000,
+    // Sequential sitemap / TC-*-00 link checks can run well past the 60s default.
+    taskTimeout: 900000,
     viewportWidth: device.viewport.width,
     viewportHeight: device.viewport.height,
     ...(device.userAgent ? { userAgent: device.userAgent } : {}),
@@ -95,6 +97,36 @@ module.exports = defineConfig({
 
       let seoStructureRows = [];
 
+      // Shared URL health fetch: one in-flight GET at a time, max 6 starts
+      // per second. The next request does not start until the previous one
+      // has finished (and the 6/sec gap has elapsed). Used by sitemap checks
+      // and by every spec's TC-*-00 link scan — 7-wide parallel batches were
+      // enough to draw 502s from the live origin.
+      const checkUrlsOneAtATime = async (urls) => {
+        const MIN_INTERVAL_MS = Math.ceil(1000 / 6);
+        const results = [];
+        for (let i = 0; i < urls.length; i += 1) {
+          const url = urls[i];
+          const started = Date.now();
+          try {
+            const response = await fetch(url, {
+              method: 'GET',
+              redirect: 'manual',
+              signal: AbortSignal.timeout(15000),
+            });
+            results.push({ url, status: response.status, ok: true });
+          } catch (error) {
+            results.push({ url, status: null, ok: false, error: error.message });
+          }
+          const hasMore = i + 1 < urls.length;
+          const elapsed = Date.now() - started;
+          if (hasMore && elapsed < MIN_INTERVAL_MS) {
+            await new Promise((resolve) => setTimeout(resolve, MIN_INTERVAL_MS - elapsed));
+          }
+        }
+        return results;
+      };
+
       on('task', {
         log(message) {
           // eslint-disable-next-line no-console
@@ -107,42 +139,8 @@ module.exports = defineConfig({
           return null;
         },
 
-        // Redirection / broken-link check (helpers/verifyPageRedirections.js).
-        // Runs in the Node plugin process (not the browser) so a slow/broken
-        // link check can never block on browser same-origin rules, and a
-        // network failure resolves to a result object instead of throwing.
-        async checkLinkStatuses(urls) {
-          // Throttled to ~6-8 requests/sec — firing all of a page's links at
-          // once (previously a single unthrottled Promise.all) was hammering
-          // the live server hard enough to slow it down for real users.
-          const BATCH_SIZE = 7;
-          const MIN_BATCH_INTERVAL_MS = 1000;
-          const results = [];
-          for (let i = 0; i < urls.length; i += BATCH_SIZE) {
-            const batch = urls.slice(i, i + BATCH_SIZE);
-            const batchStarted = Date.now();
-            const batchResults = await Promise.all(
-              batch.map(async (url) => {
-                try {
-                  const response = await fetch(url, {
-                    method: 'GET',
-                    redirect: 'manual',
-                    signal: AbortSignal.timeout(15000),
-                  });
-                  return { url, status: response.status, ok: true };
-                } catch (error) {
-                  return { url, status: null, ok: false, error: error.message };
-                }
-              })
-            );
-            results.push(...batchResults);
-            const hasMore = i + BATCH_SIZE < urls.length;
-            const elapsed = Date.now() - batchStarted;
-            if (hasMore && elapsed < MIN_BATCH_INTERVAL_MS) {
-              await new Promise((resolve) => setTimeout(resolve, MIN_BATCH_INTERVAL_MS - elapsed));
-            }
-          }
-          return results;
+        checkLinkStatuses(urls) {
+          return checkUrlsOneAtATime(urls);
         },
       });
 

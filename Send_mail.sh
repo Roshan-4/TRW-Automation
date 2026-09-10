@@ -33,7 +33,7 @@ if [ -z "${REPORT_EMAIL_API_KEY:-}" ]; then
 fi
 
 # Recipients: comma-separated in REPORT_EMAIL_RECIPIENTS (cypress/.env).
-REPORT_EMAIL_RECIPIENTS="${REPORT_EMAIL_RECIPIENTS:-roshanpaswan@tractorjunction.com,mujjamilsalim@tractorjunction.com,kshitizchandra@tractorjunction.com,vikassingh@tractorjunction.com,shubham@tractorjunction.com,praveenrai@tractorjunction.com}"
+REPORT_EMAIL_RECIPIENTS="${REPORT_EMAIL_RECIPIENTS:-roshanpaswan@tractorjunction.com,mujjamilsalim@tractorjunction.com,kshitizchandra@tractorjunction.com,vikassingh@tractorjunction.com,shubham@tractorjunction.com,praveenrai@tractorjunction.com,jatanchauhan@tractorjunction.com}"
 SENDER_NAME="${REPORT_EMAIL_SENDER_NAME:-Roshan Paswan}"
 
 # GitHub Actions sets CI=true. Outside CI (a developer running the pipeline
