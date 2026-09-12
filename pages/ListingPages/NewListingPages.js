@@ -90,7 +90,13 @@ class NewListingPages {
     this.getSellerDetailsLead = new LeadFormFiller({
       cityPlaceholder: this.checkOffersLeadCopy.cityPlaceholder,
       submitText: 'Get Seller Details',
-      formRootFinder: (filler) => filler.getNameInput().closest('[class*="max-w-"]'),
+      formRootFinder: () =>
+        cy
+          .get('body')
+          .find('input#name[name="name"]')
+          .filter(':visible')
+          .first()
+          .closest('[class*="max-w-"]'),
     });
 
     const getOffersData = newListingPagesData.GetOffersAssistanceForm;

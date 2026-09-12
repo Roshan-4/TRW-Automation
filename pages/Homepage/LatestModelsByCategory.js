@@ -1,6 +1,6 @@
 const lmcData = require('../../testData/HomePage/LatestModelsByCategoryData.json');
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
-const { LeadFormFiller, exactText, ACTIVE_TAB_SLIDER } = require('../../helpers/leadFormFiller');
+const { LeadFormFiller, exactText, ACTIVE_TAB_PANEL } = require('../../helpers/leadFormFiller');
 
 const LANG_HOME_PATH = {
   en: '/',
@@ -25,6 +25,8 @@ class LatestModelsByCategory {
     this.leadForm = new LeadFormFiller({
       cityPlaceholder: this.leadFormCopy.cityPlaceholder,
       submitText: this.leadFormCopy.submitCta,
+      formRootFinder: () => cy.get('[data-modal-open="true"]'),
+      focusFieldsBeforeType: Cypress.env('device') === 'mobile',
     });
   }
 
@@ -83,7 +85,7 @@ class LatestModelsByCategory {
   }
 
   getActivePanel() {
-    return this.getSection().find(ACTIVE_TAB_SLIDER, { log: false }).first();
+    return this.getSection().find(ACTIVE_TAB_PANEL, { log: false }).first();
   }
 
   getViewAllLink() {
@@ -143,9 +145,16 @@ class LatestModelsByCategory {
   verifySectionVisible() {
     this.scrollToSection();
     this.getHeading().should('be.visible').and('have.text', this.copy.heading);
-    this.getSection().should('be.visible');
+    this.getSection().should('exist');
+    // Mobile tab strip scrolls horizontally — page scrollIntoView does not move
+    // tabs inside the overflow container; use inline center on each tab control.
     Object.values(this.copy.tabs).forEach((label) => {
-      this.getSection().find(`button.tab-btn[title="${label}"]`).should('be.visible');
+      this.getSection()
+        .find(`button.tab-btn[title="${label}"]`)
+        .should('exist')
+        .then(($btn) => {
+          $btn[0].scrollIntoView({ block: 'nearest', inline: 'center' });
+        });
     });
   }
 
@@ -166,7 +175,12 @@ class LatestModelsByCategory {
     // page's constant ad-tech DOM reflows and failed with "the page updated
     // while this command was executing".
     cy.then(() => {
-      this.getVisibleProductNameLinks().first().click();
+      this.getVisibleProductNameLinks()
+        .first()
+        .scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } })
+        .then(($link) => {
+          $link[0].click();
+        });
       cy.location('pathname').should('eq', expectedHref);
     });
   }
@@ -192,7 +206,7 @@ class LatestModelsByCategory {
       const clickCta = () => {
         const button = Cypress.$($heading)
           .closest('div.differentTabs')
-          .find(ACTIVE_TAB_SLIDER)
+          .find(ACTIVE_TAB_PANEL)
           .find(`button[title="${this.copy.checkOffersCta}"]`)
           .filter(':visible')
           .not('.slick-cloned button')

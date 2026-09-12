@@ -78,17 +78,25 @@ class PopularSecondHandTruck {
 
   clickFirstProductNameAndVerifyNavigation() {
     this.scrollToSection();
+    let expectedHref;
     this.getVisibleProductNameLinks()
       .first()
       .then(($link) => {
-        const href = $link.attr('href');
+        expectedHref = $link.attr('href');
         const title = ($link.attr('title') || $link.text() || '').trim();
-        expect(href, `Used truck “${title}” should have a used-truck PDP URL`).to.match(
+        expect(expectedHref, `Used truck “${title}” should have a used-truck PDP URL`).to.match(
           new RegExp(`^/${this.lang}/used-truck/`)
         );
-        cy.wrap($link).click();
-        cy.location('pathname').should('eq', href);
       });
+    cy.then(() => {
+      this.getVisibleProductNameLinks()
+        .first()
+        .scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } })
+        .then(($link) => {
+          $link[0].click();
+        });
+      cy.location('pathname').should('eq', expectedHref);
+    });
   }
 
   clickViewAllAndVerifyNavigation() {

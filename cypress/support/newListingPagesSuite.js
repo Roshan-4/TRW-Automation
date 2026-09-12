@@ -40,26 +40,37 @@ const LEAD_FORM_TC_NUMBERS = {
  * LatestTrucks.cy.js, Bs6Trucks.cy.js) calls this with its own single page
  * key, each a fresh Cypress session.
  */
-function runNewListingPagesSuite(pageKeys) {
-  LANGUAGES.forEach((lang) => {
+function runNewListingPagesSuite(pageKeys, options = {}) {
+  const {
+    languages = LANGUAGES,
+    skipRedirection = false,
+    leadFormsOnly = false,
+    extraTags = [],
+  } = options;
+
+  const suiteLangTags = (lang, ...extra) => [...langTags(lang, ...extra), ...extraTags];
+
+  languages.forEach((lang) => {
     pageKeys.forEach((pageKey) => {
       const page = new NewListingPages(lang, pageKey);
       const pageLabel = page.pageLabel;
 
       describe(
         `ListingPages - NewListingPages [${pageKey}] [${lang}] — ${pageLabel}`,
-        { tags: [...langTags(lang), ...pageTags(pageKey)] },
+        { tags: [...suiteLangTags(lang), ...pageTags(pageKey)] },
         () => {
           beforeEach(() => {
             page.navigate();
           });
 
-          registerRedirectionCheck({
-            prefix: 'NLP',
-            lang,
-            tags: langTags(lang, TEST_TAGS.REDIRECTION, ...pageTags(pageKey)),
-            label: `ListingPages - ${pageLabel}`,
-          });
+          if (!skipRedirection) {
+            registerRedirectionCheck({
+              prefix: 'NLP',
+              lang,
+              tags: suiteLangTags(lang, TEST_TAGS.REDIRECTION, ...pageTags(pageKey)),
+              label: `ListingPages - ${pageLabel}`,
+            });
+          }
 
           NewListingPages.leadFormSlots.forEach((slot) => {
             const tcNumber = LEAD_FORM_TC_NUMBERS[slot.key];
@@ -67,7 +78,7 @@ function runNewListingPagesSuite(pageKeys) {
             it(
               `TC-NLP-${tcNumber}: ${slot.cta} lead submits successfully on ${pageLabel}`,
               {
-                tags: langTags(
+                tags: suiteLangTags(
                   lang,
                   TEST_TAGS.POSITIVE,
                   ...(slot.key === 'checkOffers' ? [TEST_TAGS.SMOKE] : []),
@@ -107,7 +118,7 @@ function runNewListingPagesSuite(pageKeys) {
 
           it(
             `TC-NLP-06: Check Offers lead form shows required validation when submitted empty on ${pageLabel}`,
-            { tags: langTags(lang, TEST_TAGS.NEGATIVE, TEST_TAGS.SMOKE, ...pageTags(pageKey)) },
+            { tags: suiteLangTags(lang, TEST_TAGS.NEGATIVE, TEST_TAGS.SMOKE, ...pageTags(pageKey)) },
             function () {
               if (!page.hasLeadForm('checkOffers')) {
                 this.skip();
@@ -144,7 +155,7 @@ function runNewListingPagesSuite(pageKeys) {
 
           it(
             `TC-NLP-07: Check Offers lead form rejects mobile that is not 10 digits on ${pageLabel}`,
-            { tags: langTags(lang, TEST_TAGS.EDGE, ...pageTags(pageKey)) },
+            { tags: suiteLangTags(lang, TEST_TAGS.EDGE, ...pageTags(pageKey)) },
             function () {
               if (!page.hasLeadForm('checkOffers')) {
                 this.skip();
@@ -176,6 +187,10 @@ function runNewListingPagesSuite(pageKeys) {
               });
             }
           );
+
+          if (leadFormsOnly) {
+            return;
+          }
 
           it(
             `TC-NLP-08: page heading is visible on ${pageLabel}`,

@@ -41,7 +41,22 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        suite: [ui, seo]
+        chunk:
+          - ui-homepage
+          - ui-pdp
+          - ui-listing
+          - ui-category-a
+          - ui-category-b
+          - ui-used-buses
+          - ui-utility
+          - ui-lead-suite
+          - ui-login
+          - seo-home-listing
+          - seo-category-a
+          - seo-category-b
+          - seo-pdp-buses
+          - seo-used
+          - seo-utility
         device: [desktop, mobile]
 
     steps:
@@ -66,35 +81,40 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Run Cypress tests (Chrome - ${{ matrix.suite }} - ${{ matrix.device }})
-        run: npm run cypress:run:${{ matrix.suite }}:${{ matrix.device }}
+      - name: Run Cypress chunk (${{ matrix.chunk }} — ${{ matrix.device }})
+        env:
+          DEVICE: ${{ matrix.device }}
+        run: node scripts/run-ci-chunk.js ${{ matrix.chunk }}
 
       - name: Upload screenshots
         uses: actions/upload-artifact@v4
         if: failure()
         with:
-          name: screenshots-${{ matrix.suite }}-${{ matrix.device }}
+          name: screenshots-${{ matrix.chunk }}-${{ matrix.device }}
           path: cypress/screenshots
+          if-no-files-found: ignore
 
       - name: Upload videos
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: videos-${{ matrix.suite }}-${{ matrix.device }}
+          name: videos-${{ matrix.chunk }}-${{ matrix.device }}
           path: cypress/videos
+          if-no-files-found: ignore
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: allure-results-${{ matrix.suite }}-${{ matrix.device }}
+          name: allure-results-${{ matrix.chunk }}-${{ matrix.device }}
           path: allure-results
+          if-no-files-found: ignore
 
       - name: Upload SEO structure Excel report
         uses: actions/upload-artifact@v4
-        if: always() && matrix.suite == 'seo'
+        if: always() && startsWith(matrix.chunk, 'seo-')
         with:
-          name: seo-structure-report-${{ matrix.device }}
+          name: seo-structure-report-${{ matrix.chunk }}-${{ matrix.device }}
           path: artifacts/seo-structure-report.xlsx
           if-no-files-found: ignore
 
@@ -173,29 +193,13 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Download UI desktop Allure results
+      - name: Download Allure results (all chunks)
         uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
-          name: allure-results-ui-desktop
+          pattern: allure-results-*
           path: allure-results
-
-      - name: Download UI mobile Allure results
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-results-ui-mobile
-          path: allure-results
-
-      - name: Download SEO desktop Allure results
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-results-seo-desktop
-          path: allure-results
-
-      - name: Download SEO mobile Allure results
-        uses: actions/download-artifact@v4
-        with:
-          name: allure-results-seo-mobile
-          path: allure-results
+          merge-multiple: true
 
       - name: Download sitemap Allure results
         uses: actions/download-artifact@v4
@@ -204,48 +208,28 @@ jobs:
           name: allure-results-sitemap
           path: allure-results
 
-      - name: Download UI desktop failure screenshots
+      - name: Download failure screenshots (all chunks)
         uses: actions/download-artifact@v4
         continue-on-error: true
         with:
-          name: screenshots-ui-desktop
-          path: cypress/screenshots-ui-desktop
+          pattern: screenshots-*
+          path: cypress/screenshots
+          merge-multiple: true
 
-      - name: Download UI mobile failure screenshots
-        uses: actions/download-artifact@v4
-        continue-on-error: true
-        with:
-          name: screenshots-ui-mobile
-          path: cypress/screenshots-ui-mobile
-
-      - name: Download SEO desktop failure screenshots
-        uses: actions/download-artifact@v4
-        continue-on-error: true
-        with:
-          name: screenshots-seo-desktop
-          path: cypress/screenshots-seo-desktop
-
-      - name: Download SEO mobile failure screenshots
-        uses: actions/download-artifact@v4
-        continue-on-error: true
-        with:
-          name: screenshots-seo-mobile
-          path: cypress/screenshots-seo-mobile
-
-      - name: Download SEO structure Excel reports (desktop + mobile)
+      - name: Download SEO structure Excel reports (all chunks)
         uses: actions/download-artifact@v4
         continue-on-error: true
         with:
           pattern: seo-structure-report-*
-          path: artifacts/seo-structure-per-device
+          path: artifacts/seo-structure-per-chunk
           merge-multiple: false
 
       - name: Merge SEO structure Excel reports into one file
         run: |
           shopt -s nullglob
-          sources=(artifacts/seo-structure-per-device/*/seo-structure-report.xlsx)
+          sources=(artifacts/seo-structure-per-chunk/*/seo-structure-report.xlsx)
           if [ ${#sources[@]} -eq 0 ]; then
-            echo "No per-device SEO structure Excel reports found — skipping merge."
+            echo "No per-chunk SEO structure Excel reports found — skipping merge."
           else
             node scripts/merge-seo-structure-excel.js artifacts/seo-structure-report.xlsx "${sources[@]}"
           fi

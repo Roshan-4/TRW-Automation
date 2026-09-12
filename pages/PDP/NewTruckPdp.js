@@ -435,8 +435,11 @@ class NewTruckPdp {
       .should('be.visible')
       .find(`[title*="${label}"]`)
       .first()
+      .scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } })
       .should('be.visible')
-      .click();
+      .then(($el) => {
+        $el[0].click();
+      });
     this.getEmiCalculator().should('be.visible');
     this.getEmiCalculator()
       .contains('h2', exactText(`${this.productLabel} EMI`))

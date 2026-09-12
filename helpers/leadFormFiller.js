@@ -24,12 +24,14 @@ const exactText = (text) =>
  * resolve to first.
  */
 /**
- * Active card slider inside a `div.differentTabs` section.
- * The live site no longer wraps the active tab in `div.visible` — tabs
- * swap cards inside this single slider (confirmed on homepage Truck in
- * India / Latest Models by Category and on Brochure Best Selling Trucks).
+ * Active tab card region inside `div.differentTabs`.
+ * Desktop: slick carousel (`div.card-slider-wrapper`).
+ * Mobile: horizontal scroll row (`…scrollbarHide` → `div.flex.items-stretch`) —
+ * confirmed via Playwright capture; there is no `card-slider-wrapper` on mobile.
  */
 const ACTIVE_TAB_SLIDER = 'div.card-slider-wrapper';
+const ACTIVE_TAB_MOBILE_CARDS = '[class*="scrollbarHide"] div.flex.items-stretch';
+const ACTIVE_TAB_PANEL = `${ACTIVE_TAB_SLIDER}, ${ACTIVE_TAB_MOBILE_CARDS}`;
 
 function makeThrottledCtaClicker(doc, ctaLabel, throttleMs = 800) {
   let lastClickAt = 0;
@@ -128,12 +130,25 @@ class LeadFormFiller {
    * Prefer the open lead modal (`data-modal-open` from the live capture)
    * so `#name` / `#phone` are resolved inside that overlay, not against
    * the whole document.
+   *
+   * formRootFinder must return a Cypress chainable root only — never call
+   * filler.getNameInput() inside it (that re-enters scopeToOpenModal → stack overflow).
    */
   scopeToOpenModal() {
     if (typeof this.formRootFinder === 'function') {
       return this.getFormRoot();
     }
-    return cy.get('body');
+    return this.resolveDefaultScope();
+  }
+
+  resolveDefaultScope() {
+    return cy.get('body').then(($body) => {
+      const modal = $body.find('[data-modal-open="true"]').first();
+      if (modal.length) {
+        return cy.wrap(modal);
+      }
+      return cy.get('body');
+    });
   }
 
   getFormRoot() {
@@ -141,16 +156,19 @@ class LeadFormFiller {
       return this.formRootFinder(this);
     }
 
-    return this.getNameInput()
-      .parents()
-      .filter((_, el) => {
-        const hasPhone = Boolean(el.querySelector(this.mobileSelector));
-        const hasSubmit = [...el.querySelectorAll('button')].some((button) =>
-          exactText(this.submitText).test(button.textContent || '')
-        );
-        return hasPhone && hasSubmit;
-      })
-      .first();
+    return cy.get('body').then(($body) => {
+      const modal = $body.find('[data-modal-open="true"]').first();
+      if (modal.length) {
+        return cy.wrap(modal);
+      }
+      return cy
+        .get('body')
+        .find(this.nameSelector)
+        .filter(':visible')
+        .first()
+        .closest('form, [class*="max-w-"], [role="dialog"]')
+        .first();
+    });
   }
 
   getSubmitButton() {
@@ -253,7 +271,11 @@ class LeadFormFiller {
     // DOMException]`, Cypress's retry() crashing on a native exception
     // thrown mid-check) — a real value match already proves the pick
     // landed without that extra exposure.
-    cy.contains(this.citySuggestionSelector, new RegExp(city, 'i')).should('be.visible').click();
+    const citySuggestionTimeout =
+      Cypress.env('leadFormCityTimeout') || Cypress.config('defaultCommandTimeout');
+    cy.contains(this.citySuggestionSelector, new RegExp(city, 'i'))
+      .should('be.visible', { timeout: citySuggestionTimeout })
+      .click();
     this.getCityInput().invoke('val').should('match', new RegExp(city, 'i'));
   }
 
@@ -344,4 +366,5 @@ module.exports = {
   exactText,
   makeThrottledCtaClicker,
   ACTIVE_TAB_SLIDER,
+  ACTIVE_TAB_PANEL,
 };

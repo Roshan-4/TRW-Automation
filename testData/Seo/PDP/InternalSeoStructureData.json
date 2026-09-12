@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-10",
+  "scrapedAt": "2026-09-12",
   "languages": [
     "en",
     "hi",
@@ -1175,21 +1175,48 @@
             "desktop": {
               "headings": [
                 {
-                  "tag": "h2",
-                  "text": "What happened?"
+                  "tag": "h1",
+                  "text": "Tata Yodha 2.0 Mileage"
                 },
                 {
                   "tag": "h2",
-                  "text": "What can I do?"
+                  "text": "Tata Yodha 2.0 Diesel Mileage"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Tata Yodha 2.0 Mileage Calculator"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Compare Tata Yodha 2.0 Mileage with Alternative"
+                },
+                {
+                  "tag": "h2",
+                  "text": "About Tata Yodha 2.0 Mileage"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Tata Yodha 2.0 Mileage Details"
+                },
+                {
+                  "tag": "h2",
+                  "text": "Tata Yodha 2.0 User Reviews"
+                },
+                {
+                  "tag": "h3",
+                  "text": "Frequently Asked Questions on Tata Yodha 2.0"
                 }
               ],
               "faq": {
-                "heading": "",
-                "questions": []
+                "heading": "Frequently Asked Questions on Tata Yodha 2.0",
+                "questions": [
+                  "Where can I find the accurate Tata Yodha 2.0 Mileage Per Litre details in India?",
+                  "Is Tata Yodha 2.0 Mileage Per Liter good?"
+                ]
               },
               "meta": {
-                "title": "tractorjunction.com | 502: Bad gateway",
-                "description": "",
+                "title": "Tata Yodha 2.0 Pickup Truck Mileage | Yodha 2.0 Diesel Mileage",
+                "description": "Check out Tata Yodha 2.0 Pickup Truck mileage per liter details at Truck Junction. Check here the new Yodha 2.0 Diesel Pickup Truck mileage.",
                 "keywords": ""
               }
             },

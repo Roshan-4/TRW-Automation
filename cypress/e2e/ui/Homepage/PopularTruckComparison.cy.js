@@ -126,16 +126,20 @@ LANGUAGES.forEach((lang) => {
     );
 
     it(
-      'TC-PTC-05: no visible product card links to a duplicate truck',
+      'TC-PTC-05: no two comparison cards compare the same truck pair',
       { tags: langTags(lang, TEST_TAGS.EDGE) },
       () => {
         documentTestCase({
           id: 'TC-PTC-05',
-          title: 'No visible product card links to a duplicate truck',
+          title: 'No two comparison cards compare the same truck pair',
           language: lang,
-          description: 'Confirm every visible product name in Popular Truck Comparison links to a distinct truck.',
-          expectedResult: 'No two visible product cards share the same href.',
-          steps: ['Open Popular Truck Comparison', 'Verify all visible product links are unique'],
+          description:
+            'Confirm each visible comparison card compares a distinct pair of trucks. The same truck may appear on several cards against different rivals — that is expected.',
+          expectedResult: 'No two visible comparison cards list the exact same pair of trucks.',
+          steps: [
+            'Open Popular Truck Comparison',
+            'Verify each card’s truck pair is unique',
+          ],
         });
 
         allureStep('Verify no duplicate product links', () => {

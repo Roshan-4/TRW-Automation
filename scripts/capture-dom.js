@@ -23,6 +23,7 @@
  *   --wait-before <ms>  Delay after load, before the first click        (default 0)
  *   --wait-after <ms>   Delay after each click                       (default 1000)
  *   --out <file>        Output path                     (default artifacts/dom-<ts>.html)
+ *   --device <d>        desktop | mobile — matches Cypress DEVICES (UA + viewport)
  */
 const fs = require('fs');
 const path = require('path');
@@ -30,6 +31,7 @@ const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, '../cypress/.env') });
 
 const { chromium } = require('playwright');
+const { DEVICES } = require('../constants/constants');
 
 const parseArgs = (argv) => {
   const args = { click: [] };
@@ -57,8 +59,15 @@ const main = async () => {
   const scope = args.scope || 'div.differentTabs';
   const outFile = args.out || path.join('artifacts', `dom-${Date.now()}.html`);
 
+  const deviceKey = String(args.device || 'desktop').toLowerCase();
+  const device = DEVICES[deviceKey] || DEVICES.desktop;
   const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 1366, height: 768 } });
+  const contextOptions = {
+    viewport: device.viewport,
+    ...(device.userAgent ? { userAgent: device.userAgent } : {}),
+  };
+  const context = await browser.newContext(contextOptions);
+  const page = await context.newPage();
 
   console.log(`visiting ${url} (waitUntil=${waitUntil})`);
   await page.goto(url, { waitUntil, timeout: 60000 });
@@ -127,6 +136,7 @@ const main = async () => {
     console.log(JSON.stringify(summary, null, 2));
   }
 
+  await context.close();
   await browser.close();
 };
 

@@ -121,7 +121,12 @@ class ElectricCommercialVehicles {
     // page's constant ad-tech DOM reflows and failed with "the page updated
     // while this command was executing".
     cy.then(() => {
-      this.getVisibleProductNameLinks().first().click();
+      this.getVisibleProductNameLinks()
+        .first()
+        .scrollIntoView({ offset: { top: -STICKY_HEADER_OFFSET, left: 0 } })
+        .then(($link) => {
+          $link[0].click();
+        });
       cy.location('pathname').should('eq', expectedHref);
     });
   }

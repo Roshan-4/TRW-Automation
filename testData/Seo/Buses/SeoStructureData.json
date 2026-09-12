@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-10",
+  "scrapedAt": "2026-09-12",
   "languages": [
     "en",
     "hi",
@@ -234,42 +234,122 @@
             "desktop": {
               "headings": [
                 {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் புதியது வாங்குகிறார்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதியது இந்தியாவில் பேருந்துகளின் விலை பட்டியல் 2026"
+                },
+                {
                   "tag": "h2",
                   "text": "புதியது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
                 },
                 {
                   "tag": "h2",
                   "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் புதியது பேருந்து பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Bus Price in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "New Bus Models In India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "You can find out the bus price in India for all the new models on our website."
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for New Buses in India?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதியது Buses பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்"
                 }
               ],
               "faq": {
-                "heading": "",
-                "questions": []
+                "heading": "புதியது Buses பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "Which brands are introducing new bus models in India?",
+                  "Where to find the latest bus models in India?",
+                  "Do new bus models offer petrol fuel options for the operations?",
+                  "Which are the latest bus models in India?",
+                  "Where to find the price list for new buses in India?",
+                  "What body types would be available for the latest bus models in India?",
+                  "How much is the mileage of the latest bus models in India?"
+                ]
               },
               "meta": {
-                "title": "",
-                "description": "",
+                "title": "New Upcoming EV Buses in India 2026 - TruckJunction",
+                "description": "Latest Upcoming EV Buses in India 2026 check their price, range, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
                 "keywords": ""
               }
             },
             "mobile": {
               "headings": [
                 {
+                  "tag": "h1",
+                  "text": "இந்தியாவில் புதியது வாங்குகிறார்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதியது இந்தியாவில் பேருந்துகளின் விலை பட்டியல் 2026"
+                },
+                {
                   "tag": "h2",
                   "text": "புதியது பஸ்கள் கண்டுபிடிக்கப்பட்டன"
                 },
                 {
                   "tag": "h2",
                   "text": "அனைத்து பேருந்து நிறுவனங்களும்"
+                },
+                {
+                  "tag": "h2",
+                  "text": "இந்தியாவில் புதியது பேருந்து பற்றி"
+                },
+                {
+                  "tag": "h2",
+                  "text": "New Bus Price in India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "New Bus Models In India"
+                },
+                {
+                  "tag": "h3",
+                  "text": "You can find out the bus price in India for all the new models on our website."
+                },
+                {
+                  "tag": "h3",
+                  "text": "Why BusJunction for New Buses in India?"
+                },
+                {
+                  "tag": "h2",
+                  "text": "புதியது Buses பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்"
                 }
               ],
               "faq": {
-                "heading": "",
-                "questions": []
+                "heading": "புதியது Buses பற்றி அடிக்கடி கேட்கப்படும் கேள்விகள்",
+                "questions": [
+                  "Which brands are introducing new bus models in India?",
+                  "Where to find the latest bus models in India?",
+                  "Do new bus models offer petrol fuel options for the operations?",
+                  "Which are the latest bus models in India?",
+                  "Where to find the price list for new buses in India?",
+                  "What body types would be available for the latest bus models in India?",
+                  "How much is the mileage of the latest bus models in India?"
+                ]
               },
               "meta": {
-                "title": "",
-                "description": "",
+                "title": "New Upcoming EV Buses in India 2026 - TruckJunction",
+                "description": "Latest Upcoming EV Buses in India 2026 check their price, range, GVW, payload, specs, features, images & reviews. Get on-road price, EMI & best deals in India.",
                 "keywords": ""
               }
             }

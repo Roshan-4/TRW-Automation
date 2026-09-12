@@ -80,7 +80,15 @@ module.exports = defineConfig({
         // for environments (like nightly CI) that don't ship a cypress/.env file.
         stagingUrl: process.env.CYPRESS_STAGING_URL || 'https://qa-truck.tractorfirst.com',
         device: DEVICE_KEY,
+        // Shorter city-autocomplete wait for lead-form marathon runs (see scripts/run-all-lead-form-suite.js).
+        leadFormCityTimeout: process.env.LEAD_FORM_CITY_TIMEOUT
+          ? Number(process.env.LEAD_FORM_CITY_TIMEOUT)
+          : undefined,
       };
+
+      if (/^(1|true|yes)$/i.test(String(process.env.LEAD_FORM_NO_RETRIES || ''))) {
+        config.retries = { runMode: 0, openMode: 0 };
+      }
 
       const { plugin: cypressGrepPlugin } = require('@cypress/grep/plugin');
       cypressGrepPlugin(config);
@@ -134,8 +142,15 @@ module.exports = defineConfig({
           return null;
         },
 
-        recordSeoStructureComparison(row) {
+        async recordSeoStructureComparison(row) {
           seoStructureRows.push(row);
+          const { writeSeoStructureExcel } = require('./helpers/seoStructureExcel');
+          try {
+            await writeSeoStructureExcel([row]);
+          } catch (error) {
+            // eslint-disable-next-line no-console
+            console.error('[SEO structure] Incremental Excel write failed:', error.message);
+          }
           return null;
         },
 
@@ -166,6 +181,21 @@ module.exports = defineConfig({
           launchOptions.args.push(`--user-agent=${device.userAgent}`);
         }
         return launchOptions;
+      });
+
+      on('after:spec', async (spec) => {
+        if (!spec.relative.includes(`${path.sep}seo${path.sep}`) || !seoStructureRows.length) {
+          return;
+        }
+        const { writeSeoStructureExcel } = require('./helpers/seoStructureExcel');
+        try {
+          await writeSeoStructureExcel(seoStructureRows);
+          // eslint-disable-next-line no-console
+          console.log(`[SEO structure] Excel checkpoint after ${spec.relative}`);
+        } catch (error) {
+          // eslint-disable-next-line no-console
+          console.error('[SEO structure] after:spec Excel write failed:', error.message);
+        }
       });
 
       on('after:run', async () => {

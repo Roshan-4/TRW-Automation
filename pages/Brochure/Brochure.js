@@ -1,6 +1,6 @@
 const brochureData = require('../../testData/Brochure/BrochureData.json');
 const truckInIndiaData = require('../../testData/HomePage/TruckInIndiaData.json');
-const { LeadFormFiller, exactText, ACTIVE_TAB_SLIDER } = require('../../helpers/leadFormFiller');
+const { LeadFormFiller, exactText, ACTIVE_TAB_PANEL } = require('../../helpers/leadFormFiller');
 
 /**
  * Brochure (/en/brochure).
@@ -47,6 +47,8 @@ class Brochure {
     this.checkOffersLead = new LeadFormFiller({
       cityPlaceholder: this.checkOffersLeadCopy.cityPlaceholder,
       submitText: this.checkOffersLeadCopy.submitCta,
+      formRootFinder: () => cy.get('[data-modal-open="true"]'),
+      focusFieldsBeforeType: Cypress.env('device') === 'mobile',
     });
   }
 
@@ -160,7 +162,7 @@ class Brochure {
       const clickCta = () => {
         const button = Cypress.$($heading)
           .closest('div.differentTabs')
-          .find(ACTIVE_TAB_SLIDER)
+          .find(ACTIVE_TAB_PANEL)
           .find(`button[title="${this.page.leadTriggerCta}"]`)
           .filter(':visible')
           .not('.slick-cloned button')

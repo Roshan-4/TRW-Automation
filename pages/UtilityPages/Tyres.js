@@ -46,7 +46,13 @@ class Tyres {
       // ancestor walk can resolve to a container spanning every tyre
       // card's own CTA rather than just this modal. Scope tightly via the
       // modal's own `max-w-[...]` wrapper class.
-      formRootFinder: (filler) => filler.getNameInput().closest('[class*="max-w-"]'),
+      formRootFinder: () =>
+        cy
+          .get('body')
+          .find('input#name[name="name"]')
+          .filter(':visible')
+          .first()
+          .closest('[class*="max-w-"]'),
     });
   }
 

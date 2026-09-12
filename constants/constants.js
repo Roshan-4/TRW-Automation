@@ -88,6 +88,19 @@ const TEST_TAGS = {
   DEVICE: '@device',
   DESKTOP: '@desktop',
   MOBILE: '@mobile',
+  ALL_LEAD_FORM: '@allLeadForm',
+  /** Chunk tags for scripts/run-all-lead-form-suite.js — fresh session per chunk. */
+  ALL_LEAD_FORM_CHUNK_HOME: '@alfChunkHome',
+  ALL_LEAD_FORM_CHUNK_CAT_CATEGORY: '@alfChunkCatCategory',
+  ALL_LEAD_FORM_CHUNK_CAT_WHEELERS: '@alfChunkCatWheelers',
+  ALL_LEAD_FORM_CHUNK_CAT_FUEL: '@alfChunkCatFuel',
+  ALL_LEAD_FORM_CHUNK_CAT_GVW: '@alfChunkCatGvw',
+  ALL_LEAD_FORM_CHUNK_CAT_BRANDS: '@alfChunkCatBrands',
+  ALL_LEAD_FORM_CHUNK_CAT_SERIES: '@alfChunkCatSeries',
+  ALL_LEAD_FORM_CHUNK_CAT_PAYLOAD: '@alfChunkCatPayload',
+  ALL_LEAD_FORM_CHUNK_BUS_LISTING: '@alfChunkBusListing',
+  ALL_LEAD_FORM_CHUNK_TYRES: '@alfChunkTyres',
+  ALL_LEAD_FORM_CHUNK_BODY_MAKERS: '@alfChunkBodyMakers',
 };
 
 module.exports = {
